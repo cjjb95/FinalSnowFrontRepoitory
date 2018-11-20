@@ -78,6 +78,7 @@
     <Compile Include="GDLibrary\Actors\3D\Collidable\TriangleMeshObject.cs" />
     <Compile Include="GDLibrary\Actors\3D\DrawnActor3D.cs" />
     <Compile Include="GDLibrary\Container\Dictionary\ContentDictionary.cs" />
+    <Compile Include="GDLibrary\Controllers\2D\ThermoController.cs" />
     <Compile Include="GDLibrary\Controllers\2D\UIController.cs" />
     <Compile Include="GDLibrary\Controllers\2D\UI\UIColorSineLerpController.cs" />
     <Compile Include="GDLibrary\Controllers\2D\UI\UIProgressController.cs" />
@@ -124,6 +125,7 @@
     <Compile Include="GDLibrary\Managers\Picking\PickingManager.cs" />
     <Compile Include="GDLibrary\Managers\Sound\Cue3D.cs" />
     <Compile Include="GDLibrary\Managers\Sound\SoundManager.cs" />
+    <Compile Include="GDLibrary\Managers\UI\HUDManager.cs" />
     <Compile Include="GDLibrary\Parameters\2D\Transform2D.cs" />
     <Compile Include="GDLibrary\Parameters\Effect\BasicEffectParameters.cs" />
     <Compile Include="GDLibrary\Parameters\Effect\DualTextureEffectParameters.cs" />

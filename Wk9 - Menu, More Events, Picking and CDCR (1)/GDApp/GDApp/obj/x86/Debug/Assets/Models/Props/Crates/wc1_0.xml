@@ -3,7 +3,7 @@
   <Asset Type="Graphics:MeshContent">
     <Name>Wood_container1</Name>
     <Identity>
-      <SourceFilename>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDAppContent\Assets\Models\Props\Crates\wc1.FBX</SourceFilename>
+      <SourceFilename>D:\School\Year 3\UDP\SnowFrontFinal\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDAppContent\Assets\Models\Props\Crates\wc1.FBX</SourceFilename>
       <SourceTool>FbxImporter</SourceTool>
     </Identity>
     <OpaqueData>
@@ -38,7 +38,7 @@
     <Resource ID="#Resource1" Type="Graphics:BasicMaterialContent">
       <Name>02 - Default</Name>
       <Identity>
-        <SourceFilename>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDAppContent\Assets\Models\Props\Crates\wc1.FBX</SourceFilename>
+        <SourceFilename>D:\School\Year 3\UDP\SnowFrontFinal\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDAppContent\Assets\Models\Props\Crates\wc1.FBX</SourceFilename>
         <SourceTool>FbxImporter</SourceTool>
       </Identity>
       <OpaqueData>

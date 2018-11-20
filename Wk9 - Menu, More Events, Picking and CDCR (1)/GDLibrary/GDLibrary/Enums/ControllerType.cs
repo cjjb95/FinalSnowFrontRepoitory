@@ -25,6 +25,7 @@ namespace GDLibrary
         SineTranslation,
         SineColor,
         Pickup,
+        Timer,
 
         //Add more here...
     }

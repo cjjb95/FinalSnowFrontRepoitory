@@ -3,7 +3,7 @@
   <Asset Type="Graphics:NodeContent">
     <Name>RootNode</Name>
     <Identity>
-      <SourceFilename>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDAppContent\Assets\Models\Animated\Squirrel\Red_Tailwhip.FBX</SourceFilename>
+      <SourceFilename>D:\School\Year 3\UDP\SnowFrontFinal\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDAppContent\Assets\Models\Animated\Squirrel\Red_Tailwhip.FBX</SourceFilename>
       <SourceTool>FbxImporter</SourceTool>
     </Identity>
     <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
@@ -7775,7 +7775,7 @@
     <Resource ID="#Resource1" Type="Graphics:BasicMaterialContent">
       <Name>Standardmaterial</Name>
       <Identity>
-        <SourceFilename>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDAppContent\Assets\Models\Animated\Squirrel\Red_Tailwhip.FBX</SourceFilename>
+        <SourceFilename>D:\School\Year 3\UDP\SnowFrontFinal\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDAppContent\Assets\Models\Animated\Squirrel\Red_Tailwhip.FBX</SourceFilename>
         <SourceTool>FbxImporter</SourceTool>
       </Identity>
       <OpaqueData>
