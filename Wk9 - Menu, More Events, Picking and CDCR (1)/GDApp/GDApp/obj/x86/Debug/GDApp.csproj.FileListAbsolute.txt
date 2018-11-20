@@ -727,3 +727,15 @@ D:\School\Year 3\UDP\SnowFrontFinal\Wk9 - Menu, More Events, Picking and CDCR (1
 D:\School\Year 3\UDP\SnowFrontFinal\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Menu\sliderTracker.xnb
 D:\School\Year 3\UDP\SnowFrontFinal\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\HUD\ThermoBar.xnb
 D:\School\Year 3\UDP\SnowFrontFinal\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\HUD\Thermometer.xnb
+C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Menu\exitButton.xnb
+C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Menu\menuButton.xnb
+C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Menu\sliderBar.xnb
+C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Menu\sliderTracker.xnb
+C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\HUD\ThermoBar.xnb
+C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\HUD\Thermometer.xnb
+C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\snowDrift.xnb
+C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Car_for_game.xnb
+C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\snowed-car-roof(1)_0.xnb
+C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\Cladding_Siding_White_0.xnb
+C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\Metal_Aluminum_Anodized_0.xnb
+C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\window-glass(1)_0.xnb

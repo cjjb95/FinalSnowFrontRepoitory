@@ -528,6 +528,7 @@ namespace GDApp
             effectParameters.DiffuseColor = Color.White;
 
             #region FallenTrees
+            //
             Transform3D transform3DFallenTree = new Transform3D(new Vector3(-85, 20, -250), new Vector3(90, 0, -90), new Vector3(0.5f,0.5f,0.5f), Vector3.UnitX, Vector3.UnitY);
             Transform3D transform3DFallenTree2 = new Transform3D(new Vector3(-300, 20, -230), new Vector3(0, 0, -90), new Vector3(0.5f, 0.5f, 0.5f), Vector3.UnitX, Vector3.UnitY);
             Transform3D transform3DFallenTree3 = new Transform3D(new Vector3(200, 20, -350), new Vector3(-40, 0, -90), new Vector3(0.35f, 0.6f, 0.35f), Vector3.UnitX, Vector3.UnitY);
@@ -535,6 +536,8 @@ namespace GDApp
             Transform3D transform3DFallenTree5 = new Transform3D(new Vector3(340, 20, -520), new Vector3(-0, 0, -90), new Vector3(0.5f, 1, 0.5f), Vector3.UnitX, Vector3.UnitY);
             Transform3D transform3DFallenTree6 = new Transform3D(new Vector3(380, 20, -400), new Vector3(-0, 0, -90), new Vector3(0.5f, 1, 0.5f), Vector3.UnitX, Vector3.UnitY);
 
+
+            Transform3D car  = new Transform3D(new Vector3(-930, 25, -240), new Vector3(0, 135, 0), new Vector3(0.2f, 0.2f, 0.2f), Vector3.UnitX, Vector3.UnitY);
 
             CollidableObject FallenTree1 = new TriangleMeshObject("fallen tree", ActorType.CollidableProp, transform3DFallenTree, effectParameters,
                 this.modelDictionary["fallenTree"], new MaterialProperties(0.2f, 0.8f, 0.7f));
@@ -560,12 +563,22 @@ namespace GDApp
             this.modelDictionary["fallenTree"], new MaterialProperties(0.2f, 0.8f, 0.7f));
             FallenTree6.Enable(true, 1);
 
+            //CollidableObject SnowDrift = new TriangleMeshObject("snowDrift1", ActorType.CollidableProp, transform3DFallenTree, effectParameters,
+            //this.modelDictionary["SnowDrift"], new MaterialProperties(0.2f, 0.8f, 0.7f));
+            //SnowDrift.Enable(true, 1);
+
+            CollidableObject flippedCar = new TriangleMeshObject("flippedCar", ActorType.CollidableProp, car, effectParameters,
+            this.modelDictionary["Car_for_game"], new MaterialProperties(0.2f, 0.8f, 0.7f));
+            flippedCar.Enable(true, 1);
+
             this.object3DManager.Add(FallenTree1);
             this.object3DManager.Add(FallenTree2);
             this.object3DManager.Add(FallenTree3);
             this.object3DManager.Add(FallenTree4);
             this.object3DManager.Add(FallenTree5);
             this.object3DManager.Add(FallenTree6);
+            //this.object3DManager.Add(SnowDrift);
+            this.object3DManager.Add(flippedCar);
             #endregion
         }
 
@@ -595,7 +608,7 @@ namespace GDApp
             //lets set the diffuse color also, for fun.
             effectParameters.DiffuseColor = Color.Blue;
 
-            CollidableObject collidableObject = new TriangleMeshObject("teapot", ActorType.CollidableProp, transform3D, effectParameters,
+            CollidableObject collidableObject = new TriangleMeshObject("snowDrift", ActorType.CollidableProp, transform3D, effectParameters,
                 this.modelDictionary["teapot"], this.modelDictionary["teapot_lowpoly"], new MaterialProperties(0.2f, 0.8f, 0.7f));
             collidableObject.Enable(true, 1);
             this.object3DManager.Add(collidableObject);
@@ -1080,6 +1093,8 @@ namespace GDApp
             this.modelDictionary.Load("Assets/Models/box2");
             this.modelDictionary.Load("Assets/Models/torus");
             this.modelDictionary.Load("Assets/Models/fallenTree");
+            this.modelDictionary.Load("Assets/Models/Car_for_game");
+            this.modelDictionary.Load("Assets/Models/SnowDrift");
             this.modelDictionary.Load("Assets/Models/sphere");
             this.modelDictionary.Load("mapLayout", "Assets/Models/mapBlockingOut");
 
