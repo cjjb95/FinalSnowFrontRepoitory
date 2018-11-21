@@ -1291,26 +1291,6 @@
       <Time>2018-11-20T00:42:22.9237489+00:00</Time>
     </Item>
     <Item>
-      <Source>Assets\Models\snowDrift.FBX</Source>
-      <Name>Assets\Models\snowDrift</Name>
-      <Importer>FbxImporter</Importer>
-      <Processor>ModelProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\snowDrift.xnb</Output>
-      <Time>2018-11-20T21:48:01.1311902+00:00</Time>
-      <Dependency>
-        <Key>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\obj\x86\Debug\Assets\Models\snowDrift_0.xml</Key>
-        <Value>2018-11-20T21:49:11.622441+00:00</Value>
-      </Dependency>
-    </Item>
-    <Item>
-      <Source>Assets\Models\snowDrift.FBX</Source>
-      <Importer>FbxImporter</Importer>
-      <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\obj\x86\Debug\Assets\Models\snowDrift_0.xml</Output>
-      <Time>2018-11-20T21:48:01.1311902+00:00</Time>
-    </Item>
-    <Item>
       <Source>Assets\Models\Car_for_game.FBX</Source>
       <Name>Assets\Models\Car_for_game</Name>
       <Importer>FbxImporter</Importer>
@@ -1397,6 +1377,46 @@
       <Options>None</Options>
       <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\window-glass(1)_0.xnb</Output>
       <Time>2018-11-20T21:06:03.6261214+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Models\snow_drift.FBX</Source>
+      <Name>Assets\Models\snow_drift</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\snow_drift.xnb</Output>
+      <Time>2018-11-20T22:34:50.9395277+00:00</Time>
+      <Dependency>
+        <Key>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\obj\x86\Debug\Assets\Models\snow_drift_0.xml</Key>
+        <Value>2018-11-20T22:35:51.0534729+00:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Assets\Models\snow_drift.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\obj\x86\Debug\Assets\Models\snow_drift_0.xml</Output>
+      <Time>2018-11-20T22:34:50.9395277+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Models\ElectricPole.FBX</Source>
+      <Name>Assets\Models\ElectricPole</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\ElectricPole.xnb</Output>
+      <Time>2018-11-21T00:41:19.7677806+00:00</Time>
+      <Dependency>
+        <Key>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\obj\x86\Debug\Assets\Models\ElectricPole_0.xml</Key>
+        <Value>2018-11-21T00:42:15.4059915+00:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Assets\Models\ElectricPole.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\obj\x86\Debug\Assets\Models\ElectricPole_0.xml</Output>
+      <Time>2018-11-21T00:41:19.7677806+00:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>

@@ -539,6 +539,20 @@ namespace GDApp
 
             Transform3D car  = new Transform3D(new Vector3(-930, 25, -240), new Vector3(0, 135, 0), new Vector3(0.2f, 0.2f, 0.2f), Vector3.UnitX, Vector3.UnitY);
 
+            Transform3D snowDrift1 = new Transform3D(new Vector3(-660, 5, -280), new Vector3(0, 0, 0), new Vector3(0.4f, 0.4f, 0.4f), Vector3.UnitX, Vector3.UnitY);
+            Transform3D snowDrift2 = new Transform3D(new Vector3(-660, 5, -350), new Vector3(0, 180, 0), new Vector3(0.4f, 0.4f, 0.4f), Vector3.UnitX, Vector3.UnitY);
+            Transform3D snowDrift3 = new Transform3D(new Vector3(-140, 5, -250), new Vector3(0, 180, 0), new Vector3(0.4f, 0.4f, 0.4f), Vector3.UnitX, Vector3.UnitY);
+            Transform3D snowDrift4 = new Transform3D(new Vector3(60, 5, -220), new Vector3(0, 180, 0), new Vector3(0.4f, 0.4f, 0.4f), Vector3.UnitX, Vector3.UnitY);
+            Transform3D snowDrift5 = new Transform3D(new Vector3(120, 5, -540), new Vector3(0, 90, 0), new Vector3(0.2f, 0.2f, 0.2f), Vector3.UnitX, Vector3.UnitY);
+            Transform3D snowDrift6 = new Transform3D(new Vector3(560, 5, -150), new Vector3(0, 180, 0), new Vector3(0.2f, 0.2f, 0.2f), Vector3.UnitX, Vector3.UnitY);
+            Transform3D snowDrift7 = new Transform3D(new Vector3(620, 5, -150), new Vector3(0, 180, 0), new Vector3(0.3f, 0.3f, 0.3f), Vector3.UnitX, Vector3.UnitY);
+
+            Transform3D electricPole1 = new Transform3D(new Vector3(-660, 5, -280), new Vector3(0, 0, 0), new Vector3(0.2f, 0.2f, 0.2f), Vector3.UnitX, Vector3.UnitY);
+
+            CollidableObject ElectricPole1 = new TriangleMeshObject("fallen pole", ActorType.CollidableProp, electricPole1, effectParameters,
+            this.modelDictionary["ElectricPole"], new MaterialProperties(0.2f, 0.8f, 0.7f));
+            ElectricPole1.Enable(true, 1);
+
             CollidableObject FallenTree1 = new TriangleMeshObject("fallen tree", ActorType.CollidableProp, transform3DFallenTree, effectParameters,
                 this.modelDictionary["fallenTree"], new MaterialProperties(0.2f, 0.8f, 0.7f));
             FallenTree1.Enable(true, 1);
@@ -563,9 +577,33 @@ namespace GDApp
             this.modelDictionary["fallenTree"], new MaterialProperties(0.2f, 0.8f, 0.7f));
             FallenTree6.Enable(true, 1);
 
-            //CollidableObject SnowDrift = new TriangleMeshObject("snowDrift1", ActorType.CollidableProp, transform3DFallenTree, effectParameters,
-            //this.modelDictionary["SnowDrift"], new MaterialProperties(0.2f, 0.8f, 0.7f));
-            //SnowDrift.Enable(true, 1);
+            CollidableObject SnowDrift = new TriangleMeshObject("snowDrift1", ActorType.CollidableProp, snowDrift1, effectParameters,
+            this.modelDictionary["snow_drift"], new MaterialProperties(0.2f, 0.8f, 0.7f));
+            SnowDrift.Enable(true, 1);
+
+            CollidableObject SnowDrift2 = new TriangleMeshObject("snowDrift2", ActorType.CollidableProp, snowDrift2, effectParameters,
+            this.modelDictionary["snow_drift"], new MaterialProperties(0.2f, 0.8f, 0.7f));
+            SnowDrift2.Enable(true, 1);
+
+            CollidableObject SnowDrift3 = new TriangleMeshObject("snowDrift3", ActorType.CollidableProp, snowDrift3, effectParameters,
+            this.modelDictionary["snow_drift"], new MaterialProperties(0.2f, 0.8f, 0.7f));
+            SnowDrift3.Enable(true, 1);
+
+            CollidableObject SnowDrift4 = new TriangleMeshObject("snowDrift4", ActorType.CollidableProp, snowDrift4, effectParameters,
+            this.modelDictionary["snow_drift"], new MaterialProperties(0.2f, 0.8f, 0.7f));
+            SnowDrift4.Enable(true, 1);
+
+            CollidableObject SnowDrift5 = new TriangleMeshObject("snowDrift5", ActorType.CollidableProp, snowDrift5, effectParameters,
+            this.modelDictionary["snow_drift"], new MaterialProperties(0.2f, 0.8f, 0.7f));
+            SnowDrift5.Enable(true, 1);
+
+            CollidableObject SnowDrift6 = new TriangleMeshObject("snowDrift6", ActorType.CollidableProp, snowDrift6, effectParameters,
+            this.modelDictionary["snow_drift"], new MaterialProperties(0.2f, 0.8f, 0.7f));
+            SnowDrift6.Enable(true, 1);
+
+            CollidableObject SnowDrift7 = new TriangleMeshObject("snowDrift7", ActorType.CollidableProp, snowDrift7, effectParameters,
+            this.modelDictionary["snow_drift"], new MaterialProperties(0.2f, 0.8f, 0.7f));
+            SnowDrift7.Enable(true, 1);
 
             CollidableObject flippedCar = new TriangleMeshObject("flippedCar", ActorType.CollidableProp, car, effectParameters,
             this.modelDictionary["Car_for_game"], new MaterialProperties(0.2f, 0.8f, 0.7f));
@@ -577,7 +615,14 @@ namespace GDApp
             this.object3DManager.Add(FallenTree4);
             this.object3DManager.Add(FallenTree5);
             this.object3DManager.Add(FallenTree6);
-            //this.object3DManager.Add(SnowDrift);
+            this.object3DManager.Add(ElectricPole1);
+            this.object3DManager.Add(SnowDrift);
+            this.object3DManager.Add(SnowDrift2);
+            this.object3DManager.Add(SnowDrift3);
+            this.object3DManager.Add(SnowDrift4);
+            this.object3DManager.Add(SnowDrift5);
+            this.object3DManager.Add(SnowDrift6);
+            this.object3DManager.Add(SnowDrift7);
             this.object3DManager.Add(flippedCar);
             #endregion
         }
@@ -1094,7 +1139,8 @@ namespace GDApp
             this.modelDictionary.Load("Assets/Models/torus");
             this.modelDictionary.Load("Assets/Models/fallenTree");
             this.modelDictionary.Load("Assets/Models/Car_for_game");
-            this.modelDictionary.Load("Assets/Models/SnowDrift");
+            this.modelDictionary.Load("Assets/Models/ElectricPole");
+            this.modelDictionary.Load("Assets/Models/snow_drift");
             this.modelDictionary.Load("Assets/Models/sphere");
             this.modelDictionary.Load("mapLayout", "Assets/Models/mapBlockingOut");
 

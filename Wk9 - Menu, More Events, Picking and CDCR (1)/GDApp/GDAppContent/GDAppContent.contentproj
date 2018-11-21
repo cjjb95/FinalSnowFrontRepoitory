@@ -578,8 +578,15 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Models\SnowDrift.FBX">
-      <Name>SnowDrift</Name>
+    <Compile Include="Assets\Models\snow_drift.FBX">
+      <Name>snow_drift</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\Models\ElectricPole.FBX">
+      <Name>ElectricPole</Name>
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
     </Compile>
