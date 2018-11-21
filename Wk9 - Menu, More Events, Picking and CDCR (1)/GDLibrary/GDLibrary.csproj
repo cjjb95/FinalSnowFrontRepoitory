@@ -95,6 +95,7 @@
     <Compile Include="GDLibrary\Controllers\3D\ModelObject\ColorSineLerpController.cs" />
     <Compile Include="GDLibrary\Controllers\3D\ModelObject\PickupController.cs" />
     <Compile Include="GDLibrary\Controllers\3D\ModelObject\RotationController.cs" />
+    <Compile Include="GDLibrary\Controllers\3D\ModelObject\SlipController.cs" />
     <Compile Include="GDLibrary\Controllers\3D\ModelObject\TranslationSineLerpController.cs" />
     <Compile Include="GDLibrary\Controllers\Base\Controller.cs" />
     <Compile Include="GDLibrary\Controllers\3D\Base\UserInputController.cs" />
