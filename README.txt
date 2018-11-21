@@ -15,3 +15,4 @@ EventCategoryType
 -        ItemEquipped,
 Main
 - add demoItem and demoCoat
+- add road, poles, snowdrift, cars, trees
