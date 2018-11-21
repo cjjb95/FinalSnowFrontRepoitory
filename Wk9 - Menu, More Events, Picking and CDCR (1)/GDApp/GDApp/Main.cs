@@ -657,7 +657,7 @@ namespace GDApp
 
         }
 
-         InitializeStaticCollidableFallenCar()
+         private void InitializeStaticCollidableFallenCar()
         {
             BasicEffectParameters effectParameters = this.effectDictionary[AppData.LitModelsEffectID].Clone() as BasicEffectParameters;
             effectParameters.Texture = this.textureDictionary["ml"];
