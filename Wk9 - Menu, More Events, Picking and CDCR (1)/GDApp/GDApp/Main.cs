@@ -519,26 +519,14 @@ namespace GDApp
             this.object3DManager.Add(collidableObject);
         }
 
-        //Triangle mesh objects wrap a tight collision surface around complex shapes - the downside is that TriangleMeshObjects CANNOT be moved
-        private void InitializeStaticCollidableTriangleMeshObjects()
+        private void InitializeStaticCollidableSnowDrift()
         {
-
+           //Creating the effect for the collidableobject model
             BasicEffectParameters effectParameters = this.effectDictionary[AppData.LitModelsEffectID].Clone() as BasicEffectParameters;
             effectParameters.Texture = this.textureDictionary["ml"];
             effectParameters.DiffuseColor = Color.White;
 
-            #region FallenTrees
-            //
-            Transform3D transform3DFallenTree = new Transform3D(new Vector3(-85, 20, -250), new Vector3(90, 0, -90), new Vector3(0.5f,0.5f,0.5f), Vector3.UnitX, Vector3.UnitY);
-            Transform3D transform3DFallenTree2 = new Transform3D(new Vector3(-300, 20, -230), new Vector3(0, 0, -90), new Vector3(0.5f, 0.5f, 0.5f), Vector3.UnitX, Vector3.UnitY);
-            Transform3D transform3DFallenTree3 = new Transform3D(new Vector3(200, 20, -350), new Vector3(-40, 0, -90), new Vector3(0.35f, 0.6f, 0.35f), Vector3.UnitX, Vector3.UnitY);
-            Transform3D transform3DFallenTree4 = new Transform3D(new Vector3(400, 20, -290), new Vector3(-140, 0, -90), new Vector3(0.35f, 0.6f, 0.35f), Vector3.UnitX, Vector3.UnitY);
-            Transform3D transform3DFallenTree5 = new Transform3D(new Vector3(340, 20, -520), new Vector3(-0, 0, -90), new Vector3(0.5f, 1, 0.5f), Vector3.UnitX, Vector3.UnitY);
-            Transform3D transform3DFallenTree6 = new Transform3D(new Vector3(380, 20, -400), new Vector3(-0, 0, -90), new Vector3(0.5f, 1, 0.5f), Vector3.UnitX, Vector3.UnitY);
-
-
-            Transform3D car  = new Transform3D(new Vector3(-930, 25, -240), new Vector3(0, 135, 0), new Vector3(0.2f, 0.2f, 0.2f), Vector3.UnitX, Vector3.UnitY);
-
+            //Creating the transforms  for each of the models
             Transform3D snowDrift1 = new Transform3D(new Vector3(-660, 5, -280), new Vector3(0, 0, 0), new Vector3(0.4f, 0.4f, 0.4f), Vector3.UnitX, Vector3.UnitY);
             Transform3D snowDrift2 = new Transform3D(new Vector3(-660, 5, -350), new Vector3(0, 180, 0), new Vector3(0.4f, 0.4f, 0.4f), Vector3.UnitX, Vector3.UnitY);
             Transform3D snowDrift3 = new Transform3D(new Vector3(-140, 5, -250), new Vector3(0, 180, 0), new Vector3(0.4f, 0.4f, 0.4f), Vector3.UnitX, Vector3.UnitY);
@@ -548,56 +536,9 @@ namespace GDApp
             Transform3D snowDrift7 = new Transform3D(new Vector3(620, 5, -150), new Vector3(0, 180, 0), new Vector3(0.3f, 0.3f, 0.3f), Vector3.UnitX, Vector3.UnitY);
 
 
-            Transform3D electricPole1 = new Transform3D(new Vector3(100, 5, -430), new Vector3(0, -90, 0), new Vector3(0.4f, 0.4f, 0.4f), Vector3.UnitX, Vector3.UnitY);
-            Transform3D electricPole2 = new Transform3D(new Vector3(60, 5, -90), new Vector3(0, -90, 0), new Vector3(0.4f, 0.4f, 0.4f), Vector3.UnitX, Vector3.UnitY);
-            Transform3D electricPole3 = new Transform3D(new Vector3(500, 5, -280), new Vector3(0, 180, 0), new Vector3(0.4f, 0.4f, 0.4f), Vector3.UnitX, Vector3.UnitY);
-            Transform3D electricPole4 = new Transform3D(new Vector3(610, 5, -460), new Vector3(0, 0, 0), new Vector3(0.4f, 0.4f, 0.4f), Vector3.UnitX, Vector3.UnitY);
-
-
-            CollidableObject ElectricPole1 = new TriangleMeshObject("fallen pole", ActorType.CollidableProp, electricPole1, effectParameters,
-            this.modelDictionary["ElectricPole"], new MaterialProperties(0.2f, 0.8f, 0.7f));
-            ElectricPole1.Enable(true, 1);
-
-            CollidableObject ElectricPole2 = new TriangleMeshObject("fallen pole 2", ActorType.CollidableProp, electricPole2, effectParameters,
-            this.modelDictionary["ElectricPole"], new MaterialProperties(0.2f, 0.8f, 0.7f));
-            ElectricPole2.Enable(true, 1);
-
-
-            CollidableObject ElectricPole3 = new TriangleMeshObject("fallen pole 3", ActorType.CollidableProp, electricPole3, effectParameters,
-            this.modelDictionary["ElectricPole"], new MaterialProperties(0.2f, 0.8f, 0.7f));
-            ElectricPole3.Enable(true, 1);
-
-            CollidableObject ElectricPole4 = new TriangleMeshObject("fallen pole 4", ActorType.CollidableProp, electricPole4, effectParameters,
-            this.modelDictionary["ElectricPole"], new MaterialProperties(0.2f, 0.8f, 0.7f));
-            ElectricPole4.Enable(true, 1);
-
-
-            CollidableObject FallenTree1 = new TriangleMeshObject("fallen tree", ActorType.CollidableProp, transform3DFallenTree, effectParameters,
-                this.modelDictionary["fallenTree"], new MaterialProperties(0.2f, 0.8f, 0.7f));
-            FallenTree1.Enable(true, 1);
-
-            CollidableObject FallenTree2 = new TriangleMeshObject("fallen tree 2", ActorType.CollidableProp, transform3DFallenTree2, effectParameters,
-            this.modelDictionary["fallenTree"], new MaterialProperties(0.2f, 0.8f, 0.7f));
-            FallenTree2.Enable(true, 1);
-
-            CollidableObject FallenTree3 = new TriangleMeshObject("fallen tree 3", ActorType.CollidableProp, transform3DFallenTree3, effectParameters,
-            this.modelDictionary["fallenTree"], new MaterialProperties(0.2f, 0.8f, 0.7f));
-            FallenTree3.Enable(true, 1);
-
-            CollidableObject FallenTree4 = new TriangleMeshObject("fallen tree 4", ActorType.CollidableProp, transform3DFallenTree4, effectParameters,
-            this.modelDictionary["fallenTree"], new MaterialProperties(0.2f, 0.8f, 0.7f));
-            FallenTree4.Enable(true, 1);
-
-            CollidableObject FallenTree5 = new TriangleMeshObject("fallen tree 5", ActorType.CollidableProp, transform3DFallenTree5, effectParameters,
-            this.modelDictionary["fallenTree"], new MaterialProperties(0.2f, 0.8f, 0.7f));
-            FallenTree5.Enable(true, 1);
-
-            CollidableObject FallenTree6 = new TriangleMeshObject("fallen tree 6", ActorType.CollidableProp, transform3DFallenTree6, effectParameters,
-            this.modelDictionary["fallenTree"], new MaterialProperties(0.2f, 0.8f, 0.7f));
-            FallenTree6.Enable(true, 1);
-
+            //creating the collidable models
             CollidableObject SnowDrift = new TriangleMeshObject("snowDrift1", ActorType.CollidableProp, snowDrift1, effectParameters,
-            this.modelDictionary["snow_drift"], new MaterialProperties(0.2f, 0.8f, 0.7f));
+           this.modelDictionary["snow_drift"], new MaterialProperties(0.2f, 0.8f, 0.7f));
             SnowDrift.Enable(true, 1);
 
             CollidableObject SnowDrift2 = new TriangleMeshObject("snowDrift2", ActorType.CollidableProp, snowDrift2, effectParameters,
@@ -624,20 +565,7 @@ namespace GDApp
             this.modelDictionary["snow_drift"], new MaterialProperties(0.2f, 0.8f, 0.7f));
             SnowDrift7.Enable(true, 1);
 
-            CollidableObject flippedCar = new TriangleMeshObject("flippedCar", ActorType.CollidableProp, car, effectParameters,
-            this.modelDictionary["Car_for_game"], new MaterialProperties(0.2f, 0.8f, 0.7f));
-            flippedCar.Enable(true, 1);
 
-            this.object3DManager.Add(FallenTree1);
-            this.object3DManager.Add(FallenTree2);
-            this.object3DManager.Add(FallenTree3);
-            this.object3DManager.Add(FallenTree4);
-            this.object3DManager.Add(FallenTree5);
-            this.object3DManager.Add(FallenTree6);
-            this.object3DManager.Add(ElectricPole1);
-            this.object3DManager.Add(ElectricPole2);
-            this.object3DManager.Add(ElectricPole3);
-            this.object3DManager.Add(ElectricPole4);
             this.object3DManager.Add(SnowDrift);
             this.object3DManager.Add(SnowDrift2);
             this.object3DManager.Add(SnowDrift3);
@@ -645,8 +573,114 @@ namespace GDApp
             this.object3DManager.Add(SnowDrift5);
             this.object3DManager.Add(SnowDrift6);
             this.object3DManager.Add(SnowDrift7);
+        }
+
+        private void InitializeStaticCollidableFallenTree()
+        {
+            BasicEffectParameters effectParameters = this.effectDictionary[AppData.LitModelsEffectID].Clone() as BasicEffectParameters;
+            effectParameters.Texture = this.textureDictionary["ml"];
+            effectParameters.DiffuseColor = Color.White;
+
+            Transform3D transform3DFallenTree = new Transform3D(new Vector3(-85, 20, -250), new Vector3(90, 0, -90), new Vector3(0.5f, 0.5f, 0.5f), Vector3.UnitX, Vector3.UnitY);
+            Transform3D transform3DFallenTree2 = new Transform3D(new Vector3(-300, 20, -230), new Vector3(0, 0, -90), new Vector3(0.5f, 0.5f, 0.5f), Vector3.UnitX, Vector3.UnitY);
+            Transform3D transform3DFallenTree3 = new Transform3D(new Vector3(200, 20, -350), new Vector3(-40, 0, -90), new Vector3(0.35f, 0.6f, 0.35f), Vector3.UnitX, Vector3.UnitY);
+            Transform3D transform3DFallenTree4 = new Transform3D(new Vector3(400, 20, -290), new Vector3(-140, 0, -90), new Vector3(0.35f, 0.6f, 0.35f), Vector3.UnitX, Vector3.UnitY);
+            Transform3D transform3DFallenTree5 = new Transform3D(new Vector3(340, 20, -520), new Vector3(-0, 0, -90), new Vector3(0.5f, 1, 0.5f), Vector3.UnitX, Vector3.UnitY);
+            Transform3D transform3DFallenTree6 = new Transform3D(new Vector3(380, 20, -400), new Vector3(-0, 0, -90), new Vector3(0.5f, 1, 0.5f), Vector3.UnitX, Vector3.UnitY);
+
+            CollidableObject FallenTree1 = new TriangleMeshObject("fallen tree", ActorType.CollidableProp, transform3DFallenTree, effectParameters,
+             this.modelDictionary["fallenTree"], new MaterialProperties(0.2f, 0.8f, 0.7f));
+            FallenTree1.Enable(true, 1);
+
+            CollidableObject FallenTree2 = new TriangleMeshObject("fallen tree 2", ActorType.CollidableProp, transform3DFallenTree2, effectParameters,
+            this.modelDictionary["fallenTree"], new MaterialProperties(0.2f, 0.8f, 0.7f));
+            FallenTree2.Enable(true, 1);
+
+            CollidableObject FallenTree3 = new TriangleMeshObject("fallen tree 3", ActorType.CollidableProp, transform3DFallenTree3, effectParameters,
+            this.modelDictionary["fallenTree"], new MaterialProperties(0.2f, 0.8f, 0.7f));
+            FallenTree3.Enable(true, 1);
+
+            CollidableObject FallenTree4 = new TriangleMeshObject("fallen tree 4", ActorType.CollidableProp, transform3DFallenTree4, effectParameters,
+            this.modelDictionary["fallenTree"], new MaterialProperties(0.2f, 0.8f, 0.7f));
+            FallenTree4.Enable(true, 1);
+
+            CollidableObject FallenTree5 = new TriangleMeshObject("fallen tree 5", ActorType.CollidableProp, transform3DFallenTree5, effectParameters,
+            this.modelDictionary["fallenTree"], new MaterialProperties(0.2f, 0.8f, 0.7f));
+            FallenTree5.Enable(true, 1);
+
+            CollidableObject FallenTree6 = new TriangleMeshObject("fallen tree 6", ActorType.CollidableProp, transform3DFallenTree6, effectParameters,
+            this.modelDictionary["fallenTree"], new MaterialProperties(0.2f, 0.8f, 0.7f));
+            FallenTree6.Enable(true, 1);
+
+
+            this.object3DManager.Add(FallenTree1);
+            this.object3DManager.Add(FallenTree2);
+            this.object3DManager.Add(FallenTree3);
+            this.object3DManager.Add(FallenTree4);
+            this.object3DManager.Add(FallenTree5);
+            this.object3DManager.Add(FallenTree6);
+        }
+
+        private void InitializeStaticCollidableElectricPole()
+        {
+            BasicEffectParameters effectParameters = this.effectDictionary[AppData.LitModelsEffectID].Clone() as BasicEffectParameters;
+            effectParameters.Texture = this.textureDictionary["ml"];
+            effectParameters.DiffuseColor = Color.White;
+
+            Transform3D electricPole1 = new Transform3D(new Vector3(100, 5, -430), new Vector3(0, -90, 0), new Vector3(0.4f, 0.4f, 0.4f), Vector3.UnitX, Vector3.UnitY);
+            Transform3D electricPole2 = new Transform3D(new Vector3(60, 5, -90), new Vector3(0, -90, 0), new Vector3(0.4f, 0.4f, 0.4f), Vector3.UnitX, Vector3.UnitY);
+            Transform3D electricPole3 = new Transform3D(new Vector3(500, 5, -280), new Vector3(0, 180, 0), new Vector3(0.4f, 0.4f, 0.4f), Vector3.UnitX, Vector3.UnitY);
+            Transform3D electricPole4 = new Transform3D(new Vector3(610, 5, -460), new Vector3(0, 0, 0), new Vector3(0.4f, 0.4f, 0.4f), Vector3.UnitX, Vector3.UnitY);
+
+
+            CollidableObject ElectricPole1 = new TriangleMeshObject("fallen pole", ActorType.CollidableProp, electricPole1, effectParameters,
+           this.modelDictionary["ElectricPole"], new MaterialProperties(0.2f, 0.8f, 0.7f));
+            ElectricPole1.Enable(true, 1);
+
+            CollidableObject ElectricPole2 = new TriangleMeshObject("fallen pole 2", ActorType.CollidableProp, electricPole2, effectParameters,
+            this.modelDictionary["ElectricPole"], new MaterialProperties(0.2f, 0.8f, 0.7f));
+            ElectricPole2.Enable(true, 1);
+
+
+            CollidableObject ElectricPole3 = new TriangleMeshObject("fallen pole 3", ActorType.CollidableProp, electricPole3, effectParameters,
+            this.modelDictionary["ElectricPole"], new MaterialProperties(0.2f, 0.8f, 0.7f));
+            ElectricPole3.Enable(true, 1);
+
+            CollidableObject ElectricPole4 = new TriangleMeshObject("fallen pole 4", ActorType.CollidableProp, electricPole4, effectParameters,
+            this.modelDictionary["ElectricPole"], new MaterialProperties(0.2f, 0.8f, 0.7f));
+            ElectricPole4.Enable(true, 1);
+
+            this.object3DManager.Add(ElectricPole1);
+            this.object3DManager.Add(ElectricPole2);
+            this.object3DManager.Add(ElectricPole3);
+            this.object3DManager.Add(ElectricPole4);
+
+        }
+
+         InitializeStaticCollidableFallenCar()
+        {
+            BasicEffectParameters effectParameters = this.effectDictionary[AppData.LitModelsEffectID].Clone() as BasicEffectParameters;
+            effectParameters.Texture = this.textureDictionary["ml"];
+            effectParameters.DiffuseColor = Color.White;
+
+            Transform3D car = new Transform3D(new Vector3(-930, 25, -240), new Vector3(0, 135, 0), new Vector3(0.2f, 0.2f, 0.2f), Vector3.UnitX, Vector3.UnitY);
+
+            CollidableObject flippedCar = new TriangleMeshObject("flippedCar", ActorType.CollidableProp, car, effectParameters,
+            this.modelDictionary["Car_for_game"], new MaterialProperties(0.2f, 0.8f, 0.7f));
+            flippedCar.Enable(true, 1);
+
+
             this.object3DManager.Add(flippedCar);
-            #endregion
+        }
+
+        //Triangle mesh objects wrap a tight collision surface around complex shapes - the downside is that TriangleMeshObjects CANNOT be moved
+        private void InitializeStaticCollidableTriangleMeshObjects()
+        {
+            InitializeStaticCollidableSnowDrift();
+            InitializeStaticCollidableFallenTree();
+            InitializeStaticCollidableElectricPole();
+            InitializeStaticCollidableFallenCar();
+
         }
 
         //Demos use of a low-polygon model to generate the triangle mesh collision skin - saving CPU ccles on CDCR checking
