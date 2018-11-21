@@ -108,6 +108,9 @@ Content\snowed-car-roof(1)_0.xnb
 Content\Cladding_Siding_White_0.xnb
 Content\Metal_Aluminum_Anodized_0.xnb
 Content\window-glass(1)_0.xnb
+Content\Assets\Models\road.xnb
+Content\Assets\Textures\Road\roadtxt.xnb
+Content\road_0.xnb
 Content\Assets\Audio\Demo2DSound.xgs
 Content\Assets\Audio\WaveBank1.xwb
 Content\Assets\Audio\SoundBank1.xsb

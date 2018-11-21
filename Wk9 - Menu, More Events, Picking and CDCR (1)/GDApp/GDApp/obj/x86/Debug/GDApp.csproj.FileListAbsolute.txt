@@ -875,3 +875,6 @@ D:\School\Year 3\UDP\SnowFrontProject\Wk9 - Menu, More Events, Picking and CDCR 
 D:\School\Year 3\UDP\SnowFrontProject\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\obj\x86\Debug\GDApp.csproj.CopyComplete
 D:\School\Year 3\UDP\SnowFrontProject\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\obj\x86\Debug\GDApp.exe
 D:\School\Year 3\UDP\SnowFrontProject\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\obj\x86\Debug\GDApp.pdb
+D:\School\Year 3\UDP\SnowFrontProject\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\road.xnb
+D:\School\Year 3\UDP\SnowFrontProject\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Road\roadtxt.xnb
+D:\School\Year 3\UDP\SnowFrontProject\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\road_0.xnb
