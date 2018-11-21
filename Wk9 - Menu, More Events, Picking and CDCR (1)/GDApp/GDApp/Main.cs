@@ -547,11 +547,30 @@ namespace GDApp
             Transform3D snowDrift6 = new Transform3D(new Vector3(560, 5, -150), new Vector3(0, 180, 0), new Vector3(0.2f, 0.2f, 0.2f), Vector3.UnitX, Vector3.UnitY);
             Transform3D snowDrift7 = new Transform3D(new Vector3(620, 5, -150), new Vector3(0, 180, 0), new Vector3(0.3f, 0.3f, 0.3f), Vector3.UnitX, Vector3.UnitY);
 
-            Transform3D electricPole1 = new Transform3D(new Vector3(-660, 5, -280), new Vector3(0, 0, 0), new Vector3(0.2f, 0.2f, 0.2f), Vector3.UnitX, Vector3.UnitY);
+
+            Transform3D electricPole1 = new Transform3D(new Vector3(100, 5, -430), new Vector3(0, -90, 0), new Vector3(0.4f, 0.4f, 0.4f), Vector3.UnitX, Vector3.UnitY);
+            Transform3D electricPole2 = new Transform3D(new Vector3(60, 5, -90), new Vector3(0, -90, 0), new Vector3(0.4f, 0.4f, 0.4f), Vector3.UnitX, Vector3.UnitY);
+            Transform3D electricPole3 = new Transform3D(new Vector3(500, 5, -280), new Vector3(0, 180, 0), new Vector3(0.4f, 0.4f, 0.4f), Vector3.UnitX, Vector3.UnitY);
+            Transform3D electricPole4 = new Transform3D(new Vector3(610, 5, -460), new Vector3(0, 0, 0), new Vector3(0.4f, 0.4f, 0.4f), Vector3.UnitX, Vector3.UnitY);
+
 
             CollidableObject ElectricPole1 = new TriangleMeshObject("fallen pole", ActorType.CollidableProp, electricPole1, effectParameters,
             this.modelDictionary["ElectricPole"], new MaterialProperties(0.2f, 0.8f, 0.7f));
             ElectricPole1.Enable(true, 1);
+
+            CollidableObject ElectricPole2 = new TriangleMeshObject("fallen pole 2", ActorType.CollidableProp, electricPole2, effectParameters,
+            this.modelDictionary["ElectricPole"], new MaterialProperties(0.2f, 0.8f, 0.7f));
+            ElectricPole2.Enable(true, 1);
+
+
+            CollidableObject ElectricPole3 = new TriangleMeshObject("fallen pole 3", ActorType.CollidableProp, electricPole3, effectParameters,
+            this.modelDictionary["ElectricPole"], new MaterialProperties(0.2f, 0.8f, 0.7f));
+            ElectricPole3.Enable(true, 1);
+
+            CollidableObject ElectricPole4 = new TriangleMeshObject("fallen pole 4", ActorType.CollidableProp, electricPole4, effectParameters,
+            this.modelDictionary["ElectricPole"], new MaterialProperties(0.2f, 0.8f, 0.7f));
+            ElectricPole4.Enable(true, 1);
+
 
             CollidableObject FallenTree1 = new TriangleMeshObject("fallen tree", ActorType.CollidableProp, transform3DFallenTree, effectParameters,
                 this.modelDictionary["fallenTree"], new MaterialProperties(0.2f, 0.8f, 0.7f));
@@ -616,6 +635,9 @@ namespace GDApp
             this.object3DManager.Add(FallenTree5);
             this.object3DManager.Add(FallenTree6);
             this.object3DManager.Add(ElectricPole1);
+            this.object3DManager.Add(ElectricPole2);
+            this.object3DManager.Add(ElectricPole3);
+            this.object3DManager.Add(ElectricPole4);
             this.object3DManager.Add(SnowDrift);
             this.object3DManager.Add(SnowDrift2);
             this.object3DManager.Add(SnowDrift3);
