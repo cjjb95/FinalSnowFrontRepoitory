@@ -57,5 +57,6 @@ namespace GDLibrary
         OnToggleDebug,
         OnObjectPicked,
         OnNonePicked,
+        OnSlip,
     }
 }
