@@ -58,5 +58,6 @@ namespace GDLibrary
         OnObjectPicked,
         OnNonePicked,
         OnSlip,
+        OnItem,
     }
 }

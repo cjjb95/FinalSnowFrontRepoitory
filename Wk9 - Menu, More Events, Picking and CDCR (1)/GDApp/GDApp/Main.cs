@@ -301,23 +301,23 @@ namespace GDApp
             this.inputManagerParameters = new InputManagerParameters(this.mouseManager, this.keyboardManager);
 
             //this is a list that updates all cameras
-            this.cameraManager = new CameraManager(this, 5, this.eventDispatcher, 
+            this.cameraManager = new CameraManager(this, 5, this.eventDispatcher,
                 StatusType.Off);
             Components.Add(this.cameraManager);
 
-         
+
             //picking
             //use this predicate anytime we want to decide if a mouse over object is interesting to the PickingManager
             Predicate<CollidableObject> collisionPredicate = new Predicate<CollidableObject>(CollisionUtility.IsCollidableObjectOfInterest);
             //listens for picking with the mouse on valid (based on specified predicate) collidable objects and pushes notification events to listeners
             this.pickingManager = new PickingManager(this, this.eventDispatcher, StatusType.Off,
-                this.inputManagerParameters, this.cameraManager, 
-                PickingBehaviourType.PickAndPlace, 
+                this.inputManagerParameters, this.cameraManager,
+                PickingBehaviourType.PickAndPlace,
                 AppData.PickStartDistance, AppData.PickEndDistance, collisionPredicate);
             Components.Add(this.pickingManager);
 
             //Object3D
-            this.object3DManager = new ObjectManager(this, this.cameraManager, 
+            this.object3DManager = new ObjectManager(this, this.cameraManager,
                 this.eventDispatcher, StatusType.Off);
             Components.Add(this.object3DManager);
 
@@ -380,14 +380,15 @@ namespace GDApp
                 //demo high vertex count trianglemesh
                 InitializeStaticCollidableTriangleMeshObjects();
                 //demo medium and low vertex count trianglemesh
-                InitializeStaticCollidableMediumPolyTriangleMeshObjects();
-                InitializeStaticCollidableLowPolyTriangleMeshObjects();
+                //InitializeStaticCollidableMediumPolyTriangleMeshObjects();
+                //InitializeStaticCollidableLowPolyTriangleMeshObjects();
                 //demo dynamic collidable objects with user-defined collision primitives
-                InitializeDynamicCollidableObjects();
+                //InitializeDynamicCollidableObjects();
 
                 //add level elements
-                InitializeBuildings();
-                InitializeWallsFences();
+                //InitializeBuildings();
+                //InitializeWallsFences();
+                InitializeRoad();
             }
             else if (gameLevel == 2)
             {
@@ -509,7 +510,7 @@ namespace GDApp
             Model model = this.modelDictionary["box2"];
 
             BasicEffectParameters effectParameters = this.effectDictionary[AppData.UnlitModelsEffectID].Clone() as BasicEffectParameters;
-            effectParameters.Texture = this.textureDictionary["grass1"];
+            effectParameters.Texture = this.textureDictionary["iceSheet"];
             effectParameters.DiffuseColor = Color.White;
 
             transform3D = new Transform3D(Vector3.Zero, Vector3.Zero, new Vector3(worldScale, 0.001f, worldScale), Vector3.UnitX, Vector3.UnitY);
@@ -521,7 +522,7 @@ namespace GDApp
 
         private void InitializeStaticCollidableSnowDrift()
         {
-           //Creating the effect for the collidableobject model
+            //Creating the effect for the collidableobject model
             BasicEffectParameters effectParameters = this.effectDictionary[AppData.LitModelsEffectID].Clone() as BasicEffectParameters;
             effectParameters.Texture = this.textureDictionary["ml"];
             effectParameters.DiffuseColor = Color.White;
@@ -657,7 +658,7 @@ namespace GDApp
 
         }
 
-         private void InitializeStaticCollidableFallenCar()
+        private void InitializeStaticCollidableFallenCar()
         {
             BasicEffectParameters effectParameters = this.effectDictionary[AppData.LitModelsEffectID].Clone() as BasicEffectParameters;
             effectParameters.Texture = this.textureDictionary["ml"];
@@ -684,146 +685,165 @@ namespace GDApp
         }
 
         //Demos use of a low-polygon model to generate the triangle mesh collision skin - saving CPU ccles on CDCR checking
-        private void InitializeStaticCollidableMediumPolyTriangleMeshObjects()
-        {
-            Transform3D transform3D = new Transform3D(new Vector3(-30, 3, 0),
-                new Vector3(0, 0, 0), 0.08f * Vector3.One, Vector3.UnitX, Vector3.UnitY);
+        //Demos use of a low-polygon model to generate the triangle mesh collision skin - saving CPU ccles on CDCR checking
+        #region InitializeStaticCollidableMediumPolyTriangleMeshObjects
 
-            BasicEffectParameters effectParameters = this.effectDictionary[AppData.LitModelsEffectID].Clone() as BasicEffectParameters;
-            effectParameters.Texture = this.textureDictionary["checkerboard"];
 
-            CollidableObject collidableObject = new TriangleMeshObject("teapot", ActorType.CollidableProp, transform3D, effectParameters,
-                        this.modelDictionary["teapot"], this.modelDictionary["teapot_mediumpoly"], new MaterialProperties(0.2f, 0.8f, 0.7f));
-            collidableObject.Enable(true, 1);
-            this.object3DManager.Add(collidableObject);
-        }
+        //private void InitializeStaticCollidableMediumPolyTriangleMeshObjects()
+        //{
+        //    Transform3D transform3D = new Transform3D(new Vector3(-30, 3, 0),
+        //        new Vector3(0, 0, 0), 0.08f * Vector3.One, Vector3.UnitX, Vector3.UnitY);
+
+        //    BasicEffectParameters effectParameters = this.effectDictionary[AppData.LitModelsEffectID].Clone() as BasicEffectParameters;
+        //    effectParameters.Texture = this.textureDictionary["checkerboard"];
+
+        //    CollidableObject collidableObject = new TriangleMeshObject("teapot", ActorType.CollidableProp, transform3D, effectParameters,
+        //                this.modelDictionary["teapot"], this.modelDictionary["teapot_mediumpoly"], new MaterialProperties(0.2f, 0.8f, 0.7f));
+        //    collidableObject.Enable(true, 1);
+        //    this.object3DManager.Add(collidableObject);
+        //}
+        #endregion
 
         //Demos use of a low-polygon model to generate the triangle mesh collision skin - saving CPU cycles on CDCR checking
-        private void InitializeStaticCollidableLowPolyTriangleMeshObjects()
-        {
-            Transform3D transform3D = new Transform3D(new Vector3(-10, 3, 0),
-                new Vector3(0, 0, 0), 0.08f * Vector3.One, Vector3.UnitX, Vector3.UnitY);
+        #region InitializeStaticCollidableLowPolyTriangleMeshObjects
 
-            BasicEffectParameters effectParameters = this.effectDictionary[AppData.LitModelsEffectID].Clone() as BasicEffectParameters;
-            effectParameters.Texture = this.textureDictionary["checkerboard"];
-            //lets set the diffuse color also, for fun.
-            effectParameters.DiffuseColor = Color.Blue;
 
-            CollidableObject collidableObject = new TriangleMeshObject("snowDrift", ActorType.CollidableProp, transform3D, effectParameters,
-                this.modelDictionary["teapot"], this.modelDictionary["teapot_lowpoly"], new MaterialProperties(0.2f, 0.8f, 0.7f));
-            collidableObject.Enable(true, 1);
-            this.object3DManager.Add(collidableObject);
-        }
+        //private void InitializeStaticCollidableLowPolyTriangleMeshObjects()
+        //{
+        //    Transform3D transform3D = new Transform3D(new Vector3(-10, 3, 0),
+        //        new Vector3(0, 0, 0), 0.08f * Vector3.One, Vector3.UnitX, Vector3.UnitY);
+
+        //    BasicEffectParameters effectParameters = this.effectDictionary[AppData.LitModelsEffectID].Clone() as BasicEffectParameters;
+        //    effectParameters.Texture = this.textureDictionary["checkerboard"];
+        //    //lets set the diffuse color also, for fun.
+        //    effectParameters.DiffuseColor = Color.Blue;
+
+        //    CollidableObject collidableObject = new TriangleMeshObject("teapot", ActorType.CollidableProp, transform3D, effectParameters,
+        //        this.modelDictionary["teapot"], this.modelDictionary["teapot_lowpoly"], new MaterialProperties(0.2f, 0.8f, 0.7f));
+        //    collidableObject.Enable(true, 1);
+        //    this.object3DManager.Add(collidableObject);
+        //}
+        #endregion
 
         //if you want objects to be collidable AND moveable then you must attach either a box, sphere, or capsule primitives to the object
-        private void InitializeDynamicCollidableObjects()
-        {
-            CollidableObject collidableObject, archetypeCollidableObject = null;
-            Model model = null;
+        #region InitializeDynamicCollidableObjects()
+        //private void InitializeDynamicCollidableObjects()
+        //{
+        //    CollidableObject collidableObject, archetypeCollidableObject = null;
+        //    Model model = null;
 
-            #region Spheres
-            model = this.modelDictionary["sphere"];
-            BasicEffectParameters effectParameters = this.effectDictionary[AppData.LitModelsEffectID].Clone() as BasicEffectParameters;
-            effectParameters.Texture = this.textureDictionary["checkerboard"];
+        #region Spheres
+        //    model = this.modelDictionary["sphere"];
+        //    BasicEffectParameters effectParameters = this.effectDictionary[AppData.LitModelsEffectID].Clone() as BasicEffectParameters;
+        //    effectParameters.Texture = this.textureDictionary["checkerboard"];
 
-            //make once then clone
-            archetypeCollidableObject = new CollidableObject("sphere ", ActorType.CollidablePickup, Transform3D.Zero, effectParameters, model);
+        //    //make once then clone
+        //    archetypeCollidableObject = new CollidableObject("sphere ", ActorType.CollidablePickup, Transform3D.Zero, effectParameters, model);
 
-            for (int i = 0; i < 10; i++)
-            {
-                collidableObject = (CollidableObject)archetypeCollidableObject.Clone();
+        //    for (int i = 0; i < 10; i++)
+        //    {
+        //        collidableObject = (CollidableObject)archetypeCollidableObject.Clone();
 
-                collidableObject.ID += i;
-                collidableObject.Transform = new Transform3D(new Vector3(-50, 100 + 10 * i, i), new Vector3(0, 0, 0),
-                    0.082f * Vector3.One, //notice theres a certain amount of tweaking the radii with reference to the collision sphere radius of 2.54f below
-                    Vector3.UnitX, Vector3.UnitY);
+        //        collidableObject.ID += i;
+        //        collidableObject.Transform = new Transform3D(new Vector3(-50, 100 + 10 * i, i), new Vector3(0, 0, 0),
+        //            0.082f * Vector3.One, //notice theres a certain amount of tweaking the radii with reference to the collision sphere radius of 2.54f below
+        //            Vector3.UnitX, Vector3.UnitY);
 
-                collidableObject.AddPrimitive(new Sphere(collidableObject.Transform.Translation, 2.54f), new MaterialProperties(0.2f, 0.8f, 0.7f));
-                collidableObject.Enable(false, 1);
-                this.object3DManager.Add(collidableObject);
-            }
-            #endregion
+        //        collidableObject.AddPrimitive(new Sphere(collidableObject.Transform.Translation, 2.54f), new MaterialProperties(0.2f, 0.8f, 0.7f));
+        //        collidableObject.Enable(false, 1);
+        //        this.object3DManager.Add(collidableObject);
+        //    }
+        #endregion
 
-            #region Box
-            model = this.modelDictionary["box2"];
-            effectParameters = (this.effectDictionary[AppData.LitModelsEffectID] as BasicEffectParameters).Clone() as BasicEffectParameters;
-            effectParameters.Texture = this.textureDictionary["crate2"];
-            //make once then clone
-            archetypeCollidableObject = new CollidableObject("box - ", ActorType.CollidablePickup, Transform3D.Zero, effectParameters, model);
+        #region Box
+        //    model = this.modelDictionary["box2"];
+        //    effectParameters = (this.effectDictionary[AppData.LitModelsEffectID] as BasicEffectParameters).Clone() as BasicEffectParameters;
+        //    effectParameters.Texture = this.textureDictionary["crate2"];
+        //    //make once then clone
+        //    archetypeCollidableObject = new CollidableObject("box - ", ActorType.CollidablePickup, Transform3D.Zero, effectParameters, model);
 
-            int count = 0;
-            for (int i = 0; i < 5; i++)
-            {
-                for (int j = 0; j < 5; j++)
-                {
-                    collidableObject = (CollidableObject)archetypeCollidableObject.Clone();
-                    collidableObject.ID += count;
-                    count++;
+        //    int count = 0;
+        //    for (int i = 0; i < 5; i++)
+        //    {
+        //        for (int j = 0; j < 5; j++)
+        //        {
+        //            collidableObject = (CollidableObject)archetypeCollidableObject.Clone();
+        //            collidableObject.ID += count;
+        //            count++;
 
-                    collidableObject.Transform = new Transform3D(new Vector3(25 + 5 * j, 15 + 10 * i, 0), new Vector3(0, 0, 0), new Vector3(2, 4, 1), Vector3.UnitX, Vector3.UnitY);
-                    collidableObject.AddPrimitive(new Box(collidableObject.Transform.Translation, Matrix.Identity, /*important do not change - cm to inch*/2.54f * collidableObject.Transform.Scale), new MaterialProperties(0.2f, 0.8f, 0.7f));
+        //            collidableObject.Transform = new Transform3D(new Vector3(25 + 5 * j, 15 + 10 * i, 0), new Vector3(0, 0, 0), new Vector3(2, 4, 1), Vector3.UnitX, Vector3.UnitY);
+        //            collidableObject.AddPrimitive(new Box(collidableObject.Transform.Translation, Matrix.Identity, /*important do not change - cm to inch*/2.54f * collidableObject.Transform.Scale), new MaterialProperties(0.2f, 0.8f, 0.7f));
 
-                    //increase the mass of the boxes in the demo to see how collidable first person camera interacts vs. spheres (at mass = 1)
-                    collidableObject.Enable(false, 1);
-                    this.object3DManager.Add(collidableObject);
-                }
-            }
+        //            //increase the mass of the boxes in the demo to see how collidable first person camera interacts vs. spheres (at mass = 1)
+        //            collidableObject.Enable(false, 1);
+        //            this.object3DManager.Add(collidableObject);
+        //        }
+        //    }
 
-            #endregion
-        }
+        #endregion
+        //}
+
+        #endregion
+
 
         //demo of a non-collidable ModelObject with attached third person controller
-        private void InitializeNonCollidableDriveableObject()
-        {
-            //place the drivable model to the left of the existing models and specify that forward movement is along the -ve z-axis
-            Transform3D transform = new Transform3D(new Vector3(-10, 5, 25), -Vector3.UnitZ, Vector3.UnitY);
+        #region InitializeNonCollidableDriveableObject()
+        //private void InitializeNonCollidableDriveableObject()
+        //{
+        //    //place the drivable model to the left of the existing models and specify that forward movement is along the -ve z-axis
+        //    Transform3D transform = new Transform3D(new Vector3(-10, 5, 25), -Vector3.UnitZ, Vector3.UnitY);
 
-            BasicEffectParameters effectParameters = this.effectDictionary[AppData.LitModelsEffectID].Clone() as BasicEffectParameters;
-            effectParameters.Texture = this.textureDictionary["crate1"];
-            effectParameters.DiffuseColor = Color.Gold;
+        //    BasicEffectParameters effectParameters = this.effectDictionary[AppData.LitModelsEffectID].Clone() as BasicEffectParameters;
+        //    effectParameters.Texture = this.textureDictionary["crate1"];
+        //    effectParameters.DiffuseColor = Color.Gold;
 
-            //initialise the drivable model object - we've made this variable a field to allow it to be visible to the rail camera controller - see InitializeCameras()
-            this.drivableBoxObject = new ModelObject("drivable box1", ActorType.Player, transform, effectParameters, this.modelDictionary["box2"]);
+        //    //initialise the drivable model object - we've made this variable a field to allow it to be visible to the rail camera controller - see InitializeCameras()
+        //    this.drivableBoxObject = new ModelObject("drivable box1", ActorType.Player, transform, effectParameters, this.modelDictionary["box2"]);
 
-            //attach a DriveController
-            drivableBoxObject.AttachController(new DriveController("driveController1", ControllerType.Drive,
-                AppData.PlayerTwoMoveKeys, AppData.PlayerMoveSpeed, AppData.PlayerStrafeSpeed, AppData.PlayerRotationSpeed,
-                this.inputManagerParameters));
+        //    //attach a DriveController
+        //    drivableBoxObject.AttachController(new DriveController("driveController1", ControllerType.Drive,
+        //        AppData.PlayerTwoMoveKeys, AppData.PlayerMoveSpeed, AppData.PlayerStrafeSpeed, AppData.PlayerRotationSpeed,
+        //        this.inputManagerParameters));
 
-            //add to the objectManager so that it will be drawn and updated
-            this.object3DManager.Add(drivableBoxObject);
-        }
+        //    //add to the objectManager so that it will be drawn and updated
+        //    this.object3DManager.Add(drivableBoxObject);
+        //}
+
+        #endregion
 
         //demo of some semi-transparent non-collidable ModelObjects
-        private void InitializeNonCollidableDecoratorObjects()
-        {
-            //position the object
-            Transform3D transform = new Transform3D(new Vector3(0, 5, 0), Vector3.Zero, Vector3.One, Vector3.UnitX, Vector3.UnitY);
 
-            BasicEffectParameters effectParameters = this.effectDictionary[AppData.LitModelsEffectID].Clone() as BasicEffectParameters;
-            effectParameters.Texture = this.textureDictionary["crate1"];
-            effectParameters.DiffuseColor = Color.Gold;
-            effectParameters.Alpha = 0.5f;
+        #region InitializeNonCollidableDecoratorObjects()
+        //private void InitializeNonCollidableDecoratorObjects()
+        //{
+        //    //position the object
+        //    Transform3D transform = new Transform3D(new Vector3(0, 5, 0), Vector3.Zero, Vector3.One, Vector3.UnitX, Vector3.UnitY);
 
-            //initialise the boxObject
-            ModelObject boxObject = new ModelObject("some box 1", ActorType.Decorator, transform, effectParameters, this.modelDictionary["box2"]);
-            //add to the objectManager so that it will be drawn and updated
-            this.object3DManager.Add(boxObject);
+        //    BasicEffectParameters effectParameters = this.effectDictionary[AppData.LitModelsEffectID].Clone() as BasicEffectParameters;
+        //    effectParameters.Texture = this.textureDictionary["crate1"];
+        //    effectParameters.DiffuseColor = Color.Gold;
+        //    effectParameters.Alpha = 0.5f;
 
-            //a clone variable that we can reuse
-            ModelObject clone = null;
+        //    //initialise the boxObject
+        //    ModelObject boxObject = new ModelObject("some box 1", ActorType.Decorator, transform, effectParameters, this.modelDictionary["box2"]);
+        //    //add to the objectManager so that it will be drawn and updated
+        //    this.object3DManager.Add(boxObject);
 
-            //add a clone of the box model object to test the clone
-            clone = (ModelObject)boxObject.Clone();
-            clone.Transform.Translation = new Vector3(5, 5, 0);
-            //scale it to make it look different
-            clone.Transform.Scale = new Vector3(1, 4, 1);
-            //change its color
-            clone.EffectParameters.DiffuseColor = Color.Red;
-            this.object3DManager.Add(clone);
+        //    //a clone variable that we can reuse
+        //    ModelObject clone = null;
 
-            //add more clones here...
-        }
+        //    //add a clone of the box model object to test the clone
+        //    clone = (ModelObject)boxObject.Clone();
+        //    clone.Transform.Translation = new Vector3(5, 5, 0);
+        //    //scale it to make it look different
+        //    clone.Transform.Scale = new Vector3(1, 4, 1);
+        //    //change its color
+        //    clone.EffectParameters.DiffuseColor = Color.Red;
+        //    this.object3DManager.Add(clone);
+
+        //    //add more clones here...
+        //}
+        #endregion
 
         private void InitializeBuildings()
         {
@@ -852,6 +872,56 @@ namespace GDApp
             collidableObject.Enable(true, 1);
             this.object3DManager.Add(collidableObject);
         }
+
+        private void InitializeRoad()
+        {
+            Transform3D transform3D = new Transform3D(new Vector3(-140, -3, -14),
+                new Vector3(0, 0, 0), 1.2f * Vector3.One, Vector3.UnitX, Vector3.UnitY);
+
+            BasicEffectParameters effectParameters = this.effectDictionary[AppData.LitModelsEffectID].Clone() as BasicEffectParameters;
+            effectParameters.Texture = this.textureDictionary["roadtxt"];
+
+            CollidableObject collidableObject = new TriangleMeshObject("roadobj", ActorType.CollidableArchitecture, transform3D,
+                            effectParameters, this.modelDictionary["road"], new MaterialProperties(0.2f, 0.8f, 0.7f));
+            collidableObject.Enable(true, 1);
+
+            ModelObject roadObject = new ModelObject("roadpiece", ActorType.Decorator, transform3D, effectParameters, this.modelDictionary["road"]);
+
+            this.object3DManager.Add(collidableObject);
+
+
+            //clone 1
+            ModelObject clone = null;
+            clone = (ModelObject)roadObject.Clone();
+            clone.Transform.Translation = new Vector3(-140, -3, -104);
+            //scale it to make it look different
+            clone.Transform.Scale = new Vector3(1.2f, 1.2f, 1.2f);
+            this.object3DManager.Add(clone);
+
+
+            //clone 2
+            clone = (ModelObject)roadObject.Clone();
+            clone.Transform.Translation = new Vector3(-140, -3, -194);
+            //scale it to make it look different
+            clone.Transform.Scale = new Vector3(1.2f, 1.2f, 1.2f);
+            this.object3DManager.Add(clone);
+
+            //clone 2
+            clone = (ModelObject)roadObject.Clone();
+            clone.Transform.Translation = new Vector3(-140, -3, -284);
+            //scale it to make it look different
+            clone.Transform.Scale = new Vector3(1.2f, 1.2f, 1.2f);
+            this.object3DManager.Add(clone);
+
+            //clone 2
+            clone = (ModelObject)roadObject.Clone();
+            clone.Transform.Translation = new Vector3(-140, -3, -374);
+            //scale it to make it look different
+            clone.Transform.Scale = new Vector3(1.2f, 1.2f, 1.2f);
+            this.object3DManager.Add(clone);
+
+
+        }
         #endregion
 
         private void InitializeUI()
@@ -866,7 +936,7 @@ namespace GDApp
                 transform, Color.White,
                 SpriteEffects.None, 0f, this.textureDictionary["ThermoBar"]);
 
-            texture.AttachController(new ThermoController("tc", ControllerType.Timer, PlayStatusType.Play,this.eventDispatcher));
+            texture.AttachController(new ThermoController("tc", ControllerType.Timer, PlayStatusType.Play, this.eventDispatcher));
 
 
             this.hudManager.Add(texture);
@@ -1197,6 +1267,7 @@ namespace GDApp
             this.modelDictionary.Load("Assets/Models/Car_for_game");
             this.modelDictionary.Load("Assets/Models/ElectricPole");
             this.modelDictionary.Load("Assets/Models/snow_drift");
+            this.modelDictionary.Load("Assets/Models/road");
             this.modelDictionary.Load("Assets/Models/sphere");
             this.modelDictionary.Load("mapLayout", "Assets/Models/mapBlockingOut");
 
@@ -1216,7 +1287,7 @@ namespace GDApp
             this.modelDictionary.Load("Assets/Models/box");
             this.modelDictionary.Load("Assets/Models/box1");
             #endregion
-  
+
         }
 
         private void LoadTextures()
@@ -1273,7 +1344,7 @@ namespace GDApp
 
             this.textureDictionary.Load("Assets/Textures/UI/HUD/ThermoBar");
             this.textureDictionary.Load("Assets/Textures/UI/HUD/Thermometer");
-
+            this.textureDictionary.Load("Assets/Textures/Road/roadtxt");
             #endregion
         }
 
@@ -1388,7 +1459,7 @@ namespace GDApp
         {
             Viewport viewport = new Viewport(0, 0, graphics.PreferredBackBufferWidth, graphics.PreferredBackBufferHeight);
             float aspectRatio = (float)this.resolution.X / this.resolution.Y;
-            ProjectionParameters projectionParameters 
+            ProjectionParameters projectionParameters
                 = new ProjectionParameters(MathHelper.PiOver4, aspectRatio, 1, 4000);
 
             if (screenLayoutType == ScreenLayoutType.FirstPerson)
@@ -1405,7 +1476,7 @@ namespace GDApp
             }
             else if (screenLayoutType == ScreenLayoutType.Rail)
             {
-             //   AddRailCamera(viewport, projectionParameters);
+                //   AddRailCamera(viewport, projectionParameters);
             }
             else if (screenLayoutType == ScreenLayoutType.Track)
             {
@@ -1418,11 +1489,11 @@ namespace GDApp
 
             else if (screenLayoutType == ScreenLayoutType.Multi1x4) //splits the screen vertically x4
             {
-                viewport = new Viewport(0, 0, (int)(graphics.PreferredBackBufferWidth/4.0f), graphics.PreferredBackBufferHeight);
+                viewport = new Viewport(0, 0, (int)(graphics.PreferredBackBufferWidth / 4.0f), graphics.PreferredBackBufferHeight);
                 AddFirstPersonCamera(viewport, projectionParameters);
 
-             //   viewport.X += viewport.Width; //move the next camera over to start at x = 1/4 screen width
-             //   AddRailCamera(viewport, projectionParameters);
+                //   viewport.X += viewport.Width; //move the next camera over to start at x = 1/4 screen width
+                //   AddRailCamera(viewport, projectionParameters);
 
                 viewport.X += viewport.Width; //move the next camera over to start at x = 2/4 screen width
                 AddTrack3DCamera(viewport, projectionParameters);
@@ -1437,8 +1508,8 @@ namespace GDApp
                 AddFirstPersonCamera(viewport, projectionParameters);
 
                 //top right
-             //   viewport.X = viewport.Width; 
-             //   AddRailCamera(viewport, projectionParameters);
+                //   viewport.X = viewport.Width; 
+                //   AddRailCamera(viewport, projectionParameters);
 
                 ////bottom left
                 viewport.X = 0;
@@ -1500,9 +1571,9 @@ namespace GDApp
         private void AddTrack3DCamera(Viewport viewport, ProjectionParameters projectionParameters)
         {
             //doesnt matter where the camera starts because we reset immediately inside the Transform3DCurveController
-            Transform3D transform = Transform3D.Zero; 
+            Transform3D transform = Transform3D.Zero;
 
-            Camera3D camera3D = new Camera3D("curve camera 1", 
+            Camera3D camera3D = new Camera3D("curve camera 1",
                 ActorType.Camera, transform,
                 projectionParameters, viewport,
                 0f, StatusType.Update);
@@ -1574,7 +1645,7 @@ namespace GDApp
                 projectionParameters, viewport,
                 0f, StatusType.Update);
 
-            camera3D.AttachController(new FlightCameraController("flight camera controller 1", 
+            camera3D.AttachController(new FlightCameraController("flight camera controller 1",
                 ControllerType.Flight, AppData.CameraMoveKeys_Alt1, AppData.CameraMoveSpeed,
                 AppData.CameraStrafeSpeed, AppData.CameraRotationSpeed, this.inputManagerParameters, this.screenCentre));
 
@@ -1592,7 +1663,7 @@ namespace GDApp
 
             camera3D.AttachController(new FirstPersonCameraController(
                 "fpcc1", ControllerType.FirstPerson,
-                AppData.CameraMoveKeys, AppData.CameraMoveSpeed, 
+                AppData.CameraMoveKeys, AppData.CameraMoveSpeed,
                 AppData.CameraStrafeSpeed, AppData.CameraRotationSpeed, this.inputManagerParameters, this.screenCentre));
 
             this.cameraManager.Add(camera3D);
@@ -1613,7 +1684,7 @@ namespace GDApp
             ////since debug needs sprite batch then call here
             //InitializeDebug(true);
         }
- 
+
         /// <summary>
         /// UnloadContent will be called once per game and is the place to unload
         /// all content.
@@ -1641,21 +1712,44 @@ namespace GDApp
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed)
                 this.Exit();
 
+            DemoUseItem();
+
             DemoSetControllerPlayStatus();
 
             DemoSoundManager();
 
             DemoToggleMenu();
 
-           base.Update(gameTime);
+            base.Update(gameTime);
         }
+
+
+        private void DemoUseItem()
+        {
+            if (this.keyboardManager.IsFirstKeyPress(Keys.Enter))
+            {// wear coat using enter
+                DemoItem("coat");
+            }
+        }
+
+        private void DemoItem(string itemID)
+        {
+            //publish event and sending what the id of the item
+            object[] additionalParameters = { itemID };
+            if (itemID.Equals("coat"))
+                EventDispatcher.Publish(new EventData(EventActionType.OnItem, EventCategoryType.Item, additionalParameters));
+            else if (itemID.Equals("shovel"))
+            {/*TODO*/ }
+
+        }
+
 
         private void DemoToggleMenu()
         {
             if (this.keyboardManager.IsFirstKeyPress(AppData.MenuShowHideKey))
             {
                 this.menuManager.SetActiveList("pause menu");
-                if(this.menuManager.IsVisible)
+                if (this.menuManager.IsVisible)
                     EventDispatcher.Publish(new EventData(EventActionType.OnStart, EventCategoryType.Menu));
                 else
                     EventDispatcher.Publish(new EventData(EventActionType.OnPause, EventCategoryType.Menu));
