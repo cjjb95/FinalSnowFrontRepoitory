@@ -20,7 +20,7 @@ namespace GDLibrary
         //See Queue doc - https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.queue-1?view=netframework-4.7.1
         private static Queue<EventData> queue; //stores events in arrival sequence
         private static HashSet<EventData> uniqueSet; //prevents the same event from existing in the stack for a single update cycle (e.g. when playing a sound based on keyboard press)
-      
+
 
         //a delegate is basically a list - the list contains a pointer to a function - this function pointer comes from the object wishing to be notified when the event occurs.
         public delegate void AddActorEventHandler(EventData eventData);
@@ -36,6 +36,24 @@ namespace GDLibrary
         public delegate void DebugEventHandler(EventData eventData);
 
 
+        #region SnowFront Delegates
+        public delegate void SnowDriftCollisionHandler(EventData eventData);
+        public delegate void EnterSnowDriftHandler(EventData eventData);
+        public delegate void InsideSnowDriftHandler(EventData eventData);
+        public delegate void ExitSnowDriftHandler(EventData eventData);
+        public delegate void WinGameHandler(EventData eventData);
+        public delegate void LoseGameHandler(EventData eventData);
+        public delegate void EquipCoatHandler(EventData eventData);
+        public delegate void EquipShovelHandler(EventData eventData);
+        public delegate void ItemEquippedHandler(EventData eventData);
+        public delegate void UseItemEventHandler(EventData eventData);
+        public delegate void LowTemperatureEventHandler(EventData eventData);
+        #endregion
+
+
+
+
+
         //an event is either null (not yet happened) or non-null - when the event occurs the delegate reads through its list and calls all the listening functions
         public event AddActorEventHandler AddActorChanged;              //add a new drawn 2D or 3D object
         public event RemoveActorEventHandler RemoveActorChanged;        //remove a pickup, enemy
@@ -48,6 +66,22 @@ namespace GDLibrary
         public event OpacityEventHandler OpacityChanged;
         public event ObjectPickingEventHandler ObjectPickChanged;
         public event DebugEventHandler DebugChanged;
+
+        #region SnowFront Events
+        public event SnowDriftCollisionHandler SnowDriftCollided;
+        public event EnterSnowDriftHandler SnowDriftEntered;
+        public event InsideSnowDriftHandler SnowDriftIntersected;
+        public event ExitSnowDriftHandler SnowDriftExited;
+        public event WinGameHandler GameWon;
+        public event LoseGameHandler GameLost;
+        public event ItemEquippedHandler ItemEquipped;
+        public event UseItemEventHandler UseItem;
+        public event LowTemperatureEventHandler LowTemp;
+        #endregion
+
+
+
+
 
 
         public EventDispatcher(Game game, int initialSize)
@@ -68,7 +102,7 @@ namespace GDLibrary
 
         EventData eventData;
         public override void Update(GameTime gameTime)
-        { 
+        {
             for (int i = 0; i < queue.Count; i++)
             {
                 eventData = queue.Dequeue();
@@ -126,10 +160,94 @@ namespace GDLibrary
                     OnDebug(eventData);
                     break;
 
+                case EventCategoryType.EnterSnowDrift:
+                    OnEnterSnowDrift(eventData);
+                    break;
+
+                case EventCategoryType.CollideWithSnowDrift:
+                    OnCollideWithSnowDrift(eventData);
+                    break;
+
+                case EventCategoryType.ExitSnowDrift:
+                    OnExitSnowDrift(eventData);
+                    break;
+                case EventCategoryType.IntersectSnowDrift:
+                    OnIntersectSnowDrift(eventData);
+                    break;
+
+                case EventCategoryType.GameWon:
+                    OnGameWon(eventData);
+                    break;
+                case EventCategoryType.GameLost:
+                    OnGameLost(eventData);
+                    break;
+
+                case EventCategoryType.ItemEquipped:
+                    OnItemEquipped(eventData);
+                    break;
+
+                case EventCategoryType.Item:
+                    OnUseItem(eventData);
+                    break;
+
+                case EventCategoryType.LowTemp:
+                    OnLowTemp(eventData);
+                    break;
+
+
                 default:
                     break;
             }
         }
+
+        #region SnowFront Event broadcasting
+        private void OnItemEquipped(EventData eventData)
+        {
+            ItemEquipped?.Invoke(eventData);
+        }
+
+        private void OnGameLost(EventData eventData)
+        {
+            GameLost?.Invoke(eventData);
+        }
+
+        private void OnGameWon(EventData eventData)
+        {
+            GameWon?.Invoke(eventData);
+        }
+
+        private void OnIntersectSnowDrift(EventData eventData)
+        {
+            SnowDriftIntersected?.Invoke(eventData);
+        }
+
+        private void OnExitSnowDrift(EventData eventData)
+        {
+            SnowDriftExited?.Invoke(eventData);
+        }
+
+        private void OnCollideWithSnowDrift(EventData eventData)
+        {
+            SnowDriftCollided?.Invoke(eventData);
+        }
+
+        private void OnEnterSnowDrift(EventData eventData)
+        {
+            SnowDriftEntered?.Invoke(eventData);
+        }
+
+        private void OnLowTemp(EventData eventData)
+        {
+            LowTemp?.Invoke(eventData);
+        }
+
+        private void OnUseItem(EventData eventData)
+        {
+            UseItem?.Invoke(eventData);
+        }
+
+        #endregion
+
 
         //called when the PickingManager picks an object
         protected virtual void OnObjectPicking(EventData eventData)

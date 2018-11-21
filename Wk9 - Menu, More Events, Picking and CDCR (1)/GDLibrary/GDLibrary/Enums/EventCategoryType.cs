@@ -30,5 +30,16 @@ namespace GDLibrary
         Opacity,
         Debug,
         ObjectPicking,
+        Item,
+        ItemEquipped,
+        Obstacle,
+        EnterSnowDrift,
+        CollideWithSnowDrift,
+        ExitSnowDrift,
+        IntersectSnowDrift,
+        LowTemp,
+        GameWon,
+        GameLost,
+
     }
 }

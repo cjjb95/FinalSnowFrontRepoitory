@@ -15,19 +15,34 @@ namespace GDLibrary
         private float dropRate;
 
 
-        public ThermoController(string id, ControllerType controllerType, PlayStatusType playStatusType) : base(id, controllerType, playStatusType)
+        public ThermoController(string id, ControllerType controllerType, PlayStatusType playStatusType, EventDispatcher eventDispatcher) : base(id, controllerType, playStatusType)
         {
             this.isDead = false;
             this.temperature = 30f;
             this.dropRate = 1f;
+
+            eventDispatcher.UseItem += EventDispatcher_UseItem;
+        }
+
+        private void EventDispatcher_UseItem(EventData eventData)
+        {
+            //get the type of the item
+            if (eventData.AdditionalParameters[0].Equals("coat"))
+            {
+                if (this.dropRate == 1)
+                {
+                    this.dropRate = 0.5f;
+                }
+                else
+                {
+                    this.dropRate = 1;
+                }
+            }
         }
 
         public override void Update(GameTime gameTime, IActor actor)
         {
             UITextureObject parentActor = actor as UITextureObject;
-
-
-
 
             this.totalTime += gameTime.ElapsedGameTime.Milliseconds;
             this.count++;
@@ -48,7 +63,16 @@ namespace GDLibrary
                         parentActor.SourceRectangle.Y + (int)(this.dropRate * 10),
                         parentActor.SourceRectangle.Width,
                         parentActor.SourceRectangle.Height - (int)(this.dropRate * 10));// TO DO CALCULATION - MATCH THE BAR WITH TEMP - must be double
-                                                                                        // parentActor.SourceRectangleHeight -= (int)(this.dropRate * 20);
+                    if (temperature <= 10)
+                    {
+                        //publish low health event
+                        EventDispatcher.Publish(new EventData("critical sound", EventActionType.OnHealthSet, EventCategoryType.LowTemp));
+                    }
+                }
+                else
+                {
+                    //publish gameover event
+                    EventDispatcher.Publish(new EventData("Dead By Frosbite!", EventActionType.OnLose, EventCategoryType.GameLost));
                 }
             }
 

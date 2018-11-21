@@ -31,6 +31,9 @@ Content\Assets\Models\Animated\Squirrel\Red_Standing.xnb
 Content\Assets\Models\Animated\Squirrel\Red_Tailwhip.xnb
 Content\Assets\Models\mapBlockingOut.xnb
 Content\Assets\Models\fallenTree.xnb
+Content\Assets\Models\Car_for_game.xnb
+Content\Assets\Models\snow_drift.xnb
+Content\Assets\Models\ElectricPole.xnb
 Content\Assets\Debug\Textures\checkerboard.xnb
 Content\Assets\Textures\Foliage\Ground\foliage.xnb
 Content\Assets\Textures\Foliage\Ground\grass1.xnb
@@ -101,13 +104,10 @@ Content\Assets\Models\Animated\head_0.xnb
 Content\Assets\Models\Animated\jacket_0.xnb
 Content\Assets\Models\Animated\pants_0.xnb
 Content\Assets\Models\Animated\upBodyC_0.xnb
-Content\Assets\Models\Car_for_game.xnb
 Content\snowed-car-roof(1)_0.xnb
 Content\Cladding_Siding_White_0.xnb
 Content\Metal_Aluminum_Anodized_0.xnb
 Content\window-glass(1)_0.xnb
-Content\Assets\Models\snow_drift.xnb
-Content\Assets\Models\ElectricPole.xnb
 Content\Assets\Audio\Demo2DSound.xgs
 Content\Assets\Audio\WaveBank1.xwb
 Content\Assets\Audio\SoundBank1.xsb

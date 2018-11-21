@@ -15,3 +15,5 @@ C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9 - Menu, More Events, Picking an
 C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDAppContent\obj\x86\Debug\GDAppContent.contentproj.CoreCompileInputs.cache
 D:\School\Year 3\UDP\SnowFrontFinal\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDAppContent\obj\x86\Debug\GDAppContent.contentprojAssemblyReference.cache
 D:\School\Year 3\UDP\SnowFrontFinal\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDAppContent\obj\x86\Debug\GDAppContent.contentproj.CoreCompileInputs.cache
+D:\School\Year 3\UDP\SnowFrontProject\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDAppContent\obj\x86\Debug\GDAppContent.contentprojAssemblyReference.cache
+D:\School\Year 3\UDP\SnowFrontProject\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDAppContent\obj\x86\Debug\GDAppContent.contentproj.CoreCompileInputs.cache

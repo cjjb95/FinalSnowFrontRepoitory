@@ -866,7 +866,7 @@ namespace GDApp
                 transform, Color.White,
                 SpriteEffects.None, 0f, this.textureDictionary["ThermoBar"]);
 
-            texture.AttachController(new ThermoController("tc", ControllerType.Timer, PlayStatusType.Play));
+            texture.AttachController(new ThermoController("tc", ControllerType.Timer, PlayStatusType.Play,this.eventDispatcher));
 
 
             this.hudManager.Add(texture);
