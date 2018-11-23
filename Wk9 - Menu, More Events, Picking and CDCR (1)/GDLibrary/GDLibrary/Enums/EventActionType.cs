@@ -59,5 +59,6 @@ namespace GDLibrary
         OnNonePicked,
         OnSlip,
         OnItem,
+        OnIce,
     }
 }

@@ -25,7 +25,9 @@ namespace GDLibrary
         CollidableGround,
         CollidableProp,
         CollidablePickup,
-        CollidableArchitecture
+        CollidableArchitecture,
+        Ice,
+        Snow
     }
 }
 

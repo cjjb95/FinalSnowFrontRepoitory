@@ -1767,7 +1767,7 @@ namespace GDApp
                 //add event to play mouse click
                 object[] additionalParameters = { "boing" };
                 EventDispatcher.Publish(new EventData(EventActionType.OnPlay, EventCategoryType.Sound2D, additionalParameters));
-            }
+            } 
         }
 
         private void DemoSetControllerPlayStatus()

@@ -1464,6 +1464,15 @@
       <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\road_0.xnb</Output>
       <Time>2018-11-22T03:23:43.2432501+07:00</Time>
     </Item>
+    <Item>
+      <Source>Assets\Audio\Ouch.wav</Source>
+      <Name>Assets\Audio\Ouch</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\Assets\Audio\Ouch.xnb</Output>
+      <Time>2018-11-22T04:20:08.3297553+07:00</Time>
+    </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
       <ContentProjectGUID>{126295C8-DF19-41C6-8384-E55BDF49737E}</ContentProjectGUID>
