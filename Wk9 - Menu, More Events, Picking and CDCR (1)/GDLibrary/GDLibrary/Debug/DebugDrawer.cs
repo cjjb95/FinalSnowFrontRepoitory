@@ -15,6 +15,7 @@ namespace GDLibrary
         private int totalTime, count;
         private string strInfo = "Drive - Numpad[8,5,4,6,1,3], O/P - pause/play controller on torus";
         private Vector2 positionOffset = new Vector2(0, 20);
+        private bool onIce;
         #endregion
 
         public DebugDrawer(Game game, CameraManager cameraManager, 
@@ -27,6 +28,16 @@ namespace GDLibrary
             this.spriteFont = spriteFont;
             this.position = position;
             this.color = color;
+            this.onIce = false;
+            eventDispatcher.ObstacleCollision += EventDispatcher_ObstacleCollision;
+        }
+
+        private void EventDispatcher_ObstacleCollision(EventData eventData)
+        {
+            if (eventData.EventType == EventActionType.OnIce)
+            {
+                this.onIce = (bool)eventData.AdditionalParameters[0];
+            }
         }
 
         protected override void ApplyUpdate(GameTime gameTime)
@@ -58,6 +69,7 @@ namespace GDLibrary
                 this.spriteBatch.DrawString(this.spriteFont, activeCamera.GetDescription(), this.position + this.positionOffset, this.color);
                 //str info
                 this.spriteBatch.DrawString(this.spriteFont, this.strInfo, this.position + 2 * this.positionOffset, this.color);
+                this.spriteBatch.DrawString(this.spriteFont, "On Ice: " + this.onIce, this.position + 3 * this.positionOffset, this.color);
                 this.spriteBatch.End();
             }
 
