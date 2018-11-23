@@ -42,7 +42,7 @@ namespace GDApp
 
             if (thingHit.ActorType == ActorType.Snow)
             {
-                int x = 0;
+                int x = 0;//put break point to now if player inside snow
             }
 
             return true;

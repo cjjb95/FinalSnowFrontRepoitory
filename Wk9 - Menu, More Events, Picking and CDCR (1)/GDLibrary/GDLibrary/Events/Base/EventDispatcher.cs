@@ -48,6 +48,7 @@ namespace GDLibrary
         public delegate void ItemEquippedHandler(EventData eventData);
         public delegate void UseItemEventHandler(EventData eventData);
         public delegate void LowTemperatureEventHandler(EventData eventData);
+        public delegate void ObstacleCollisionHandler(EventData eventData);
         #endregion
 
 
@@ -77,6 +78,7 @@ namespace GDLibrary
         public event ItemEquippedHandler ItemEquipped;
         public event UseItemEventHandler UseItem;
         public event LowTemperatureEventHandler LowTemp;
+        public event ObstacleCollisionHandler ObstacleCollision;
         #endregion
 
 
@@ -193,11 +195,18 @@ namespace GDLibrary
                 case EventCategoryType.LowTemp:
                     OnLowTemp(eventData);
                     break;
-
+                case EventCategoryType.Obstacle:
+                    OnObstacleCollision(eventData);
+                    break;
 
                 default:
                     break;
             }
+        }
+
+        private void OnObstacleCollision(EventData eventData)
+        {
+            ObstacleCollision?.Invoke(eventData);
         }
 
         #region SnowFront Event broadcasting

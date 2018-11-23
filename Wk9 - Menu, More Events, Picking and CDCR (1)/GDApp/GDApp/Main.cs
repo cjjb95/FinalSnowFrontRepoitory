@@ -243,6 +243,7 @@ namespace GDApp
         private PhysicsDebugDrawer physicsDebugDrawer;
         private PickingManager pickingManager;
         private HUDManager hudManager;
+        private HeroPlayerObject player;
         #endregion
 
         #region Constructors
@@ -343,7 +344,7 @@ namespace GDApp
             #endregion
 
             #region Cameras
-            InitializeCameras(ScreenLayoutType.FirstPerson);
+            InitializeCameras(ScreenLayoutType.ThirdPerson);
             #endregion
 
             #region Menu & UI
@@ -377,8 +378,10 @@ namespace GDApp
 
             if (gameLevel == 1)
             {
+                InitializePlayer();
                 //demo high vertex count trianglemesh
                 InitializeStaticCollidableTriangleMeshObjects();
+                InitializeIce();
                 //demo medium and low vertex count trianglemesh
                 //InitializeStaticCollidableMediumPolyTriangleMeshObjects();
                 //InitializeStaticCollidableLowPolyTriangleMeshObjects();
@@ -394,6 +397,41 @@ namespace GDApp
             {
                 //add different things for your next level
             }
+        }
+
+        private void InitializeIce()
+        {
+            Transform3D transform3D = new Transform3D(new Vector3(-250, -3, -14),
+                new Vector3(0, 0, 0), 1.2f * Vector3.One, Vector3.UnitX, Vector3.UnitY);
+
+            BasicEffectParameters effectParameters = this.effectDictionary[AppData.LitModelsEffectID].Clone() as BasicEffectParameters;
+            effectParameters.Texture = this.textureDictionary["iceSheet"];
+
+            CollidableObject collidableObject = new TriangleMeshObject("ice", ActorType.Ice, transform3D,
+                            effectParameters, this.modelDictionary["road"], new MaterialProperties(0.2f, 0.8f, 0.7f));
+            collidableObject.Enable(true, 1);
+
+            //ModelObject roadObject = new ModelObject("iceO", ActorType.Decorator, transform3D, effectParameters, this.modelDictionary["road"]);
+
+            this.object3DManager.Add(collidableObject);
+        }
+
+        private void InitializePlayer()
+        {
+            Transform3D transform = new Transform3D(new Vector3(0, 10, 100), Vector3.Zero, new Vector3(2, 7, 20), Vector3.UnitX, Vector3.UnitY);
+
+            BasicEffectParameters effectParameters = this.effectDictionary[AppData.UnlitModelsEffectID].Clone() as BasicEffectParameters;
+            effectParameters.Texture = this.textureDictionary["checkerboard"];
+
+            Model model = this.modelDictionary["box"];
+
+
+            //CollidableObject test = new CollidableObject("aa", ActorType.Player, transform, effectParameters, model);
+            this.player = new HeroPlayerObject("hpo1", ActorType.Player, transform,
+            effectParameters, model, AppData.CameraMoveKeys, 4, 20, 1, 1, 10, new Vector3(0, 0, -3.5f), this.keyboardManager);
+            this.player.Enable(false, 1);
+
+            this.object3DManager.Add(this.player);
         }
 
         //skybox is a non-collidable series of ModelObjects with no lighting
@@ -538,9 +576,14 @@ namespace GDApp
 
 
             //creating the collidable models
-            CollidableObject SnowDrift = new TriangleMeshObject("snowDrift1", ActorType.CollidableProp, snowDrift1, effectParameters,
-           this.modelDictionary["snow_drift"], new MaterialProperties(0.2f, 0.8f, 0.7f));
-            SnowDrift.Enable(true, 1);
+
+            SnowDriftZone sdz = new SnowDriftZone("sdz", ActorType.Snow, snowDrift1, effectParameters, this.modelDictionary["snow_drift"]);
+            sdz.AddPrimitive(new Sphere(sdz.Transform.Translation, 2), new MaterialProperties(0.2f, 0.8f, 0.7f));
+            sdz.Enable(true, 1);
+
+           // CollidableObject SnowDrift = new TriangleMeshObject("snowDrift1", ActorType.CollidableProp, snowDrift1, effectParameters,
+           //this.modelDictionary["snow_drift"], new MaterialProperties(0.2f, 0.8f, 0.7f));
+           // SnowDrift.Enable(true, 1);
 
             CollidableObject SnowDrift2 = new TriangleMeshObject("snowDrift2", ActorType.CollidableProp, snowDrift2, effectParameters,
             this.modelDictionary["snow_drift"], new MaterialProperties(0.2f, 0.8f, 0.7f));
@@ -567,7 +610,7 @@ namespace GDApp
             SnowDrift7.Enable(true, 1);
 
 
-            this.object3DManager.Add(SnowDrift);
+            this.object3DManager.Add(sdz);
             this.object3DManager.Add(SnowDrift2);
             this.object3DManager.Add(SnowDrift3);
             this.object3DManager.Add(SnowDrift4);
@@ -1472,7 +1515,7 @@ namespace GDApp
             }
             else if (screenLayoutType == ScreenLayoutType.ThirdPerson)
             {
-                //AddThirdPersonCamera(viewport, projectionParameters);
+                AddThirdPersonCamera(viewport, projectionParameters);
             }
             else if (screenLayoutType == ScreenLayoutType.Flight)
             {
@@ -1605,25 +1648,25 @@ namespace GDApp
 
         //}
 
-        //private void AddThirdPersonCamera(Viewport viewport, ProjectionParameters projectionParameters)
-        //{
-        //    Transform3D transform = Transform3D.Zero;
+        private void AddThirdPersonCamera(Viewport viewport, ProjectionParameters projectionParameters)
+        {
+            Transform3D transform = Transform3D.Zero;
 
-        //    Camera3D camera3D = new Camera3D("third person camera 1",
-        //        ActorType.Camera, transform,
-        //        ProjectionParameters.StandardMediumFiveThree, viewport,
-        //        0f, StatusType.Update);
+            Camera3D camera3D = new Camera3D("third person camera 1",
+                ActorType.Camera, transform,
+                ProjectionParameters.StandardMediumFiveThree, viewport,
+                0f, StatusType.Update);
 
-        //    camera3D.AttachController(new ThirdPersonController("tpcc1", ControllerType.ThirdPerson,
-        //        this.drivableModelObject, AppData.CameraThirdPersonDistance,
-        //        AppData.CameraThirdPersonScrollSpeedDistanceMultiplier,
-        //        AppData.CameraThirdPersonElevationAngleInDegrees,
-        //        AppData.CameraThirdPersonScrollSpeedElevationMultiplier,
-        //        LerpSpeed.Slow, LerpSpeed.VerySlow, this.inputManagerParameters));
+            camera3D.AttachController(new ThirdPersonController("tpcc1", ControllerType.ThirdPerson,
+                this.player, AppData.CameraThirdPersonDistance,
+                AppData.CameraThirdPersonScrollSpeedDistanceMultiplier,
+                AppData.CameraThirdPersonElevationAngleInDegrees,
+                AppData.CameraThirdPersonScrollSpeedElevationMultiplier,
+                LerpSpeed.Slow, LerpSpeed.VerySlow, this.inputManagerParameters));
 
-        //    this.cameraManager.Add(camera3D);
+            this.cameraManager.Add(camera3D);
 
-        //}
+        }
 
         private void AddSecurityCamera(Viewport viewport, ProjectionParameters projectionParameters)
         {
