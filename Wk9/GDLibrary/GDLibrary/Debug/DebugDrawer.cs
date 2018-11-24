@@ -1,4 +1,5 @@
-﻿using Microsoft.Xna.Framework;
+﻿using System;
+using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 
 namespace GDLibrary
@@ -16,6 +17,7 @@ namespace GDLibrary
         private string strInfo = "Drive - Numpad[8,5,4,6,1,3], O/P - pause/play controller on torus";
         private Vector2 positionOffset = new Vector2(0, 20);
         private bool onIce;
+        private bool onSnowDrift;
         #endregion
 
         public DebugDrawer(Game game, CameraManager cameraManager, 
@@ -29,7 +31,17 @@ namespace GDLibrary
             this.position = position;
             this.color = color;
             this.onIce = false;
+            this.onSnowDrift = false;
             eventDispatcher.ObstacleCollision += EventDispatcher_ObstacleCollision;
+            eventDispatcher.SnowDriftIntersected += EventDispatcher_SnowDriftIntersection;
+        }
+
+        private void EventDispatcher_SnowDriftIntersection(EventData eventData)
+        {
+            if(eventData.EventType==EventActionType.OnSnowDrift)
+            {
+                this.onSnowDrift = true;
+            }
         }
 
         private void EventDispatcher_ObstacleCollision(EventData eventData)
@@ -51,8 +63,12 @@ namespace GDLibrary
                 this.totalTime = 0;
                 this.count = 0;
             }
+            if (this.totalTime >=3000&&this.onSnowDrift) //1 second
+            {
+                this.onSnowDrift = false;
+            }
 
-            base.ApplyUpdate(gameTime);
+                base.ApplyUpdate(gameTime);
         }
 
         protected override void ApplyDraw(GameTime gameTime)
@@ -63,10 +79,11 @@ namespace GDLibrary
                 //set the viewport dimensions to the size defined by the active camera
                 Game.GraphicsDevice.Viewport = activeCamera.Viewport;
                 this.spriteBatch.Begin(SpriteSortMode.BackToFront, BlendState.AlphaBlend, null, DepthStencilState.Default, RasterizerState.CullCounterClockwise);
-                //frame rate
-                this.spriteBatch.DrawString(this.spriteFont, "FPS: " + this.fpsRate, this.position, this.color);
-                //camera info
-                this.spriteBatch.DrawString(this.spriteFont, activeCamera.GetDescription(), this.position + this.positionOffset, this.color);
+
+                //Inside snow drift
+                if(onSnowDrift)
+                    this.spriteBatch.DrawString(this.spriteFont, "INSIDE SNOW: ", this.position + this.positionOffset, this.color);
+                
                 //str info
                 this.spriteBatch.DrawString(this.spriteFont, this.strInfo, this.position + 2 * this.positionOffset, this.color);
                 this.spriteBatch.DrawString(this.spriteFont, "On Ice: " + this.onIce, this.position + 3 * this.positionOffset, this.color);

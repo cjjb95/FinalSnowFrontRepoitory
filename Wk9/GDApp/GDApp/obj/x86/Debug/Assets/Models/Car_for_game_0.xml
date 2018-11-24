@@ -3,7 +3,7 @@
   <Asset Type="Graphics:MeshContent">
     <Name>body#1_005</Name>
     <Identity>
-      <SourceFilename>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDAppContent\Assets\Models\Car_for_game.FBX</SourceFilename>
+      <SourceFilename>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDAppContent\Assets\Models\Car_for_game.FBX</SourceFilename>
       <SourceTool>FbxImporter</SourceTool>
     </Identity>
     <OpaqueData>
@@ -85,7 +85,7 @@
     <Resource ID="#Resource1" Type="Graphics:BasicMaterialContent">
       <Name>Material #1236</Name>
       <Identity>
-        <SourceFilename>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDAppContent\Assets\Models\Car_for_game.FBX</SourceFilename>
+        <SourceFilename>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDAppContent\Assets\Models\Car_for_game.FBX</SourceFilename>
         <SourceTool>FbxImporter</SourceTool>
       </Identity>
       <OpaqueData>
@@ -107,7 +107,7 @@
     <Resource ID="#Resource2" Type="Graphics:BasicMaterialContent">
       <Name>snowed_roof2</Name>
       <Identity>
-        <SourceFilename>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDAppContent\Assets\Models\Car_for_game.FBX</SourceFilename>
+        <SourceFilename>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDAppContent\Assets\Models\Car_for_game.FBX</SourceFilename>
         <SourceTool>FbxImporter</SourceTool>
       </Identity>
       <OpaqueData>
@@ -121,7 +121,7 @@
     <Resource ID="#Resource3" Type="Graphics:BasicMaterialContent">
       <Name>Material #1226</Name>
       <Identity>
-        <SourceFilename>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDAppContent\Assets\Models\Car_for_game.FBX</SourceFilename>
+        <SourceFilename>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDAppContent\Assets\Models\Car_for_game.FBX</SourceFilename>
         <SourceTool>FbxImporter</SourceTool>
       </Identity>
       <OpaqueData>
@@ -143,7 +143,7 @@
     <Resource ID="#Resource4" Type="Graphics:BasicMaterialContent">
       <Name>Material #1225</Name>
       <Identity>
-        <SourceFilename>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDAppContent\Assets\Models\Car_for_game.FBX</SourceFilename>
+        <SourceFilename>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDAppContent\Assets\Models\Car_for_game.FBX</SourceFilename>
         <SourceTool>FbxImporter</SourceTool>
       </Identity>
       <OpaqueData>
@@ -165,7 +165,7 @@
     <Resource ID="#Resource5" Type="Graphics:BasicMaterialContent">
       <Name>Material #1224</Name>
       <Identity>
-        <SourceFilename>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDAppContent\Assets\Models\Car_for_game.FBX</SourceFilename>
+        <SourceFilename>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDAppContent\Assets\Models\Car_for_game.FBX</SourceFilename>
         <SourceTool>FbxImporter</SourceTool>
       </Identity>
       <OpaqueData>
@@ -186,9 +186,9 @@
     </Resource>
   </Resources>
   <ExternalReferences>
-    <ExternalReference ID="#External1" TargetType="Graphics:TextureContent">..\..\FBX\DDB63C6E\Car_for_game.fbm\snowed-car-roof(1).jpg</ExternalReference>
-    <ExternalReference ID="#External2" TargetType="Graphics:TextureContent">..\..\FBX\DDB63C6E\Car_for_game.fbm\Cladding_Siding_White.jpg</ExternalReference>
-    <ExternalReference ID="#External3" TargetType="Graphics:TextureContent">..\..\FBX\DDB63C6E\Car_for_game.fbm\Metal_Aluminum_Anodized.jpg</ExternalReference>
-    <ExternalReference ID="#External4" TargetType="Graphics:TextureContent">..\..\FBX\DDB63C6E\Car_for_game.fbm\window-glass(1).jpg</ExternalReference>
+    <ExternalReference ID="#External1" TargetType="Graphics:TextureContent">..\..\FBX\AA4921BA\Car_for_game.fbm\snowed-car-roof(1).jpg</ExternalReference>
+    <ExternalReference ID="#External2" TargetType="Graphics:TextureContent">..\..\FBX\AA4921BA\Car_for_game.fbm\Cladding_Siding_White.jpg</ExternalReference>
+    <ExternalReference ID="#External3" TargetType="Graphics:TextureContent">..\..\FBX\AA4921BA\Car_for_game.fbm\Metal_Aluminum_Anodized.jpg</ExternalReference>
+    <ExternalReference ID="#External4" TargetType="Graphics:TextureContent">..\..\FBX\AA4921BA\Car_for_game.fbm\window-glass(1).jpg</ExternalReference>
   </ExternalReferences>
 </XnaContent>

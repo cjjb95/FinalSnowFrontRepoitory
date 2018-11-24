@@ -60,5 +60,6 @@ namespace GDLibrary
         OnSlip,
         OnItem,
         OnIce,
+        OnSnowDrift,
     }
 }

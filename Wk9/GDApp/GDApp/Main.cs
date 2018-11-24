@@ -583,52 +583,72 @@ namespace GDApp
             effectParameters.Texture = this.textureDictionary["ml"];
             effectParameters.DiffuseColor = Color.White;
 
+            Vector3 rot = new Vector3(0, 180, 0);
+            Vector3 scale = new Vector3(0.4f, 0.16f, 0.4f);
             //Creating the transforms  for each of the models
-            Transform3D snowDrift1 = new Transform3D(new Vector3(-660, 5, -280), new Vector3(0, 0, 0), new Vector3(0.4f, 0.4f, 0.4f), Vector3.UnitX, Vector3.UnitY);
-            Transform3D snowDrift2 = new Transform3D(new Vector3(-660, 5, -350), new Vector3(0, 180, 0), new Vector3(0.4f, 0.4f, 0.4f), Vector3.UnitX, Vector3.UnitY);
-            Transform3D snowDrift3 = new Transform3D(new Vector3(-140, 5, -250), new Vector3(0, 180, 0), new Vector3(0.4f, 0.4f, 0.4f), Vector3.UnitX, Vector3.UnitY);
-            Transform3D snowDrift4 = new Transform3D(new Vector3(60, 5, -220), new Vector3(0, 180, 0), new Vector3(0.4f, 0.4f, 0.4f), Vector3.UnitX, Vector3.UnitY);
-            Transform3D snowDrift5 = new Transform3D(new Vector3(120, 5, -540), new Vector3(0, 90, 0), new Vector3(0.2f, 0.2f, 0.2f), Vector3.UnitX, Vector3.UnitY);
-            Transform3D snowDrift6 = new Transform3D(new Vector3(560, 5, -150), new Vector3(0, 180, 0), new Vector3(0.2f, 0.2f, 0.2f), Vector3.UnitX, Vector3.UnitY);
-            Transform3D snowDrift7 = new Transform3D(new Vector3(620, 5, -150), new Vector3(0, 180, 0), new Vector3(0.3f, 0.3f, 0.3f), Vector3.UnitX, Vector3.UnitY);
+            Transform3D transform1 = new Transform3D(new Vector3(-660, 5, -280), rot, scale, Vector3.UnitX, Vector3.UnitY);
+            Transform3D transform2 = new Transform3D(new Vector3(-660, 5, -350), rot, scale, Vector3.UnitX, Vector3.UnitY);
+            Transform3D transform3 = new Transform3D(new Vector3(-140, 5, -250), rot, scale, Vector3.UnitX, Vector3.UnitY);
+            Transform3D transform4 = new Transform3D(new Vector3(60, 5, -220), rot, scale, Vector3.UnitX, Vector3.UnitY);
+            Transform3D transform5 = new Transform3D(new Vector3(120, 5, -540), rot, scale, Vector3.UnitX, Vector3.UnitY);
+            Transform3D transform6 = new Transform3D(new Vector3(560, 5, -150), rot, scale, Vector3.UnitX, Vector3.UnitY);
+            Transform3D transform7 = new Transform3D(new Vector3(620, 5, -150),rot, scale, Vector3.UnitX, Vector3.UnitY);
 
 
             //creating the collidable models
 
-            SnowDriftZone sdz = new SnowDriftZone("sdz", ActorType.Snow, snowDrift1, effectParameters, this.modelDictionary["snow_drift"]);
+            SnowDriftZone sdz = new SnowDriftZone("sdz",
+                ActorType.Snow, 
+                transform1, 
+                effectParameters,
+                this.modelDictionary["snow_drift"],
+                this.eventDispatcher);
+
             sdz.AddPrimitive(new Sphere(sdz.Transform.Translation, 2), new MaterialProperties(0.2f, 0.8f, 0.7f));
             sdz.Enable(true, 1);
 
-           // CollidableObject SnowDrift = new TriangleMeshObject("snowDrift1", ActorType.CollidableProp, snowDrift1, effectParameters,
-           //this.modelDictionary["snow_drift"], new MaterialProperties(0.2f, 0.8f, 0.7f));
-           // SnowDrift.Enable(true, 1);
+            this.object3DManager.Add(sdz);
 
-            CollidableObject SnowDrift2 = new TriangleMeshObject("snowDrift2", ActorType.CollidableProp, snowDrift2, effectParameters,
+            sdz = new SnowDriftZone("sdz2",
+                ActorType.Snow,
+                transform2,
+                effectParameters,
+                this.modelDictionary["snow_drift"],
+                this.eventDispatcher);
+
+            //sdz.AddPrimitive(new Sphere(sdz.Transform.Translation, 2), new MaterialProperties(0.2f, 0.8f, 0.7f));
+            //sdz.Enable(true, 1);
+
+
+            // CollidableObject SnowDrift = new TriangleMeshObject("snowDrift1", ActorType.CollidableProp, snowDrift1, effectParameters,
+            //this.modelDictionary["snow_drift"], new MaterialProperties(0.2f, 0.8f, 0.7f));
+            // SnowDrift.Enable(true, 1);
+
+            CollidableObject SnowDrift2 = new TriangleMeshObject("snowDrift2", ActorType.CollidableProp, transform2, effectParameters,
             this.modelDictionary["snow_drift"], new MaterialProperties(0.2f, 0.8f, 0.7f));
             SnowDrift2.Enable(true, 1);
 
-            CollidableObject SnowDrift3 = new TriangleMeshObject("snowDrift3", ActorType.CollidableProp, snowDrift3, effectParameters,
+            CollidableObject SnowDrift3 = new TriangleMeshObject("snowDrift3", ActorType.CollidableProp, transform3, effectParameters,
             this.modelDictionary["snow_drift"], new MaterialProperties(0.2f, 0.8f, 0.7f));
             SnowDrift3.Enable(true, 1);
 
-            CollidableObject SnowDrift4 = new TriangleMeshObject("snowDrift4", ActorType.CollidableProp, snowDrift4, effectParameters,
+            CollidableObject SnowDrift4 = new TriangleMeshObject("snowDrift4", ActorType.CollidableProp, transform4, effectParameters,
             this.modelDictionary["snow_drift"], new MaterialProperties(0.2f, 0.8f, 0.7f));
             SnowDrift4.Enable(true, 1);
 
-            CollidableObject SnowDrift5 = new TriangleMeshObject("snowDrift5", ActorType.CollidableProp, snowDrift5, effectParameters,
+            CollidableObject SnowDrift5 = new TriangleMeshObject("snowDrift5", ActorType.CollidableProp, transform5, effectParameters,
             this.modelDictionary["snow_drift"], new MaterialProperties(0.2f, 0.8f, 0.7f));
             SnowDrift5.Enable(true, 1);
 
-            CollidableObject SnowDrift6 = new TriangleMeshObject("snowDrift6", ActorType.CollidableProp, snowDrift6, effectParameters,
+            CollidableObject SnowDrift6 = new TriangleMeshObject("snowDrift6", ActorType.CollidableProp, transform6, effectParameters,
             this.modelDictionary["snow_drift"], new MaterialProperties(0.2f, 0.8f, 0.7f));
             SnowDrift6.Enable(true, 1);
 
-            CollidableObject SnowDrift7 = new TriangleMeshObject("snowDrift7", ActorType.CollidableProp, snowDrift7, effectParameters,
+            CollidableObject SnowDrift7 = new TriangleMeshObject("snowDrift7", ActorType.CollidableProp, transform7, effectParameters,
             this.modelDictionary["snow_drift"], new MaterialProperties(0.2f, 0.8f, 0.7f));
             SnowDrift7.Enable(true, 1);
 
 
-            this.object3DManager.Add(sdz);
             this.object3DManager.Add(SnowDrift2);
             this.object3DManager.Add(SnowDrift3);
             this.object3DManager.Add(SnowDrift4);
@@ -908,8 +928,8 @@ namespace GDApp
 
         private void InitializeBuildings()
         {
-            Transform3D transform3D = new Transform3D(new Vector3(-100, 0, 0),
-                new Vector3(0, 90, 0), 0.4f * Vector3.One, Vector3.UnitX, Vector3.UnitY);
+            Transform3D transform3D = new Transform3D(new Vector3(-100, 10, -400),
+                new Vector3(0, 90, 0), 0.99f * Vector3.One, Vector3.UnitX, Vector3.UnitY);
 
             BasicEffectParameters effectParameters = this.effectDictionary[AppData.LitModelsEffectID].Clone() as BasicEffectParameters;
             effectParameters.Texture = this.textureDictionary["house-low-texture"];

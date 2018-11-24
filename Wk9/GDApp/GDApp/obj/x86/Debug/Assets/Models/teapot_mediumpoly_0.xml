@@ -3,7 +3,7 @@
   <Asset Type="Graphics:NodeContent">
     <Name>RootNode</Name>
     <Identity>
-      <SourceFilename>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDAppContent\Assets\Models\teapot_mediumpoly.FBX</SourceFilename>
+      <SourceFilename>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDAppContent\Assets\Models\teapot_mediumpoly.FBX</SourceFilename>
       <SourceTool>FbxImporter</SourceTool>
     </Identity>
     <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>

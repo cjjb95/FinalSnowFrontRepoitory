@@ -499,3 +499,23 @@ E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More
 E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDLibrary\obj\x86\Debug\GDLibrary.csproj.CopyComplete
 E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDLibrary\obj\x86\Debug\GDLibrary.dll
 E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDLibrary\obj\x86\Debug\GDLibrary.pdb
+E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDLibrary\bin\x86\Debug\GDLibrary.dll
+E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDLibrary\bin\x86\Debug\GDLibrary.pdb
+E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDLibrary\bin\x86\Debug\JigLibX.dll
+E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDLibrary\bin\x86\Debug\Microsoft.Xna.Framework.dll
+E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDLibrary\bin\x86\Debug\Microsoft.Xna.Framework.Game.dll
+E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDLibrary\bin\x86\Debug\Microsoft.Xna.Framework.GamerServices.dll
+E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDLibrary\bin\x86\Debug\Microsoft.Xna.Framework.Graphics.dll
+E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDLibrary\bin\x86\Debug\Microsoft.Xna.Framework.Xact.dll
+E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDLibrary\bin\x86\Debug\Microsoft.Xna.Framework.Input.Touch.dll
+E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDLibrary\bin\x86\Debug\Microsoft.Xna.Framework.xml
+E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDLibrary\bin\x86\Debug\Microsoft.Xna.Framework.Game.xml
+E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDLibrary\bin\x86\Debug\Microsoft.Xna.Framework.Graphics.xml
+E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDLibrary\bin\x86\Debug\Microsoft.Xna.Framework.GamerServices.xml
+E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDLibrary\bin\x86\Debug\Microsoft.Xna.Framework.Input.Touch.xml
+E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDLibrary\obj\x86\Debug\GDLibrary.csprojAssemblyReference.cache
+E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDLibrary\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDLibrary\obj\x86\Debug\GDLibrary.csproj.CoreCompileInputs.cache
+E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDLibrary\obj\x86\Debug\GDLibrary.csproj.CopyComplete
+E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDLibrary\obj\x86\Debug\GDLibrary.dll
+E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDLibrary\obj\x86\Debug\GDLibrary.pdb

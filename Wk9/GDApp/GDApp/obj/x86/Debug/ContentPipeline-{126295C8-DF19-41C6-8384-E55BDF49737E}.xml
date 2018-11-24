@@ -7,7 +7,7 @@
       <Importer>FontDescriptionImporter</Importer>
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\Assets\Debug\Fonts\debugFont.xnb</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Debug\Fonts\debugFont.xnb</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
     </Item>
     <Item>
@@ -16,7 +16,7 @@
       <Importer>FontDescriptionImporter</Importer>
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\Assets\Fonts\hudFont.xnb</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Fonts\hudFont.xnb</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
     </Item>
     <Item>
@@ -25,7 +25,7 @@
       <Importer>FontDescriptionImporter</Importer>
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\Assets\Fonts\menu.xnb</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Fonts\menu.xnb</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
     </Item>
     <Item>
@@ -34,11 +34,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\box.xnb</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\box.xnb</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
       <Dependency>
-        <Key>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\obj\x86\Debug\Assets\Models\box_0.xml</Key>
-        <Value>2018-11-23T22:15:03.3702653+00:00</Value>
+        <Key>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\box_0.xml</Key>
+        <Value>2018-11-24T12:06:08.8052759+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -47,11 +47,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\box2.xnb</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\box2.xnb</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
       <Dependency>
-        <Key>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\obj\x86\Debug\Assets\Models\box2_0.xml</Key>
-        <Value>2018-11-23T22:15:03.4480872+00:00</Value>
+        <Key>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\box2_0.xml</Key>
+        <Value>2018-11-24T12:06:08.8913668+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -60,11 +60,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\cylinder.xnb</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\cylinder.xnb</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
       <Dependency>
-        <Key>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\obj\x86\Debug\Assets\Models\cylinder_0.xml</Key>
-        <Value>2018-11-23T22:15:03.4845556+00:00</Value>
+        <Key>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\cylinder_0.xml</Key>
+        <Value>2018-11-24T12:06:08.9263056+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -73,11 +73,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\dome.xnb</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\dome.xnb</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
       <Dependency>
-        <Key>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\obj\x86\Debug\Assets\Models\dome_0.xml</Key>
-        <Value>2018-11-23T22:15:03.5614074+00:00</Value>
+        <Key>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\dome_0.xml</Key>
+        <Value>2018-11-24T12:06:08.998144+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -86,11 +86,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\hedra.xnb</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\hedra.xnb</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
       <Dependency>
-        <Key>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\obj\x86\Debug\Assets\Models\hedra_0.xml</Key>
-        <Value>2018-11-23T22:15:03.5984196+00:00</Value>
+        <Key>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\hedra_0.xml</Key>
+        <Value>2018-11-24T12:06:09.03527+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -99,11 +99,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\octahedron.xnb</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\octahedron.xnb</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
       <Dependency>
-        <Key>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\obj\x86\Debug\Assets\Models\octahedron_0.xml</Key>
-        <Value>2018-11-23T22:15:03.6363749+00:00</Value>
+        <Key>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\octahedron_0.xml</Key>
+        <Value>2018-11-24T12:06:09.0711741+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -112,11 +112,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\prism.xnb</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\prism.xnb</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
       <Dependency>
-        <Key>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\obj\x86\Debug\Assets\Models\prism_0.xml</Key>
-        <Value>2018-11-23T22:15:03.6732757+00:00</Value>
+        <Key>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\prism_0.xml</Key>
+        <Value>2018-11-24T12:06:09.1050831+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -125,11 +125,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\sphere.xnb</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\sphere.xnb</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
       <Dependency>
-        <Key>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\obj\x86\Debug\Assets\Models\sphere_0.xml</Key>
-        <Value>2018-11-23T22:15:03.7212323+00:00</Value>
+        <Key>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\sphere_0.xml</Key>
+        <Value>2018-11-24T12:06:09.147982+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -138,11 +138,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\spindle.xnb</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\spindle.xnb</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
       <Dependency>
-        <Key>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\obj\x86\Debug\Assets\Models\spindle_0.xml</Key>
-        <Value>2018-11-23T22:15:03.7611237+00:00</Value>
+        <Key>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\spindle_0.xml</Key>
+        <Value>2018-11-24T12:06:09.18487+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -151,11 +151,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\torus.xnb</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\torus.xnb</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
       <Dependency>
-        <Key>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\obj\x86\Debug\Assets\Models\torus_0.xml</Key>
-        <Value>2018-11-23T22:15:03.8018221+00:00</Value>
+        <Key>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\torus_0.xml</Key>
+        <Value>2018-11-24T12:06:09.2277553+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -164,11 +164,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\torusknot.xnb</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\torusknot.xnb</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
       <Dependency>
-        <Key>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\obj\x86\Debug\Assets\Models\torusknot_0.xml</Key>
-        <Value>2018-11-23T22:15:03.8675964+00:00</Value>
+        <Key>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\torusknot_0.xml</Key>
+        <Value>2018-11-24T12:06:09.2937513+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -177,11 +177,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\plane.xnb</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\plane.xnb</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
       <Dependency>
-        <Key>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\obj\x86\Debug\Assets\Models\plane_0.xml</Key>
-        <Value>2018-11-23T22:15:03.9040394+00:00</Value>
+        <Key>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\plane_0.xml</Key>
+        <Value>2018-11-24T12:06:09.3306537+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -190,11 +190,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\plane1.xnb</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\plane1.xnb</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
       <Dependency>
-        <Key>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\obj\x86\Debug\Assets\Models\plane1_0.xml</Key>
-        <Value>2018-11-23T22:15:03.937397+00:00</Value>
+        <Key>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\plane1_0.xml</Key>
+        <Value>2018-11-24T12:06:09.3629497+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -203,11 +203,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Architecture\Buildings\house.xnb</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Architecture\Buildings\house.xnb</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
       <Dependency>
-        <Key>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\obj\x86\Debug\Assets\Models\Architecture\Buildings\house_0.xml</Key>
-        <Value>2018-11-23T22:15:03.9872646+00:00</Value>
+        <Key>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\Architecture\Buildings\house_0.xml</Key>
+        <Value>2018-11-24T12:06:09.4107908+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -216,11 +216,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Architecture\Walls\wall.xnb</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Architecture\Walls\wall.xnb</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
       <Dependency>
-        <Key>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\obj\x86\Debug\Assets\Models\Architecture\Walls\wall_0.xml</Key>
-        <Value>2018-11-23T22:15:04.0311836+00:00</Value>
+        <Key>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\Architecture\Walls\wall_0.xml</Key>
+        <Value>2018-11-24T12:06:09.451712+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -229,11 +229,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\box1.xnb</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\box1.xnb</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
       <Dependency>
-        <Key>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\obj\x86\Debug\Assets\Models\box1_0.xml</Key>
-        <Value>2018-11-23T22:15:04.0651404+00:00</Value>
+        <Key>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\box1_0.xml</Key>
+        <Value>2018-11-24T12:06:09.4865879+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -242,11 +242,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Landscape\canyon.xnb</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Landscape\canyon.xnb</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
       <Dependency>
-        <Key>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\obj\x86\Debug\Assets\Models\Landscape\canyon_0.xml</Key>
-        <Value>2018-11-23T22:15:04.1481215+00:00</Value>
+        <Key>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\Landscape\canyon_0.xml</Key>
+        <Value>2018-11-24T12:06:09.5663734+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -255,11 +255,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Props\Crates\wc1.xnb</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Props\Crates\wc1.xnb</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
       <Dependency>
-        <Key>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\obj\x86\Debug\Assets\Models\Props\Crates\wc1_0.xml</Key>
-        <Value>2018-11-23T22:15:04.1881088+00:00</Value>
+        <Key>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\Props\Crates\wc1_0.xml</Key>
+        <Value>2018-11-24T12:06:09.6082624+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -268,11 +268,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\teapot.xnb</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\teapot.xnb</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
       <Dependency>
-        <Key>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\obj\x86\Debug\Assets\Models\teapot_0.xml</Key>
-        <Value>2018-11-23T22:15:04.2319912+00:00</Value>
+        <Key>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\teapot_0.xml</Key>
+        <Value>2018-11-24T12:06:09.6531711+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -281,11 +281,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\teapot_lowpoly.xnb</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\teapot_lowpoly.xnb</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
       <Dependency>
-        <Key>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\obj\x86\Debug\Assets\Models\teapot_lowpoly_0.xml</Key>
-        <Value>2018-11-23T22:15:04.2648717+00:00</Value>
+        <Key>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\teapot_lowpoly_0.xml</Key>
+        <Value>2018-11-24T12:06:09.6861293+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -294,11 +294,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\teapot_mediumpoly.xnb</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\teapot_mediumpoly.xnb</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
       <Dependency>
-        <Key>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\obj\x86\Debug\Assets\Models\teapot_mediumpoly_0.xml</Key>
-        <Value>2018-11-23T22:15:04.3033727+00:00</Value>
+        <Key>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\teapot_mediumpoly_0.xml</Key>
+        <Value>2018-11-24T12:06:09.7249982+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -307,16 +307,16 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Animated\dude.xnb</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Animated\dude.xnb</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
       <Dependency>
-        <Key>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\obj\x86\Debug\Assets\Models\Animated\dude_0.xml</Key>
-        <Value>2018-11-23T22:15:06.4386826+00:00</Value>
+        <Key>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\Animated\dude_0.xml</Key>
+        <Value>2018-11-24T12:06:11.8694833+00:00</Value>
       </Dependency>
-      <Request>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Animated\head_0.xnb</Request>
-      <Request>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Animated\jacket_0.xnb</Request>
-      <Request>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Animated\pants_0.xnb</Request>
-      <Request>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Animated\upBodyC_0.xnb</Request>
+      <Request>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Animated\head_0.xnb</Request>
+      <Request>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Animated\jacket_0.xnb</Request>
+      <Request>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Animated\pants_0.xnb</Request>
+      <Request>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Animated\upBodyC_0.xnb</Request>
     </Item>
     <Item>
       <Source>Assets\Models\Animated\Squirrel\RedRun4.FBX</Source>
@@ -324,11 +324,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Animated\Squirrel\RedRun4.xnb</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Animated\Squirrel\RedRun4.xnb</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
       <Dependency>
-        <Key>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\obj\x86\Debug\Assets\Models\Animated\Squirrel\RedRun4_0.xml</Key>
-        <Value>2018-11-23T22:15:08.1427484+00:00</Value>
+        <Key>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\Animated\Squirrel\RedRun4_0.xml</Key>
+        <Value>2018-11-24T12:06:13.6239214+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -337,11 +337,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Animated\Squirrel\Red_Idle.xnb</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Animated\Squirrel\Red_Idle.xnb</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
       <Dependency>
-        <Key>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\obj\x86\Debug\Assets\Models\Animated\Squirrel\Red_Idle_0.xml</Key>
-        <Value>2018-11-23T22:15:09.7778233+00:00</Value>
+        <Key>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\Animated\Squirrel\Red_Idle_0.xml</Key>
+        <Value>2018-11-24T12:06:15.2624811+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -350,11 +350,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Animated\Squirrel\Red_Jump.xnb</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Animated\Squirrel\Red_Jump.xnb</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
       <Dependency>
-        <Key>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\obj\x86\Debug\Assets\Models\Animated\Squirrel\Red_Jump_0.xml</Key>
-        <Value>2018-11-23T22:15:10.1055897+00:00</Value>
+        <Key>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\Animated\Squirrel\Red_Jump_0.xml</Key>
+        <Value>2018-11-24T12:06:15.5829136+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -363,11 +363,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Animated\Squirrel\Red_Punch.xnb</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Animated\Squirrel\Red_Punch.xnb</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
       <Dependency>
-        <Key>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\obj\x86\Debug\Assets\Models\Animated\Squirrel\Red_Punch_0.xml</Key>
-        <Value>2018-11-23T22:15:10.3666415+00:00</Value>
+        <Key>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\Animated\Squirrel\Red_Punch_0.xml</Key>
+        <Value>2018-11-24T12:06:15.8427821+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -376,11 +376,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Animated\Squirrel\Red_Standing.xnb</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Animated\Squirrel\Red_Standing.xnb</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
       <Dependency>
-        <Key>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\obj\x86\Debug\Assets\Models\Animated\Squirrel\Red_Standing_0.xml</Key>
-        <Value>2018-11-23T22:15:11.1557989+00:00</Value>
+        <Key>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\Animated\Squirrel\Red_Standing_0.xml</Key>
+        <Value>2018-11-24T12:06:16.6373899+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -389,11 +389,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Animated\Squirrel\Red_Tailwhip.xnb</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Animated\Squirrel\Red_Tailwhip.xnb</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
       <Dependency>
-        <Key>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\obj\x86\Debug\Assets\Models\Animated\Squirrel\Red_Tailwhip_0.xml</Key>
-        <Value>2018-11-23T22:15:11.5348502+00:00</Value>
+        <Key>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\Animated\Squirrel\Red_Tailwhip_0.xml</Key>
+        <Value>2018-11-24T12:06:17.0200059+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -402,11 +402,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\mapBlockingOut.xnb</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\mapBlockingOut.xnb</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
       <Dependency>
-        <Key>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\obj\x86\Debug\Assets\Models\mapBlockingOut_0.xml</Key>
-        <Value>2018-11-23T22:15:11.8165017+00:00</Value>
+        <Key>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\mapBlockingOut_0.xml</Key>
+        <Value>2018-11-24T12:06:17.2972643+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -415,11 +415,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\fallenTree.xnb</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\fallenTree.xnb</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
       <Dependency>
-        <Key>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\obj\x86\Debug\Assets\Models\fallenTree_0.xml</Key>
-        <Value>2018-11-23T22:15:11.9295768+00:00</Value>
+        <Key>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\fallenTree_0.xml</Key>
+        <Value>2018-11-24T12:06:17.4145423+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -428,16 +428,16 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Car_for_game.xnb</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Car_for_game.xnb</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
       <Dependency>
-        <Key>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\obj\x86\Debug\Assets\Models\Car_for_game_0.xml</Key>
-        <Value>2018-11-23T22:15:12.089752+00:00</Value>
+        <Key>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\Car_for_game_0.xml</Key>
+        <Value>2018-11-24T12:06:17.5913199+00:00</Value>
       </Dependency>
-      <Request>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\snowed-car-roof(1)_0.xnb</Request>
-      <Request>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\Cladding_Siding_White_0.xnb</Request>
-      <Request>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\Metal_Aluminum_Anodized_0.xnb</Request>
-      <Request>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\window-glass(1)_0.xnb</Request>
+      <Request>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\snowed-car-roof(1)_0.xnb</Request>
+      <Request>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Cladding_Siding_White_0.xnb</Request>
+      <Request>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Metal_Aluminum_Anodized_0.xnb</Request>
+      <Request>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\window-glass(1)_0.xnb</Request>
     </Item>
     <Item>
       <Source>Assets\Models\snow_drift.FBX</Source>
@@ -445,11 +445,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\snow_drift.xnb</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\snow_drift.xnb</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
       <Dependency>
-        <Key>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\obj\x86\Debug\Assets\Models\snow_drift_0.xml</Key>
-        <Value>2018-11-23T22:15:12.2567831+00:00</Value>
+        <Key>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\snow_drift_0.xml</Key>
+        <Value>2018-11-24T12:06:17.7602456+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -458,11 +458,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\ElectricPole.xnb</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\ElectricPole.xnb</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
       <Dependency>
-        <Key>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\obj\x86\Debug\Assets\Models\ElectricPole_0.xml</Key>
-        <Value>2018-11-23T22:15:12.3006988+00:00</Value>
+        <Key>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\ElectricPole_0.xml</Key>
+        <Value>2018-11-24T12:06:17.803693+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -471,13 +471,13 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\road.xnb</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\road.xnb</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
       <Dependency>
-        <Key>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\obj\x86\Debug\Assets\Models\road_0.xml</Key>
-        <Value>2018-11-23T22:15:12.341295+00:00</Value>
+        <Key>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\road_0.xml</Key>
+        <Value>2018-11-24T12:06:17.8446828+00:00</Value>
       </Dependency>
-      <Request>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\road_0.xnb</Request>
+      <Request>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\road_0.xnb</Request>
     </Item>
     <Item>
       <Source>Assets\Debug\Textures\checkerboard.png</Source>
@@ -485,7 +485,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\Assets\Debug\Textures\checkerboard.xnb</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Debug\Textures\checkerboard.xnb</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
     </Item>
     <Item>
@@ -494,7 +494,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Foliage\Ground\foliage.xnb</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Foliage\Ground\foliage.xnb</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
     </Item>
     <Item>
@@ -503,7 +503,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Foliage\Ground\grass1.xnb</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Foliage\Ground\grass1.xnb</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
     </Item>
     <Item>
@@ -512,7 +512,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Foliage\Shrubs\shrub1.xnb</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Foliage\Shrubs\shrub1.xnb</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
     </Item>
     <Item>
@@ -521,7 +521,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Foliage\Shrubs\shrub2.xnb</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Foliage\Shrubs\shrub2.xnb</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
     </Item>
     <Item>
@@ -530,7 +530,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Foliage\Shrubs\shrub3.xnb</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Foliage\Shrubs\shrub3.xnb</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
     </Item>
     <Item>
@@ -539,7 +539,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Foliage\Trees\tree1.xnb</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Foliage\Trees\tree1.xnb</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
     </Item>
     <Item>
@@ -548,7 +548,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Foliage\Trees\tree2.xnb</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Foliage\Trees\tree2.xnb</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
     </Item>
     <Item>
@@ -557,7 +557,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Foliage\Trees\tree3.xnb</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Foliage\Trees\tree3.xnb</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
     </Item>
     <Item>
@@ -566,7 +566,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Foliage\Trees\tree4.xnb</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Foliage\Trees\tree4.xnb</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
     </Item>
     <Item>
@@ -575,7 +575,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Foliage\Trees\tree5.xnb</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Foliage\Trees\tree5.xnb</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
     </Item>
     <Item>
@@ -584,7 +584,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Props\Crates\crate1.xnb</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Props\Crates\crate1.xnb</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
     </Item>
     <Item>
@@ -593,7 +593,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Props\Crates\crate2.xnb</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Props\Crates\crate2.xnb</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
     </Item>
     <Item>
@@ -602,7 +602,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Props\tv.xnb</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Props\tv.xnb</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
     </Item>
     <Item>
@@ -611,7 +611,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Skybox\back.xnb</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Skybox\back.xnb</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
     </Item>
     <Item>
@@ -620,7 +620,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Skybox\front.xnb</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Skybox\front.xnb</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
     </Item>
     <Item>
@@ -629,7 +629,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Skybox\ground.xnb</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Skybox\ground.xnb</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
     </Item>
     <Item>
@@ -638,7 +638,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Skybox\left.xnb</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Skybox\left.xnb</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
     </Item>
     <Item>
@@ -647,7 +647,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Skybox\right.xnb</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Skybox\right.xnb</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
     </Item>
     <Item>
@@ -656,7 +656,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Skybox\sky.xnb</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Skybox\sky.xnb</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
     </Item>
     <Item>
@@ -665,7 +665,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\HUD\mouseicons.xnb</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\HUD\mouseicons.xnb</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
     </Item>
     <Item>
@@ -674,7 +674,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\HUD\progress_gradient.xnb</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\HUD\progress_gradient.xnb</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
     </Item>
     <Item>
@@ -683,7 +683,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\HUD\progress_white.xnb</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\HUD\progress_white.xnb</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
     </Item>
     <Item>
@@ -692,7 +692,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\HUD\reticuleClosed.xnb</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\HUD\reticuleClosed.xnb</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
     </Item>
     <Item>
@@ -701,7 +701,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\HUD\reticuleDefault.xnb</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\HUD\reticuleDefault.xnb</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
     </Item>
     <Item>
@@ -710,7 +710,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\HUD\reticuleOpen.xnb</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\HUD\reticuleOpen.xnb</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
     </Item>
     <Item>
@@ -719,7 +719,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\HUD\white.xnb</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\HUD\white.xnb</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
     </Item>
     <Item>
@@ -728,7 +728,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\Menu\Backgrounds\audiomenu.xnb</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\Menu\Backgrounds\audiomenu.xnb</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
     </Item>
     <Item>
@@ -737,7 +737,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\Menu\Backgrounds\controlsmenu.xnb</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\Menu\Backgrounds\controlsmenu.xnb</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
     </Item>
     <Item>
@@ -746,7 +746,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\Menu\Backgrounds\exitmenu.xnb</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\Menu\Backgrounds\exitmenu.xnb</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
     </Item>
     <Item>
@@ -755,7 +755,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\Menu\Backgrounds\exitmenuwithtrans.xnb</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\Menu\Backgrounds\exitmenuwithtrans.xnb</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
     </Item>
     <Item>
@@ -764,7 +764,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\Menu\Backgrounds\mainmenu.xnb</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\Menu\Backgrounds\mainmenu.xnb</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
     </Item>
     <Item>
@@ -773,7 +773,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\Menu\Buttons\genericbtn.xnb</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\Menu\Buttons\genericbtn.xnb</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
     </Item>
     <Item>
@@ -782,7 +782,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\Assets\Debug\Textures\checkerboard_greywhite.xnb</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Debug\Textures\checkerboard_greywhite.xnb</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
     </Item>
     <Item>
@@ -791,7 +791,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\Assets\Debug\Textures\ml.xnb</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Debug\Textures\ml.xnb</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
     </Item>
     <Item>
@@ -800,7 +800,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\Assets\Debug\Textures\slj.xnb</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Debug\Textures\slj.xnb</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
     </Item>
     <Item>
@@ -809,7 +809,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Architecture\Buildings\house-low-texture.xnb</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Architecture\Buildings\house-low-texture.xnb</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
     </Item>
     <Item>
@@ -818,7 +818,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Architecture\Fence\fence1.xnb</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Architecture\Fence\fence1.xnb</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
     </Item>
     <Item>
@@ -827,7 +827,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Architecture\Fence\fence2.xnb</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Architecture\Fence\fence2.xnb</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
     </Item>
     <Item>
@@ -836,7 +836,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Architecture\Fence\fence3.xnb</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Architecture\Fence\fence3.xnb</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
     </Item>
     <Item>
@@ -845,7 +845,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Architecture\Fence\fence4.xnb</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Architecture\Fence\fence4.xnb</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
     </Item>
     <Item>
@@ -854,7 +854,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Architecture\Walls\backwall.xnb</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Architecture\Walls\backwall.xnb</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
     </Item>
     <Item>
@@ -863,7 +863,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Architecture\Walls\sidewall.xnb</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Architecture\Walls\sidewall.xnb</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
     </Item>
     <Item>
@@ -872,7 +872,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Architecture\Walls\wall.xnb</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Architecture\Walls\wall.xnb</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
     </Item>
     <Item>
@@ -881,7 +881,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Common\white64x64.xnb</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Common\white64x64.xnb</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
     </Item>
     <Item>
@@ -890,7 +890,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Foliage\Ground\grass_highlevel.xnb</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Foliage\Ground\grass_highlevel.xnb</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
     </Item>
     <Item>
@@ -899,7 +899,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Foliage\Ground\grass_midlevel.xnb</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Foliage\Ground\grass_midlevel.xnb</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
     </Item>
     <Item>
@@ -908,7 +908,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Landscape\canyon.xnb</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Landscape\canyon.xnb</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
     </Item>
     <Item>
@@ -917,7 +917,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Skydome\skydome.xnb</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Skydome\skydome.xnb</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
     </Item>
     <Item>
@@ -926,7 +926,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Props\Crates\wc1_diffuse.xnb</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Props\Crates\wc1_diffuse.xnb</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
     </Item>
     <Item>
@@ -935,7 +935,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Animated\head.xnb</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Animated\head.xnb</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
     </Item>
     <Item>
@@ -944,7 +944,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Animated\jacket.xnb</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Animated\jacket.xnb</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
     </Item>
     <Item>
@@ -953,7 +953,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Animated\pants.xnb</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Animated\pants.xnb</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
     </Item>
     <Item>
@@ -962,7 +962,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Animated\upBodyC.xnb</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Animated\upBodyC.xnb</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
     </Item>
     <Item>
@@ -971,7 +971,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Animated\Squirrel\Tiny_skin.xnb</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Animated\Squirrel\Tiny_skin.xnb</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
     </Item>
     <Item>
@@ -980,7 +980,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\GroundTexture\iceSheet.xnb</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\GroundTexture\iceSheet.xnb</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
     </Item>
     <Item>
@@ -989,7 +989,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Menu\startButton.xnb</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Menu\startButton.xnb</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
     </Item>
     <Item>
@@ -998,7 +998,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Menu\Menu.xnb</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Menu\Menu.xnb</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
     </Item>
     <Item>
@@ -1007,7 +1007,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Menu\Button.xnb</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Menu\Button.xnb</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
     </Item>
     <Item>
@@ -1016,7 +1016,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Menu\exitButton.xnb</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Menu\exitButton.xnb</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
     </Item>
     <Item>
@@ -1025,7 +1025,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Menu\menuButton.xnb</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Menu\menuButton.xnb</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
     </Item>
     <Item>
@@ -1034,7 +1034,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Menu\sliderBar.xnb</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Menu\sliderBar.xnb</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
     </Item>
     <Item>
@@ -1043,7 +1043,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Menu\sliderTracker.xnb</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Menu\sliderTracker.xnb</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
     </Item>
     <Item>
@@ -1052,7 +1052,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\HUD\ThermoBar.xnb</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\HUD\ThermoBar.xnb</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
     </Item>
     <Item>
@@ -1061,7 +1061,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\HUD\Thermometer.xnb</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\HUD\Thermometer.xnb</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
     </Item>
     <Item>
@@ -1070,7 +1070,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Road\roadtxt.xnb</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Road\roadtxt.xnb</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
     </Item>
     <Item>
@@ -1079,7 +1079,7 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\Assets\Audio\boing.xnb</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Audio\boing.xnb</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
     </Item>
     <Item>
@@ -1088,161 +1088,161 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\Assets\Audio\Ouch.xnb</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Audio\Ouch.xnb</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Models\box.FBX</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\obj\x86\Debug\Assets\Models\box_0.xml</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\box_0.xml</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Models\box2.FBX</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\obj\x86\Debug\Assets\Models\box2_0.xml</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\box2_0.xml</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Models\cylinder.FBX</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\obj\x86\Debug\Assets\Models\cylinder_0.xml</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\cylinder_0.xml</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Models\dome.FBX</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\obj\x86\Debug\Assets\Models\dome_0.xml</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\dome_0.xml</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Models\hedra.FBX</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\obj\x86\Debug\Assets\Models\hedra_0.xml</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\hedra_0.xml</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Models\octahedron.FBX</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\obj\x86\Debug\Assets\Models\octahedron_0.xml</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\octahedron_0.xml</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Models\prism.FBX</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\obj\x86\Debug\Assets\Models\prism_0.xml</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\prism_0.xml</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Models\sphere.FBX</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\obj\x86\Debug\Assets\Models\sphere_0.xml</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\sphere_0.xml</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Models\spindle.FBX</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\obj\x86\Debug\Assets\Models\spindle_0.xml</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\spindle_0.xml</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Models\torus.FBX</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\obj\x86\Debug\Assets\Models\torus_0.xml</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\torus_0.xml</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Models\torusknot.FBX</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\obj\x86\Debug\Assets\Models\torusknot_0.xml</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\torusknot_0.xml</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Models\plane.FBX</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\obj\x86\Debug\Assets\Models\plane_0.xml</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\plane_0.xml</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Models\plane1.FBX</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\obj\x86\Debug\Assets\Models\plane1_0.xml</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\plane1_0.xml</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Models\Architecture\Buildings\house.FBX</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\obj\x86\Debug\Assets\Models\Architecture\Buildings\house_0.xml</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\Architecture\Buildings\house_0.xml</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Models\Architecture\Walls\wall.FBX</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\obj\x86\Debug\Assets\Models\Architecture\Walls\wall_0.xml</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\Architecture\Walls\wall_0.xml</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Models\box1.FBX</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\obj\x86\Debug\Assets\Models\box1_0.xml</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\box1_0.xml</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Models\Landscape\canyon.FBX</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\obj\x86\Debug\Assets\Models\Landscape\canyon_0.xml</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\Landscape\canyon_0.xml</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Models\Props\Crates\wc1.FBX</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\obj\x86\Debug\Assets\Models\Props\Crates\wc1_0.xml</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\Props\Crates\wc1_0.xml</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Models\teapot.FBX</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\obj\x86\Debug\Assets\Models\teapot_0.xml</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\teapot_0.xml</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Models\teapot_lowpoly.FBX</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\obj\x86\Debug\Assets\Models\teapot_lowpoly_0.xml</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\teapot_lowpoly_0.xml</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Models\teapot_mediumpoly.FBX</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\obj\x86\Debug\Assets\Models\teapot_mediumpoly_0.xml</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\teapot_mediumpoly_0.xml</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Models\Animated\dude.fbx</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\obj\x86\Debug\Assets\Models\Animated\dude_0.xml</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\Animated\dude_0.xml</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
     </Item>
     <Item>
@@ -1258,7 +1258,7 @@
         <Data Key="PremultiplyAlpha" Type="bool">true</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Animated\head_0.xnb</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Animated\head_0.xnb</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
     </Item>
     <Item>
@@ -1274,7 +1274,7 @@
         <Data Key="PremultiplyAlpha" Type="bool">true</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Animated\jacket_0.xnb</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Animated\jacket_0.xnb</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
     </Item>
     <Item>
@@ -1290,7 +1290,7 @@
         <Data Key="PremultiplyAlpha" Type="bool">true</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Animated\pants_0.xnb</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Animated\pants_0.xnb</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
     </Item>
     <Item>
@@ -1306,74 +1306,74 @@
         <Data Key="PremultiplyAlpha" Type="bool">true</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Animated\upBodyC_0.xnb</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Animated\upBodyC_0.xnb</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Models\Animated\Squirrel\RedRun4.FBX</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\obj\x86\Debug\Assets\Models\Animated\Squirrel\RedRun4_0.xml</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\Animated\Squirrel\RedRun4_0.xml</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Models\Animated\Squirrel\Red_Idle.FBX</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\obj\x86\Debug\Assets\Models\Animated\Squirrel\Red_Idle_0.xml</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\Animated\Squirrel\Red_Idle_0.xml</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Models\Animated\Squirrel\Red_Jump.FBX</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\obj\x86\Debug\Assets\Models\Animated\Squirrel\Red_Jump_0.xml</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\Animated\Squirrel\Red_Jump_0.xml</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Models\Animated\Squirrel\Red_Punch.fbx</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\obj\x86\Debug\Assets\Models\Animated\Squirrel\Red_Punch_0.xml</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\Animated\Squirrel\Red_Punch_0.xml</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Models\Animated\Squirrel\Red_Standing.FBX</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\obj\x86\Debug\Assets\Models\Animated\Squirrel\Red_Standing_0.xml</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\Animated\Squirrel\Red_Standing_0.xml</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Models\Animated\Squirrel\Red_Tailwhip.FBX</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\obj\x86\Debug\Assets\Models\Animated\Squirrel\Red_Tailwhip_0.xml</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\Animated\Squirrel\Red_Tailwhip_0.xml</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Models\mapBlockingOut.fbx</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\obj\x86\Debug\Assets\Models\mapBlockingOut_0.xml</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\mapBlockingOut_0.xml</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Models\fallenTree.FBX</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\obj\x86\Debug\Assets\Models\fallenTree_0.xml</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\fallenTree_0.xml</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Models\Car_for_game.FBX</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\obj\x86\Debug\Assets\Models\Car_for_game_0.xml</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\Car_for_game_0.xml</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
     </Item>
     <Item>
-      <Source>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\obj\x86\Debug\FBX\DDB63C6E\Car_for_game.fbm\snowed-car-roof(1).jpg</Source>
+      <Source>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\FBX\AA4921BA\Car_for_game.fbm\snowed-car-roof(1).jpg</Source>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Parameters>
@@ -1385,11 +1385,11 @@
         <Data Key="PremultiplyAlpha" Type="bool">true</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\snowed-car-roof(1)_0.xnb</Output>
-      <Time>2018-11-23T22:15:11.9754614+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\snowed-car-roof(1)_0.xnb</Output>
+      <Time>2018-11-24T12:06:17.4696403+00:00</Time>
     </Item>
     <Item>
-      <Source>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\obj\x86\Debug\FBX\DDB63C6E\Car_for_game.fbm\Cladding_Siding_White.jpg</Source>
+      <Source>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\FBX\AA4921BA\Car_for_game.fbm\Cladding_Siding_White.jpg</Source>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Parameters>
@@ -1401,11 +1401,11 @@
         <Data Key="PremultiplyAlpha" Type="bool">true</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\Cladding_Siding_White_0.xnb</Output>
-      <Time>2018-11-23T22:15:11.9824459+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Cladding_Siding_White_0.xnb</Output>
+      <Time>2018-11-24T12:06:17.4801292+00:00</Time>
     </Item>
     <Item>
-      <Source>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\obj\x86\Debug\FBX\DDB63C6E\Car_for_game.fbm\Metal_Aluminum_Anodized.jpg</Source>
+      <Source>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\FBX\AA4921BA\Car_for_game.fbm\Metal_Aluminum_Anodized.jpg</Source>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Parameters>
@@ -1417,11 +1417,11 @@
         <Data Key="PremultiplyAlpha" Type="bool">true</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\Metal_Aluminum_Anodized_0.xnb</Output>
-      <Time>2018-11-23T22:15:11.9804489+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Metal_Aluminum_Anodized_0.xnb</Output>
+      <Time>2018-11-24T12:06:17.4771457+00:00</Time>
     </Item>
     <Item>
-      <Source>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\obj\x86\Debug\FBX\DDB63C6E\Car_for_game.fbm\window-glass(1).jpg</Source>
+      <Source>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\FBX\AA4921BA\Car_for_game.fbm\window-glass(1).jpg</Source>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Parameters>
@@ -1433,32 +1433,32 @@
         <Data Key="PremultiplyAlpha" Type="bool">true</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\window-glass(1)_0.xnb</Output>
-      <Time>2018-11-23T22:15:11.9774558+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\window-glass(1)_0.xnb</Output>
+      <Time>2018-11-24T12:06:17.4750718+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Models\snow_drift.FBX</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\obj\x86\Debug\Assets\Models\snow_drift_0.xml</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\snow_drift_0.xml</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Models\ElectricPole.FBX</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\obj\x86\Debug\Assets\Models\ElectricPole_0.xml</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\ElectricPole_0.xml</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Models\road.FBX</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\obj\x86\Debug\Assets\Models\road_0.xml</Output>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\road_0.xml</Output>
       <Time>2018-11-23T21:44:54+00:00</Time>
     </Item>
     <Item>
-      <Source>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\obj\x86\Debug\FBX\476393F\road.fbm\road.jpg</Source>
+      <Source>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\FBX\A6A91E8B\road.fbm\road.jpg</Source>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Parameters>
@@ -1470,8 +1470,8 @@
         <Data Key="PremultiplyAlpha" Type="bool">true</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\road_0.xnb</Output>
-      <Time>2018-11-23T22:15:12.3353348+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\road_0.xnb</Output>
+      <Time>2018-11-24T12:06:17.8386989+00:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
@@ -1480,10 +1480,10 @@
       <TargetProfile>HiDef</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDAppContent\</RootDirectory>
-      <LoggerRootDirectory>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\</LoggerRootDirectory>
-      <IntermediateDirectory>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDApp\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDAppContent\</RootDirectory>
+      <LoggerRootDirectory>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\</LoggerRootDirectory>
+      <IntermediateDirectory>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>
