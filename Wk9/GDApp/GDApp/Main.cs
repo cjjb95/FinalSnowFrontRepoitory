@@ -616,7 +616,7 @@ namespace GDApp
             effectParameters.Texture = this.textureDictionary["ml"];
             effectParameters.DiffuseColor = Color.White;
 
-            Vector3 rot = new Vector3(0, 180, 0);
+            Vector3 rot = new Vector3(0, 0, 0);
             Vector3 scale = new Vector3(0.4f, 0.16f, 0.4f);
             //Creating the transforms  for each of the models
             Transform3D transform1 = new Transform3D(new Vector3(-660, 5, -280), rot, scale, Vector3.UnitX, Vector3.UnitY);
@@ -629,65 +629,89 @@ namespace GDApp
 
 
             //creating the collidable models
-
+            
             SnowDriftZone sdz = new SnowDriftZone("sdz",
                 ActorType.Snow, 
                 transform1, 
                 effectParameters,
-                this.modelDictionary["snow_drift"],
-                this.eventDispatcher);
+                this.modelDictionary["snow_drift"]);
 
-            sdz.AddPrimitive(new Sphere(sdz.Transform.Translation, 2), new MaterialProperties(0.2f, 0.8f, 0.7f));
+            sdz.AddPrimitive(new Sphere(transform1.Translation, 40), new MaterialProperties(0.2f, 0.8f, 0.7f));
             sdz.Enable(true, 1);
 
             this.object3DManager.Add(sdz);
 
-            sdz = new SnowDriftZone("sdz2",
+            SnowDriftZone sdz2 = new SnowDriftZone("sdz2",
                 ActorType.Snow,
                 transform2,
                 effectParameters,
-                this.modelDictionary["snow_drift"],
-                this.eventDispatcher);
+                this.modelDictionary["snow_drift"]);
 
-            //sdz.AddPrimitive(new Sphere(sdz.Transform.Translation, 2), new MaterialProperties(0.2f, 0.8f, 0.7f));
-            //sdz.Enable(true, 1);
+            sdz2.AddPrimitive(new Sphere(transform2.Translation, 40), new MaterialProperties(0.2f, 0.8f, 0.7f));
+            sdz2.Enable(true, 1);
 
-
-            // CollidableObject SnowDrift = new TriangleMeshObject("snowDrift1", ActorType.CollidableProp, snowDrift1, effectParameters,
-            //this.modelDictionary["snow_drift"], new MaterialProperties(0.2f, 0.8f, 0.7f));
-            // SnowDrift.Enable(true, 1);
-
-            CollidableObject SnowDrift2 = new TriangleMeshObject("snowDrift2", ActorType.CollidableProp, transform2, effectParameters,
-            this.modelDictionary["snow_drift"], new MaterialProperties(0.2f, 0.8f, 0.7f));
-            SnowDrift2.Enable(true, 1);
-
-            CollidableObject SnowDrift3 = new TriangleMeshObject("snowDrift3", ActorType.CollidableProp, transform3, effectParameters,
-            this.modelDictionary["snow_drift"], new MaterialProperties(0.2f, 0.8f, 0.7f));
-            SnowDrift3.Enable(true, 1);
-
-            CollidableObject SnowDrift4 = new TriangleMeshObject("snowDrift4", ActorType.CollidableProp, transform4, effectParameters,
-            this.modelDictionary["snow_drift"], new MaterialProperties(0.2f, 0.8f, 0.7f));
-            SnowDrift4.Enable(true, 1);
-
-            CollidableObject SnowDrift5 = new TriangleMeshObject("snowDrift5", ActorType.CollidableProp, transform5, effectParameters,
-            this.modelDictionary["snow_drift"], new MaterialProperties(0.2f, 0.8f, 0.7f));
-            SnowDrift5.Enable(true, 1);
-
-            CollidableObject SnowDrift6 = new TriangleMeshObject("snowDrift6", ActorType.CollidableProp, transform6, effectParameters,
-            this.modelDictionary["snow_drift"], new MaterialProperties(0.2f, 0.8f, 0.7f));
-            SnowDrift6.Enable(true, 1);
-
-            CollidableObject SnowDrift7 = new TriangleMeshObject("snowDrift7", ActorType.CollidableProp, transform7, effectParameters,
-            this.modelDictionary["snow_drift"], new MaterialProperties(0.2f, 0.8f, 0.7f));
-            SnowDrift7.Enable(true, 1);
+            this.object3DManager.Add(sdz2);
 
 
-            this.object3DManager.Add(SnowDrift2);
-            this.object3DManager.Add(SnowDrift3);
-            this.object3DManager.Add(SnowDrift4);
-            this.object3DManager.Add(SnowDrift5);
-            this.object3DManager.Add(SnowDrift6);
-            this.object3DManager.Add(SnowDrift7);
+            SnowDriftZone sdz3 = new SnowDriftZone("sdz3",
+                ActorType.Snow,
+                transform3,
+                effectParameters,
+                this.modelDictionary["snow_drift"]);
+
+            sdz3.AddPrimitive(new Sphere(transform3.Translation, 40), new MaterialProperties(0.2f, 0.8f, 0.7f));
+            sdz3.Enable(true, 1);
+
+            this.object3DManager.Add(sdz3);
+
+            SnowDriftZone sdz4 = new SnowDriftZone("sdz4",
+                ActorType.Snow,
+                transform4,
+                effectParameters,
+                this.modelDictionary["snow_drift"]);
+
+            sdz4.AddPrimitive(new Sphere(transform4.Translation, 40), new MaterialProperties(0.2f, 0.8f, 0.7f));
+            sdz4.Enable(true, 1);
+
+            this.object3DManager.Add(sdz4);
+
+            SnowDriftZone sdz5 = new SnowDriftZone("sdz5",
+                ActorType.Snow,
+                transform5,
+                effectParameters,
+                this.modelDictionary["snow_drift"]);
+
+            sdz5.AddPrimitive(new Sphere(transform5.Translation, 40), new MaterialProperties(0.2f, 0.8f, 0.7f));
+            sdz5.Enable(true, 1);
+
+
+            this.object3DManager.Add(sdz5);
+
+            SnowDriftZone sdz6 = new SnowDriftZone("sdz6",
+                ActorType.Snow,
+                transform6,
+                effectParameters,
+                this.modelDictionary["snow_drift"]);
+
+            sdz6.AddPrimitive(new Sphere(transform6.Translation, 40), new MaterialProperties(0.2f, 0.8f, 0.7f));
+            sdz6.Enable(true, 1);
+
+
+            this.object3DManager.Add(sdz6);
+
+            SnowDriftZone sdz7 = new SnowDriftZone("sdz7",
+                            ActorType.Snow,
+                            transform7,
+                            effectParameters,
+                            this.modelDictionary["snow_drift"]);
+
+            sdz7.AddPrimitive(new Sphere(transform7.Translation, 40), new MaterialProperties(0.2f, 0.8f, 0.7f));
+            sdz7.Enable(true, 1);
+
+
+            this.object3DManager.Add(sdz7);
+
+            
         }
 
         private void InitializeStaticCollidableFallenTree()
@@ -2191,7 +2215,7 @@ namespace GDApp
             if (itemID.Equals("coat"))
                 EventDispatcher.Publish(new EventData(EventActionType.OnItem, EventCategoryType.Item, additionalParameters));
             else if (itemID.Equals("shovel"))
-            {/*TODO*/ }
+                EventDispatcher.Publish(new EventData(EventActionType.OnItem, EventCategoryType.Item, additionalParameters));
 
         }
 

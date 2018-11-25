@@ -40,7 +40,7 @@ namespace GDLibrary
         {
             if(eventData.EventType==EventActionType.OnSnowDrift)
             {
-                this.onSnowDrift = true;
+                this.onSnowDrift = (bool)eventData.AdditionalParameters[0];
             }
         }
 

@@ -7,8 +7,8 @@
       <Importer>FontDescriptionImporter</Importer>
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Debug\Fonts\debugFont.xnb</Output>
-      <Time>2018-11-24T19:57:28.8629328+07:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Debug\Fonts\debugFont.xnb</Output>
+      <Time>2018-11-25T14:48:47.0663701+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Fonts\hudFont.spritefont</Source>
@@ -16,8 +16,8 @@
       <Importer>FontDescriptionImporter</Importer>
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Fonts\hudFont.xnb</Output>
-      <Time>2018-11-24T19:57:28.9124379+07:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Fonts\hudFont.xnb</Output>
+      <Time>2018-11-25T14:48:47.080494+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Fonts\menu.spritefont</Source>
@@ -25,8 +25,8 @@
       <Importer>FontDescriptionImporter</Importer>
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Fonts\menu.xnb</Output>
-      <Time>2018-11-24T19:57:28.9124379+07:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Fonts\menu.xnb</Output>
+      <Time>2018-11-25T14:48:47.0824807+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Models\box.FBX</Source>
@@ -34,11 +34,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\box.xnb</Output>
-      <Time>2018-11-24T19:57:29.4225654+07:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\box.xnb</Output>
+      <Time>2018-11-25T14:48:47.4599354+00:00</Time>
       <Dependency>
-        <Key>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\box_0.xml</Key>
-        <Value>2018-11-25T20:21:47.302704+07:00</Value>
+        <Key>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\box_0.xml</Key>
+        <Value>2018-11-25T14:49:46.7788624+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -47,11 +47,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\box2.xnb</Output>
-      <Time>2018-11-24T19:57:29.4225654+07:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\box2.xnb</Output>
+      <Time>2018-11-25T14:48:47.4629269+00:00</Time>
       <Dependency>
-        <Key>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\box2_0.xml</Key>
-        <Value>2018-11-25T20:21:48.0344191+07:00</Value>
+        <Key>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\box2_0.xml</Key>
+        <Value>2018-11-25T14:49:46.859654+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -60,11 +60,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\cylinder.xnb</Output>
-      <Time>2018-11-24T19:57:29.4225654+07:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\cylinder.xnb</Output>
+      <Time>2018-11-25T14:48:47.4649216+00:00</Time>
       <Dependency>
-        <Key>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\cylinder_0.xml</Key>
-        <Value>2018-11-25T20:21:48.1503507+07:00</Value>
+        <Key>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\cylinder_0.xml</Key>
+        <Value>2018-11-25T14:49:46.8985425+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -73,11 +73,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\dome.xnb</Output>
-      <Time>2018-11-24T19:57:29.4225654+07:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\dome.xnb</Output>
+      <Time>2018-11-25T14:48:47.4709058+00:00</Time>
       <Dependency>
-        <Key>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\dome_0.xml</Key>
-        <Value>2018-11-25T20:21:48.3192542+07:00</Value>
+        <Key>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\dome_0.xml</Key>
+        <Value>2018-11-25T14:49:46.9823179+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -86,11 +86,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\hedra.xnb</Output>
-      <Time>2018-11-24T19:57:29.4225654+07:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\hedra.xnb</Output>
+      <Time>2018-11-25T14:48:47.4739037+00:00</Time>
       <Dependency>
-        <Key>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\hedra_0.xml</Key>
-        <Value>2018-11-25T20:21:48.7339048+07:00</Value>
+        <Key>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\hedra_0.xml</Key>
+        <Value>2018-11-25T14:49:47.019219+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -99,11 +99,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\octahedron.xnb</Output>
-      <Time>2018-11-24T19:57:29.4327481+07:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\octahedron.xnb</Output>
+      <Time>2018-11-25T14:48:47.4848687+00:00</Time>
       <Dependency>
-        <Key>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\octahedron_0.xml</Key>
-        <Value>2018-11-25T20:21:48.9250974+07:00</Value>
+        <Key>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\octahedron_0.xml</Key>
+        <Value>2018-11-25T14:49:47.0551552+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -112,11 +112,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\prism.xnb</Output>
-      <Time>2018-11-24T19:57:29.4327481+07:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\prism.xnb</Output>
+      <Time>2018-11-25T14:48:47.5008321+00:00</Time>
       <Dependency>
-        <Key>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\prism_0.xml</Key>
-        <Value>2018-11-25T20:21:49.4431022+07:00</Value>
+        <Key>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\prism_0.xml</Key>
+        <Value>2018-11-25T14:49:47.0910583+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -125,11 +125,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\sphere.xnb</Output>
-      <Time>2018-11-24T19:57:29.4327481+07:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\sphere.xnb</Output>
+      <Time>2018-11-25T14:48:47.5098989+00:00</Time>
       <Dependency>
-        <Key>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\sphere_0.xml</Key>
-        <Value>2018-11-25T20:21:49.6555023+07:00</Value>
+        <Key>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\sphere_0.xml</Key>
+        <Value>2018-11-25T14:49:47.1389299+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -138,11 +138,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\spindle.xnb</Output>
-      <Time>2018-11-24T19:57:29.4327481+07:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\spindle.xnb</Output>
+      <Time>2018-11-25T14:48:47.5107991+00:00</Time>
       <Dependency>
-        <Key>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\spindle_0.xml</Key>
-        <Value>2018-11-25T20:21:49.7575167+07:00</Value>
+        <Key>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\spindle_0.xml</Key>
+        <Value>2018-11-25T14:49:47.1798215+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -151,11 +151,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\torus.xnb</Output>
-      <Time>2018-11-24T19:57:29.4425685+07:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\torus.xnb</Output>
+      <Time>2018-11-25T14:48:47.5228551+00:00</Time>
       <Dependency>
-        <Key>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\torus_0.xml</Key>
-        <Value>2018-11-25T20:21:49.8554205+07:00</Value>
+        <Key>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\torus_0.xml</Key>
+        <Value>2018-11-25T14:49:47.22174+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -164,11 +164,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\torusknot.xnb</Output>
-      <Time>2018-11-24T19:57:29.4425685+07:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\torusknot.xnb</Output>
+      <Time>2018-11-25T14:48:47.5278446+00:00</Time>
       <Dependency>
-        <Key>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\torusknot_0.xml</Key>
-        <Value>2018-11-25T20:21:50.0573047+07:00</Value>
+        <Key>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\torusknot_0.xml</Key>
+        <Value>2018-11-25T14:49:47.2945452+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -177,11 +177,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\plane.xnb</Output>
-      <Time>2018-11-24T19:57:29.4327481+07:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\plane.xnb</Output>
+      <Time>2018-11-25T14:48:47.4868866+00:00</Time>
       <Dependency>
-        <Key>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\plane_0.xml</Key>
-        <Value>2018-11-25T20:21:50.2461955+07:00</Value>
+        <Key>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\plane_0.xml</Key>
+        <Value>2018-11-25T14:49:47.331432+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -190,11 +190,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\plane1.xnb</Output>
-      <Time>2018-11-24T19:57:29.4327481+07:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\plane1.xnb</Output>
+      <Time>2018-11-25T14:48:47.4888771+00:00</Time>
       <Dependency>
-        <Key>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\plane1_0.xml</Key>
-        <Value>2018-11-25T20:21:50.2851729+07:00</Value>
+        <Key>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\plane1_0.xml</Key>
+        <Value>2018-11-25T14:49:47.3683507+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -203,11 +203,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Architecture\Buildings\house.xnb</Output>
-      <Time>2018-11-24T19:57:29.3331567+07:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Architecture\Buildings\house.xnb</Output>
+      <Time>2018-11-25T14:48:47.4280352+00:00</Time>
       <Dependency>
-        <Key>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\Architecture\Buildings\house_0.xml</Key>
-        <Value>2018-11-25T20:21:50.7299777+07:00</Value>
+        <Key>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\Architecture\Buildings\house_0.xml</Key>
+        <Value>2018-11-25T14:49:47.4211758+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -216,11 +216,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Architecture\Walls\wall.xnb</Output>
-      <Time>2018-11-24T19:57:29.3331567+07:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Architecture\Walls\wall.xnb</Output>
+      <Time>2018-11-25T14:48:47.4320096+00:00</Time>
       <Dependency>
-        <Key>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\Architecture\Walls\wall_0.xml</Key>
-        <Value>2018-11-25T20:21:50.7819458+07:00</Value>
+        <Key>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\Architecture\Walls\wall_0.xml</Key>
+        <Value>2018-11-25T14:49:47.4640599+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -229,11 +229,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\box1.xnb</Output>
-      <Time>2018-11-24T19:57:29.4225654+07:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\box1.xnb</Output>
+      <Time>2018-11-25T14:48:47.4609321+00:00</Time>
       <Dependency>
-        <Key>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\box1_0.xml</Key>
-        <Value>2018-11-25T20:21:51.0122098+07:00</Value>
+        <Key>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\box1_0.xml</Key>
+        <Value>2018-11-25T14:49:47.4989946+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -242,11 +242,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Landscape\canyon.xnb</Output>
-      <Time>2018-11-24T19:57:29.3331567+07:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Landscape\canyon.xnb</Output>
+      <Time>2018-11-25T14:48:47.4519567+00:00</Time>
       <Dependency>
-        <Key>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\Landscape\canyon_0.xml</Key>
-        <Value>2018-11-25T20:21:51.186191+07:00</Value>
+        <Key>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\Landscape\canyon_0.xml</Key>
+        <Value>2018-11-25T14:49:47.5827693+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -255,11 +255,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Props\Crates\wc1.xnb</Output>
-      <Time>2018-11-24T19:57:29.3331567+07:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Props\Crates\wc1.xnb</Output>
+      <Time>2018-11-25T14:48:47.4559693+00:00</Time>
       <Dependency>
-        <Key>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\Props\Crates\wc1_0.xml</Key>
-        <Value>2018-11-25T20:21:51.2591668+07:00</Value>
+        <Key>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\Props\Crates\wc1_0.xml</Key>
+        <Value>2018-11-25T14:49:47.6236599+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -268,11 +268,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\teapot.xnb</Output>
-      <Time>2018-11-24T19:57:29.4425294+07:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\teapot.xnb</Output>
+      <Time>2018-11-25T14:48:47.5147921+00:00</Time>
       <Dependency>
-        <Key>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\teapot_0.xml</Key>
-        <Value>2018-11-25T20:21:51.6570094+07:00</Value>
+        <Key>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\teapot_0.xml</Key>
+        <Value>2018-11-25T14:49:47.6695653+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -281,11 +281,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\teapot_lowpoly.xnb</Output>
-      <Time>2018-11-24T19:57:29.4425685+07:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\teapot_lowpoly.xnb</Output>
+      <Time>2018-11-25T14:48:47.5167849+00:00</Time>
       <Dependency>
-        <Key>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\teapot_lowpoly_0.xml</Key>
-        <Value>2018-11-25T20:21:51.8518973+07:00</Value>
+        <Key>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\teapot_lowpoly_0.xml</Key>
+        <Value>2018-11-25T14:49:47.7074664+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -294,11 +294,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\teapot_mediumpoly.xnb</Output>
-      <Time>2018-11-24T19:57:29.4425685+07:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\teapot_mediumpoly.xnb</Output>
+      <Time>2018-11-25T14:48:47.5187906+00:00</Time>
       <Dependency>
-        <Key>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\teapot_mediumpoly_0.xml</Key>
-        <Value>2018-11-25T20:21:51.9168596+07:00</Value>
+        <Key>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\teapot_mediumpoly_0.xml</Key>
+        <Value>2018-11-25T14:49:47.7453653+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -307,16 +307,16 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Animated\dude.xnb</Output>
-      <Time>2018-11-24T19:57:29.2166792+07:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Animated\dude.xnb</Output>
+      <Time>2018-11-25T14:48:47.260351+00:00</Time>
       <Dependency>
-        <Key>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\Animated\dude_0.xml</Key>
-        <Value>2018-11-25T20:21:55.9838718+07:00</Value>
+        <Key>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\Animated\dude_0.xml</Key>
+        <Value>2018-11-25T14:49:49.9994012+00:00</Value>
       </Dependency>
-      <Request>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Animated\head_0.xnb</Request>
-      <Request>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Animated\jacket_0.xnb</Request>
-      <Request>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Animated\pants_0.xnb</Request>
-      <Request>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Animated\upBodyC_0.xnb</Request>
+      <Request>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Animated\head_0.xnb</Request>
+      <Request>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Animated\jacket_0.xnb</Request>
+      <Request>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Animated\pants_0.xnb</Request>
+      <Request>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Animated\upBodyC_0.xnb</Request>
     </Item>
     <Item>
       <Source>Assets\Models\Animated\Squirrel\RedRun4.FBX</Source>
@@ -324,11 +324,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Animated\Squirrel\RedRun4.xnb</Output>
-      <Time>2018-11-24T19:57:28.9229128+07:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Animated\Squirrel\RedRun4.xnb</Output>
+      <Time>2018-11-25T14:48:47.0954511+00:00</Time>
       <Dependency>
-        <Key>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\Animated\Squirrel\RedRun4_0.xml</Key>
-        <Value>2018-11-25T20:22:03.0630563+07:00</Value>
+        <Key>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\Animated\Squirrel\RedRun4_0.xml</Key>
+        <Value>2018-11-25T14:49:51.7798078+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -337,11 +337,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Animated\Squirrel\Red_Idle.xnb</Output>
-      <Time>2018-11-24T19:57:28.932439+07:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Animated\Squirrel\Red_Idle.xnb</Output>
+      <Time>2018-11-25T14:48:47.1084644+00:00</Time>
       <Dependency>
-        <Key>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\Animated\Squirrel\Red_Idle_0.xml</Key>
-        <Value>2018-11-25T20:22:05.2057733+07:00</Value>
+        <Key>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\Animated\Squirrel\Red_Idle_0.xml</Key>
+        <Value>2018-11-25T14:49:53.496098+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -350,11 +350,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Animated\Squirrel\Red_Jump.xnb</Output>
-      <Time>2018-11-24T19:57:28.932439+07:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Animated\Squirrel\Red_Jump.xnb</Output>
+      <Time>2018-11-25T14:48:47.1163997+00:00</Time>
       <Dependency>
-        <Key>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\Animated\Squirrel\Red_Jump_0.xml</Key>
-        <Value>2018-11-25T20:22:05.6476316+07:00</Value>
+        <Key>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\Animated\Squirrel\Red_Jump_0.xml</Key>
+        <Value>2018-11-25T14:49:53.8246029+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -363,11 +363,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Animated\Squirrel\Red_Punch.xnb</Output>
-      <Time>2018-11-24T19:57:28.9424674+07:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Animated\Squirrel\Red_Punch.xnb</Output>
+      <Time>2018-11-25T14:48:47.1244592+00:00</Time>
       <Dependency>
-        <Key>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\Animated\Squirrel\Red_Punch_0.xml</Key>
-        <Value>2018-11-25T20:22:06.026736+07:00</Value>
+        <Key>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\Animated\Squirrel\Red_Punch_0.xml</Key>
+        <Value>2018-11-25T14:49:54.096878+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -376,11 +376,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Animated\Squirrel\Red_Standing.xnb</Output>
-      <Time>2018-11-24T19:57:28.9424674+07:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Animated\Squirrel\Red_Standing.xnb</Output>
+      <Time>2018-11-25T14:48:47.1373634+00:00</Time>
       <Dependency>
-        <Key>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\Animated\Squirrel\Red_Standing_0.xml</Key>
-        <Value>2018-11-25T20:22:08.3750111+07:00</Value>
+        <Key>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\Animated\Squirrel\Red_Standing_0.xml</Key>
+        <Value>2018-11-25T14:49:54.9314349+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -389,11 +389,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Animated\Squirrel\Red_Tailwhip.xnb</Output>
-      <Time>2018-11-24T19:57:29.1526387+07:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Animated\Squirrel\Red_Tailwhip.xnb</Output>
+      <Time>2018-11-25T14:48:47.1453597+00:00</Time>
       <Dependency>
-        <Key>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\Animated\Squirrel\Red_Tailwhip_0.xml</Key>
-        <Value>2018-11-25T20:22:09.0030404+07:00</Value>
+        <Key>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\Animated\Squirrel\Red_Tailwhip_0.xml</Key>
+        <Value>2018-11-25T14:49:55.3396137+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -402,11 +402,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\mapBlockingOut.xnb</Output>
-      <Time>2018-11-24T19:57:29.4327481+07:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\mapBlockingOut.xnb</Output>
+      <Time>2018-11-25T14:48:47.4838713+00:00</Time>
       <Dependency>
-        <Key>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\mapBlockingOut_0.xml</Key>
-        <Value>2018-11-25T20:22:09.3640531+07:00</Value>
+        <Key>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\mapBlockingOut_0.xml</Key>
+        <Value>2018-11-25T14:49:55.6369709+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -415,11 +415,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\fallenTree.xnb</Output>
-      <Time>2018-11-24T19:57:29.4225654+07:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\fallenTree.xnb</Output>
+      <Time>2018-11-25T14:48:47.4729003+00:00</Time>
       <Dependency>
-        <Key>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\fallenTree_0.xml</Key>
-        <Value>2018-11-25T20:22:09.5169476+07:00</Value>
+        <Key>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\fallenTree_0.xml</Key>
+        <Value>2018-11-25T14:49:55.7562055+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -428,16 +428,16 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Car_for_game.xnb</Output>
-      <Time>2018-11-24T19:57:29.3331567+07:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Car_for_game.xnb</Output>
+      <Time>2018-11-25T14:48:47.4370905+00:00</Time>
       <Dependency>
-        <Key>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\Car_for_game_0.xml</Key>
-        <Value>2018-11-25T20:22:09.8722328+07:00</Value>
+        <Key>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\Car_for_game_0.xml</Key>
+        <Value>2018-11-25T14:49:55.9218622+00:00</Value>
       </Dependency>
-      <Request>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\snowed-car-roof(1)_0.xnb</Request>
-      <Request>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Cladding_Siding_White_0.xnb</Request>
-      <Request>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Metal_Aluminum_Anodized_0.xnb</Request>
-      <Request>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\window-glass(1)_0.xnb</Request>
+      <Request>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\snowed-car-roof(1)_0.xnb</Request>
+      <Request>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Cladding_Siding_White_0.xnb</Request>
+      <Request>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Metal_Aluminum_Anodized_0.xnb</Request>
+      <Request>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\window-glass(1)_0.xnb</Request>
     </Item>
     <Item>
       <Source>Assets\Models\snow_drift.FBX</Source>
@@ -445,11 +445,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\snow_drift.xnb</Output>
-      <Time>2018-11-24T19:57:29.4327481+07:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\snow_drift.xnb</Output>
+      <Time>2018-11-25T14:48:47.5058126+00:00</Time>
       <Dependency>
-        <Key>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\snow_drift_0.xml</Key>
-        <Value>2018-11-25T20:22:10.0972994+07:00</Value>
+        <Key>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\snow_drift_0.xml</Key>
+        <Value>2018-11-25T14:49:56.0910368+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -458,11 +458,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\ElectricPole.xnb</Output>
-      <Time>2018-11-24T19:57:29.3331567+07:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\ElectricPole.xnb</Output>
+      <Time>2018-11-25T14:48:47.445976+00:00</Time>
       <Dependency>
-        <Key>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\ElectricPole_0.xml</Key>
-        <Value>2018-11-25T20:22:10.1772533+07:00</Value>
+        <Key>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\ElectricPole_0.xml</Key>
+        <Value>2018-11-25T14:49:56.1339219+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -471,1007 +471,13 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\road.xnb</Output>
-      <Time>2018-11-24T19:57:29.4327481+07:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\road.xnb</Output>
+      <Time>2018-11-25T14:48:47.5028208+00:00</Time>
       <Dependency>
-        <Key>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\road_0.xml</Key>
-        <Value>2018-11-25T20:22:10.2721996+07:00</Value>
+        <Key>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\road_0.xml</Key>
+        <Value>2018-11-25T14:49:56.1758102+00:00</Value>
       </Dependency>
-      <Request>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\road_0.xnb</Request>
-    </Item>
-    <Item>
-      <Source>Assets\Debug\Textures\checkerboard.png</Source>
-      <Name>Assets\Debug\Textures\checkerboard</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Debug\Textures\checkerboard.xnb</Output>
-      <Time>2018-11-24T19:57:28.8729209+07:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Textures\Foliage\Ground\foliage.png</Source>
-      <Name>Assets\Textures\Foliage\Ground\foliage</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Foliage\Ground\foliage.xnb</Output>
-      <Time>2018-11-24T19:57:29.4926958+07:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Textures\Foliage\Ground\grass1.jpg</Source>
-      <Name>Assets\Textures\Foliage\Ground\grass1</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Foliage\Ground\grass1.xnb</Output>
-      <Time>2018-11-24T19:57:29.4926958+07:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Textures\Foliage\Shrubs\shrub1.png</Source>
-      <Name>Assets\Textures\Foliage\Shrubs\shrub1</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Foliage\Shrubs\shrub1.xnb</Output>
-      <Time>2018-11-24T19:57:29.5118809+07:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Textures\Foliage\Shrubs\shrub2.png</Source>
-      <Name>Assets\Textures\Foliage\Shrubs\shrub2</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Foliage\Shrubs\shrub2.xnb</Output>
-      <Time>2018-11-24T19:57:29.5118809+07:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Textures\Foliage\Shrubs\shrub3.png</Source>
-      <Name>Assets\Textures\Foliage\Shrubs\shrub3</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Foliage\Shrubs\shrub3.xnb</Output>
-      <Time>2018-11-24T19:57:29.5224872+07:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Textures\Foliage\Trees\tree1.png</Source>
-      <Name>Assets\Textures\Foliage\Trees\tree1</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Foliage\Trees\tree1.xnb</Output>
-      <Time>2018-11-24T19:57:29.5224872+07:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Textures\Foliage\Trees\tree2.png</Source>
-      <Name>Assets\Textures\Foliage\Trees\tree2</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Foliage\Trees\tree2.xnb</Output>
-      <Time>2018-11-24T19:57:29.5224872+07:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Textures\Foliage\Trees\tree3.png</Source>
-      <Name>Assets\Textures\Foliage\Trees\tree3</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Foliage\Trees\tree3.xnb</Output>
-      <Time>2018-11-24T19:57:29.5224872+07:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Textures\Foliage\Trees\tree4.png</Source>
-      <Name>Assets\Textures\Foliage\Trees\tree4</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Foliage\Trees\tree4.xnb</Output>
-      <Time>2018-11-24T19:57:29.542696+07:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Textures\Foliage\Trees\tree5.png</Source>
-      <Name>Assets\Textures\Foliage\Trees\tree5</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Foliage\Trees\tree5.xnb</Output>
-      <Time>2018-11-24T19:57:29.5525755+07:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Textures\Props\Crates\crate1.jpg</Source>
-      <Name>Assets\Textures\Props\Crates\crate1</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Props\Crates\crate1.xnb</Output>
-      <Time>2018-11-24T19:57:29.7113831+07:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Textures\Props\Crates\crate2.jpg</Source>
-      <Name>Assets\Textures\Props\Crates\crate2</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Props\Crates\crate2.xnb</Output>
-      <Time>2018-11-24T19:57:29.7113831+07:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Textures\Props\tv.png</Source>
-      <Name>Assets\Textures\Props\tv</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Props\tv.xnb</Output>
-      <Time>2018-11-24T19:57:29.756728+07:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Textures\Skybox\back.bmp</Source>
-      <Name>Assets\Textures\Skybox\back</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Skybox\back.xnb</Output>
-      <Time>2018-11-24T19:57:29.7627997+07:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Textures\Skybox\front.bmp</Source>
-      <Name>Assets\Textures\Skybox\front</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Skybox\front.xnb</Output>
-      <Time>2018-11-24T19:57:29.7627997+07:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Textures\Skybox\ground.bmp</Source>
-      <Name>Assets\Textures\Skybox\ground</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Skybox\ground.xnb</Output>
-      <Time>2018-11-24T19:57:29.7726749+07:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Textures\Skybox\left.bmp</Source>
-      <Name>Assets\Textures\Skybox\left</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Skybox\left.xnb</Output>
-      <Time>2018-11-24T19:57:29.7726749+07:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Textures\Skybox\right.bmp</Source>
-      <Name>Assets\Textures\Skybox\right</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Skybox\right.xnb</Output>
-      <Time>2018-11-24T19:57:29.7827779+07:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Textures\Skybox\sky.bmp</Source>
-      <Name>Assets\Textures\Skybox\sky</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Skybox\sky.xnb</Output>
-      <Time>2018-11-24T19:57:29.7827779+07:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Textures\UI\HUD\mouseicons.png</Source>
-      <Name>Assets\Textures\UI\HUD\mouseicons</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\HUD\mouseicons.xnb</Output>
-      <Time>2018-11-24T19:57:29.7927033+07:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Textures\UI\HUD\progress_gradient.png</Source>
-      <Name>Assets\Textures\UI\HUD\progress_gradient</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\HUD\progress_gradient.xnb</Output>
-      <Time>2018-11-24T19:57:29.7927033+07:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Textures\UI\HUD\progress_white.png</Source>
-      <Name>Assets\Textures\UI\HUD\progress_white</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\HUD\progress_white.xnb</Output>
-      <Time>2018-11-24T19:57:29.7927033+07:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Textures\UI\HUD\reticuleClosed.png</Source>
-      <Name>Assets\Textures\UI\HUD\reticuleClosed</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\HUD\reticuleClosed.xnb</Output>
-      <Time>2018-11-24T19:57:29.8247551+07:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Textures\UI\HUD\reticuleDefault.png</Source>
-      <Name>Assets\Textures\UI\HUD\reticuleDefault</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\HUD\reticuleDefault.xnb</Output>
-      <Time>2018-11-24T19:57:29.8247551+07:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Textures\UI\HUD\reticuleOpen.png</Source>
-      <Name>Assets\Textures\UI\HUD\reticuleOpen</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\HUD\reticuleOpen.xnb</Output>
-      <Time>2018-11-24T19:57:29.8247551+07:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Textures\UI\HUD\white.png</Source>
-      <Name>Assets\Textures\UI\HUD\white</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\HUD\white.xnb</Output>
-      <Time>2018-11-24T19:57:29.8327943+07:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Textures\UI\Menu\Backgrounds\audiomenu.png</Source>
-      <Name>Assets\Textures\UI\Menu\Backgrounds\audiomenu</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\Menu\Backgrounds\audiomenu.xnb</Output>
-      <Time>2018-11-24T19:57:29.8327943+07:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Textures\UI\Menu\Backgrounds\controlsmenu.png</Source>
-      <Name>Assets\Textures\UI\Menu\Backgrounds\controlsmenu</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\Menu\Backgrounds\controlsmenu.xnb</Output>
-      <Time>2018-11-24T19:57:29.8327943+07:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Textures\UI\Menu\Backgrounds\exitmenu.png</Source>
-      <Name>Assets\Textures\UI\Menu\Backgrounds\exitmenu</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\Menu\Backgrounds\exitmenu.xnb</Output>
-      <Time>2018-11-24T19:57:29.8327943+07:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Textures\UI\Menu\Backgrounds\exitmenuwithtrans.png</Source>
-      <Name>Assets\Textures\UI\Menu\Backgrounds\exitmenuwithtrans</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\Menu\Backgrounds\exitmenuwithtrans.xnb</Output>
-      <Time>2018-11-24T19:57:29.8327943+07:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Textures\UI\Menu\Backgrounds\mainmenu.PNG</Source>
-      <Name>Assets\Textures\UI\Menu\Backgrounds\mainmenu</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\Menu\Backgrounds\mainmenu.xnb</Output>
-      <Time>2018-11-24T19:57:29.8327943+07:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Textures\UI\Menu\Buttons\genericbtn.png</Source>
-      <Name>Assets\Textures\UI\Menu\Buttons\genericbtn</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\Menu\Buttons\genericbtn.xnb</Output>
-      <Time>2018-11-24T19:57:29.8327943+07:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Debug\Textures\checkerboard_greywhite.png</Source>
-      <Name>Assets\Debug\Textures\checkerboard_greywhite</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Debug\Textures\checkerboard_greywhite.xnb</Output>
-      <Time>2018-11-24T19:57:28.9124237+07:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Debug\Textures\ml.png</Source>
-      <Name>Assets\Debug\Textures\ml</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Debug\Textures\ml.xnb</Output>
-      <Time>2018-11-24T19:57:28.9124379+07:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Debug\Textures\slj.jpg</Source>
-      <Name>Assets\Debug\Textures\slj</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Debug\Textures\slj.xnb</Output>
-      <Time>2018-11-24T19:57:28.9124379+07:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Textures\Architecture\Buildings\house-low-texture.jpg</Source>
-      <Name>Assets\Textures\Architecture\Buildings\house-low-texture</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Architecture\Buildings\house-low-texture.xnb</Output>
-      <Time>2018-11-24T19:57:29.4525337+07:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Textures\Architecture\Fence\fence1.jpg</Source>
-      <Name>Assets\Textures\Architecture\Fence\fence1</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Architecture\Fence\fence1.xnb</Output>
-      <Time>2018-11-24T19:57:29.4525337+07:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Textures\Architecture\Fence\fence2.jpg</Source>
-      <Name>Assets\Textures\Architecture\Fence\fence2</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Architecture\Fence\fence2.xnb</Output>
-      <Time>2018-11-24T19:57:29.4525337+07:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Textures\Architecture\Fence\fence3.jpg</Source>
-      <Name>Assets\Textures\Architecture\Fence\fence3</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Architecture\Fence\fence3.xnb</Output>
-      <Time>2018-11-24T19:57:29.4525337+07:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Textures\Architecture\Fence\fence4.png</Source>
-      <Name>Assets\Textures\Architecture\Fence\fence4</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Architecture\Fence\fence4.xnb</Output>
-      <Time>2018-11-24T19:57:29.4624867+07:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Textures\Architecture\Walls\backwall.jpg</Source>
-      <Name>Assets\Textures\Architecture\Walls\backwall</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Architecture\Walls\backwall.xnb</Output>
-      <Time>2018-11-24T19:57:29.4624867+07:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Textures\Architecture\Walls\sidewall.jpg</Source>
-      <Name>Assets\Textures\Architecture\Walls\sidewall</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Architecture\Walls\sidewall.xnb</Output>
-      <Time>2018-11-24T19:57:29.4624867+07:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Textures\Architecture\Walls\wall.jpg</Source>
-      <Name>Assets\Textures\Architecture\Walls\wall</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Architecture\Walls\wall.xnb</Output>
-      <Time>2018-11-24T19:57:29.4825158+07:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Textures\Common\white64x64.png</Source>
-      <Name>Assets\Textures\Common\white64x64</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Common\white64x64.xnb</Output>
-      <Time>2018-11-24T19:57:29.4926958+07:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Textures\Foliage\Ground\grass_highlevel.jpg</Source>
-      <Name>Assets\Textures\Foliage\Ground\grass_highlevel</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Foliage\Ground\grass_highlevel.xnb</Output>
-      <Time>2018-11-24T19:57:29.5048479+07:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Textures\Foliage\Ground\grass_midlevel.jpg</Source>
-      <Name>Assets\Textures\Foliage\Ground\grass_midlevel</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Foliage\Ground\grass_midlevel.xnb</Output>
-      <Time>2018-11-24T19:57:29.5118809+07:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Textures\Landscape\canyon.jpg</Source>
-      <Name>Assets\Textures\Landscape\canyon</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Landscape\canyon.xnb</Output>
-      <Time>2018-11-24T19:57:29.5928943+07:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Textures\Skydome\skydome.jpg</Source>
-      <Name>Assets\Textures\Skydome\skydome</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Skydome\skydome.xnb</Output>
-      <Time>2018-11-24T19:57:29.7927033+07:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Textures\Props\Crates\wc1_diffuse.tga</Source>
-      <Name>Assets\Textures\Props\Crates\wc1_diffuse</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Props\Crates\wc1_diffuse.xnb</Output>
-      <Time>2018-11-24T19:57:29.756728+07:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Models\Animated\head.tga</Source>
-      <Name>Assets\Models\Animated\head</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Animated\head.xnb</Output>
-      <Time>2018-11-24T19:57:29.2425582+07:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Models\Animated\jacket.tga</Source>
-      <Name>Assets\Models\Animated\jacket</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Animated\jacket.xnb</Output>
-      <Time>2018-11-24T19:57:29.2773054+07:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Models\Animated\pants.tga</Source>
-      <Name>Assets\Models\Animated\pants</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Animated\pants.xnb</Output>
-      <Time>2018-11-24T19:57:29.3042369+07:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Models\Animated\upBodyC.tga</Source>
-      <Name>Assets\Models\Animated\upBodyC</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Animated\upBodyC.xnb</Output>
-      <Time>2018-11-24T19:57:29.3258229+07:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Models\Animated\Squirrel\Tiny_skin.dds</Source>
-      <Name>Assets\Models\Animated\Squirrel\Tiny_skin</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Animated\Squirrel\Tiny_skin.xnb</Output>
-      <Time>2018-11-24T19:57:29.1526387+07:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Textures\GroundTexture\iceSheet.bmp</Source>
-      <Name>Assets\Textures\GroundTexture\iceSheet</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\GroundTexture\iceSheet.xnb</Output>
-      <Time>2018-11-24T19:57:29.5626244+07:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Textures\Menu\startButton.jpg</Source>
-      <Name>Assets\Textures\Menu\startButton</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Menu\startButton.xnb</Output>
-      <Time>2018-11-24T19:57:29.6828111+07:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Textures\Menu\Menu.jpg</Source>
-      <Name>Assets\Textures\Menu\Menu</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Menu\Menu.xnb</Output>
-      <Time>2018-11-24T19:57:29.5928943+07:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Textures\Menu\Button.jpg</Source>
-      <Name>Assets\Textures\Menu\Button</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Menu\Button.xnb</Output>
-      <Time>2018-11-24T19:57:29.5928943+07:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Textures\Menu\exitButton.jpg</Source>
-      <Name>Assets\Textures\Menu\exitButton</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Menu\exitButton.xnb</Output>
-      <Time>2018-11-24T19:57:29.5928943+07:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Textures\Menu\menuButton.jpg</Source>
-      <Name>Assets\Textures\Menu\menuButton</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Menu\menuButton.xnb</Output>
-      <Time>2018-11-24T19:57:29.5928943+07:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Textures\Menu\sliderBar.png</Source>
-      <Name>Assets\Textures\Menu\sliderBar</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Menu\sliderBar.xnb</Output>
-      <Time>2018-11-24T19:57:29.5928943+07:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Textures\Menu\sliderTracker.png</Source>
-      <Name>Assets\Textures\Menu\sliderTracker</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Menu\sliderTracker.xnb</Output>
-      <Time>2018-11-24T19:57:29.5928943+07:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Textures\UI\HUD\ThermoBar.png</Source>
-      <Name>Assets\Textures\UI\HUD\ThermoBar</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\HUD\ThermoBar.xnb</Output>
-      <Time>2018-11-24T19:57:29.7927033+07:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Textures\UI\HUD\Thermometer.png</Source>
-      <Name>Assets\Textures\UI\HUD\Thermometer</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\HUD\Thermometer.xnb</Output>
-      <Time>2018-11-24T19:57:29.7927033+07:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Textures\Road\roadtxt.jpg</Source>
-      <Name>Assets\Textures\Road\roadtxt</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Road\roadtxt.xnb</Output>
-      <Time>2018-11-24T19:57:29.756728+07:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Audio\boing.wav</Source>
-      <Name>Assets\Audio\boing</Name>
-      <Importer>WavImporter</Importer>
-      <Processor>SoundEffectProcessor</Processor>
-      <Options>None</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Audio\boing.xnb</Output>
-      <Time>2018-11-24T19:57:28.8629328+07:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Audio\Ouch.wav</Source>
-      <Name>Assets\Audio\Ouch</Name>
-      <Importer>WavImporter</Importer>
-      <Processor>SoundEffectProcessor</Processor>
-      <Options>None</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Audio\Ouch.xnb</Output>
-      <Time>2018-11-24T19:57:28.8629328+07:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Models\box.FBX</Source>
-      <Importer>FbxImporter</Importer>
-      <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\box_0.xml</Output>
-      <Time>2018-11-24T19:57:29.4225654+07:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Models\box2.FBX</Source>
-      <Importer>FbxImporter</Importer>
-      <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\box2_0.xml</Output>
-      <Time>2018-11-24T19:57:29.4225654+07:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Models\cylinder.FBX</Source>
-      <Importer>FbxImporter</Importer>
-      <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\cylinder_0.xml</Output>
-      <Time>2018-11-24T19:57:29.4225654+07:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Models\dome.FBX</Source>
-      <Importer>FbxImporter</Importer>
-      <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\dome_0.xml</Output>
-      <Time>2018-11-24T19:57:29.4225654+07:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Models\hedra.FBX</Source>
-      <Importer>FbxImporter</Importer>
-      <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\hedra_0.xml</Output>
-      <Time>2018-11-24T19:57:29.4225654+07:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Models\octahedron.FBX</Source>
-      <Importer>FbxImporter</Importer>
-      <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\octahedron_0.xml</Output>
-      <Time>2018-11-24T19:57:29.4327481+07:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Models\prism.FBX</Source>
-      <Importer>FbxImporter</Importer>
-      <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\prism_0.xml</Output>
-      <Time>2018-11-24T19:57:29.4327481+07:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Models\sphere.FBX</Source>
-      <Importer>FbxImporter</Importer>
-      <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\sphere_0.xml</Output>
-      <Time>2018-11-24T19:57:29.4327481+07:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Models\spindle.FBX</Source>
-      <Importer>FbxImporter</Importer>
-      <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\spindle_0.xml</Output>
-      <Time>2018-11-24T19:57:29.4327481+07:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Models\torus.FBX</Source>
-      <Importer>FbxImporter</Importer>
-      <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\torus_0.xml</Output>
-      <Time>2018-11-24T19:57:29.4425685+07:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Models\torusknot.FBX</Source>
-      <Importer>FbxImporter</Importer>
-      <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\torusknot_0.xml</Output>
-      <Time>2018-11-24T19:57:29.4425685+07:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Models\plane.FBX</Source>
-      <Importer>FbxImporter</Importer>
-      <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\plane_0.xml</Output>
-      <Time>2018-11-24T19:57:29.4327481+07:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Models\plane1.FBX</Source>
-      <Importer>FbxImporter</Importer>
-      <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\plane1_0.xml</Output>
-      <Time>2018-11-24T19:57:29.4327481+07:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Models\Architecture\Buildings\house.FBX</Source>
-      <Importer>FbxImporter</Importer>
-      <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\Architecture\Buildings\house_0.xml</Output>
-      <Time>2018-11-24T19:57:29.3331567+07:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Models\Architecture\Walls\wall.FBX</Source>
-      <Importer>FbxImporter</Importer>
-      <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\Architecture\Walls\wall_0.xml</Output>
-      <Time>2018-11-24T19:57:29.3331567+07:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Models\box1.FBX</Source>
-      <Importer>FbxImporter</Importer>
-      <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\box1_0.xml</Output>
-      <Time>2018-11-24T19:57:29.4225654+07:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Models\Landscape\canyon.FBX</Source>
-      <Importer>FbxImporter</Importer>
-      <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\Landscape\canyon_0.xml</Output>
-      <Time>2018-11-24T19:57:29.3331567+07:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Models\Props\Crates\wc1.FBX</Source>
-      <Importer>FbxImporter</Importer>
-      <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\Props\Crates\wc1_0.xml</Output>
-      <Time>2018-11-24T19:57:29.3331567+07:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Models\teapot.FBX</Source>
-      <Importer>FbxImporter</Importer>
-      <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\teapot_0.xml</Output>
-      <Time>2018-11-24T19:57:29.4425294+07:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Models\teapot_lowpoly.FBX</Source>
-      <Importer>FbxImporter</Importer>
-      <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\teapot_lowpoly_0.xml</Output>
-      <Time>2018-11-24T19:57:29.4425685+07:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Models\teapot_mediumpoly.FBX</Source>
-      <Importer>FbxImporter</Importer>
-      <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\teapot_mediumpoly_0.xml</Output>
-      <Time>2018-11-24T19:57:29.4425685+07:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Models\Animated\dude.fbx</Source>
-      <Importer>FbxImporter</Importer>
-      <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\Animated\dude_0.xml</Output>
-      <Time>2018-11-24T19:57:29.2166792+07:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Models\Animated\head.tga</Source>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Parameters>
-        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
-        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
-        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
-        <Data Key="GenerateMipmaps" Type="bool">true</Data>
-        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
-        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
-      </Parameters>
-      <Options>None</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Animated\head_0.xnb</Output>
-      <Time>2018-11-24T19:57:29.2425582+07:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Models\Animated\jacket.tga</Source>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Parameters>
-        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
-        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
-        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
-        <Data Key="GenerateMipmaps" Type="bool">true</Data>
-        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
-        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
-      </Parameters>
-      <Options>None</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Animated\jacket_0.xnb</Output>
-      <Time>2018-11-24T19:57:29.2773054+07:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Models\Animated\pants.tga</Source>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Parameters>
-        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
-        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
-        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
-        <Data Key="GenerateMipmaps" Type="bool">true</Data>
-        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
-        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
-      </Parameters>
-      <Options>None</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Animated\pants_0.xnb</Output>
-      <Time>2018-11-24T19:57:29.3042369+07:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Models\Animated\upBodyC.tga</Source>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Parameters>
-        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
-        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
-        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
-        <Data Key="GenerateMipmaps" Type="bool">true</Data>
-        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
-        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
-      </Parameters>
-      <Options>None</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Animated\upBodyC_0.xnb</Output>
-      <Time>2018-11-24T19:57:29.3258229+07:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Models\Animated\Squirrel\RedRun4.FBX</Source>
-      <Importer>FbxImporter</Importer>
-      <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\Animated\Squirrel\RedRun4_0.xml</Output>
-      <Time>2018-11-24T19:57:28.9229128+07:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Models\Animated\Squirrel\Red_Idle.FBX</Source>
-      <Importer>FbxImporter</Importer>
-      <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\Animated\Squirrel\Red_Idle_0.xml</Output>
-      <Time>2018-11-24T19:57:28.932439+07:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Models\Animated\Squirrel\Red_Jump.FBX</Source>
-      <Importer>FbxImporter</Importer>
-      <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\Animated\Squirrel\Red_Jump_0.xml</Output>
-      <Time>2018-11-24T19:57:28.932439+07:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Models\Animated\Squirrel\Red_Punch.fbx</Source>
-      <Importer>FbxImporter</Importer>
-      <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\Animated\Squirrel\Red_Punch_0.xml</Output>
-      <Time>2018-11-24T19:57:28.9424674+07:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Models\Animated\Squirrel\Red_Standing.FBX</Source>
-      <Importer>FbxImporter</Importer>
-      <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\Animated\Squirrel\Red_Standing_0.xml</Output>
-      <Time>2018-11-24T19:57:28.9424674+07:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Models\Animated\Squirrel\Red_Tailwhip.FBX</Source>
-      <Importer>FbxImporter</Importer>
-      <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\Animated\Squirrel\Red_Tailwhip_0.xml</Output>
-      <Time>2018-11-24T19:57:29.1526387+07:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Models\mapBlockingOut.fbx</Source>
-      <Importer>FbxImporter</Importer>
-      <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\mapBlockingOut_0.xml</Output>
-      <Time>2018-11-24T19:57:29.4327481+07:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Models\fallenTree.FBX</Source>
-      <Importer>FbxImporter</Importer>
-      <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\fallenTree_0.xml</Output>
-      <Time>2018-11-24T19:57:29.4225654+07:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Models\Car_for_game.FBX</Source>
-      <Importer>FbxImporter</Importer>
-      <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\Car_for_game_0.xml</Output>
-      <Time>2018-11-24T19:57:29.3331567+07:00</Time>
-    </Item>
-    <Item>
-      <Source>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\obj\x86\Debug\FBX\84DD247B\Car_for_game.fbm\snowed-car-roof(1).jpg</Source>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Parameters>
-        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
-        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
-        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
-        <Data Key="GenerateMipmaps" Type="bool">true</Data>
-        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
-        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
-      </Parameters>
-      <Options>None</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\snowed-car-roof(1)_0.xnb</Output>
-      <Time>2018-11-25T20:22:09.6878253+07:00</Time>
-    </Item>
-    <Item>
-      <Source>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\obj\x86\Debug\FBX\84DD247B\Car_for_game.fbm\Cladding_Siding_White.jpg</Source>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Parameters>
-        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
-        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
-        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
-        <Data Key="GenerateMipmaps" Type="bool">true</Data>
-        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
-        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
-      </Parameters>
-      <Options>None</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Cladding_Siding_White_0.xnb</Output>
-      <Time>2018-11-25T20:22:09.6908081+07:00</Time>
-    </Item>
-    <Item>
-      <Source>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\obj\x86\Debug\FBX\84DD247B\Car_for_game.fbm\Metal_Aluminum_Anodized.jpg</Source>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Parameters>
-        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
-        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
-        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
-        <Data Key="GenerateMipmaps" Type="bool">true</Data>
-        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
-        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
-      </Parameters>
-      <Options>None</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Metal_Aluminum_Anodized_0.xnb</Output>
-      <Time>2018-11-25T20:22:09.6898089+07:00</Time>
-    </Item>
-    <Item>
-      <Source>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\obj\x86\Debug\FBX\84DD247B\Car_for_game.fbm\window-glass(1).jpg</Source>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Parameters>
-        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
-        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
-        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
-        <Data Key="GenerateMipmaps" Type="bool">true</Data>
-        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
-        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
-      </Parameters>
-      <Options>None</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\window-glass(1)_0.xnb</Output>
-      <Time>2018-11-25T20:22:09.6888094+07:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Models\snow_drift.FBX</Source>
-      <Importer>FbxImporter</Importer>
-      <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\snow_drift_0.xml</Output>
-      <Time>2018-11-24T19:57:29.4327481+07:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Models\ElectricPole.FBX</Source>
-      <Importer>FbxImporter</Importer>
-      <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\ElectricPole_0.xml</Output>
-      <Time>2018-11-24T19:57:29.3331567+07:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Models\road.FBX</Source>
-      <Importer>FbxImporter</Importer>
-      <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\road_0.xml</Output>
-      <Time>2018-11-24T19:57:29.4327481+07:00</Time>
-    </Item>
-    <Item>
-      <Source>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\obj\x86\Debug\FBX\6B35214C\road.fbm\road.jpg</Source>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Parameters>
-        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
-        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
-        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
-        <Data Key="GenerateMipmaps" Type="bool">true</Data>
-        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
-        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
-      </Parameters>
-      <Options>None</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\road_0.xnb</Output>
-      <Time>2018-11-25T20:22:10.2662017+07:00</Time>
+      <Request>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\road_0.xnb</Request>
     </Item>
     <Item>
       <Source>Assets\Models\Character_model_1.FBX</Source>
@@ -1479,123 +485,16 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Character_model_1.xnb</Output>
-      <Time>2018-11-25T20:28:15.8927645+07:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Character_model_1.xnb</Output>
+      <Time>2018-11-25T14:48:47.4449755+00:00</Time>
       <Dependency>
-        <Key>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\Character_model_1_0.xml</Key>
-        <Value>2018-11-25T20:31:21.5016437+07:00</Value>
+        <Key>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\Character_model_1_0.xml</Key>
+        <Value>2018-11-25T14:49:56.4984531+00:00</Value>
       </Dependency>
-      <Request>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Character_Flease_0.xnb</Request>
-      <Request>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Character_Scarf_0.xnb</Request>
-      <Request>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Character_Face_test01_0.xnb</Request>
-      <Request>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Character_Hair_0.xnb</Request>
-    </Item>
-    <Item>
-      <Source>Assets\Textures\UI\HUD\boots.png</Source>
-      <Name>Assets\Textures\UI\HUD\boots</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\HUD\boots.xnb</Output>
-      <Time>2018-11-25T20:29:36.8877692+07:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Textures\UI\HUD\charHUD.png</Source>
-      <Name>Assets\Textures\UI\HUD\charHUD</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\HUD\charHUD.xnb</Output>
-      <Time>2018-11-25T20:29:39.6102747+07:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Textures\UI\HUD\charProfileFinal.png</Source>
-      <Name>Assets\Textures\UI\HUD\charProfileFinal</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\HUD\charProfileFinal.xnb</Output>
-      <Time>2018-11-25T20:29:42.1445411+07:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Textures\UI\HUD\shovel.png</Source>
-      <Name>Assets\Textures\UI\HUD\shovel</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\HUD\shovel.xnb</Output>
-      <Time>2018-11-25T20:29:46.5335542+07:00</Time>
-    </Item>
-    <Item>
-      <Source>Assets\Models\Character_model_1.FBX</Source>
-      <Importer>FbxImporter</Importer>
-      <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\Character_model_1_0.xml</Output>
-      <Time>2018-11-25T20:28:15.8927645+07:00</Time>
-    </Item>
-    <Item>
-      <Source>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\obj\x86\Debug\FBX\41D32653\Character_model_1.fbm\Character_Flease.JPG</Source>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Parameters>
-        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
-        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
-        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
-        <Data Key="GenerateMipmaps" Type="bool">true</Data>
-        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
-        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
-      </Parameters>
-      <Options>None</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Character_Flease_0.xnb</Output>
-      <Time>2018-11-25T20:31:21.3472045+07:00</Time>
-    </Item>
-    <Item>
-      <Source>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\obj\x86\Debug\FBX\41D32653\Character_model_1.fbm\Character_Scarf.JPG</Source>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Parameters>
-        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
-        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
-        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
-        <Data Key="GenerateMipmaps" Type="bool">true</Data>
-        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
-        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
-      </Parameters>
-      <Options>None</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Character_Scarf_0.xnb</Output>
-      <Time>2018-11-25T20:31:21.3491901+07:00</Time>
-    </Item>
-    <Item>
-      <Source>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\obj\x86\Debug\FBX\41D32653\Character_model_1.fbm\Character_Face_test01.JPG</Source>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Parameters>
-        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
-        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
-        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
-        <Data Key="GenerateMipmaps" Type="bool">true</Data>
-        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
-        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
-      </Parameters>
-      <Options>None</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Character_Face_test01_0.xnb</Output>
-      <Time>2018-11-25T20:31:21.3032137+07:00</Time>
-    </Item>
-    <Item>
-      <Source>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\obj\x86\Debug\FBX\41D32653\Character_model_1.fbm\Character_Hair.JPG</Source>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Parameters>
-        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
-        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
-        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
-        <Data Key="GenerateMipmaps" Type="bool">true</Data>
-        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
-        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
-      </Parameters>
-      <Options>None</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Character_Hair_0.xnb</Output>
-      <Time>2018-11-25T20:31:21.3042144+07:00</Time>
+      <Request>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Character_Flease_0.xnb</Request>
+      <Request>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Character_Scarf_0.xnb</Request>
+      <Request>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Character_Face_test01_0.xnb</Request>
+      <Request>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Character_Hair_0.xnb</Request>
     </Item>
     <Item>
       <Source>Assets\Models\Wall.FBX</Source>
@@ -1603,19 +502,642 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Wall.xnb</Output>
-      <Time>2018-11-25T20:46:57.98304+07:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Wall.xnb</Output>
+      <Time>2018-11-25T14:48:47.4579663+00:00</Time>
       <Dependency>
-        <Key>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\Wall_0.xml</Key>
-        <Value>2018-11-25T20:47:01.7408718+07:00</Value>
+        <Key>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\Wall_0.xml</Key>
+        <Value>2018-11-25T14:49:57.4339508+00:00</Value>
       </Dependency>
     </Item>
     <Item>
-      <Source>Assets\Models\Wall.FBX</Source>
-      <Importer>FbxImporter</Importer>
-      <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\Wall_0.xml</Output>
-      <Time>2018-11-25T20:46:57.98304+07:00</Time>
+      <Source>Assets\Debug\Textures\checkerboard.png</Source>
+      <Name>Assets\Debug\Textures\checkerboard</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Debug\Textures\checkerboard.xnb</Output>
+      <Time>2018-11-25T14:48:47.0673671+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Foliage\Ground\foliage.png</Source>
+      <Name>Assets\Textures\Foliage\Ground\foliage</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Foliage\Ground\foliage.xnb</Output>
+      <Time>2018-11-25T14:48:47.7488283+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Foliage\Ground\grass1.jpg</Source>
+      <Name>Assets\Textures\Foliage\Ground\grass1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Foliage\Ground\grass1.xnb</Output>
+      <Time>2018-11-25T14:48:47.7538152+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Foliage\Shrubs\shrub1.png</Source>
+      <Name>Assets\Textures\Foliage\Shrubs\shrub1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Foliage\Shrubs\shrub1.xnb</Output>
+      <Time>2018-11-25T14:48:47.7836612+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Foliage\Shrubs\shrub2.png</Source>
+      <Name>Assets\Textures\Foliage\Shrubs\shrub2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Foliage\Shrubs\shrub2.xnb</Output>
+      <Time>2018-11-25T14:48:47.7916223+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Foliage\Shrubs\shrub3.png</Source>
+      <Name>Assets\Textures\Foliage\Shrubs\shrub3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Foliage\Shrubs\shrub3.xnb</Output>
+      <Time>2018-11-25T14:48:47.7987351+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Foliage\Trees\tree1.png</Source>
+      <Name>Assets\Textures\Foliage\Trees\tree1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Foliage\Trees\tree1.xnb</Output>
+      <Time>2018-11-25T14:48:47.800733+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Foliage\Trees\tree2.png</Source>
+      <Name>Assets\Textures\Foliage\Trees\tree2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Foliage\Trees\tree2.xnb</Output>
+      <Time>2018-11-25T14:48:47.8057196+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Foliage\Trees\tree3.png</Source>
+      <Name>Assets\Textures\Foliage\Trees\tree3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Foliage\Trees\tree3.xnb</Output>
+      <Time>2018-11-25T14:48:47.8097649+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Foliage\Trees\tree4.png</Source>
+      <Name>Assets\Textures\Foliage\Trees\tree4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Foliage\Trees\tree4.xnb</Output>
+      <Time>2018-11-25T14:48:47.84083+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Foliage\Trees\tree5.png</Source>
+      <Name>Assets\Textures\Foliage\Trees\tree5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Foliage\Trees\tree5.xnb</Output>
+      <Time>2018-11-25T14:48:47.8649895+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Props\Crates\crate1.jpg</Source>
+      <Name>Assets\Textures\Props\Crates\crate1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Props\Crates\crate1.xnb</Output>
+      <Time>2018-11-25T14:48:48.1109701+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Props\Crates\crate2.jpg</Source>
+      <Name>Assets\Textures\Props\Crates\crate2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Props\Crates\crate2.xnb</Output>
+      <Time>2018-11-25T14:48:48.1129655+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Props\tv.png</Source>
+      <Name>Assets\Textures\Props\tv</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Props\tv.xnb</Output>
+      <Time>2018-11-25T14:48:48.1658471+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Skybox\back.bmp</Source>
+      <Name>Assets\Textures\Skybox\back</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Skybox\back.xnb</Output>
+      <Time>2018-11-25T14:48:48.2760218+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Skybox\front.bmp</Source>
+      <Name>Assets\Textures\Skybox\front</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Skybox\front.xnb</Output>
+      <Time>2018-11-25T14:48:48.2849696+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Skybox\ground.bmp</Source>
+      <Name>Assets\Textures\Skybox\ground</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Skybox\ground.xnb</Output>
+      <Time>2018-11-25T14:48:48.294944+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Skybox\left.bmp</Source>
+      <Name>Assets\Textures\Skybox\left</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Skybox\left.xnb</Output>
+      <Time>2018-11-25T14:48:48.3030205+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Skybox\right.bmp</Source>
+      <Name>Assets\Textures\Skybox\right</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Skybox\right.xnb</Output>
+      <Time>2018-11-25T14:48:48.3112282+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Skybox\sky.bmp</Source>
+      <Name>Assets\Textures\Skybox\sky</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Skybox\sky.xnb</Output>
+      <Time>2018-11-25T14:48:48.318308+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\UI\HUD\mouseicons.png</Source>
+      <Name>Assets\Textures\UI\HUD\mouseicons</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\HUD\mouseicons.xnb</Output>
+      <Time>2018-11-25T14:48:48.4519327+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\UI\HUD\progress_gradient.png</Source>
+      <Name>Assets\Textures\UI\HUD\progress_gradient</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\HUD\progress_gradient.xnb</Output>
+      <Time>2018-11-25T14:48:48.453905+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\UI\HUD\progress_white.png</Source>
+      <Name>Assets\Textures\UI\HUD\progress_white</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\HUD\progress_white.xnb</Output>
+      <Time>2018-11-25T14:48:48.5244845+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\UI\HUD\reticuleClosed.png</Source>
+      <Name>Assets\Textures\UI\HUD\reticuleClosed</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\HUD\reticuleClosed.xnb</Output>
+      <Time>2018-11-25T14:48:48.5255139+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\UI\HUD\reticuleDefault.png</Source>
+      <Name>Assets\Textures\UI\HUD\reticuleDefault</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\HUD\reticuleDefault.xnb</Output>
+      <Time>2018-11-25T14:48:48.5279062+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\UI\HUD\reticuleOpen.png</Source>
+      <Name>Assets\Textures\UI\HUD\reticuleOpen</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\HUD\reticuleOpen.xnb</Output>
+      <Time>2018-11-25T14:48:48.5294964+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\UI\HUD\white.png</Source>
+      <Name>Assets\Textures\UI\HUD\white</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\HUD\white.xnb</Output>
+      <Time>2018-11-25T14:48:48.5384875+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\UI\Menu\Backgrounds\audiomenu.png</Source>
+      <Name>Assets\Textures\UI\Menu\Backgrounds\audiomenu</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\Menu\Backgrounds\audiomenu.xnb</Output>
+      <Time>2018-11-25T14:48:48.5925804+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\UI\Menu\Backgrounds\controlsmenu.png</Source>
+      <Name>Assets\Textures\UI\Menu\Backgrounds\controlsmenu</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\Menu\Backgrounds\controlsmenu.xnb</Output>
+      <Time>2018-11-25T14:48:48.5945693+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\UI\Menu\Backgrounds\exitmenu.png</Source>
+      <Name>Assets\Textures\UI\Menu\Backgrounds\exitmenu</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\Menu\Backgrounds\exitmenu.xnb</Output>
+      <Time>2018-11-25T14:48:48.5971345+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\UI\Menu\Backgrounds\exitmenuwithtrans.png</Source>
+      <Name>Assets\Textures\UI\Menu\Backgrounds\exitmenuwithtrans</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\Menu\Backgrounds\exitmenuwithtrans.xnb</Output>
+      <Time>2018-11-25T14:48:48.5986021+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\UI\Menu\Backgrounds\mainmenu.PNG</Source>
+      <Name>Assets\Textures\UI\Menu\Backgrounds\mainmenu</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\Menu\Backgrounds\mainmenu.xnb</Output>
+      <Time>2018-11-25T14:48:48.6006033+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\UI\Menu\Buttons\genericbtn.png</Source>
+      <Name>Assets\Textures\UI\Menu\Buttons\genericbtn</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\Menu\Buttons\genericbtn.xnb</Output>
+      <Time>2018-11-25T14:48:48.6046787+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Debug\Textures\checkerboard_greywhite.png</Source>
+      <Name>Assets\Debug\Textures\checkerboard_greywhite</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Debug\Textures\checkerboard_greywhite.xnb</Output>
+      <Time>2018-11-25T14:48:47.0693619+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Debug\Textures\ml.png</Source>
+      <Name>Assets\Debug\Textures\ml</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Debug\Textures\ml.xnb</Output>
+      <Time>2018-11-25T14:48:47.0765879+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Debug\Textures\slj.jpg</Source>
+      <Name>Assets\Debug\Textures\slj</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Debug\Textures\slj.xnb</Output>
+      <Time>2018-11-25T14:48:47.0785131+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Architecture\Buildings\house-low-texture.jpg</Source>
+      <Name>Assets\Textures\Architecture\Buildings\house-low-texture</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Architecture\Buildings\house-low-texture.xnb</Output>
+      <Time>2018-11-25T14:48:47.539847+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Architecture\Fence\fence1.jpg</Source>
+      <Name>Assets\Textures\Architecture\Fence\fence1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Architecture\Fence\fence1.xnb</Output>
+      <Time>2018-11-25T14:48:47.5447434+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Architecture\Fence\fence2.jpg</Source>
+      <Name>Assets\Textures\Architecture\Fence\fence2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Architecture\Fence\fence2.xnb</Output>
+      <Time>2018-11-25T14:48:47.5477355+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Architecture\Fence\fence3.jpg</Source>
+      <Name>Assets\Textures\Architecture\Fence\fence3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Architecture\Fence\fence3.xnb</Output>
+      <Time>2018-11-25T14:48:47.5507283+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Architecture\Fence\fence4.png</Source>
+      <Name>Assets\Textures\Architecture\Fence\fence4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Architecture\Fence\fence4.xnb</Output>
+      <Time>2018-11-25T14:48:47.5657729+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Architecture\Walls\backwall.jpg</Source>
+      <Name>Assets\Textures\Architecture\Walls\backwall</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Architecture\Walls\backwall.xnb</Output>
+      <Time>2018-11-25T14:48:47.5687028+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Architecture\Walls\sidewall.jpg</Source>
+      <Name>Assets\Textures\Architecture\Walls\sidewall</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Architecture\Walls\sidewall.xnb</Output>
+      <Time>2018-11-25T14:48:47.5706738+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Architecture\Walls\wall.jpg</Source>
+      <Name>Assets\Textures\Architecture\Walls\wall</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Architecture\Walls\wall.xnb</Output>
+      <Time>2018-11-25T14:48:47.6036836+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Common\white64x64.png</Source>
+      <Name>Assets\Textures\Common\white64x64</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Common\white64x64.xnb</Output>
+      <Time>2018-11-25T14:48:47.605585+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Foliage\Ground\grass_highlevel.jpg</Source>
+      <Name>Assets\Textures\Foliage\Ground\grass_highlevel</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Foliage\Ground\grass_highlevel.xnb</Output>
+      <Time>2018-11-25T14:48:47.7647593+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Foliage\Ground\grass_midlevel.jpg</Source>
+      <Name>Assets\Textures\Foliage\Ground\grass_midlevel</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Foliage\Ground\grass_midlevel.xnb</Output>
+      <Time>2018-11-25T14:48:47.7817403+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Landscape\canyon.jpg</Source>
+      <Name>Assets\Textures\Landscape\canyon</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Landscape\canyon.xnb</Output>
+      <Time>2018-11-25T14:48:48.0859707+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Skydome\skydome.jpg</Source>
+      <Name>Assets\Textures\Skydome\skydome</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Skydome\skydome.xnb</Output>
+      <Time>2018-11-25T14:48:48.3283728+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Props\Crates\wc1_diffuse.tga</Source>
+      <Name>Assets\Textures\Props\Crates\wc1_diffuse</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Props\Crates\wc1_diffuse.xnb</Output>
+      <Time>2018-11-25T14:48:48.1648269+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Models\Animated\head.tga</Source>
+      <Name>Assets\Models\Animated\head</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Animated\head.xnb</Output>
+      <Time>2018-11-25T14:48:47.3097746+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Models\Animated\jacket.tga</Source>
+      <Name>Assets\Models\Animated\jacket</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Animated\jacket.xnb</Output>
+      <Time>2018-11-25T14:48:47.349059+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Models\Animated\pants.tga</Source>
+      <Name>Assets\Models\Animated\pants</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Animated\pants.xnb</Output>
+      <Time>2018-11-25T14:48:47.3860221+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Models\Animated\upBodyC.tga</Source>
+      <Name>Assets\Models\Animated\upBodyC</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Animated\upBodyC.xnb</Output>
+      <Time>2018-11-25T14:48:47.4249212+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Models\Animated\Squirrel\Tiny_skin.dds</Source>
+      <Name>Assets\Models\Animated\Squirrel\Tiny_skin</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Animated\Squirrel\Tiny_skin.xnb</Output>
+      <Time>2018-11-25T14:48:47.1504294+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\GroundTexture\iceSheet.bmp</Source>
+      <Name>Assets\Textures\GroundTexture\iceSheet</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\GroundTexture\iceSheet.xnb</Output>
+      <Time>2018-11-25T14:48:47.8849383+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Menu\startButton.jpg</Source>
+      <Name>Assets\Textures\Menu\startButton</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Menu\startButton.xnb</Output>
+      <Time>2018-11-25T14:48:48.1049542+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Menu\Menu.jpg</Source>
+      <Name>Assets\Textures\Menu\Menu</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Menu\Menu.xnb</Output>
+      <Time>2018-11-25T14:48:48.0910455+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Menu\Button.jpg</Source>
+      <Name>Assets\Textures\Menu\Button</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Menu\Button.xnb</Output>
+      <Time>2018-11-25T14:48:48.0879048+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Menu\exitButton.jpg</Source>
+      <Name>Assets\Textures\Menu\exitButton</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Menu\exitButton.xnb</Output>
+      <Time>2018-11-25T14:48:48.0939892+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Menu\menuButton.jpg</Source>
+      <Name>Assets\Textures\Menu\menuButton</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Menu\menuButton.xnb</Output>
+      <Time>2018-11-25T14:48:48.0979745+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Menu\sliderBar.png</Source>
+      <Name>Assets\Textures\Menu\sliderBar</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Menu\sliderBar.xnb</Output>
+      <Time>2018-11-25T14:48:48.0999689+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Menu\sliderTracker.png</Source>
+      <Name>Assets\Textures\Menu\sliderTracker</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Menu\sliderTracker.xnb</Output>
+      <Time>2018-11-25T14:48:48.101964+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\UI\HUD\ThermoBar.png</Source>
+      <Name>Assets\Textures\UI\HUD\ThermoBar</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\HUD\ThermoBar.xnb</Output>
+      <Time>2018-11-25T14:48:48.3303695+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\UI\HUD\Thermometer.png</Source>
+      <Name>Assets\Textures\UI\HUD\Thermometer</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\HUD\Thermometer.xnb</Output>
+      <Time>2018-11-25T14:48:48.4248978+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\Road\roadtxt.jpg</Source>
+      <Name>Assets\Textures\Road\roadtxt</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Road\roadtxt.xnb</Output>
+      <Time>2018-11-25T14:48:48.2650328+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\UI\HUD\boots.png</Source>
+      <Name>Assets\Textures\UI\HUD\boots</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\HUD\boots.xnb</Output>
+      <Time>2018-11-25T14:48:48.4318845+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\UI\HUD\charHUD.png</Source>
+      <Name>Assets\Textures\UI\HUD\charHUD</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\HUD\charHUD.xnb</Output>
+      <Time>2018-11-25T14:48:48.4328556+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\UI\HUD\charProfileFinal.png</Source>
+      <Name>Assets\Textures\UI\HUD\charProfileFinal</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\HUD\charProfileFinal.xnb</Output>
+      <Time>2018-11-25T14:48:48.4369362+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Textures\UI\HUD\shovel.png</Source>
+      <Name>Assets\Textures\UI\HUD\shovel</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\HUD\shovel.xnb</Output>
+      <Time>2018-11-25T14:48:48.5375729+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Textures\UI\HUD\coat.png</Source>
@@ -1623,8 +1145,486 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\HUD\coat.xnb</Output>
-      <Time>2018-11-25T21:05:17.771917+07:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\HUD\coat.xnb</Output>
+      <Time>2018-11-25T14:48:48.45061+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Audio\boing.wav</Source>
+      <Name>Assets\Audio\boing</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Audio\boing.xnb</Output>
+      <Time>2018-11-25T14:48:47.063378+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Audio\Ouch.wav</Source>
+      <Name>Assets\Audio\Ouch</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Audio\Ouch.xnb</Output>
+      <Time>2018-11-25T14:48:47.0623806+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Models\box.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\box_0.xml</Output>
+      <Time>2018-11-25T14:48:47.4599354+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Models\box2.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\box2_0.xml</Output>
+      <Time>2018-11-25T14:48:47.4629269+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Models\cylinder.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\cylinder_0.xml</Output>
+      <Time>2018-11-25T14:48:47.4649216+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Models\dome.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\dome_0.xml</Output>
+      <Time>2018-11-25T14:48:47.4709058+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Models\hedra.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\hedra_0.xml</Output>
+      <Time>2018-11-25T14:48:47.4739037+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Models\octahedron.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\octahedron_0.xml</Output>
+      <Time>2018-11-25T14:48:47.4848687+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Models\prism.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\prism_0.xml</Output>
+      <Time>2018-11-25T14:48:47.5008321+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Models\sphere.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\sphere_0.xml</Output>
+      <Time>2018-11-25T14:48:47.5098989+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Models\spindle.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\spindle_0.xml</Output>
+      <Time>2018-11-25T14:48:47.5107991+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Models\torus.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\torus_0.xml</Output>
+      <Time>2018-11-25T14:48:47.5228551+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Models\torusknot.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\torusknot_0.xml</Output>
+      <Time>2018-11-25T14:48:47.5278446+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Models\plane.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\plane_0.xml</Output>
+      <Time>2018-11-25T14:48:47.4868866+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Models\plane1.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\plane1_0.xml</Output>
+      <Time>2018-11-25T14:48:47.4888771+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Models\Architecture\Buildings\house.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\Architecture\Buildings\house_0.xml</Output>
+      <Time>2018-11-25T14:48:47.4280352+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Models\Architecture\Walls\wall.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\Architecture\Walls\wall_0.xml</Output>
+      <Time>2018-11-25T14:48:47.4320096+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Models\box1.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\box1_0.xml</Output>
+      <Time>2018-11-25T14:48:47.4609321+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Models\Landscape\canyon.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\Landscape\canyon_0.xml</Output>
+      <Time>2018-11-25T14:48:47.4519567+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Models\Props\Crates\wc1.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\Props\Crates\wc1_0.xml</Output>
+      <Time>2018-11-25T14:48:47.4559693+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Models\teapot.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\teapot_0.xml</Output>
+      <Time>2018-11-25T14:48:47.5147921+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Models\teapot_lowpoly.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\teapot_lowpoly_0.xml</Output>
+      <Time>2018-11-25T14:48:47.5167849+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Models\teapot_mediumpoly.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\teapot_mediumpoly_0.xml</Output>
+      <Time>2018-11-25T14:48:47.5187906+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Models\Animated\dude.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\Animated\dude_0.xml</Output>
+      <Time>2018-11-25T14:48:47.260351+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Models\Animated\head.tga</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Animated\head_0.xnb</Output>
+      <Time>2018-11-25T14:48:47.3097746+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Models\Animated\jacket.tga</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Animated\jacket_0.xnb</Output>
+      <Time>2018-11-25T14:48:47.349059+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Models\Animated\pants.tga</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Animated\pants_0.xnb</Output>
+      <Time>2018-11-25T14:48:47.3860221+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Models\Animated\upBodyC.tga</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Animated\upBodyC_0.xnb</Output>
+      <Time>2018-11-25T14:48:47.4249212+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Models\Animated\Squirrel\RedRun4.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\Animated\Squirrel\RedRun4_0.xml</Output>
+      <Time>2018-11-25T14:48:47.0954511+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Models\Animated\Squirrel\Red_Idle.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\Animated\Squirrel\Red_Idle_0.xml</Output>
+      <Time>2018-11-25T14:48:47.1084644+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Models\Animated\Squirrel\Red_Jump.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\Animated\Squirrel\Red_Jump_0.xml</Output>
+      <Time>2018-11-25T14:48:47.1163997+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Models\Animated\Squirrel\Red_Punch.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\Animated\Squirrel\Red_Punch_0.xml</Output>
+      <Time>2018-11-25T14:48:47.1244592+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Models\Animated\Squirrel\Red_Standing.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\Animated\Squirrel\Red_Standing_0.xml</Output>
+      <Time>2018-11-25T14:48:47.1373634+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Models\Animated\Squirrel\Red_Tailwhip.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\Animated\Squirrel\Red_Tailwhip_0.xml</Output>
+      <Time>2018-11-25T14:48:47.1453597+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Models\mapBlockingOut.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\mapBlockingOut_0.xml</Output>
+      <Time>2018-11-25T14:48:47.4838713+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Models\fallenTree.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\fallenTree_0.xml</Output>
+      <Time>2018-11-25T14:48:47.4729003+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Models\Car_for_game.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\Car_for_game_0.xml</Output>
+      <Time>2018-11-25T14:48:47.4370905+00:00</Time>
+    </Item>
+    <Item>
+      <Source>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\FBX\AA4921BA\Car_for_game.fbm\snowed-car-roof(1).jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\snowed-car-roof(1)_0.xnb</Output>
+      <Time>2018-11-25T14:49:55.8001504+00:00</Time>
+    </Item>
+    <Item>
+      <Source>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\FBX\AA4921BA\Car_for_game.fbm\Cladding_Siding_White.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Cladding_Siding_White_0.xnb</Output>
+      <Time>2018-11-25T14:49:55.8071699+00:00</Time>
+    </Item>
+    <Item>
+      <Source>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\FBX\AA4921BA\Car_for_game.fbm\Metal_Aluminum_Anodized.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Metal_Aluminum_Anodized_0.xnb</Output>
+      <Time>2018-11-25T14:49:55.8051707+00:00</Time>
+    </Item>
+    <Item>
+      <Source>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\FBX\AA4921BA\Car_for_game.fbm\window-glass(1).jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\window-glass(1)_0.xnb</Output>
+      <Time>2018-11-25T14:49:55.8021952+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Models\snow_drift.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\snow_drift_0.xml</Output>
+      <Time>2018-11-25T14:48:47.5058126+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Models\ElectricPole.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\ElectricPole_0.xml</Output>
+      <Time>2018-11-25T14:48:47.445976+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Models\road.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\road_0.xml</Output>
+      <Time>2018-11-25T14:48:47.5028208+00:00</Time>
+    </Item>
+    <Item>
+      <Source>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\FBX\A6A91E8B\road.fbm\road.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\road_0.xnb</Output>
+      <Time>2018-11-25T14:49:56.169826+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Models\Character_model_1.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\Character_model_1_0.xml</Output>
+      <Time>2018-11-25T14:48:47.4449755+00:00</Time>
+    </Item>
+    <Item>
+      <Source>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\FBX\597A2392\Character_model_1.fbm\Character_Flease.JPG</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Character_Flease_0.xnb</Output>
+      <Time>2018-11-25T14:49:56.4635476+00:00</Time>
+    </Item>
+    <Item>
+      <Source>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\FBX\597A2392\Character_model_1.fbm\Character_Scarf.JPG</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Character_Scarf_0.xnb</Output>
+      <Time>2018-11-25T14:49:56.4685358+00:00</Time>
+    </Item>
+    <Item>
+      <Source>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\FBX\597A2392\Character_model_1.fbm\Character_Face_test01.JPG</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Character_Face_test01_0.xnb</Output>
+      <Time>2018-11-25T14:49:56.4575627+00:00</Time>
+    </Item>
+    <Item>
+      <Source>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\FBX\597A2392\Character_model_1.fbm\Character_Hair.JPG</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Character_Hair_0.xnb</Output>
+      <Time>2018-11-25T14:49:56.4615519+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Models\Wall.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\Wall_0.xml</Output>
+      <Time>2018-11-25T14:48:47.4579663+00:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
@@ -1633,39 +1633,39 @@
       <TargetProfile>HiDef</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDAppContent\</RootDirectory>
-      <LoggerRootDirectory>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\</LoggerRootDirectory>
-      <IntermediateDirectory>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDAppContent\</RootDirectory>
+      <LoggerRootDirectory>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\</LoggerRootDirectory>
+      <IntermediateDirectory>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>
         <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
-        <Value>2011-09-01T16:22:30+07:00</Value>
+        <Value>2011-09-01T16:22:30+01:00</Value>
       </Assembly>
       <Assembly>
         <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
-        <Value>2011-09-01T16:22:30+07:00</Value>
+        <Value>2011-09-01T16:22:30+01:00</Value>
       </Assembly>
       <Assembly>
         <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
-        <Value>2011-09-01T16:22:30+07:00</Value>
+        <Value>2011-09-01T16:22:30+01:00</Value>
       </Assembly>
       <Assembly>
         <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
-        <Value>2011-09-01T16:22:30+07:00</Value>
+        <Value>2011-09-01T16:22:30+01:00</Value>
       </Assembly>
       <Assembly>
         <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
-        <Value>2011-09-01T16:22:30+07:00</Value>
+        <Value>2011-09-01T16:22:30+01:00</Value>
       </Assembly>
       <Assembly>
         <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
-        <Value>2011-09-01T16:22:30+07:00</Value>
+        <Value>2011-09-01T16:22:30+01:00</Value>
       </Assembly>
       <Assembly>
-        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
-        <Value>2018-09-21T20:46:44.548152+07:00</Value>
+        <Key>C:\WINDOWS\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2018-09-29T12:51:42.9191397+01:00</Value>
       </Assembly>
     </Assemblies>
   </Asset>

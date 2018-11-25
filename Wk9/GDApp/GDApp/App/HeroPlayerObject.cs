@@ -14,11 +14,23 @@ namespace GDApp
         int health;
         private bool stunned;
 
-        public HeroPlayerObject(string id, ActorType actorType,
-            Transform3D transform, EffectParameters effectParameters,
-            Model model, Keys[] moveKeys, float radius, float height,
-            float accelerationRate, float decelerationRate, float jumpHeight,
-            Vector3 translationOffset, KeyboardManager keyboardManager, EventDispatcher eventDispatcher)
+        //FOR SNOW DRIFTS
+        float movementSpeed = 2;
+
+        public HeroPlayerObject(string id, 
+            ActorType actorType,
+            Transform3D transform, 
+            EffectParameters effectParameters,
+            Model model, 
+            Keys[] moveKeys, 
+            float radius, 
+            float height,
+            float accelerationRate,
+            float decelerationRate,
+            float jumpHeight,
+            Vector3 translationOffset, 
+            KeyboardManager keyboardManager, 
+            EventDispatcher eventDispatcher)
             : base(id, actorType, transform, effectParameters, model, moveKeys, radius, height, accelerationRate, decelerationRate, jumpHeight, translationOffset, keyboardManager)
         {
             this.stunned = false;
@@ -56,7 +68,15 @@ namespace GDApp
 
             if (thingHit.ActorType == ActorType.Snow)
             {
-                int x = 0;
+                movementSpeed = 0.5f;
+                object[] additionalParameter = { true };
+                EventDispatcher.Publish(new EventData(EventActionType.OnSnowDrift, EventCategoryType.IntersectSnowDrift, additionalParameter));
+            }
+            else
+            {
+                movementSpeed = 2;
+                object[] additionalParameter = { false };
+                EventDispatcher.Publish(new EventData(EventActionType.OnSnowDrift, EventCategoryType.IntersectSnowDrift, additionalParameter));
             }
 
             return true;
@@ -69,21 +89,21 @@ namespace GDApp
                 //forward/backward
                 if (this.KeyboardManager.IsKeyDown(this.MoveKeys[0]))
                 {
-                    this.CharacterBody.Velocity += this.Transform.Look * 2 * gameTime.ElapsedGameTime.Milliseconds;
+                    this.CharacterBody.Velocity += this.Transform.Look *movementSpeed * gameTime.ElapsedGameTime.Milliseconds;
                 }
                 else if (this.KeyboardManager.IsKeyDown(this.MoveKeys[1]))
                 {
-                    this.CharacterBody.Velocity -= this.Transform.Look * 2 * gameTime.ElapsedGameTime.Milliseconds;
+                    this.CharacterBody.Velocity -= this.Transform.Look * movementSpeed * gameTime.ElapsedGameTime.Milliseconds;
                 }
 
                 //strafe left/right
                 if (this.KeyboardManager.IsKeyDown(this.MoveKeys[2]))
                 {
-                    this.CharacterBody.Velocity -= this.Transform.Right * 2 * gameTime.ElapsedGameTime.Milliseconds;
+                    this.CharacterBody.Velocity -= this.Transform.Right * movementSpeed * gameTime.ElapsedGameTime.Milliseconds;
                 }
                 else if (this.KeyboardManager.IsKeyDown(this.MoveKeys[3]))
                 {
-                    this.CharacterBody.Velocity += this.Transform.Right * 2 * gameTime.ElapsedGameTime.Milliseconds;
+                    this.CharacterBody.Velocity += this.Transform.Right * movementSpeed * gameTime.ElapsedGameTime.Milliseconds;
                 }
 
 
