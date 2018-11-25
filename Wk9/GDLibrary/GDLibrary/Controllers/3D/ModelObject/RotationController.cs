@@ -41,8 +41,16 @@ namespace GDLibrary
             Actor3D parentActor = actor as Actor3D;
             if (parentActor != null)
             {
-                parentActor.Transform.RotateBy(this.rotation * count * gameTime.ElapsedGameTime.Milliseconds);
-                count++;
+                if (gameTime.TotalGameTime.TotalMilliseconds >= 3000)
+                {
+                    parentActor.Transform.RotateBy(this.rotation * count * gameTime.ElapsedGameTime.Milliseconds);
+                    count++;
+                    if (parentActor.Transform.Rotation.X >= 90)
+                    {
+                        this.PlayStatusType = PlayStatusType.Stop;
+                    }
+                }
+
             }
         }
 

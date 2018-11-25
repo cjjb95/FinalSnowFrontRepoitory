@@ -1445,3 +1445,4 @@ D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Char
 D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Character_Face_test01_0.xnb
 D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Character_Hair_0.xnb
 D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Wall.xnb
+D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\HUD\coat.xnb

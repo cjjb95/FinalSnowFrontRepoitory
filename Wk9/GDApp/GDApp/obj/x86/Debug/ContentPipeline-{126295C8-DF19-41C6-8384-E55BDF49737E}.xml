@@ -1617,6 +1617,15 @@
       <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\Wall_0.xml</Output>
       <Time>2018-11-25T20:46:57.98304+07:00</Time>
     </Item>
+    <Item>
+      <Source>Assets\Textures\UI\HUD\coat.png</Source>
+      <Name>Assets\Textures\UI\HUD\coat</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\HUD\coat.xnb</Output>
+      <Time>2018-11-25T21:05:17.771917+07:00</Time>
+    </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
       <ContentProjectGUID>{126295C8-DF19-41C6-8384-E55BDF49737E}</ContentProjectGUID>

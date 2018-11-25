@@ -703,6 +703,16 @@ namespace GDApp
             Transform3D transform3DFallenTree5 = new Transform3D(new Vector3(340, 20, -520), new Vector3(-0, 0, -90), new Vector3(0.5f, 1, 0.5f), Vector3.UnitX, Vector3.UnitY);
             Transform3D transform3DFallenTree6 = new Transform3D(new Vector3(380, 20, -400), new Vector3(-0, 0, -90), new Vector3(0.5f, 1, 0.5f), Vector3.UnitX, Vector3.UnitY);
 
+            Transform3D transform3DFallingTree = new Transform3D(new Vector3(-85, 0, -600), new Vector3(0, 0, 0), new Vector3(0.5f, 0.8f, 0.5f), Vector3.UnitX, Vector3.UnitY);
+
+
+            CollidableObject FallingTree = new TriangleMeshObject("falling tree", ActorType.CollidableProp, transform3DFallingTree, effectParameters,
+            this.modelDictionary["fallenTree"], new MaterialProperties(0.2f, 0.8f, 0.7f));
+            FallingTree.Enable(true, 1);
+
+            FallingTree.AttachController(new RotationController("Falling_Tree", ControllerType.Rotation, 0.18f * Vector3.UnitX));
+            this.object3DManager.Add(FallingTree);
+
             CollidableObject FallenTree1 = new TriangleMeshObject("fallen tree", ActorType.CollidableProp, transform3DFallenTree, effectParameters,
              this.modelDictionary["fallenTree"], new MaterialProperties(0.2f, 0.8f, 0.7f));
             FallenTree1.Enable(true, 1);
@@ -727,7 +737,7 @@ namespace GDApp
             this.modelDictionary["fallenTree"], new MaterialProperties(0.2f, 0.8f, 0.7f));
             FallenTree6.Enable(true, 1);
 
-
+            this.object3DManager.Add(FallingTree);
             this.object3DManager.Add(FallenTree1);
             this.object3DManager.Add(FallenTree2);
             this.object3DManager.Add(FallenTree3);
@@ -1292,12 +1302,12 @@ namespace GDApp
             Transform2D transform = null;
             UITextureObject texture = null;
 
-            transform = new Transform2D(new Vector2(42, 210), 0, new Vector2(1.05f, 0.8f), Vector2.Zero, new Integer2(20, 281));
+            transform = new Transform2D(new Vector2(40, 210), 0, new Vector2(0.7f, 0.77f), Vector2.Zero, new Integer2(20, 281));
 
             texture = new UITextureObject("thermoBar",
                 ActorType.UITexture, StatusType.Drawn | StatusType.Update,
                 transform, Color.White,
-                SpriteEffects.None, 0.5f, this.textureDictionary["ThermoBar"]);
+                SpriteEffects.None, 0f, this.textureDictionary["ThermoBar"]);
 
             texture.AttachController(new ThermoController("tc", ControllerType.Timer, PlayStatusType.Play, this.eventDispatcher));
 
@@ -1309,7 +1319,49 @@ namespace GDApp
             texture = new UITextureObject("thermometer",
                 ActorType.UITexture, StatusType.Drawn,
                 transform, Color.White,
-                SpriteEffects.None, 0, this.textureDictionary["Thermometer"]);
+                SpriteEffects.None, 0.5f, this.textureDictionary["Thermometer"]);
+
+
+            this.hudManager.Add(texture);
+
+            transform = new Transform2D(new Vector2(20, 540), 0, new Vector2(0.3f, 0.23f), Vector2.Zero, new Integer2(20, 281));
+
+            texture = new UITextureObject("charHUD",
+                ActorType.UITexture, StatusType.Drawn,
+                transform, Color.White,
+                SpriteEffects.None, 0.5f, this.textureDictionary["charHUD"]);
+
+
+            this.hudManager.Add(texture);
+
+
+            transform = new Transform2D(new Vector2(180, 540), 0, new Vector2(0.42f, 0.48f), Vector2.Zero, new Integer2(20, 281));
+
+            texture = new UITextureObject("charProfileFinal",
+                ActorType.UITexture, StatusType.Drawn,
+                transform, Color.White,
+                SpriteEffects.None, 0.5f, this.textureDictionary["charProfileFinal"]);
+
+
+            this.hudManager.Add(texture);
+
+            transform = new Transform2D(new Vector2(20, 547), 0, new Vector2(0.068f, 0.038f), Vector2.Zero, new Integer2(20, 281));
+
+            texture = new UITextureObject("shovel",
+                ActorType.UITexture, StatusType.Drawn,
+                transform, Color.White,
+                SpriteEffects.None, 0.5f, this.textureDictionary["shovel"]);
+
+
+            this.hudManager.Add(texture);
+
+
+            transform = new Transform2D(new Vector2(30, 634), 0, new Vector2(0.062f, 0.0385f), Vector2.Zero, new Integer2(20, 281));
+
+            texture = new UITextureObject("coat",
+                ActorType.UITexture, StatusType.Drawn,
+                transform, Color.White,
+                SpriteEffects.None, 0.5f, this.textureDictionary["coat"]);
 
 
             this.hudManager.Add(texture);
@@ -1689,7 +1741,7 @@ namespace GDApp
             this.textureDictionary.Load("Assets/Textures/UI/HUD/progress_gradient");
             this.textureDictionary.Load("Assets/Textures/UI/HUD/charHUD");
             this.textureDictionary.Load("Assets/Textures/UI/HUD/charProfileFinal");
-            this.textureDictionary.Load("Assets/Textures/UI/HUD/boots");
+            this.textureDictionary.Load("Assets/Textures/UI/HUD/coat");
             this.textureDictionary.Load("Assets/Textures/UI/HUD/shovel");
 
             //architecture
