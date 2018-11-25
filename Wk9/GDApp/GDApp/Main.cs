@@ -244,6 +244,9 @@ namespace GDApp
         private PickingManager pickingManager;
         private HUDManager hudManager;
         private HeroPlayerObject player;
+        private bool shovel = false;
+        private bool once;
+        private bool coat = false;
         #endregion
 
         #region Constructors
@@ -312,13 +315,13 @@ namespace GDApp
             Predicate<CollidableObject> collisionPredicate = new Predicate<CollidableObject>(CollisionUtility.IsCollidableObjectOfInterest);
             //listens for picking with the mouse on valid (based on specified predicate) collidable objects and pushes notification events to listeners
             this.pickingManager = new PickingManager(
-                this, 
-                this.eventDispatcher, 
+                this,
+                this.eventDispatcher,
                 StatusType.Off,
-                this.inputManagerParameters, 
+                this.inputManagerParameters,
                 this.cameraManager,
                 PickingBehaviourType.PickAndPlace,
-                AppData.PickStartDistance, 
+                AppData.PickStartDistance,
                 AppData.PickEndDistance,
                 collisionPredicate);
             Components.Add(this.pickingManager);
@@ -338,7 +341,7 @@ namespace GDApp
                 StatusType.Drawn | StatusType.Update);
             Components.Add(this.menuManager);
 
-            this.hudManager = new HUDManager(this, eventDispatcher, StatusType.Off, this.spriteBatch);
+            this.hudManager = new HUDManager(this, this.spriteBatch, this.eventDispatcher, 10, StatusType.Off);
             Components.Add(this.hudManager);
             #endregion
 
@@ -452,10 +455,10 @@ namespace GDApp
         private void InitializePlayer()
         {
             Transform3D transform = new Transform3D(
-                new Vector3(-760, 10, -300), 
-                new Vector3(-90, 90, 0), 
-                0.1f * Vector3.One, 
-                Vector3.UnitX, 
+                new Vector3(-760, 15, -300),
+                new Vector3(-90, 90, 0),
+                0.1f * Vector3.One,
+                Vector3.UnitX,
                 Vector3.UnitY);
 
             BasicEffectParameters effectParameters = this.effectDictionary[AppData.UnlitModelsEffectID].Clone() as BasicEffectParameters;
@@ -469,17 +472,17 @@ namespace GDApp
                 ActorType.Player,
                 transform,
                 effectParameters,
-                model, 
+                model,
                 AppData.CameraMoveKeys,
                 4, 20, 1, 1, 10,
                 new Vector3(0, -10, 0),
                 this.keyboardManager,
                 this.eventDispatcher);
-            this.player.Enable(false, 1);
+            this.player.Enable(false, 100);
 
             this.player.AttachController(new SlipController("sc1",
-                ControllerType.Slip, 
-                PlayStatusType.Stop, 
+                ControllerType.Slip,
+                PlayStatusType.Stop,
                 this.eventDispatcher));
 
             this.object3DManager.Add(this.player);
@@ -625,14 +628,14 @@ namespace GDApp
             Transform3D transform4 = new Transform3D(new Vector3(60, 5, -220), rot, scale, Vector3.UnitX, Vector3.UnitY);
             Transform3D transform5 = new Transform3D(new Vector3(120, 5, -540), rot, scale, Vector3.UnitX, Vector3.UnitY);
             Transform3D transform6 = new Transform3D(new Vector3(560, 5, -150), rot, scale, Vector3.UnitX, Vector3.UnitY);
-            Transform3D transform7 = new Transform3D(new Vector3(620, 5, -150),rot, scale, Vector3.UnitX, Vector3.UnitY);
+            Transform3D transform7 = new Transform3D(new Vector3(620, 5, -150), rot, scale, Vector3.UnitX, Vector3.UnitY);
 
 
             //creating the collidable models
-            
+
             SnowDriftZone sdz = new SnowDriftZone("sdz",
-                ActorType.Snow, 
-                transform1, 
+                ActorType.Snow,
+                transform1,
                 effectParameters,
                 this.modelDictionary["snow_drift"]);
 
@@ -711,7 +714,7 @@ namespace GDApp
 
             this.object3DManager.Add(sdz7);
 
-            
+
         }
 
         private void InitializeStaticCollidableFallenTree()
@@ -1353,7 +1356,7 @@ namespace GDApp
             texture = new UITextureObject("charHUD",
                 ActorType.UITexture, StatusType.Drawn,
                 transform, Color.White,
-                SpriteEffects.None, 0.5f, this.textureDictionary["charHUD"]);
+                SpriteEffects.None, 0.4f, this.textureDictionary["charHUD"]);
 
 
             this.hudManager.Add(texture);
@@ -1372,11 +1375,11 @@ namespace GDApp
             transform = new Transform2D(new Vector2(20, 547), 0, new Vector2(0.068f, 0.038f), Vector2.Zero, new Integer2(20, 281));
 
             texture = new UITextureObject("shovel",
-                ActorType.UITexture, 
+                ActorType.UITexture,
                 StatusType.Drawn,
                 transform,
                 Color.White,
-                SpriteEffects.None, 
+                SpriteEffects.None,
                 0.5f,
                 this.textureDictionary["shovel"]);
 
@@ -1395,7 +1398,7 @@ namespace GDApp
             this.hudManager.Add(texture);
 
         }
-   
+
 
         private void InitializeMenu()
         {
@@ -2051,9 +2054,9 @@ namespace GDApp
 
         private void AddThirdPersonCamera(Viewport viewport, ProjectionParameters projectionParameters)
         {
-            Transform3D transform = 
+            Transform3D transform =
                 new Transform3D(
-                    new Vector3(0,0,-50),
+                    new Vector3(0, 0, -50),
                     Vector3.Zero,
                     Vector3.One,
                     Vector3.UnitZ,
@@ -2168,8 +2171,6 @@ namespace GDApp
 
             DemoUseItem();
 
-            DemoItem("coat");
-
             DemoSetControllerPlayStatus();
 
             DemoSoundManager();
@@ -2178,7 +2179,49 @@ namespace GDApp
 
             DemoGameOver();
 
+            DemoUseText();
+
+            //DemoEquipItem();
+
             base.Update(gameTime);
+        }
+
+        private void DemoUseText()
+        {
+            this.eventDispatcher.SnowDriftIntersected += EventDispatcher_SnowDriftIntersected;
+        }
+
+        private void EventDispatcher_SnowDriftIntersected(EventData eventData)
+        {
+            if (eventData.EventType == EventActionType.OnSnowDrift)
+            {
+
+                string text = "Use";
+                Vector2 pos = new Vector2(100, 600);
+                SpriteFont strFont = this.fontDictionary["menu"];
+                Vector2 strDim = strFont.MeasureString(text);
+                strDim /= 2.0f;
+                Transform2D transform =
+                    new Transform2D(pos, 0,
+                    new Vector2(1, 1), strDim, new Integer2(100, 100));
+
+                UITextObject newTextObject = new UITextObject("equip", ActorType.UIText,
+                    StatusType.Drawn | StatusType.Update, transform, Color.Red,
+                    SpriteEffects.None, 0, text, strFont);
+
+                if ((bool)eventData.AdditionalParameters[0] && !this.once)
+                {
+                    EventDispatcher.Publish(new EventData(newTextObject
+                    , EventActionType.OnAddActor2D, EventCategoryType.SystemAdd));
+                    this.once = true;
+                }
+                else if (!(bool)eventData.AdditionalParameters[0] && this.once)
+                {
+                    EventDispatcher.Publish(new EventData(newTextObject
+                   , EventActionType.OnRemoveActor2D, EventCategoryType.SystemRemove));
+                    this.once = false;
+                }
+            }
         }
 
         private void DemoGameOver()
@@ -2188,23 +2231,22 @@ namespace GDApp
 
         private void EventDispatcher_GameLost(EventData eventData)
         {
-            if (eventData.EventType == EventActionType.OnLose)
-            {
-                string text = eventData.ID;
-                SpriteFont strFont = this.fontDictionary["menu"];
-                Vector2 strDim = strFont.MeasureString(text);
-                strDim /= 2.0f;
-                Transform2D transform =
-                    new Transform2D((Vector2)this.screenCentre, 0,
-                    new Vector2(1, 1) * 2, strDim, new Integer2(100, 100));
+            string text = eventData.ID;
+            SpriteFont strFont = this.fontDictionary["menu"];
+            Vector2 strDim = strFont.MeasureString(text);
+            strDim /= 2.0f;
 
-                UITextObject newTextObject = new UITextObject("win", ActorType.UIText,
-                    StatusType.Drawn | StatusType.Update, transform, Color.Red,
-                    SpriteEffects.None, 0, text, strFont);
+            Transform2D transform =
+                new Transform2D((Vector2)this.screenCentre, 0,
+                new Vector2(1, 1) * 2, strDim, new Integer2(100, 100));
 
-                this.hudManager.Add(newTextObject);
-            }
+            UITextObject newTextObject = new UITextObject("lose", ActorType.UIText,
+                StatusType.Drawn | StatusType.Update, transform, Color.Red,
+                SpriteEffects.None, 0, text, strFont);
+
         }
+
+
 
         private void DemoUseItem()
         {
@@ -2212,6 +2254,48 @@ namespace GDApp
             {// wear coat using enter
                 DemoItem("shovel");
             }
+            else if (this.keyboardManager.IsFirstKeyPress(Keys.C))
+            {
+
+                DemoItem("coat");
+                DemoEquipItem();
+            }
+        }
+
+        private void DemoEquipItem()
+        {
+            string text = "Equipped";
+            SpriteFont strFont = this.fontDictionary["menu"];
+            Vector2 strDim = strFont.MeasureString(text);
+            Vector2 pos = Vector2.Zero;
+            strDim /= 2.0f;
+
+            pos = new Vector2(100, 700);
+            Transform2D transform =
+                new Transform2D(pos, 0,
+                new Vector2(1, 1), strDim, new Integer2(100, 100));
+
+            UITextObject newTextObject = new UITextObject("equip", ActorType.UIText,
+                StatusType.Drawn | StatusType.Update, transform, Color.Red,
+                SpriteEffects.None, 0, text, strFont);
+
+            if (!this.coat)
+            {
+                EventDispatcher.Publish(new EventData(newTextObject
+                    , EventActionType.OnAddActor2D, EventCategoryType.SystemAdd));
+                this.coat = true;
+            }
+            else
+            {
+                EventDispatcher.Publish(new EventData(newTextObject
+                   , EventActionType.OnRemoveActor2D, EventCategoryType.SystemRemove));
+                this.coat = false;
+            }
+
+
+
+
+
         }
 
         private void DemoItem(string itemID)
@@ -2221,6 +2305,7 @@ namespace GDApp
             if (itemID.Equals("coat"))
                 EventDispatcher.Publish(new EventData(EventActionType.OnItem, EventCategoryType.Item, additionalParameters));
             if (itemID.Equals("shovel"))
+
                 EventDispatcher.Publish(new EventData(EventActionType.OnItem, EventCategoryType.ItemEquipped, additionalParameters));
 
         }
@@ -2245,7 +2330,7 @@ namespace GDApp
                 //add event to play mouse click
                 object[] additionalParameters = { "boing" };
                 EventDispatcher.Publish(new EventData(EventActionType.OnPlay, EventCategoryType.Sound2D, additionalParameters));
-            } 
+            }
         }
 
         private void DemoSetControllerPlayStatus()
@@ -2260,7 +2345,7 @@ namespace GDApp
                 torusActor.SetControllerPlayStatus(PlayStatusType.Play, controller => controller.GetControllerType() == ControllerType.Rotation);
             }
         }
-        
+
         protected override void Draw(GameTime gameTime)
         {
             GraphicsDevice.Clear(Color.Black);

@@ -62,5 +62,7 @@ namespace GDLibrary
         OnIce,
         OnSnowDrift,
         SlipOver,
+        OnRemoveActor2D,
+        OnAddActor2D,
     }
 }

@@ -17,19 +17,19 @@ namespace GDApp
         //FOR SNOW DRIFTS
         float movementSpeed = 2;
         bool shovelEquipped = false;
-        public HeroPlayerObject(string id, 
+        public HeroPlayerObject(string id,
             ActorType actorType,
-            Transform3D transform, 
+            Transform3D transform,
             EffectParameters effectParameters,
-            Model model, 
-            Keys[] moveKeys, 
-            float radius, 
+            Model model,
+            Keys[] moveKeys,
+            float radius,
             float height,
             float accelerationRate,
             float decelerationRate,
             float jumpHeight,
-            Vector3 translationOffset, 
-            KeyboardManager keyboardManager, 
+            Vector3 translationOffset,
+            KeyboardManager keyboardManager,
             EventDispatcher eventDispatcher)
             : base(id, actorType, transform, effectParameters, model, moveKeys, radius, height, accelerationRate, decelerationRate, jumpHeight, translationOffset, keyboardManager)
         {
@@ -41,10 +41,11 @@ namespace GDApp
 
         private void EventDispatcher_ItemEquipped(EventData eventData)
         {
-            object additionalParameters = eventData.AdditionalParameters[0];
-            if (eventData.EventType==EventActionType.OnItem&& additionalParameters as string=="shovel")
+            string additionalParameters = eventData.AdditionalParameters[0] as string;
+            if (eventData.EventType == EventActionType.OnItem && additionalParameters == "shovel")
             {
-                shovelEquipped = true;
+                this.shovelEquipped = true;
+
             }
         }
 
@@ -78,9 +79,11 @@ namespace GDApp
 
             if (thingHit.ActorType == ActorType.Snow)
             {
-                if(shovelEquipped)
+                if (this.shovelEquipped)
                 {
+
                     EventDispatcher.Publish(new EventData(thingHit, EventActionType.OnRemoveActor, EventCategoryType.SystemRemove));
+                    this.shovelEquipped = false;
                 }
                 movementSpeed = 0.5f;
                 object[] additionalParameter = { true };
@@ -88,6 +91,7 @@ namespace GDApp
             }
             else
             {
+
                 movementSpeed = 2;
                 object[] additionalParameter = { false };
                 EventDispatcher.Publish(new EventData(EventActionType.OnSnowDrift, EventCategoryType.IntersectSnowDrift, additionalParameter));
@@ -103,7 +107,7 @@ namespace GDApp
                 //forward/backward
                 if (this.KeyboardManager.IsKeyDown(this.MoveKeys[0]))
                 {
-                    this.CharacterBody.Velocity += this.Transform.Look *movementSpeed * gameTime.ElapsedGameTime.Milliseconds;
+                    this.CharacterBody.Velocity += this.Transform.Look * movementSpeed * gameTime.ElapsedGameTime.Milliseconds;
                 }
                 else if (this.KeyboardManager.IsKeyDown(this.MoveKeys[1]))
                 {

@@ -3,7 +3,7 @@
   <Asset Type="Graphics:MeshContent">
     <Name>skin</Name>
     <Identity>
-      <SourceFilename>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDAppContent\Assets\Models\Character_model_1.FBX</SourceFilename>
+      <SourceFilename>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDAppContent\Assets\Models\Character_model_1.FBX</SourceFilename>
       <SourceTool>FbxImporter</SourceTool>
     </Identity>
     <OpaqueData>
@@ -91,7 +91,7 @@
     <Resource ID="#Resource1" Type="Graphics:BasicMaterialContent">
       <Name>Coat_Standard</Name>
       <Identity>
-        <SourceFilename>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDAppContent\Assets\Models\Character_model_1.FBX</SourceFilename>
+        <SourceFilename>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDAppContent\Assets\Models\Character_model_1.FBX</SourceFilename>
         <SourceTool>FbxImporter</SourceTool>
       </Identity>
       <OpaqueData>
@@ -113,7 +113,7 @@
     <Resource ID="#Resource2" Type="Graphics:BasicMaterialContent">
       <Name>Scarf</Name>
       <Identity>
-        <SourceFilename>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDAppContent\Assets\Models\Character_model_1.FBX</SourceFilename>
+        <SourceFilename>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDAppContent\Assets\Models\Character_model_1.FBX</SourceFilename>
         <SourceTool>FbxImporter</SourceTool>
       </Identity>
       <OpaqueData>
@@ -135,7 +135,7 @@
     <Resource ID="#Resource3" Type="Graphics:BasicMaterialContent">
       <Name>Jeans</Name>
       <Identity>
-        <SourceFilename>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDAppContent\Assets\Models\Character_model_1.FBX</SourceFilename>
+        <SourceFilename>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDAppContent\Assets\Models\Character_model_1.FBX</SourceFilename>
         <SourceTool>FbxImporter</SourceTool>
       </Identity>
       <OpaqueData>
@@ -149,7 +149,7 @@
     <Resource ID="#Resource4" Type="Graphics:BasicMaterialContent">
       <Name>Wellies</Name>
       <Identity>
-        <SourceFilename>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDAppContent\Assets\Models\Character_model_1.FBX</SourceFilename>
+        <SourceFilename>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDAppContent\Assets\Models\Character_model_1.FBX</SourceFilename>
         <SourceTool>FbxImporter</SourceTool>
       </Identity>
       <OpaqueData>
@@ -163,7 +163,7 @@
     <Resource ID="#Resource5" Type="Graphics:BasicMaterialContent">
       <Name>skin</Name>
       <Identity>
-        <SourceFilename>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDAppContent\Assets\Models\Character_model_1.FBX</SourceFilename>
+        <SourceFilename>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDAppContent\Assets\Models\Character_model_1.FBX</SourceFilename>
         <SourceTool>FbxImporter</SourceTool>
       </Identity>
       <OpaqueData>
@@ -185,7 +185,7 @@
     <Resource ID="#Resource6" Type="Graphics:BasicMaterialContent">
       <Name>hair</Name>
       <Identity>
-        <SourceFilename>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDAppContent\Assets\Models\Character_model_1.FBX</SourceFilename>
+        <SourceFilename>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDAppContent\Assets\Models\Character_model_1.FBX</SourceFilename>
         <SourceTool>FbxImporter</SourceTool>
       </Identity>
       <OpaqueData>
@@ -206,9 +206,9 @@
     </Resource>
   </Resources>
   <ExternalReferences>
-    <ExternalReference ID="#External1" TargetType="Graphics:TextureContent">..\..\FBX\597A2392\Character_model_1.fbm\Character_Flease.JPG</ExternalReference>
-    <ExternalReference ID="#External2" TargetType="Graphics:TextureContent">..\..\FBX\597A2392\Character_model_1.fbm\Character_Scarf.JPG</ExternalReference>
-    <ExternalReference ID="#External3" TargetType="Graphics:TextureContent">..\..\FBX\597A2392\Character_model_1.fbm\Character_Face_test01.JPG</ExternalReference>
-    <ExternalReference ID="#External4" TargetType="Graphics:TextureContent">..\..\FBX\597A2392\Character_model_1.fbm\Character_Hair.JPG</ExternalReference>
+    <ExternalReference ID="#External1" TargetType="Graphics:TextureContent">..\..\FBX\41D32653\Character_model_1.fbm\Character_Flease.JPG</ExternalReference>
+    <ExternalReference ID="#External2" TargetType="Graphics:TextureContent">..\..\FBX\41D32653\Character_model_1.fbm\Character_Scarf.JPG</ExternalReference>
+    <ExternalReference ID="#External3" TargetType="Graphics:TextureContent">..\..\FBX\41D32653\Character_model_1.fbm\Character_Face_test01.JPG</ExternalReference>
+    <ExternalReference ID="#External4" TargetType="Graphics:TextureContent">..\..\FBX\41D32653\Character_model_1.fbm\Character_Hair.JPG</ExternalReference>
   </ExternalReferences>
 </XnaContent>

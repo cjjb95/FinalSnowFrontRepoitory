@@ -18,11 +18,12 @@ namespace GDLibrary
         private Vector2 positionOffset = new Vector2(0, 20);
         private bool onIce;
         private bool onSnowDrift;
+        private bool slip;
         #endregion
 
-        public DebugDrawer(Game game, CameraManager cameraManager, 
+        public DebugDrawer(Game game, CameraManager cameraManager,
             EventDispatcher eventDispatcher, StatusType statusType,
-            SpriteBatch spriteBatch, SpriteFont spriteFont, Vector2 position, Color color) 
+            SpriteBatch spriteBatch, SpriteFont spriteFont, Vector2 position, Color color)
             : base(game, eventDispatcher, statusType)
         {
             this.spriteBatch = spriteBatch;
@@ -32,13 +33,29 @@ namespace GDLibrary
             this.color = color;
             this.onIce = false;
             this.onSnowDrift = false;
+            this.slip = false;
             eventDispatcher.ObstacleCollision += EventDispatcher_ObstacleCollision;
             eventDispatcher.SnowDriftIntersected += EventDispatcher_SnowDriftIntersection;
+            eventDispatcher.ObstacleEvent += EventDispatcher_ObstacleEvent;
+        }
+
+
+
+        private void EventDispatcher_ObstacleEvent(EventData eventData)
+        {
+            if (eventData.EventType == EventActionType.OnSlip)
+            {
+                this.slip = true;
+            }
+            else if (eventData.EventType == EventActionType.SlipOver)
+            {
+                this.slip = false;
+            }
         }
 
         private void EventDispatcher_SnowDriftIntersection(EventData eventData)
         {
-            if(eventData.EventType==EventActionType.OnSnowDrift)
+            if (eventData.EventType == EventActionType.OnSnowDrift)
             {
                 this.onSnowDrift = (bool)eventData.AdditionalParameters[0];
             }
@@ -57,18 +74,18 @@ namespace GDLibrary
             this.totalTime += gameTime.ElapsedGameTime.Milliseconds;
             this.count++;
 
-            if(this.totalTime >= 1000) //1 second
+            if (this.totalTime >= 1000) //1 second
             {
                 this.fpsRate = count;
                 this.totalTime = 0;
                 this.count = 0;
             }
-            if (this.totalTime >=3000&&this.onSnowDrift) //1 second
+            if (this.totalTime >= 3000 && this.onSnowDrift) //1 second
             {
                 this.onSnowDrift = false;
             }
 
-                base.ApplyUpdate(gameTime);
+            base.ApplyUpdate(gameTime);
         }
 
         protected override void ApplyDraw(GameTime gameTime)
@@ -81,12 +98,14 @@ namespace GDLibrary
                 this.spriteBatch.Begin(SpriteSortMode.BackToFront, BlendState.AlphaBlend, null, DepthStencilState.Default, RasterizerState.CullCounterClockwise);
 
                 //Inside snow drift
-                if(onSnowDrift)
-                    this.spriteBatch.DrawString(this.spriteFont, "INSIDE SNOW: ", this.position + this.positionOffset, this.color);
-                
+
+                this.spriteBatch.DrawString(this.spriteFont, "INSIDE SNOW: " + this.onSnowDrift, this.position + this.positionOffset, this.color);
+
                 //str info
+
                 this.spriteBatch.DrawString(this.spriteFont, this.strInfo, this.position + 2 * this.positionOffset, this.color);
                 this.spriteBatch.DrawString(this.spriteFont, "On Ice: " + this.onIce, this.position + 3 * this.positionOffset, this.color);
+                this.spriteBatch.DrawString(this.spriteFont, "Slip status: " + this.slip, this.position + 4 * this.positionOffset, this.color);
                 this.spriteBatch.End();
             }
 
