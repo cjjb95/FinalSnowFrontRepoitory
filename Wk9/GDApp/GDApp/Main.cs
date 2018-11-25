@@ -407,8 +407,9 @@ namespace GDApp
 
         private void InitializeIce()
         {
-            Transform3D transform3D = new Transform3D(new Vector3(-250, -3, -14),
-                new Vector3(0, 0, 0), 1.2f * Vector3.One, Vector3.UnitX, Vector3.UnitY);
+            //middle ice
+            Transform3D transform3D = new Transform3D(new Vector3(-155, -4, -300),
+                 new Vector3(0, 0, 0), 2 * new Vector3(1.5f, 1, 1), Vector3.UnitX, Vector3.UnitY);
 
             BasicEffectParameters effectParameters = this.effectDictionary[AppData.LitModelsEffectID].Clone() as BasicEffectParameters;
             effectParameters.Texture = this.textureDictionary["iceSheet"];
@@ -416,25 +417,51 @@ namespace GDApp
             CollidableObject collidableObject = new TriangleMeshObject("ice", ActorType.Ice, transform3D,
                             effectParameters, this.modelDictionary["road"], new MaterialProperties(0.2f, 0.8f, 0.7f));
             collidableObject.Enable(true, 1);
-
-            //ModelObject roadObject = new ModelObject("iceO", ActorType.Decorator, transform3D, effectParameters, this.modelDictionary["road"]);
-
             this.object3DManager.Add(collidableObject);
+
+
+            //left far back ice
+            transform3D = new Transform3D(new Vector3(530, -4, -410),
+                new Vector3(0, 0, 0), 2 * new Vector3(2.2f, 1, 1.5f), Vector3.UnitX, Vector3.UnitY);
+
+            collidableObject = new TriangleMeshObject("ice", ActorType.Ice, transform3D,
+                            effectParameters, this.modelDictionary["road"], new MaterialProperties(0.2f, 0.8f, 0.7f));
+            collidableObject.Enable(true, 1);
+            this.object3DManager.Add(collidableObject);
+
+            //right far back ice
+            transform3D = new Transform3D(new Vector3(580, -4, -150),
+               new Vector3(0, 0, 0), 2 * new Vector3(1.3f, 1, 1), Vector3.UnitX, Vector3.UnitY);
+
+            collidableObject = new TriangleMeshObject("ice", ActorType.Ice, transform3D,
+                            effectParameters, this.modelDictionary["road"], new MaterialProperties(0.2f, 0.8f, 0.7f));
+            collidableObject.Enable(true, 1);
+            this.object3DManager.Add(collidableObject);
+
+            //right middle ice
+            transform3D = new Transform3D(new Vector3(280, -4, -150),
+               new Vector3(0, 0, 0), 2 * new Vector3(1.3f, 1, 1), Vector3.UnitX, Vector3.UnitY);
+
+            collidableObject = new TriangleMeshObject("ice", ActorType.Ice, transform3D,
+                            effectParameters, this.modelDictionary["road"], new MaterialProperties(0.2f, 0.8f, 0.7f));
+            collidableObject.Enable(true, 1);
+            this.object3DManager.Add(collidableObject);
+
         }
 
         private void InitializePlayer()
         {
             Transform3D transform = new Transform3D(
-                new Vector3(-800, 10, -320),
-                Vector3.Zero, 
-                new Vector3(2, 7, 20),
+                new Vector3(-760, 10, -300), 
+                new Vector3(-90, 90, 0), 
+                0.1f * Vector3.One, 
                 Vector3.UnitX, 
                 Vector3.UnitY);
 
             BasicEffectParameters effectParameters = this.effectDictionary[AppData.UnlitModelsEffectID].Clone() as BasicEffectParameters;
-            effectParameters.Texture = this.textureDictionary["checkerboard"];
+            effectParameters.Texture = this.textureDictionary["charProfileFinal"];
 
-            Model model = this.modelDictionary["box"];
+            Model model = this.modelDictionary["Character_model_1"];
 
 
             //CollidableObject test = new CollidableObject("aa", ActorType.Player, transform, effectParameters, model);
@@ -445,9 +472,15 @@ namespace GDApp
                 model, 
                 AppData.CameraMoveKeys,
                 4, 20, 1, 1, 10,
-                new Vector3(0, 0, -3.5f),
-                this.keyboardManager);
+                new Vector3(0, -10, 0),
+                this.keyboardManager,
+                this.eventDispatcher);
             this.player.Enable(false, 1);
+
+            this.player.AttachController(new SlipController("sc1",
+                ControllerType.Slip, 
+                PlayStatusType.Stop, 
+                this.eventDispatcher));
 
             this.object3DManager.Add(this.player);
         }
@@ -1352,6 +1385,7 @@ namespace GDApp
             this.modelDictionary.Load("Assets/Models/road");
             this.modelDictionary.Load("Assets/Models/sphere");
             this.modelDictionary.Load("mapLayout", "Assets/Models/mapBlockingOut");
+            this.modelDictionary.Load("Assets/Models/Character_model_1");
 
             //triangle mesh high/low poly demo
             this.modelDictionary.Load("Assets/Models/teapot");
@@ -1405,6 +1439,10 @@ namespace GDApp
             //ui (or hud) elements
             this.textureDictionary.Load("Assets/Textures/UI/HUD/reticuleDefault");
             this.textureDictionary.Load("Assets/Textures/UI/HUD/progress_gradient");
+            this.textureDictionary.Load("Assets/Textures/UI/HUD/charHUD");
+            this.textureDictionary.Load("Assets/Textures/UI/HUD/charProfileFinal");
+            this.textureDictionary.Load("Assets/Textures/UI/HUD/boots");
+            this.textureDictionary.Load("Assets/Textures/UI/HUD/shovel");
 
             //architecture
             this.textureDictionary.Load("Assets/Textures/Architecture/Buildings/house-low-texture");

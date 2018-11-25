@@ -26,6 +26,7 @@ namespace GDLibrary
         SineColor,
         Pickup,
         Timer,
+        Slip,
 
         //Add more here...
     }

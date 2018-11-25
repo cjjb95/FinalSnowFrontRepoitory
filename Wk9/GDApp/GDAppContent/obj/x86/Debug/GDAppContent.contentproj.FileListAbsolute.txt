@@ -21,3 +21,7 @@ E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More
 E:\Modules\GamesDev\Wk9.2-Camera\FinalSnowFrontRepoitory-master\Wk9 - Menu, More Events, Picking and CDCR (1)\GDApp\GDAppContent\obj\x86\Debug\GDAppContent.contentproj.CoreCompileInputs.cache
 E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDAppContent\obj\x86\Debug\GDAppContent.contentprojAssemblyReference.cache
 E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDAppContent\obj\x86\Debug\GDAppContent.contentproj.CoreCompileInputs.cache
+D:\School\Year 3\UDP\SnowDriftProject\Wk9\GDApp\GDAppContent\obj\x86\Debug\GDAppContent.contentprojAssemblyReference.cache
+D:\School\Year 3\UDP\SnowDriftProject\Wk9\GDApp\GDAppContent\obj\x86\Debug\GDAppContent.contentproj.CoreCompileInputs.cache
+D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDAppContent\obj\x86\Debug\GDAppContent.contentprojAssemblyReference.cache
+D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDAppContent\obj\x86\Debug\GDAppContent.contentproj.CoreCompileInputs.cache

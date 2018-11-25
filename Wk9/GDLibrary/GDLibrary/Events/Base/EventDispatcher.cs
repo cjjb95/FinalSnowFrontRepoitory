@@ -49,6 +49,7 @@ namespace GDLibrary
         public delegate void UseItemEventHandler(EventData eventData);
         public delegate void LowTemperatureEventHandler(EventData eventData);
         public delegate void ObstacleCollisionHandler(EventData eventData);
+        public delegate void ObstacleEventHandler(EventData eventData);
         #endregion
 
 
@@ -79,6 +80,7 @@ namespace GDLibrary
         public event UseItemEventHandler UseItem;
         public event LowTemperatureEventHandler LowTemp;
         public event ObstacleCollisionHandler ObstacleCollision;
+        public event ObstacleEventHandler ObstacleEvent;
         #endregion
 
 
@@ -195,13 +197,23 @@ namespace GDLibrary
                 case EventCategoryType.LowTemp:
                     OnLowTemp(eventData);
                     break;
+
                 case EventCategoryType.Obstacle:
                     OnObstacleCollision(eventData);
+                    break;
+
+                case EventCategoryType.ObstacleEvent:
+                    OnObstacleEvent(eventData);
                     break;
 
                 default:
                     break;
             }
+        }
+
+        private void OnObstacleEvent(EventData eventData)
+        {
+            ObstacleEvent?.Invoke(eventData);
         }
 
         private void OnObstacleCollision(EventData eventData)

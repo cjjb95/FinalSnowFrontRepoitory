@@ -40,6 +40,6 @@ namespace GDLibrary
         LowTemp,
         GameWon,
         GameLost,
-
+        ObstacleEvent,
     }
 }
