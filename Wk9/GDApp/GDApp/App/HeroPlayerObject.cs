@@ -85,13 +85,12 @@ namespace GDApp
                     EventDispatcher.Publish(new EventData(thingHit, EventActionType.OnRemoveActor, EventCategoryType.SystemRemove));
                     this.shovelEquipped = false;
                 }
-                movementSpeed = 0.5f;
+                movementSpeed = 0.1f;
                 object[] additionalParameter = { true };
                 EventDispatcher.Publish(new EventData(EventActionType.OnSnowDrift, EventCategoryType.IntersectSnowDrift, additionalParameter));
             }
             else
             {
-
                 movementSpeed = 2;
                 object[] additionalParameter = { false };
                 EventDispatcher.Publish(new EventData(EventActionType.OnSnowDrift, EventCategoryType.IntersectSnowDrift, additionalParameter));

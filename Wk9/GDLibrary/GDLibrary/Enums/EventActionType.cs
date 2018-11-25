@@ -64,5 +64,6 @@ namespace GDLibrary
         SlipOver,
         OnRemoveActor2D,
         OnAddActor2D,
+        OffSnowDrift,
     }
 }

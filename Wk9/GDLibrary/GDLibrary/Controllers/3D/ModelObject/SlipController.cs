@@ -48,7 +48,7 @@ namespace GDLibrary
 
             if (this.totalTimeOnIce % 1000 == 0 && !this.slipping)
             {
-                Console.WriteLine("Calculating...." + totalTimeOnIce);
+                //Console.WriteLine("Calculating...." + totalTimeOnIce);
                 this.slipChance++;
                 this.randomNum = this.rnd.Next(2, 6);
 
@@ -65,11 +65,11 @@ namespace GDLibrary
                 EventDispatcher.Publish(new EventData(EventActionType.OnSlip, EventCategoryType.ObstacleEvent));
                 //start counting timer on slipping
 
-                Console.WriteLine("Slipping...." + totalTimeSlipping);
+                //Console.WriteLine("Slipping...." + totalTimeSlipping);
 
                 if (this.totalTimeSlipping % 4000 == 0)
                 {
-                    Console.WriteLine("slip over");
+                    //Console.WriteLine("slip over");
                     //set the driveable controller on the player to be played again after 4 sec
                     EventDispatcher.Publish(new EventData(EventActionType.SlipOver, EventCategoryType.ObstacleEvent));
                     this.slipChance = 0;

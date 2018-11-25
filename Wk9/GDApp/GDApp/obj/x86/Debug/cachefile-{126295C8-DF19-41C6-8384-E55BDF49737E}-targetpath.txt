@@ -123,6 +123,15 @@ Content\Character_Flease_0.xnb
 Content\Character_Scarf_0.xnb
 Content\Character_Face_test01_0.xnb
 Content\Character_Hair_0.xnb
+Content\Assets\Textures\UI\Menu\Buttons\button_back.xnb
+Content\Assets\Textures\UI\Menu\Buttons\button_controls.xnb
+Content\Assets\Textures\UI\Menu\Buttons\button_exit.xnb
+Content\Assets\Textures\UI\Menu\Buttons\button_sound.xnb
+Content\Assets\Textures\UI\Menu\Buttons\button_start.xnb
+Content\Assets\Textures\UI\Menu\Buttons\button_unmute.xnb
+Content\Assets\Textures\UI\Menu\Buttons\button_volume-down.xnb
+Content\Assets\Textures\UI\Menu\Buttons\button_volume-mute.xnb
+Content\Assets\Textures\UI\Menu\Buttons\button_volume-up.xnb
 Content\Assets\Audio\Demo2DSound.xgs
 Content\Assets\Audio\WaveBank1.xwb
 Content\Assets\Audio\SoundBank1.xsb

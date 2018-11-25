@@ -1457,3 +1457,12 @@ E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Character
 E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Character_Scarf_0.xnb
 E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Character_Face_test01_0.xnb
 E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Character_Hair_0.xnb
+D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\Menu\Buttons\button_back.xnb
+D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\Menu\Buttons\button_controls.xnb
+D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\Menu\Buttons\button_exit.xnb
+D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\Menu\Buttons\button_sound.xnb
+D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\Menu\Buttons\button_start.xnb
+D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\Menu\Buttons\button_unmute.xnb
+D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\Menu\Buttons\button_volume-down.xnb
+D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\Menu\Buttons\button_volume-mute.xnb
+D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\Menu\Buttons\button_volume-up.xnb

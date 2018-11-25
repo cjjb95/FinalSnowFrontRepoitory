@@ -74,7 +74,7 @@ namespace GDLibrary
                     //publish gameover event
                     if (this.bDirty)
                     {
-
+                        Console.WriteLine("aa");
                         EventDispatcher.Publish(new EventData("Dead By Frosbite!", null, EventActionType.OnLose, EventCategoryType.GameLost));
                         bDirty = false;
                     }
