@@ -1292,12 +1292,12 @@ namespace GDApp
             Transform2D transform = null;
             UITextureObject texture = null;
 
-            transform = new Transform2D(new Vector2(40, 210), 0, new Vector2(0.7f, 0.77f), Vector2.Zero, new Integer2(20, 281));
+            transform = new Transform2D(new Vector2(42, 210), 0, new Vector2(1.05f, 0.8f), Vector2.Zero, new Integer2(20, 281));
 
             texture = new UITextureObject("thermoBar",
                 ActorType.UITexture, StatusType.Drawn | StatusType.Update,
                 transform, Color.White,
-                SpriteEffects.None, 0f, this.textureDictionary["ThermoBar"]);
+                SpriteEffects.None, 0.5f, this.textureDictionary["ThermoBar"]);
 
             texture.AttachController(new ThermoController("tc", ControllerType.Timer, PlayStatusType.Play, this.eventDispatcher));
 
@@ -1309,7 +1309,7 @@ namespace GDApp
             texture = new UITextureObject("thermometer",
                 ActorType.UITexture, StatusType.Drawn,
                 transform, Color.White,
-                SpriteEffects.None, 0.5f, this.textureDictionary["Thermometer"]);
+                SpriteEffects.None, 0, this.textureDictionary["Thermometer"]);
 
 
             this.hudManager.Add(texture);
@@ -2093,9 +2093,35 @@ namespace GDApp
 
             DemoToggleMenu();
 
+            DemoGameOver();
+
             base.Update(gameTime);
         }
 
+        private void DemoGameOver()
+        {
+            this.eventDispatcher.GameLost += EventDispatcher_GameLost;
+        }
+
+        private void EventDispatcher_GameLost(EventData eventData)
+        {
+            if (eventData.EventType == EventActionType.OnLose)
+            {
+                string text = eventData.ID;
+                SpriteFont strFont = this.fontDictionary["menu"];
+                Vector2 strDim = strFont.MeasureString(text);
+                strDim /= 2.0f;
+                Transform2D transform =
+                    new Transform2D((Vector2)this.screenCentre, 0,
+                    new Vector2(1, 1) * 2, strDim, new Integer2(100, 100));
+
+                UITextObject newTextObject = new UITextObject("win", ActorType.UIText,
+                    StatusType.Drawn | StatusType.Update, transform, Color.Red,
+                    SpriteEffects.None, 0, text, strFont);
+
+                this.hudManager.Add(newTextObject);
+            }
+        }
 
         private void DemoUseItem()
         {

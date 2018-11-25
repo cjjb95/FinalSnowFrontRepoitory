@@ -13,14 +13,14 @@ namespace GDLibrary
         private float temperature;
         private bool isDead;
         private float dropRate;
-
+        private bool bDirty;
 
         public ThermoController(string id, ControllerType controllerType, PlayStatusType playStatusType, EventDispatcher eventDispatcher) : base(id, controllerType, playStatusType)
         {
             this.isDead = false;
             this.temperature = 30f;
             this.dropRate = 1f;
-
+            this.bDirty = true;
             eventDispatcher.UseItem += EventDispatcher_UseItem;
         }
 
@@ -56,7 +56,7 @@ namespace GDLibrary
                 if (!this.isDead)
                 {
                     this.temperature -= this.dropRate;
-                    System.Console.WriteLine(this.temperature);
+
                     parentActor.Transform.Translation += new Vector2(0, (this.dropRate * 8));
                     parentActor.SourceRectangle =
                         new Rectangle(parentActor.SourceRectangle.X,
@@ -72,13 +72,18 @@ namespace GDLibrary
                 else
                 {
                     //publish gameover event
-                    EventDispatcher.Publish(new EventData("Dead By Frosbite!", EventActionType.OnLose, EventCategoryType.GameLost));
+                    if (this.bDirty)
+                    {
+
+                        EventDispatcher.Publish(new EventData("Dead By Frosbite!", null, EventActionType.OnLose, EventCategoryType.GameLost));
+                        bDirty = false;
+                    }
                 }
             }
 
             base.Update(gameTime, actor);
-        }
 
+        }
 
     }
 }
