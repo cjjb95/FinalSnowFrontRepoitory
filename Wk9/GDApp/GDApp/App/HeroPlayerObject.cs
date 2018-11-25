@@ -81,11 +81,13 @@ namespace GDApp
             {
                 if (this.shovelEquipped)
                 {
-
+                    object[] additionalParameters = { "Oof" };
+                    EventDispatcher.Publish(new EventData(EventActionType.OnPlay, EventCategoryType.Sound2D, additionalParameters));
                     EventDispatcher.Publish(new EventData(thingHit, EventActionType.OnRemoveActor, EventCategoryType.SystemRemove));
                     this.shovelEquipped = false;
                 }
-                movementSpeed = 0.1f;
+                movementSpeed = 0.3f;
+
                 object[] additionalParameter = { true };
                 EventDispatcher.Publish(new EventData(EventActionType.OnSnowDrift, EventCategoryType.IntersectSnowDrift, additionalParameter));
             }

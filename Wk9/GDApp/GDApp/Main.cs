@@ -1613,7 +1613,7 @@ namespace GDApp
             textureClone.Transform = new Transform2D(new Vector2(graphics.PreferredBackBufferWidth / 2.0f, 200),
               0, 1.5f * Vector2.One, midPoint, new Integer2(200, 50));
             //move down on Y-axis for next button
-            textureClone.Transform.Translation += new Vector2(620f, 705f);
+            textureClone.Transform.Translation += new Vector2(620f, 755f);
 
 
             this.menuManager.Add(sceneID, textureClone);
@@ -2401,10 +2401,40 @@ namespace GDApp
 
         private void DemoSoundManager()
         {
+
+
             if (this.keyboardManager.IsFirstKeyPress(Keys.B))
             {
                 //add event to play mouse click
                 object[] additionalParameters = { "boing" };
+                EventDispatcher.Publish(new EventData(EventActionType.OnPlay, EventCategoryType.Sound2D, additionalParameters));
+            }
+
+            if (this.keyboardManager.IsFirstKeyPress(Keys.NumPad1))
+            {
+                //add event to play mouse click
+                object[] additionalParameters = { "Oof" };
+                EventDispatcher.Publish(new EventData(EventActionType.OnPlay, EventCategoryType.Sound2D, additionalParameters));
+            }
+
+            if (this.keyboardManager.IsFirstKeyPress(Keys.NumPad2))
+            {
+                //add event to play mouse click
+                object[] additionalParameters = { "Ouch" };
+                EventDispatcher.Publish(new EventData(EventActionType.OnPlay, EventCategoryType.Sound2D, additionalParameters));
+            }
+
+            if (this.keyboardManager.IsFirstKeyPress(Keys.NumPad3))
+            {
+                //add event to play mouse click
+                object[] additionalParameters = { "Gasp" };
+                EventDispatcher.Publish(new EventData(EventActionType.OnPlay, EventCategoryType.Sound2D, additionalParameters));
+            }
+
+            if (this.keyboardManager.IsFirstKeyPress(Keys.NumPad4))
+            {
+                //add event to play mouse click
+                object[] additionalParameters = { "PhoneCall" };
                 EventDispatcher.Publish(new EventData(EventActionType.OnPlay, EventCategoryType.Sound2D, additionalParameters));
             }
         }

@@ -133,6 +133,8 @@ namespace GDApp
             //will be received by the menu manager and screen manager and set the menu to be shown and game to be paused
             EventDispatcher.Publish(new EventData(EventActionType.OnStart, EventCategoryType.Menu));
             this.prevMenu = "pause menu";
+            object[] additionalParameters = { "Backtrack" };
+            EventDispatcher.Publish(new EventData(EventActionType.OnPlay, EventCategoryType.Sound2D, additionalParameters));
 
         }
 

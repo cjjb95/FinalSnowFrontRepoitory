@@ -132,6 +132,10 @@ Content\Assets\Textures\UI\Menu\Buttons\button_unmute.xnb
 Content\Assets\Textures\UI\Menu\Buttons\button_volume-down.xnb
 Content\Assets\Textures\UI\Menu\Buttons\button_volume-mute.xnb
 Content\Assets\Textures\UI\Menu\Buttons\button_volume-up.xnb
+Content\Assets\Audio\Gasp.xnb
+Content\Assets\Audio\Oof.xnb
+Content\Assets\Audio\PhoneCall.xnb
+Content\Assets\Audio\Backtrack.xnb
 Content\Assets\Audio\Demo2DSound.xgs
 Content\Assets\Audio\WaveBank1.xwb
 Content\Assets\Audio\SoundBank1.xsb

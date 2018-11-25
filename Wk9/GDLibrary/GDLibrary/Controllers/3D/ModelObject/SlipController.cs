@@ -14,6 +14,7 @@ namespace GDLibrary
         private int randomNum;
         private int totalTimeSlipping;
         private bool slipping;
+        private bool once;
 
         public SlipController(string id, ControllerType controllerType,
             PlayStatusType playStatusType, EventDispatcher eventDispatcher)
@@ -21,7 +22,7 @@ namespace GDLibrary
         {
             this.rnd = new Random();
             this.slipping = false;
-
+            this.once = true;
             eventDispatcher.ObstacleCollision += EventDispatcher_ObstacleCollision;
         }
 
@@ -56,6 +57,12 @@ namespace GDLibrary
 
             if (this.randomNum < this.slipChance)
             {
+                if(this.once)
+                {
+                    object[] additionalParameters = { "Ouch" };
+                    EventDispatcher.Publish(new EventData(EventActionType.OnPlay, EventCategoryType.Sound2D, additionalParameters));
+                    this.once = false;
+                }
                 this.slipping = true;
                 //set the driveable controller on the player to be paused
                 //EventDispatcher.Publish(new EventData(EventActionType.OnSlip, EventCategoryType.ObstacleEvent));
@@ -74,6 +81,7 @@ namespace GDLibrary
                     EventDispatcher.Publish(new EventData(EventActionType.SlipOver, EventCategoryType.ObstacleEvent));
                     this.slipChance = 0;
                     this.slipping = false;
+                    this.once = true;
                 }
 
             }

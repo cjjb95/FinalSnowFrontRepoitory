@@ -9,8 +9,8 @@
     Windows Bank Path Edited = 0;
     Seek Tables = 1;
     Compression Preset Name = &lt;none&gt;;
-    Bank Last Revised Low = 1439872788;
-    Bank Last Revised High = 30430317;
+    Bank Last Revised Low = 1342267792;
+    Bank Last Revised High = 30704890;
 
     Wave
     {
@@ -32,6 +32,121 @@
             File Type = 1;
             Last Modified Low = 3805660051;
             Last Modified High = 30430316;
+        }
+    }
+
+    Wave
+    {
+        Name = Ouch;
+        File = Ouch.wav;
+        Build Settings Last Modified Low = 3681398140;
+        Build Settings Last Modified High = 30704886;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 129616;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 914489882;
+            Last Modified High = 30704886;
+        }
+    }
+
+    Wave
+    {
+        Name = PhoneCall;
+        File = PhoneCall.wav;
+        Build Settings Last Modified Low = 3681398140;
+        Build Settings Last Modified High = 30704886;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 709084;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 495335908;
+            Last Modified High = 30704886;
+        }
+    }
+
+    Wave
+    {
+        Name = Gasp;
+        File = Gasp.wav;
+        Build Settings Last Modified Low = 3681408141;
+        Build Settings Last Modified High = 30704886;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 124216;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 495275905;
+            Last Modified High = 30704886;
+        }
+    }
+
+    Wave
+    {
+        Name = Oof;
+        File = Oof.wav;
+        Build Settings Last Modified Low = 3681408141;
+        Build Settings Last Modified High = 30704886;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 123936;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 495295906;
+            Last Modified High = 30704886;
+        }
+    }
+
+    Wave
+    {
+        Name = Backtrack;
+        File = Backtrack.wav;
+        Build Settings Last Modified Low = 1266743473;
+        Build Settings Last Modified High = 30704890;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 96000;
+            Bits Per Sample = 1;
+            Play Region Offset = 122;
+            Play Region Length = 11520072;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 1536552181;
+            Last Modified High = 30704888;
         }
     }
 }
