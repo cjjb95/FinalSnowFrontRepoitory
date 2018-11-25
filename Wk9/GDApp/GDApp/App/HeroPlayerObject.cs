@@ -49,6 +49,7 @@ namespace GDApp
             }
             else
             {
+                this.stunned = false;
                 object[] additionalParameter = { false };
                 EventDispatcher.Publish(new EventData(EventActionType.OnIce, EventCategoryType.Obstacle, additionalParameter));
             }

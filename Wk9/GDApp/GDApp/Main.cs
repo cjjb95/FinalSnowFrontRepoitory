@@ -380,7 +380,7 @@ namespace GDApp
             //Collidable
             InitializeCollidableGround(worldScale);
 
-            InitializeLevelOutline();
+            //InitializeLevelOutline();
 
             if (gameLevel == 1)
             {
@@ -396,7 +396,7 @@ namespace GDApp
 
                 //add level elements
                 //InitializeBuildings();
-                //InitializeWallsFences();
+                InitializeWallsFences();
                 InitializeRoad();
             }
             else if (gameLevel == 2)
@@ -975,64 +975,313 @@ namespace GDApp
 
         private void InitializeWallsFences()
         {
-            Transform3D transform3D = new Transform3D(new Vector3(-140, 0, -14),
-                new Vector3(0, -90, 0), 0.4f * Vector3.One, Vector3.UnitX, Vector3.UnitY);
+            Transform3D transform3D = new Transform3D(new Vector3(-920, 0, -410),
+                 new Vector3(0, 0, 0), new Vector3(1.9f, 0.2f, 0.5f), Vector3.UnitX, Vector3.UnitY);
 
             BasicEffectParameters effectParameters = this.effectDictionary[AppData.LitModelsEffectID].Clone() as BasicEffectParameters;
             effectParameters.Texture = this.textureDictionary["wall"];
 
-            CollidableObject collidableObject = new TriangleMeshObject("wall1", ActorType.CollidableArchitecture, transform3D,
-                            effectParameters, this.modelDictionary["wall"], new MaterialProperties(0.2f, 0.8f, 0.7f));
+            //left far back
+            CollidableObject collidableObject = new TriangleMeshObject("wall", ActorType.CollidableArchitecture, transform3D,
+                            effectParameters, this.modelDictionary["Wall"], new MaterialProperties(0.2f, 0.8f, 0.7f));
+
+
+            collidableObject.Enable(true, 1);
+            this.object3DManager.Add(collidableObject);
+
+            //right far back
+            transform3D = new Transform3D(new Vector3(-920, 0, -240),
+               new Vector3(0, 0, 0), new Vector3(1.9f, 0.2f, 0.5f), Vector3.UnitX, Vector3.UnitY);
+            collidableObject = new TriangleMeshObject("wall 2", ActorType.CollidableArchitecture, transform3D,
+                            effectParameters, this.modelDictionary["Wall"], new MaterialProperties(0.2f, 0.8f, 0.7f));
+
+            collidableObject.Enable(true, 1);
+            this.object3DManager.Add(collidableObject);
+
+            //left front
+            transform3D = new Transform3D(new Vector3(-220, 0, -580),
+              new Vector3(0, 0, 0), new Vector3(1.4f, 0.2f, 0.5f), Vector3.UnitX, Vector3.UnitY);
+            collidableObject = new TriangleMeshObject("wall 2", ActorType.CollidableArchitecture, transform3D,
+                            effectParameters, this.modelDictionary["Wall"], new MaterialProperties(0.2f, 0.8f, 0.7f));
+
+            collidableObject.Enable(true, 1);
+            this.object3DManager.Add(collidableObject);
+            //left front - 2
+            transform3D = new Transform3D(new Vector3(280, 0, -580),
+              new Vector3(0, 0, 0), new Vector3(1.2f, 0.2f, 0.5f), Vector3.UnitX, Vector3.UnitY);
+            collidableObject = new TriangleMeshObject("wall 2", ActorType.CollidableArchitecture, transform3D,
+                            effectParameters, this.modelDictionary["Wall"], new MaterialProperties(0.2f, 0.8f, 0.7f));
+
+            collidableObject.Enable(true, 1);
+            this.object3DManager.Add(collidableObject);
+
+            //right front
+            transform3D = new Transform3D(new Vector3(-220, 0, -70),
+              new Vector3(0, 0, 0), new Vector3(1.4f, 0.2f, 0.5f), Vector3.UnitX, Vector3.UnitY);
+            collidableObject = new TriangleMeshObject("wall 2", ActorType.CollidableArchitecture, transform3D,
+                            effectParameters, this.modelDictionary["Wall"], new MaterialProperties(0.2f, 0.8f, 0.7f));
+
+            collidableObject.Enable(true, 1);
+            this.object3DManager.Add(collidableObject);
+
+            //right front - 2
+            transform3D = new Transform3D(new Vector3(280, 0, -70),
+              new Vector3(0, 0, 0), new Vector3(1.2f, 0.2f, 0.5f), Vector3.UnitX, Vector3.UnitY);
+            collidableObject = new TriangleMeshObject("wall 2", ActorType.CollidableArchitecture, transform3D,
+                            effectParameters, this.modelDictionary["Wall"], new MaterialProperties(0.2f, 0.8f, 0.7f));
+
+            collidableObject.Enable(true, 1);
+            this.object3DManager.Add(collidableObject);
+
+            //left mid
+            transform3D = new Transform3D(new Vector3(-250, 0, -410),
+              new Vector3(0, 90, 0), new Vector3(0.5f, 0.2f, 0.5f), Vector3.UnitX, Vector3.UnitY);
+            collidableObject = new TriangleMeshObject("wall 2", ActorType.CollidableArchitecture, transform3D,
+                            effectParameters, this.modelDictionary["Wall"], new MaterialProperties(0.2f, 0.8f, 0.7f));
+
+            collidableObject.Enable(true, 1);
+            this.object3DManager.Add(collidableObject);
+
+            //right mid
+            transform3D = new Transform3D(new Vector3(-250, 0, -240),
+              new Vector3(0, -90, 0), new Vector3(0.5f, 0.2f, 0.5f), Vector3.UnitX, Vector3.UnitY);
+            collidableObject = new TriangleMeshObject("wall 2", ActorType.CollidableArchitecture, transform3D,
+                            effectParameters, this.modelDictionary["Wall"], new MaterialProperties(0.2f, 0.8f, 0.7f));
+
+            collidableObject.Enable(true, 1);
+            this.object3DManager.Add(collidableObject);
+
+            //left end
+            transform3D = new Transform3D(new Vector3(700, 0, -410),
+              new Vector3(0, 90, 0), new Vector3(0.5f, 0.2f, 0.5f), Vector3.UnitX, Vector3.UnitY);
+            collidableObject = new TriangleMeshObject("wall 2", ActorType.CollidableArchitecture, transform3D,
+                            effectParameters, this.modelDictionary["Wall"], new MaterialProperties(0.2f, 0.8f, 0.7f));
+
+            collidableObject.Enable(true, 1);
+            this.object3DManager.Add(collidableObject);
+
+            //right end
+            transform3D = new Transform3D(new Vector3(700, 0, -240),
+              new Vector3(0, -90, 0), new Vector3(0.5f, 0.2f, 0.5f), Vector3.UnitX, Vector3.UnitY);
+            collidableObject = new TriangleMeshObject("wall 2", ActorType.CollidableArchitecture, transform3D,
+                            effectParameters, this.modelDictionary["Wall"], new MaterialProperties(0.2f, 0.8f, 0.7f));
+
+            collidableObject.Enable(true, 1);
+            this.object3DManager.Add(collidableObject);
+
+
+            //left box mid
+            transform3D = new Transform3D(new Vector3(-40, 0, -410),
+              new Vector3(0, 0, 0), new Vector3(0.7f, 0.2f, 0.5f), Vector3.UnitX, Vector3.UnitY);
+            collidableObject = new TriangleMeshObject("wall 2", ActorType.CollidableArchitecture, transform3D,
+                            effectParameters, this.modelDictionary["Wall"], new MaterialProperties(0.2f, 0.8f, 0.7f));
+
+            collidableObject.Enable(true, 1);
+            this.object3DManager.Add(collidableObject);
+
+            //right box mid
+            transform3D = new Transform3D(new Vector3(200, 0, -240),
+              new Vector3(0, 180, 0), new Vector3(0.7f, 0.2f, 0.5f), Vector3.UnitX, Vector3.UnitY);
+            collidableObject = new TriangleMeshObject("wall 2", ActorType.CollidableArchitecture, transform3D,
+                            effectParameters, this.modelDictionary["Wall"], new MaterialProperties(0.2f, 0.8f, 0.7f));
+
+            collidableObject.Enable(true, 1);
+            this.object3DManager.Add(collidableObject);
+
+            //near box mid
+            transform3D = new Transform3D(new Vector3(-40, 0, -240),
+              new Vector3(0, 90, 0), new Vector3(0.5f, 0.2f, 0.5f), Vector3.UnitX, Vector3.UnitY);
+            collidableObject = new TriangleMeshObject("wall 2", ActorType.CollidableArchitecture, transform3D,
+                            effectParameters, this.modelDictionary["Wall"], new MaterialProperties(0.2f, 0.8f, 0.7f));
+
+            collidableObject.Enable(true, 1);
+            this.object3DManager.Add(collidableObject);
+
+            //far box mid
+            transform3D = new Transform3D(new Vector3(200, 0, -410),
+              new Vector3(0, -90, 0), new Vector3(0.5f, 0.2f, 0.5f), Vector3.UnitX, Vector3.UnitY);
+            collidableObject = new TriangleMeshObject("wall 2", ActorType.CollidableArchitecture, transform3D,
+                            effectParameters, this.modelDictionary["Wall"], new MaterialProperties(0.2f, 0.8f, 0.7f));
+
             collidableObject.Enable(true, 1);
             this.object3DManager.Add(collidableObject);
         }
 
         private void InitializeRoad()
         {
-            Transform3D transform3D = new Transform3D(new Vector3(-140, -3, -14),
-                new Vector3(0, 0, 0), 1.2f * Vector3.One, Vector3.UnitX, Vector3.UnitY);
+            Transform3D transform3D = new Transform3D(new Vector3(-830, -6, -318),
+                 new Vector3(0, 90, 0), 2.4f * Vector3.One, 2.4f * Vector3.UnitX, 2.4f * Vector3.UnitY);
 
             BasicEffectParameters effectParameters = this.effectDictionary[AppData.LitModelsEffectID].Clone() as BasicEffectParameters;
             effectParameters.Texture = this.textureDictionary["roadtxt"];
 
-            CollidableObject collidableObject = new TriangleMeshObject("roadobj", ActorType.CollidableArchitecture, transform3D,
-                            effectParameters, this.modelDictionary["road"], new MaterialProperties(0.2f, 0.8f, 0.7f));
-            collidableObject.Enable(true, 1);
-
             ModelObject roadObject = new ModelObject("roadpiece", ActorType.Decorator, transform3D, effectParameters, this.modelDictionary["road"]);
 
-            this.object3DManager.Add(collidableObject);
+            this.object3DManager.Add(roadObject);
 
+            #region Clones
 
+            //Middle Clones 1, 2, 3, 4, 15, 16, 17
+            //Left Clones 5, 7, 9, 11, 13, 18
+            //Right Clones 6, 8, 10, 12, 14, 19
             //clone 1
             ModelObject clone = null;
             clone = (ModelObject)roadObject.Clone();
-            clone.Transform.Translation = new Vector3(-140, -3, -104);
+            clone.Transform.Translation = new Vector3(-650, -6, -318);
+            clone.Transform.Rotation = new Vector3(0, 90, 0);
             //scale it to make it look different
-            clone.Transform.Scale = new Vector3(1.2f, 1.2f, 1.2f);
-            this.object3DManager.Add(clone);
-
-
-            //clone 2
-            clone = (ModelObject)roadObject.Clone();
-            clone.Transform.Translation = new Vector3(-140, -3, -194);
-            //scale it to make it look different
-            clone.Transform.Scale = new Vector3(1.2f, 1.2f, 1.2f);
+            clone.Transform.Scale = new Vector3(2.4f, 2.4f, 2.4f);
             this.object3DManager.Add(clone);
 
             //clone 2
             clone = (ModelObject)roadObject.Clone();
-            clone.Transform.Translation = new Vector3(-140, -3, -284);
+            clone.Transform.Translation = new Vector3(-470, -6, -318);
+            clone.Transform.Rotation = new Vector3(0, 90, 0);
             //scale it to make it look different
-            clone.Transform.Scale = new Vector3(1.2f, 1.2f, 1.2f);
+            clone.Transform.Scale = new Vector3(2.4f, 2.4f, 2.4f);
             this.object3DManager.Add(clone);
 
-            //clone 2
+
+            //clone 3
             clone = (ModelObject)roadObject.Clone();
-            clone.Transform.Translation = new Vector3(-140, -3, -374);
+            clone.Transform.Translation = new Vector3(-290, -6, -318);
+            clone.Transform.Rotation = new Vector3(0, 90, 0);
             //scale it to make it look different
-            clone.Transform.Scale = new Vector3(1.2f, 1.2f, 1.2f);
+            clone.Transform.Scale = new Vector3(2.4f, 2.4f, 2.4f);
             this.object3DManager.Add(clone);
+
+            //clone 4
+            clone = (ModelObject)roadObject.Clone();
+            clone.Transform.Translation = new Vector3(-150, -6, -318);
+            clone.Transform.Rotation = new Vector3(0, 90, 0);
+            //scale it to make it look different
+            clone.Transform.Scale = new Vector3(2.4f, 2.4f, 2.4f);
+            this.object3DManager.Add(clone);
+
+
+            //clone 5
+            clone = (ModelObject)roadObject.Clone();
+            clone.Transform.Translation = new Vector3(-130, -6, -488);
+            clone.Transform.Rotation = new Vector3(0, 90, 0);
+            //scale it to make it look different
+            clone.Transform.Scale = new Vector3(2.4f, 2.4f, 2.4f);
+            this.object3DManager.Add(clone);
+
+            //clone 6
+            clone = (ModelObject)roadObject.Clone();
+            clone.Transform.Translation = new Vector3(-130, -6, -150);
+            clone.Transform.Rotation = new Vector3(0, 90, 0);
+            //scale it to make it look different
+            clone.Transform.Scale = new Vector3(2.4f, 2.4f, 2.4f);
+            this.object3DManager.Add(clone);
+
+            //clone 7
+            clone = (ModelObject)roadObject.Clone();
+            clone.Transform.Translation = new Vector3(50, -6, -488);
+            clone.Transform.Rotation = new Vector3(0, 90, 0);
+            //scale it to make it look different
+            clone.Transform.Scale = new Vector3(2.4f, 2.4f, 2.4f);
+            this.object3DManager.Add(clone);
+
+            //clone 8
+            clone = (ModelObject)roadObject.Clone();
+            clone.Transform.Translation = new Vector3(50, -6, -150);
+            clone.Transform.Rotation = new Vector3(0, 90, 0);
+            //scale it to make it look different
+            clone.Transform.Scale = new Vector3(2.4f, 2.4f, 2.4f);
+            this.object3DManager.Add(clone);
+
+            //clone 9
+            clone = (ModelObject)roadObject.Clone();
+            clone.Transform.Translation = new Vector3(230, -6, -488);
+            clone.Transform.Rotation = new Vector3(0, 90, 0);
+            //scale it to make it look different
+            clone.Transform.Scale = new Vector3(2.4f, 2.4f, 2.4f);
+            this.object3DManager.Add(clone);
+
+            //clone 10
+            clone = (ModelObject)roadObject.Clone();
+            clone.Transform.Translation = new Vector3(230, -6, -150);
+            clone.Transform.Rotation = new Vector3(0, 90, 0);
+            //scale it to make it look different
+            clone.Transform.Scale = new Vector3(2.4f, 2.4f, 2.4f);
+            this.object3DManager.Add(clone);
+
+            //clone 11
+            clone = (ModelObject)roadObject.Clone();
+            clone.Transform.Translation = new Vector3(410, -6, -488);
+            clone.Transform.Rotation = new Vector3(0, 90, 0);
+            //scale it to make it look different
+            clone.Transform.Scale = new Vector3(2.4f, 2.4f, 2.4f);
+            this.object3DManager.Add(clone);
+
+            //clone 12
+            clone = (ModelObject)roadObject.Clone();
+            clone.Transform.Translation = new Vector3(410, -6, -150);
+            clone.Transform.Rotation = new Vector3(0, 90, 0);
+            //scale it to make it look different
+            clone.Transform.Scale = new Vector3(2.4f, 2.4f, 2.4f);
+            this.object3DManager.Add(clone);
+
+
+            //clone 13
+            clone = (ModelObject)roadObject.Clone();
+            clone.Transform.Translation = new Vector3(590, -6, -488);
+            clone.Transform.Rotation = new Vector3(0, 90, 0);
+            //scale it to make it look different
+            clone.Transform.Scale = new Vector3(2.4f, 2.4f, 2.4f);
+            this.object3DManager.Add(clone);
+
+            //clone 14
+            clone = (ModelObject)roadObject.Clone();
+            clone.Transform.Translation = new Vector3(590, -6, -150);
+            clone.Transform.Rotation = new Vector3(0, 90, 0);
+            //scale it to make it look different
+            clone.Transform.Scale = new Vector3(2.4f, 2.4f, 2.4f);
+            this.object3DManager.Add(clone);
+
+            //clone 15
+            clone = (ModelObject)roadObject.Clone();
+            clone.Transform.Translation = new Vector3(340, -6, -318);
+            clone.Transform.Rotation = new Vector3(0, 90, 0);
+            //scale it to make it look different
+            clone.Transform.Scale = new Vector3(2.4f, 2.4f, 2.4f);
+            this.object3DManager.Add(clone);
+
+            //clone 16
+            clone = (ModelObject)roadObject.Clone();
+            clone.Transform.Translation = new Vector3(520, -6, -318);
+            clone.Transform.Rotation = new Vector3(0, 90, 0);
+            //scale it to make it look different
+            clone.Transform.Scale = new Vector3(2.4f, 2.4f, 2.4f);
+            this.object3DManager.Add(clone);
+
+            //clone 17
+            clone = (ModelObject)roadObject.Clone();
+            clone.Transform.Translation = new Vector3(700, -6, -318);
+            clone.Transform.Rotation = new Vector3(0, 90, 0);
+            //scale it to make it look different
+            clone.Transform.Scale = new Vector3(2.4f, 2.4f, 2.4f);
+            this.object3DManager.Add(clone);
+
+            //clone 18
+            clone = (ModelObject)roadObject.Clone();
+            clone.Transform.Translation = new Vector3(675, -6, -488);
+            clone.Transform.Rotation = new Vector3(0, 90, 0);
+            //scale it to make it look different
+            clone.Transform.Scale = new Vector3(2.4f, 2.4f, 0.7f);
+            this.object3DManager.Add(clone);
+
+            //clone 19
+            clone = (ModelObject)roadObject.Clone();
+            clone.Transform.Translation = new Vector3(675, -6, -150);
+            clone.Transform.Rotation = new Vector3(0, 90, 0);
+            //scale it to make it look different
+            clone.Transform.Scale = new Vector3(2.4f, 2.4f, 0.7f);
+            this.object3DManager.Add(clone);
+
+
+            #endregion
 
 
         }
@@ -1077,13 +1326,13 @@ namespace GDApp
             string sceneID = "", buttonID = "", buttonText = "";
             int verticalBtnSeparation = 50;
             Vector2 midPoint = Vector2.Zero;
-            UITextureObject uiTextureObject = null, textureClone = null;
+            UITextureObject uiTextureObject = null;
 
             #region Main Menu
             sceneID = "main menu";
 
             //retrieve the background texture
-            texture = this.textureDictionary["mainmenu"];
+            texture = this.textureDictionary["iceSheet"];
             //scale the texture to fit the entire screen
             Vector2 scale = new Vector2((float)graphics.PreferredBackBufferWidth / texture.Width,
                 (float)graphics.PreferredBackBufferHeight / texture.Height);
@@ -1097,6 +1346,7 @@ namespace GDApp
 
             //add start button
             buttonID = "startbtn";
+            buttonText = "Start";
             position = new Vector2(graphics.PreferredBackBufferWidth / 2.0f, 200);
             texture = this.textureDictionary["Button"];
             transform = new Transform2D(position,
@@ -1106,7 +1356,7 @@ namespace GDApp
             uiButtonObject = new UIButtonObject(buttonID, ActorType.UIButton, StatusType.Update | StatusType.Drawn,
                 transform, Color.LightPink, SpriteEffects.None, 0.1f, texture, buttonText,
                 this.fontDictionary["menu"],
-                Color.DarkGray, new Vector2(0, 2));
+                Color.Black, new Vector2(0, 2));
             this.menuManager.Add(sceneID, uiButtonObject);
 
             //add audio button - clone the audio button then just reset texture, ids etc in all the clones
@@ -1183,6 +1433,8 @@ namespace GDApp
                 StatusType.Drawn | StatusType.Update, transform,
                 Color.White, SpriteEffects.None, 0,
                 this.textureDictionary["sliderTracker"]);
+
+
 
             this.menuManager.Add(sceneID, uiTextureObject);
 
@@ -1275,44 +1527,40 @@ namespace GDApp
 
             #region Buttons
 
-            midPoint = new Vector2(this.textureDictionary["menuButton"].Width / 2.0f,
-               this.textureDictionary["menuButton"].Height / 2.0f);
-            //add start button
             buttonID = "audiobtn";
+            buttonText = "Audio";
+            position = new Vector2(graphics.PreferredBackBufferWidth / 2.0f, 300);
+            texture = this.textureDictionary["Button"];
+            transform = new Transform2D(position,
+                0, new Vector2(1.8f, 0.6f),
+                new Vector2(texture.Width / 2.0f, texture.Height / 2.0f), new Integer2(texture.Width, texture.Height));
 
-            texture = this.textureDictionary["menuButton"];
-            transform = new Transform2D(new Vector2(graphics.PreferredBackBufferWidth / 2.0f, 200),
-              0, 0.2f * Vector2.One, midPoint, new Integer2(1000, 367));
-
-            uiTextureObject = new UITextureObject(buttonID, ActorType.UITexture, StatusType.Update | StatusType.Drawn,
-                transform, Color.White, SpriteEffects.None, 0.1f, texture);
-
-            uiTextureObject.AttachController(new UIColorSineLerpController("cslc1",
-                ControllerType.SineColor, new TrigonometricParameters(1, 0.1f), Color.Blue, Color.White));
-
-            this.menuManager.Add(sceneID, uiTextureObject);
+            uiButtonObject = new UIButtonObject(buttonID, ActorType.UIButton, StatusType.Update | StatusType.Drawn,
+                transform, Color.Gray, SpriteEffects.None, 0.1f, texture, buttonText,
+                this.fontDictionary["menu"],
+                Color.Black, new Vector2(0, 2));
+            this.menuManager.Add(sceneID, uiButtonObject);
 
             //add audio button - clone the audio button then just reset texture, ids etc in all the clones
-            textureClone = (UITextureObject)uiTextureObject.Clone();
-            textureClone.ID = "controlsbtn";
-
+            clone = (UIButtonObject)uiButtonObject.Clone();
+            clone.ID = "controlsbtn";
+            clone.Text = "Controls";
             //move down on Y-axis for next button
-            textureClone.Transform.Translation += new Vector2(0, 3 * verticalBtnSeparation);
+            clone.Transform.Translation += new Vector2(0, verticalBtnSeparation);
             //change the texture blend color
-            textureClone.Color = Color.White;
-
-            this.menuManager.Add(sceneID, textureClone);
+            clone.Color = Color.LightGreen;
+            this.menuManager.Add(sceneID, clone);
 
             //add controls button - clone the audio button then just reset texture, ids etc in all the clones
-            textureClone = (UITextureObject)uiTextureObject.Clone();
-            textureClone.ID = "exitbtn";
-
+            clone = (UIButtonObject)uiButtonObject.Clone();
+            clone.ID = "exitbtn";
+            clone.Texture = this.textureDictionary["Button"];
+            clone.Text = "Exit";
             //move down on Y-axis for next button
-            textureClone.Transform.Translation += new Vector2(0, 2 * 3 * verticalBtnSeparation);
+            clone.Transform.Translation += new Vector2(0, 2 * verticalBtnSeparation);
             //change the texture blend color
-            textureClone.Color = Color.White;
-            textureClone.Texture = this.textureDictionary["exitButton"];
-            this.menuManager.Add(sceneID, textureClone);
+            clone.Color = Color.LightBlue;
+            this.menuManager.Add(sceneID, clone);
 
             #endregion
 
@@ -1397,7 +1645,7 @@ namespace GDApp
 
             //architecture
             this.modelDictionary.Load("Assets/Models/Architecture/Buildings/house");
-            this.modelDictionary.Load("Assets/Models/Architecture/Walls/wall");
+            this.modelDictionary.Load("Assets/Models/Wall");
 
             //dual texture demo
             this.modelDictionary.Load("Assets/Models/box");
@@ -1732,7 +1980,7 @@ namespace GDApp
 
             Camera3D camera3D = new Camera3D("third person camera 1",
                 ActorType.Camera, transform,
-                ProjectionParameters.StandardMediumFiveThree, viewport,
+                ProjectionParameters.StandardDeepFiveThree, viewport,
                 0f, StatusType.Update);
 
             camera3D.AttachController(new ThirdPersonController("tpcc1", ControllerType.ThirdPerson,

@@ -43,7 +43,7 @@ namespace GDLibrary
         #endregion
 
         public MenuManager(Game game, InputManagerParameters inputManagerParameters,
-            CameraManager cameraManager, SpriteBatch spriteBatch, EventDispatcher eventDispatcher, 
+            CameraManager cameraManager, SpriteBatch spriteBatch, EventDispatcher eventDispatcher,
             StatusType statusType)
             : base(game, eventDispatcher, statusType)
         {
@@ -56,6 +56,7 @@ namespace GDLibrary
 
             //used to render menu and UI elements
             this.spriteBatch = spriteBatch;
+            eventDispatcher.GlobalSoundChanged += EventDispatcher_GlobalSoundChanged;
         }
 
         #region Event Handling
@@ -73,11 +74,34 @@ namespace GDLibrary
                 this.isVisible = true;
             }
         }
+
+        private void EventDispatcher_GlobalSoundChanged(EventData eventData)
+        {
+
+            DrawnActor2D volTracker = this.menuDictionary["audio menu"].Find(actor => actor.GetID().Equals("tracker1"));
+            DrawnActor2D volSlider = this.menuDictionary["audio menu"].Find(actor => actor.GetID().Equals("slider1"));
+
+            if (eventData.EventType == EventActionType.OnVolumeUp)
+            {
+                if (volTracker.Transform.Translation.X < (volSlider.Transform.Translation.X + 430))
+                {
+                    volTracker.Transform.Translation += new Vector2(10, 0);
+                }
+
+            }
+            else if (eventData.EventType == EventActionType.OnVolumeDown)
+            {
+                if (volTracker.Transform.Translation.X > volSlider.Transform.Translation.X)
+                {
+                    volTracker.Transform.Translation -= new Vector2(10, 0);
+                }
+            }
+        }
         #endregion
 
         public void Add(string menuSceneID, DrawnActor2D actor)
         {
-            if(this.menuDictionary.ContainsKey(menuSceneID))
+            if (this.menuDictionary.ContainsKey(menuSceneID))
             {
                 this.menuDictionary[menuSceneID].Add(actor);
             }
@@ -89,10 +113,10 @@ namespace GDLibrary
             }
 
             //if the user forgets to set the active list then set to the sceneID of the last added item
-            if(this.activeList == null)
+            if (this.activeList == null)
             {
                 SetActiveList(menuSceneID);
-                   
+
             }
         }
 
