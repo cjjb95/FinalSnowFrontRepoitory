@@ -73,8 +73,13 @@ namespace GDLibrary
             if (this.inputManagerParameters.MouseManager.IsLeftButtonClickedOnce())
             {
                 this.camera = this.cameraManager.ActiveCamera;
-                this.currentPickedObject = this.inputManagerParameters.MouseManager.GetPickedObject(camera, camera.ViewportCentre,
-                    this.pickStartDistance, this.pickEndDistance, out pos, out normal) as CollidableObject;
+                this.currentPickedObject = this.inputManagerParameters.MouseManager.GetPickedObject(
+                    camera,
+                    camera.ViewportCentre,
+                    this.pickStartDistance,
+                    this.pickEndDistance, 
+                    out pos, 
+                    out normal) as CollidableObject;
 
                 if (this.currentPickedObject != null && IsValidCollision(currentPickedObject, pos, normal))
                 { 

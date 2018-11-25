@@ -16,7 +16,7 @@ namespace GDApp
 
         //FOR SNOW DRIFTS
         float movementSpeed = 2;
-
+        bool shovelEquipped = false;
         public HeroPlayerObject(string id, 
             ActorType actorType,
             Transform3D transform, 
@@ -36,6 +36,16 @@ namespace GDApp
             this.stunned = false;
             this.Body.CollisionSkin.callbackFn += CollisionSkin_callbackFn;
             eventDispatcher.ObstacleEvent += EventDispatcher_ObstacleEvent;
+            eventDispatcher.ItemEquipped += EventDispatcher_ItemEquipped;
+        }
+
+        private void EventDispatcher_ItemEquipped(EventData eventData)
+        {
+            object additionalParameters = eventData.AdditionalParameters[0];
+            if (eventData.EventType==EventActionType.OnItem&& additionalParameters as string=="shovel")
+            {
+                shovelEquipped = true;
+            }
         }
 
         private void EventDispatcher_ObstacleEvent(EventData eventData)
@@ -68,6 +78,10 @@ namespace GDApp
 
             if (thingHit.ActorType == ActorType.Snow)
             {
+                if(shovelEquipped)
+                {
+                    EventDispatcher.Publish(new EventData(thingHit, EventActionType.OnRemoveActor, EventCategoryType.SystemRemove));
+                }
                 movementSpeed = 0.5f;
                 object[] additionalParameter = { true };
                 EventDispatcher.Publish(new EventData(EventActionType.OnSnowDrift, EventCategoryType.IntersectSnowDrift, additionalParameter));

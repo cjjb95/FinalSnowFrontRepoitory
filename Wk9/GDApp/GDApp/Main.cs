@@ -1372,9 +1372,13 @@ namespace GDApp
             transform = new Transform2D(new Vector2(20, 547), 0, new Vector2(0.068f, 0.038f), Vector2.Zero, new Integer2(20, 281));
 
             texture = new UITextureObject("shovel",
-                ActorType.UITexture, StatusType.Drawn,
-                transform, Color.White,
-                SpriteEffects.None, 0.5f, this.textureDictionary["shovel"]);
+                ActorType.UITexture, 
+                StatusType.Drawn,
+                transform,
+                Color.White,
+                SpriteEffects.None, 
+                0.5f,
+                this.textureDictionary["shovel"]);
 
 
             this.hudManager.Add(texture);
@@ -2164,6 +2168,8 @@ namespace GDApp
 
             DemoUseItem();
 
+            DemoItem("coat");
+
             DemoSetControllerPlayStatus();
 
             DemoSoundManager();
@@ -2204,7 +2210,7 @@ namespace GDApp
         {
             if (this.keyboardManager.IsFirstKeyPress(Keys.Enter))
             {// wear coat using enter
-                DemoItem("coat");
+                DemoItem("shovel");
             }
         }
 
@@ -2214,8 +2220,8 @@ namespace GDApp
             object[] additionalParameters = { itemID };
             if (itemID.Equals("coat"))
                 EventDispatcher.Publish(new EventData(EventActionType.OnItem, EventCategoryType.Item, additionalParameters));
-            else if (itemID.Equals("shovel"))
-                EventDispatcher.Publish(new EventData(EventActionType.OnItem, EventCategoryType.Item, additionalParameters));
+            if (itemID.Equals("shovel"))
+                EventDispatcher.Publish(new EventData(EventActionType.OnItem, EventCategoryType.ItemEquipped, additionalParameters));
 
         }
 
@@ -2254,11 +2260,7 @@ namespace GDApp
                 torusActor.SetControllerPlayStatus(PlayStatusType.Play, controller => controller.GetControllerType() == ControllerType.Rotation);
             }
         }
-
-        /// <summary>
-        /// This is called when the game should draw itself.
-        /// </summary>
-        /// <param name="gameTime">Provides a snapshot of timing values.</param>
+        
         protected override void Draw(GameTime gameTime)
         {
             GraphicsDevice.Clear(Color.Black);
