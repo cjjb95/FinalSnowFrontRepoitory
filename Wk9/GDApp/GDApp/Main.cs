@@ -1466,6 +1466,7 @@ namespace GDApp
             clone = (UIButtonObject)uiButtonObject.Clone();
             clone.ID = "volumeUpbtn";
             clone.Text = "Volume Up";
+            clone.Texture = this.textureDictionary["sliderTracker"];//change the name into ur texture
             //change the texture blend color
             clone.Color = Color.LightPink;
             this.menuManager.Add(sceneID, clone);
