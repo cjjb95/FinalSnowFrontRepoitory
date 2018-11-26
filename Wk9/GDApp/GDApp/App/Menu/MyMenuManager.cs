@@ -25,13 +25,14 @@ namespace GDApp
             //then generate sound events particular to your game e.g. play background music in a menu
             if (eventData.EventType == EventActionType.OnStart)
             {
+                Game.IsMouseVisible = false;
                 ////add event to stop background menu music here...
                 //object[] additionalParameters = { "in-game background music", 1 };
                 //EventDispatcher.Publish(new EventData(EventActionType.OnStop, EventCategoryType.Sound2D, additionalParameters));
             }
             else if (eventData.EventType == EventActionType.OnPause)
             {
-
+                Game.IsMouseVisible = true;
                 //add event to play background menu music here...
                 //object[] additionalParameters = { "menu elevator music" };
                 //EventDispatcher.Publish(new EventData(EventActionType.OnPlay, EventCategoryType.Sound2D, additionalParameters));
