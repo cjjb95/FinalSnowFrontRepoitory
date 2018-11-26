@@ -18,6 +18,7 @@ namespace GDLibrary
     {
         #region Fields
         private CameraManager cameraManager;
+        private CameraLayoutType cameraLayoutType;
         private BasicEffect basicEffect;
         private List<VertexPositionColor> vertexData;
         private VertexPositionColor[] wf;
@@ -26,28 +27,42 @@ namespace GDLibrary
         //temp local var
         private IActor actor;
         #endregion
-
-        public PhysicsDebugDrawer(Game game, CameraManager cameraManager, ObjectManager objectManager, 
-            EventDispatcher eventDispatcher, StatusType statusType)
+        #region Properties  
+        public CameraLayoutType CameraLayoutType
+        {
+            get
+            {
+                return this.cameraLayoutType;
+            }
+            set
+            {
+                this.cameraLayoutType = value;
+            }
+        }
+        #endregion
+        public PhysicsDebugDrawer(Game game, CameraManager cameraManager, ObjectManager objectManager,
+            EventDispatcher eventDispatcher, StatusType statusType,
+            CameraLayoutType cameraLayoutType)
             : base(game, eventDispatcher, statusType)
         {
             this.cameraManager = cameraManager;
+            this.cameraLayoutType = cameraLayoutType;
             this.objectManager = objectManager;
             this.vertexData = new List<VertexPositionColor>();
             this.basicEffect = new BasicEffect(game.GraphicsDevice);
         }
 
+        #region Event Handling
         protected override void RegisterForEventHandling(EventDispatcher eventDispatcher)
         {
             eventDispatcher.DebugChanged += EventDispatcher_DebugChanged;
             base.RegisterForEventHandling(eventDispatcher);
         }
 
-        #region Event Handling
         //enable dynamic show/hide of debug info
         private void EventDispatcher_DebugChanged(EventData eventData)
         {
-            if (eventData.EventType == EventActionType.OnToggleDebug)
+            if (eventData.EventType == EventActionType.OnToggle)
             {
                 if (this.StatusType == StatusType.Off)
                     this.StatusType = StatusType.Drawn | StatusType.Update;
@@ -55,26 +70,17 @@ namespace GDLibrary
                     this.StatusType = StatusType.Off;
             }
         }
-
-        //Same as ScreenManager::EventDispatcher_MenuChanged i.e. show if we're in-game and not in-menu
-        protected override void EventDispatcher_MenuChanged(EventData eventData)
-        {
-            //did the event come from the main menu and is it a start game event
-            if (eventData.EventType == EventActionType.OnStart)
-            {
-                //turn on update and draw i.e. hide the menu
-                this.StatusType = StatusType.Update | StatusType.Drawn;
-            }
-            //did the event come from the main menu and is it a start game event
-            else if (eventData.EventType == EventActionType.OnPause)
-            {
-                //turn off update and draw i.e. show the menu since the game is paused
-                this.StatusType = StatusType.Off;
-            }
-        }
         #endregion
 
         protected override void ApplyDraw(GameTime gameTime)
+        {
+            if (this.cameraLayoutType == CameraLayoutType.Single)
+                ApplySingleCameraDraw(gameTime, this.cameraManager.ActiveCamera);
+            else
+                ApplyMultiCameraDraw(gameTime);
+        }
+
+        private void ApplyMultiCameraDraw(GameTime gameTime)
         {
             //add the vertices for each and every drawn object (opaque or transparent) to the vertexData array for drawing
             ProcessAllDrawnObjects();
@@ -85,11 +91,24 @@ namespace GDLibrary
             this.basicEffect.AmbientLightColor = Vector3.One;
             this.basicEffect.VertexColorEnabled = true;
 
-            //foreach is enabled by making CameraManager implement IEnumerator
             foreach (Camera3D camera in this.cameraManager)
-            {
                 DrawCollisionSkin(camera);
-            }
+
+            vertexData.Clear();
+        }
+
+        private void ApplySingleCameraDraw(GameTime gameTime, Camera3D activeCamera)
+        {
+            //add the vertices for each and every drawn object (opaque or transparent) to the vertexData array for drawing
+            ProcessAllDrawnObjects();
+
+            //no vertices to draw - would happen if we forget to call DrawCollisionSkins() above or there were no drawn objects to see!
+            if (vertexData.Count == 0) return;
+
+            this.basicEffect.AmbientLightColor = Vector3.One;
+            this.basicEffect.VertexColorEnabled = true;
+
+            DrawCollisionSkin(activeCamera);
 
             vertexData.Clear();
         }

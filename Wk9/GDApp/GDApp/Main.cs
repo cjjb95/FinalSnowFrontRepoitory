@@ -46,6 +46,7 @@ namespace GDApp
         private bool once;
         private bool coat = false;
         private bool gameOver = false;
+        private CameraLayoutType cameraLayoutType;
         #endregion
 
         #region Constructors
@@ -61,6 +62,8 @@ namespace GDApp
         {
             //set the title
             Window.Title = "SnowFront";
+
+            this.cameraLayoutType = CameraLayoutType.Single;
 
             #region Assets & Dictionaries
             InitializeDictionaries();
@@ -1532,7 +1535,7 @@ namespace GDApp
         {
             //show the collision skins
             this.physicsDebugDrawer = new PhysicsDebugDrawer(this, this.cameraManager, this.object3DManager,
-                this.eventDispatcher, StatusType.Off);
+                this.eventDispatcher, StatusType.Off, this.cameraLayoutType);
             Components.Add(this.physicsDebugDrawer);
         }
 #endif
@@ -2039,8 +2042,10 @@ namespace GDApp
 
             DemoToggleMenu();
 
-                        
-                DemoGameOver();
+            ToggleDebugInfo();
+
+
+            DemoGameOver();
 
             DemoUseText();
 
@@ -2120,6 +2125,13 @@ namespace GDApp
 
         }
 
+        private void ToggleDebugInfo()
+        {
+            if (this.keyboardManager.IsFirstKeyPress(Keys.T))
+            {
+                EventDispatcher.Publish(new EventData(EventActionType.OnToggle, EventCategoryType.Debug));
+            }
+        }
 
 
         private void DemoUseItem()

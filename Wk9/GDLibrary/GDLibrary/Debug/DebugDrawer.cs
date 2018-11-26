@@ -37,9 +37,10 @@ namespace GDLibrary
             eventDispatcher.ObstacleCollision += EventDispatcher_ObstacleCollision;
             eventDispatcher.SnowDriftIntersected += EventDispatcher_SnowDriftIntersection;
             eventDispatcher.ObstacleEvent += EventDispatcher_ObstacleEvent;
+            eventDispatcher.DebugChanged += EventDispatcher_DebugChanged;
         }
 
-
+       
 
         private void EventDispatcher_ObstacleEvent(EventData eventData)
         {
@@ -50,6 +51,17 @@ namespace GDLibrary
             else if (eventData.EventType == EventActionType.SlipOver)
             {
                 this.slip = false;
+            }
+        }
+
+        private void EventDispatcher_DebugChanged(EventData eventData)
+        {
+            if (eventData.EventType == EventActionType.OnToggle)
+            {
+                if (this.StatusType == StatusType.Off)
+                    this.StatusType = StatusType.Drawn | StatusType.Update;
+                else
+                    this.StatusType = StatusType.Off;
             }
         }
 
