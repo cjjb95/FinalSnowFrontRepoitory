@@ -418,7 +418,7 @@ namespace GDApp
         {
             //Creating the effect for the collidableobject model
             BasicEffectParameters effectParameters = this.effectDictionary[AppData.LitModelsEffectID].Clone() as BasicEffectParameters;
-            effectParameters.Texture = this.textureDictionary["ml"];
+            //effectParameters.Texture = this.textureDictionary["ml"];
             effectParameters.DiffuseColor = Color.White;
 
             Vector3 rot = new Vector3(0, 0, 0);
