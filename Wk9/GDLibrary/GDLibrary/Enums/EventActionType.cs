@@ -65,5 +65,6 @@ namespace GDLibrary
         OnRemoveActor2D,
         OnAddActor2D,
         OffSnowDrift,
+        OnGround,
     }
 }

@@ -43,10 +43,11 @@ namespace GDApp
         private HUDManager hudManager;
         private HeroPlayerObject player;
         private bool shovel = false;
-        private bool once;
+        private bool once = true;
         private bool coat = false;
         private bool gameOver = false;
         private CameraLayoutType cameraLayoutType;
+        private bool added = false;
         #endregion
 
         #region Constructors
@@ -2056,43 +2057,57 @@ namespace GDApp
 
         private void DemoUseText()
         {
-            this.eventDispatcher.SnowDriftIntersected += EventDispatcher_SnowDriftIntersected;
+            this.eventDispatcher.ObstacleCollision += EventDispatcher_ObstacleCollision;
         }
 
-        private void EventDispatcher_SnowDriftIntersected(EventData eventData)
+        private void EventDispatcher_ObstacleCollision(EventData eventData)
         {
+            string text = "use";
+            Vector2 pos = new Vector2(70, 600);
+            SpriteFont strFont = this.fontDictionary["menu"];
+            Vector2 strDim = strFont.MeasureString(text);
+            strDim /= 2.0f;
+            Transform2D transform =
+                new Transform2D(pos, 0,
+                new Vector2(1, 1), strDim, new Integer2(100, 100));
+
+            UITextObject newTextObject = new UITextObject("use indicator", ActorType.UIText,
+                StatusType.Drawn | StatusType.Update, transform, Color.Red,
+                SpriteEffects.None, 0, text, strFont);
+            if (!this.once && !this.added)
+            {
+                this.once = true;
+            }
+
             if (eventData.EventType == EventActionType.OnSnowDrift)
             {
 
-                string text = "Use";
-                Vector2 pos = new Vector2(100, 600);
-                SpriteFont strFont = this.fontDictionary["menu"];
-                Vector2 strDim = strFont.MeasureString(text);
-                strDim /= 2.0f;
-                Transform2D transform =
-                    new Transform2D(pos, 0,
-                    new Vector2(1, 1), strDim, new Integer2(100, 100));
-
-                UITextObject newTextObject = new UITextObject("equip", ActorType.UIText,
-                    StatusType.Drawn | StatusType.Update, transform, Color.Red,
-                    SpriteEffects.None, 0, text, strFont);
-
-                if ((bool)eventData.AdditionalParameters[0] && !this.once)
+                //newTextObject.Text = "Use";
+                if (this.once)
                 {
-                    this.once = true;
-                    
+
+                    Console.WriteLine("add");
                     EventDispatcher.Publish(new EventData(newTextObject
-                    , EventActionType.OnAddActor2D, EventCategoryType.SystemAdd));
-                    
-                }
-                else if (!(bool)eventData.AdditionalParameters[0] && this.once)
-                {
-                    
-                    EventDispatcher.Publish(new EventData(newTextObject
-                   , EventActionType.OnRemoveActor2D, EventCategoryType.SystemRemove));
+                     , EventActionType.OnAddActor2D, EventCategoryType.SystemAdd));
                     this.once = false;
+                    this.added = true;
                 }
             }
+            else if (eventData.EventType == EventActionType.OnGround)
+            {
+                if (this.added)
+                {
+                    Console.WriteLine("Remove");
+                    EventDispatcher.Publish(new EventData(newTextObject
+                     , EventActionType.OnRemoveActor2D, EventCategoryType.SystemRemove));
+                    //this.once = true;
+                    this.added = false;
+                }
+
+            }
+
+
+
         }
 
         private void DemoGameOver()

@@ -76,6 +76,7 @@
     <Compile Include="GDLibrary\Actors\3D\Collidable\Player\CharacterObject.cs" />
     <Compile Include="GDLibrary\Actors\3D\Collidable\Player\PlayerObject.cs" />
     <Compile Include="GDLibrary\Actors\3D\Collidable\TriangleMeshObject.cs" />
+    <Compile Include="GDLibrary\Actors\3D\Collidable\ZoneObject\ZoneObject.cs" />
     <Compile Include="GDLibrary\Actors\3D\DrawnActor3D.cs" />
     <Compile Include="GDLibrary\Container\Dictionary\ContentDictionary.cs" />
     <Compile Include="GDLibrary\Controllers\2D\ThermoController.cs" />
