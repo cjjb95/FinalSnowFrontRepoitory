@@ -66,5 +66,7 @@ namespace GDLibrary
         OnAddActor2D,
         OffSnowDrift,
         OnGround,
+        OnTreeZone,
+        OnIcicleZone,
     }
 }
