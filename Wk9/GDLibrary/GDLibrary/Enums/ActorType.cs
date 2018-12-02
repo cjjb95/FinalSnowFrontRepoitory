@@ -27,7 +27,9 @@ namespace GDLibrary
         CollidablePickup,
         CollidableArchitecture,
         Ice,
-        Snow
+        Snow,
+        FallingTree,
+        Icicle
     }
 }
 

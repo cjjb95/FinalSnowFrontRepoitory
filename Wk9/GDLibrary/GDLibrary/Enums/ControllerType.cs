@@ -27,6 +27,8 @@ namespace GDLibrary
         Pickup,
         Timer,
         Slip,
+        TreeZone,
+        EnablePhysics,
 
         //Add more here...
     }

@@ -61,7 +61,7 @@ namespace GDApp
         {
             if (eventData.EventType == EventActionType.OnSnowDrift)
             {
-                this.bOnce = false;
+                this.bOnce = true;
 
             }
         }
@@ -96,7 +96,7 @@ namespace GDApp
             if (thingHit.ActorType == ActorType.Ice)
             {
                 this.movementSpeed = 2;
-                //Console.WriteLine("Ice");
+                Console.WriteLine("Ice");
                 object[] additionalParameter = { true };
                 EventDispatcher.Publish(new EventData(EventActionType.OnIce, EventCategoryType.Obstacle, additionalParameter));
                 this.bOnce = true;

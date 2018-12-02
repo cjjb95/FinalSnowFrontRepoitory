@@ -30,14 +30,17 @@ namespace GDLibrary
         {
             if (eventData.EventType == EventActionType.OnIce)
             {
-                if ((bool)eventData.AdditionalParameters[0])
-                {
-                    this.PlayStatusType = PlayStatusType.Play;
-                }
-                else
-                {
-                    this.PlayStatusType = PlayStatusType.Stop;
-                }
+
+                this.PlayStatusType = PlayStatusType.Play;
+            }
+            else if (eventData.EventType == EventActionType.OnGround)
+            {
+                EventDispatcher.Publish(new EventData(EventActionType.SlipOver, EventCategoryType.ObstacleEvent));
+                this.slipChance = 0;
+                this.slipping = false;
+                this.once = true;
+                this.PlayStatusType = PlayStatusType.Stop;
+
             }
         }
 
@@ -47,17 +50,19 @@ namespace GDLibrary
             this.totalTimeOnIce += gameTime.ElapsedGameTime.Milliseconds;
 
 
-            if (this.totalTimeOnIce % 1000 == 0 && !this.slipping)
+            if (this.totalTimeOnIce % 500 == 0 && !this.slipping)
             {
                 //Console.WriteLine("Calculating...." + totalTimeOnIce);
                 this.slipChance++;
-                this.randomNum = this.rnd.Next(2, 6);
+                this.randomNum = this.rnd.Next(1, 6);
+                //Console.WriteLine("slip "+slipChance);
+                //Console.WriteLine(randomNum);
 
             }
 
             if (this.randomNum < this.slipChance)
             {
-                if(this.once)
+                if (this.once)
                 {
                     object[] additionalParameters = { "Ouch" };
                     EventDispatcher.Publish(new EventData(EventActionType.OnPlay, EventCategoryType.Sound2D, additionalParameters));

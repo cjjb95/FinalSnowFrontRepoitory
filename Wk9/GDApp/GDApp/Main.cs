@@ -44,10 +44,11 @@ namespace GDApp
         private HeroPlayerObject player;
         private bool shovel = false;
         private bool once = true;
+        private bool added = false;
         private bool coat = false;
         private bool gameOver = false;
         private CameraLayoutType cameraLayoutType;
-        private bool added = false;
+
         #endregion
 
         #region Constructors
@@ -194,6 +195,11 @@ namespace GDApp
                 //demo high vertex count trianglemesh
                 InitializeStaticCollidableTriangleMeshObjects();
                 InitializeIce();
+                InitializeRoadRoof();
+                InitializeIcicle();
+                InitializeFallingTree();
+                InitializeFallingTreeTrigger();
+                InitializeIcicleTrigger();
                 //demo medium and low vertex count trianglemesh
                 //InitializeStaticCollidableMediumPolyTriangleMeshObjects();
                 //InitializeStaticCollidableLowPolyTriangleMeshObjects();
@@ -209,6 +215,112 @@ namespace GDApp
             {
                 //add different things for your next level
             }
+        }
+
+        private void InitializeFallingTreeTrigger()
+        {
+
+            Transform3D transform3D = new Transform3D(new Vector3(-150, 20, -480),
+                new Vector3(0, 0, 0), 2 * new Vector3(1.5f, 1, 1), Vector3.UnitX, Vector3.UnitY);
+
+            BasicEffectParameters effectParameters = this.effectDictionary[AppData.LitModelsEffectID].Clone() as BasicEffectParameters;
+            effectParameters.DiffuseColor = Color.White;
+            //Model model = this.modelDictionary["snowDrift"];
+            TreeZone tz = new TreeZone("tz1",
+               ActorType.Zone,
+               transform3D,
+               effectParameters,
+               this.modelDictionary["box"]);
+            tz.StatusType = StatusType.Update;
+            tz.AddPrimitive(new Box(tz.Transform.Translation, Matrix.Identity, 12 * 2.54f * new Vector3(6, 1, 6)), new MaterialProperties(0.2f, 0.8f, 0.7f));
+            tz.Enable(true, 1);
+            tz.AttachController(new TreeFallingController("tc1", ControllerType.TreeZone, PlayStatusType.Stop, this.eventDispatcher));
+            this.object3DManager.Add(tz);
+        }
+
+        private void InitializeFallingTree()
+        {
+            BasicEffectParameters effectParameters = this.effectDictionary[AppData.LitModelsEffectID].Clone() as BasicEffectParameters;
+            effectParameters.Texture = this.textureDictionary["ml"];
+            effectParameters.DiffuseColor = Color.White;
+
+            Transform3D transform3DFallingTree = new Transform3D(new Vector3(-85, 0, -600), new Vector3(0, 0, 0), new Vector3(0.5f, 0.8f, 0.5f), Vector3.UnitX, Vector3.UnitY);
+
+
+            CollidableObject FallingTree = new TriangleMeshObject("falling tree", ActorType.FallingTree, transform3DFallingTree, effectParameters,
+            this.modelDictionary["fallenTree"], new MaterialProperties(0.2f, 0.8f, 0.7f));
+            FallingTree.Enable(true, 1);
+
+            FallingTree.AttachController(new EnablePhysicsController("epc", ControllerType.EnablePhysics, PlayStatusType.Stop));
+            this.object3DManager.Add(FallingTree);
+
+        }
+
+        private void InitializeIcicleTrigger()
+        {
+            Transform3D transform3D = new Transform3D(new Vector3(-70, 20, -100),
+                new Vector3(0, 0, 0), 2 * new Vector3(1.5f, 1, 1), Vector3.UnitX, Vector3.UnitY);
+
+            BasicEffectParameters effectParameters = this.effectDictionary[AppData.LitModelsEffectID].Clone() as BasicEffectParameters;
+            effectParameters.DiffuseColor = Color.White;
+            //Model model = this.modelDictionary["snowDrift"];
+            IcicleZone iz = new IcicleZone("iz1",
+               ActorType.Zone,
+               transform3D,
+               effectParameters,
+               this.modelDictionary["box"]);
+            iz.StatusType = StatusType.Update;
+            iz.AddPrimitive(new Box(iz.Transform.Translation, Matrix.Identity, 12 * 2.54f * new Vector3(6, 1, 4)), new MaterialProperties(0.2f, 0.8f, 0.7f));
+            iz.Enable(true, 1);
+            iz.AttachController(new IcicleController("ic1", ControllerType.TreeZone, PlayStatusType.Stop, this.eventDispatcher));
+            this.object3DManager.Add(iz);
+        }
+
+        private void InitializeIcicle()
+        {
+            CollidableObject collidableObject = null;
+            int count = 0;
+            Transform3D transform3D = new Transform3D(new Vector3(-155, -4, -100),
+                 new Vector3(0, 0, 0), 2 * new Vector3(1.5f, 1, 1), Vector3.UnitX, Vector3.UnitY);
+
+            BasicEffectParameters effectParameters = this.effectDictionary[AppData.LitModelsEffectID].Clone() as BasicEffectParameters;
+            effectParameters.Texture = this.textureDictionary["iceSheet"];
+            Model model = this.modelDictionary["icycle"];
+            IcicleObject archetypeCollidableObject = new IcicleObject("icicle - ", ActorType.Icicle, Transform3D.Zero, effectParameters, model);
+
+            for (int i = 0; i < 3; i++)
+            {
+                for (int j = 0; j < 2; j++)
+                {
+                    collidableObject = (IcicleObject)archetypeCollidableObject.Clone();
+                    collidableObject.ID += count;
+                    count++;
+                    Console.WriteLine(collidableObject.ID);
+                    collidableObject.Transform = new Transform3D(new Vector3(-110 + 60 * i, 40, -120 + 30 * j), new Vector3(0, 0, 0), 0.7f * new Vector3(1, 1.2f, 1), Vector3.UnitX, Vector3.UnitY);
+                    collidableObject.AddPrimitive(new Box(collidableObject.Transform.Translation, Matrix.Identity, /*important do not change - cm to inch*/3 * 2.54f * new Vector3(1, 2.5f, 1)), new MaterialProperties(0f, 0.8f, 0.7f));
+
+                    //increase the mass of the boxes in the demo to see how collidable first person camera interacts vs. spheres (at mass = 1)
+                    collidableObject.Enable(true, 10);
+                    collidableObject.AttachController(new EnablePhysicsController("epc " + count, ControllerType.EnablePhysics, PlayStatusType.Stop));
+
+                    this.object3DManager.Add(collidableObject);
+                }
+            }
+
+            // collidableObject.Enable(true, 1);
+            // this.object3DManager.Add(collidableObject);
+        }
+
+        private void InitializeRoadRoof()
+        {
+            Transform3D transform3D = new Transform3D(new Vector3(-50, -4, -80),
+                 new Vector3(0, 0, 0), 0.5f * new Vector3(0.7f, 0.7f, 1.3f), Vector3.UnitX, Vector3.UnitY);
+
+            BasicEffectParameters effectParameters = this.effectDictionary[AppData.LitModelsEffectID].Clone() as BasicEffectParameters;
+            effectParameters.Texture = this.textureDictionary["iceSheet"];
+
+            ModelObject roadRoof = new ModelObject("road roof", ActorType.Prop, transform3D, effectParameters, this.modelDictionary["RoadRoof"]);
+            this.object3DManager.Add(roadRoof);
         }
 
         private void InitializeIce()
@@ -533,15 +645,8 @@ namespace GDApp
             Transform3D transform3DFallenTree5 = new Transform3D(new Vector3(340, 20, -520), new Vector3(-0, 0, -90), new Vector3(0.5f, 1, 0.5f), Vector3.UnitX, Vector3.UnitY);
             Transform3D transform3DFallenTree6 = new Transform3D(new Vector3(380, 20, -400), new Vector3(-0, 0, -90), new Vector3(0.5f, 1, 0.5f), Vector3.UnitX, Vector3.UnitY);
 
-            Transform3D transform3DFallingTree = new Transform3D(new Vector3(-85, 0, -600), new Vector3(0, 0, 0), new Vector3(0.5f, 0.8f, 0.5f), Vector3.UnitX, Vector3.UnitY);
 
 
-            CollidableObject FallingTree = new TriangleMeshObject("falling tree", ActorType.CollidableProp, transform3DFallingTree, effectParameters,
-            this.modelDictionary["fallenTree"], new MaterialProperties(0.2f, 0.8f, 0.7f));
-            FallingTree.Enable(true, 1);
-
-            FallingTree.AttachController(new RotationController("Falling_Tree", ControllerType.Rotation, 0.18f * Vector3.UnitX));
-            this.object3DManager.Add(FallingTree);
 
             CollidableObject FallenTree1 = new TriangleMeshObject("fallen tree", ActorType.CollidableProp, transform3DFallenTree, effectParameters,
              this.modelDictionary["fallenTree"], new MaterialProperties(0.2f, 0.8f, 0.7f));
@@ -567,7 +672,7 @@ namespace GDApp
             this.modelDictionary["fallenTree"], new MaterialProperties(0.2f, 0.8f, 0.7f));
             FallenTree6.Enable(true, 1);
 
-            this.object3DManager.Add(FallingTree);
+
             this.object3DManager.Add(FallenTree1);
             this.object3DManager.Add(FallenTree2);
             this.object3DManager.Add(FallenTree3);
@@ -1574,6 +1679,7 @@ namespace GDApp
             this.modelDictionary.Load("Assets/Models/sphere");
             this.modelDictionary.Load("mapLayout", "Assets/Models/mapBlockingOut");
             this.modelDictionary.Load("Assets/Models/Character_model_1");
+            this.modelDictionary.Load("Assets/Models/icycle");
 
             //triangle mesh high/low poly demo
             this.modelDictionary.Load("Assets/Models/teapot");
@@ -1586,6 +1692,7 @@ namespace GDApp
             //architecture
             this.modelDictionary.Load("Assets/Models/Architecture/Buildings/house");
             this.modelDictionary.Load("Assets/Models/Wall");
+            this.modelDictionary.Load("Assets/Models/RoadRoof");
 
             //dual texture demo
             this.modelDictionary.Load("Assets/Models/box");
@@ -2037,6 +2144,9 @@ namespace GDApp
 
             DemoUseItem();
 
+            ZoneEvents();
+
+
             DemoSetControllerPlayStatus();
 
             DemoSoundManager();
@@ -2053,6 +2163,26 @@ namespace GDApp
             //DemoEquipItem();
 
             base.Update(gameTime);
+        }
+
+        private void ZoneEvents()
+        {
+            this.eventDispatcher.ObstacleEvent += EventDispatcher_ObstacleEvent;
+        }
+
+        private void EventDispatcher_ObstacleEvent(EventData eventData)
+        {
+            if (eventData.EventType == EventActionType.OnIcicleZone)
+            {
+                string id = "clone - icicle - " + eventData.AdditionalParameters[0];
+                DrawnActor3D icicle = this.object3DManager.Find(i => i.ActorType.Equals(ActorType.Icicle) && i.ID.Equals(id));
+                icicle.SetAllControllersPlayStatus(PlayStatusType.Play);
+            }
+            else if (eventData.EventType == EventActionType.OnTreeZone)
+            {
+                DrawnActor3D fallingTree = this.object3DManager.Find(i => i.ActorType.Equals(ActorType.FallingTree));
+                fallingTree.SetAllControllersPlayStatus(PlayStatusType.Play);
+            }
         }
 
         private void DemoUseText()
@@ -2110,6 +2240,8 @@ namespace GDApp
 
         }
 
+
+
         private void DemoGameOver()
         {
             this.eventDispatcher.GameLost += EventDispatcher_GameLost;
@@ -2133,7 +2265,7 @@ namespace GDApp
                     StatusType.Drawn | StatusType.Update, transform, Color.Red,
                     SpriteEffects.None, 0, text, strFont);
 
-                
+
                 EventDispatcher.Publish(new EventData(newTextObject
                         , EventActionType.OnAddActor2D, EventCategoryType.SystemAdd));
             }

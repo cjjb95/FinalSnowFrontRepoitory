@@ -1743,6 +1743,46 @@
       <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Audio\Backtrack.xnb</Output>
       <Time>2018-11-26T03:54:55.8206878+07:00</Time>
     </Item>
+    <Item>
+      <Source>Assets\Models\icycle.FBX</Source>
+      <Name>Assets\Models\icycle</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\icycle.xnb</Output>
+      <Time>2018-12-03T04:43:03.6042062+07:00</Time>
+      <Dependency>
+        <Key>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\icycle_0.xml</Key>
+        <Value>2018-12-03T04:46:00.5891435+07:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Assets\Models\RoadRoof.FBX</Source>
+      <Name>Assets\Models\RoadRoof</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\RoadRoof.xnb</Output>
+      <Time>2018-12-03T04:43:03.6211965+07:00</Time>
+      <Dependency>
+        <Key>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\RoadRoof_0.xml</Key>
+        <Value>2018-12-03T04:46:00.7421935+07:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Assets\Models\icycle.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\icycle_0.xml</Output>
+      <Time>2018-12-03T04:43:03.6042062+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Models\RoadRoof.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\RoadRoof_0.xml</Output>
+      <Time>2018-12-03T04:43:03.6211965+07:00</Time>
+    </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
       <ContentProjectGUID>{126295C8-DF19-41C6-8384-E55BDF49737E}</ContentProjectGUID>
