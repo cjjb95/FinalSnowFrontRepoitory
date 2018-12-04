@@ -3,7 +3,7 @@
   <Asset Type="Graphics:MeshContent">
     <Name>Box001</Name>
     <Identity>
-      <SourceFilename>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDAppContent\Assets\Models\road.FBX</SourceFilename>
+      <SourceFilename>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDAppContent\Assets\Models\road.FBX</SourceFilename>
       <SourceTool>FbxImporter</SourceTool>
     </Identity>
     <OpaqueData>
@@ -36,7 +36,7 @@
     <Resource ID="#Resource1" Type="Graphics:BasicMaterialContent">
       <Name>01 - Default</Name>
       <Identity>
-        <SourceFilename>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDAppContent\Assets\Models\road.FBX</SourceFilename>
+        <SourceFilename>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDAppContent\Assets\Models\road.FBX</SourceFilename>
         <SourceTool>FbxImporter</SourceTool>
       </Identity>
       <OpaqueData>
@@ -57,6 +57,6 @@
     </Resource>
   </Resources>
   <ExternalReferences>
-    <ExternalReference ID="#External1" TargetType="Graphics:TextureContent">..\..\FBX\6B35214C\road.fbm\road.jpg</ExternalReference>
+    <ExternalReference ID="#External1" TargetType="Graphics:TextureContent">..\..\FBX\65CA2438\road.fbm\road.jpg</ExternalReference>
   </ExternalReferences>
 </XnaContent>

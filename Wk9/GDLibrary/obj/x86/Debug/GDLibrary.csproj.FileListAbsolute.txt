@@ -559,3 +559,22 @@ D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDLibrary\obj\x86\Debug\GDLibrary.cspr
 D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDLibrary\obj\x86\Debug\GDLibrary.csproj.CopyComplete
 D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDLibrary\obj\x86\Debug\GDLibrary.dll
 D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDLibrary\obj\x86\Debug\GDLibrary.pdb
+C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDLibrary\bin\x86\Debug\GDLibrary.dll
+C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDLibrary\bin\x86\Debug\GDLibrary.pdb
+C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDLibrary\bin\x86\Debug\JigLibX.dll
+C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDLibrary\bin\x86\Debug\Microsoft.Xna.Framework.dll
+C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDLibrary\bin\x86\Debug\Microsoft.Xna.Framework.Game.dll
+C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDLibrary\bin\x86\Debug\Microsoft.Xna.Framework.GamerServices.dll
+C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDLibrary\bin\x86\Debug\Microsoft.Xna.Framework.Graphics.dll
+C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDLibrary\bin\x86\Debug\Microsoft.Xna.Framework.Xact.dll
+C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDLibrary\bin\x86\Debug\Microsoft.Xna.Framework.Input.Touch.dll
+C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDLibrary\bin\x86\Debug\Microsoft.Xna.Framework.xml
+C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDLibrary\bin\x86\Debug\Microsoft.Xna.Framework.Game.xml
+C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDLibrary\bin\x86\Debug\Microsoft.Xna.Framework.Graphics.xml
+C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDLibrary\bin\x86\Debug\Microsoft.Xna.Framework.GamerServices.xml
+C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDLibrary\bin\x86\Debug\Microsoft.Xna.Framework.Input.Touch.xml
+C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDLibrary\obj\x86\Debug\GDLibrary.csprojResolveAssemblyReference.cache
+C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDLibrary\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDLibrary\obj\x86\Debug\GDLibrary.csproj.CoreCompileInputs.cache
+C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDLibrary\obj\x86\Debug\GDLibrary.dll
+C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDLibrary\obj\x86\Debug\GDLibrary.pdb

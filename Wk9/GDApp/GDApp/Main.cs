@@ -224,7 +224,7 @@ namespace GDApp
             Transform3D transform3D = new Transform3D(new Vector3(820, 0, -320),
               new Vector3(0, 0 , 0), 2 * new Vector3(1.5f, 1, 1), Vector3.UnitX, Vector3.UnitY);
 
-            BasicEffectParameters effectParameters = this.effectDictionary[AppData.LitModelsEffectID].Clone() as BasicEffectParameters;
+            BasicEffectParameters effectParameters = this.effectDictionary[AppData.UnlitModelsEffectID].Clone() as BasicEffectParameters;
             effectParameters.DiffuseColor = Color.White;
             Model model = this.modelDictionary["house"];
 
@@ -238,7 +238,7 @@ namespace GDApp
         private void InitializeCollisionDialogue()
         {
             //Creating the effect for the collidableobject model
-            BasicEffectParameters effectParameters = this.effectDictionary[AppData.LitModelsEffectID].Clone() as BasicEffectParameters;
+            BasicEffectParameters effectParameters = this.effectDictionary[AppData.UnlitModelsEffectID].Clone() as BasicEffectParameters;
             //effectParameters.Texture = this.textureDictionary["ml"];
             effectParameters.DiffuseColor = Color.White;
 
@@ -341,7 +341,7 @@ namespace GDApp
             Transform3D transform3D = new Transform3D(new Vector3(-150, 20, -480),
                 new Vector3(0, 0, 0), 2 * new Vector3(1.5f, 1, 1), Vector3.UnitX, Vector3.UnitY);
 
-            BasicEffectParameters effectParameters = this.effectDictionary[AppData.LitModelsEffectID].Clone() as BasicEffectParameters;
+            BasicEffectParameters effectParameters = this.effectDictionary[AppData.UnlitModelsEffectID].Clone() as BasicEffectParameters;
             effectParameters.DiffuseColor = Color.White;
             //Model model = this.modelDictionary["snowDrift"];
             TreeZone tz = new TreeZone("tz1",
@@ -358,7 +358,7 @@ namespace GDApp
 
         private void InitializeFallingTree()
         {
-            BasicEffectParameters effectParameters = this.effectDictionary[AppData.LitModelsEffectID].Clone() as BasicEffectParameters;
+            BasicEffectParameters effectParameters = this.effectDictionary[AppData.UnlitModelsEffectID].Clone() as BasicEffectParameters;
             effectParameters.Texture = this.textureDictionary["ml"];
             effectParameters.DiffuseColor = Color.White;
             Transform3D transform3DFallingTree = new Transform3D(new Vector3(-85, 0, -600), new Vector3(0, 0, 0), new Vector3(0.5f, 0.8f, 0.5f), Vector3.UnitX, Vector3.UnitY);
@@ -378,7 +378,7 @@ namespace GDApp
             Transform3D transform3D = new Transform3D(new Vector3(-70, 20, -100),
                 new Vector3(0, 0, 0), 2 * new Vector3(1.5f, 1, 1), Vector3.UnitX, Vector3.UnitY);
 
-            BasicEffectParameters effectParameters = this.effectDictionary[AppData.LitModelsEffectID].Clone() as BasicEffectParameters;
+            BasicEffectParameters effectParameters = this.effectDictionary[AppData.UnlitModelsEffectID].Clone() as BasicEffectParameters;
             effectParameters.DiffuseColor = Color.White;
             //Model model = this.modelDictionary["snowDrift"];
             IcicleZone iz = new IcicleZone("iz1",
@@ -400,7 +400,7 @@ namespace GDApp
             Transform3D transform3D = new Transform3D(new Vector3(-155, -4, -100),
                  new Vector3(0, 0, 0), 2 * new Vector3(1.5f, 1, 1), Vector3.UnitX, Vector3.UnitY);
 
-            BasicEffectParameters effectParameters = this.effectDictionary[AppData.LitModelsEffectID].Clone() as BasicEffectParameters;
+            BasicEffectParameters effectParameters = this.effectDictionary[AppData.UnlitModelsEffectID].Clone() as BasicEffectParameters;
             effectParameters.Texture = this.textureDictionary["iceSheet"];
             Model model = this.modelDictionary["icycle"];
             IcicleObject archetypeCollidableObject = new IcicleObject("icicle - ", ActorType.Icicle, Transform3D.Zero, effectParameters, model);
@@ -433,7 +433,7 @@ namespace GDApp
             Transform3D transform3D = new Transform3D(new Vector3(-50, -4, -80),
                  new Vector3(0, 0, 0), 0.5f * new Vector3(0.7f, 0.7f, 1.3f), Vector3.UnitX, Vector3.UnitY);
 
-            BasicEffectParameters effectParameters = this.effectDictionary[AppData.LitModelsEffectID].Clone() as BasicEffectParameters;
+            BasicEffectParameters effectParameters = this.effectDictionary[AppData.UnlitModelsEffectID].Clone() as BasicEffectParameters;
             effectParameters.Texture = this.textureDictionary["iceSheet"];
 
             ModelObject roadRoof = new ModelObject("road roof", ActorType.Prop, transform3D, effectParameters, this.modelDictionary["RoadRoof"]);
@@ -446,7 +446,7 @@ namespace GDApp
             Transform3D transform3D = new Transform3D(new Vector3(-155, -4, -300),
                  new Vector3(0, 0, 0), 2 * new Vector3(1.5f, 1, 1), Vector3.UnitX, Vector3.UnitY);
 
-            BasicEffectParameters effectParameters = this.effectDictionary[AppData.LitModelsEffectID].Clone() as BasicEffectParameters;
+            BasicEffectParameters effectParameters = this.effectDictionary[AppData.UnlitModelsEffectID].Clone() as BasicEffectParameters;
             effectParameters.Texture = this.textureDictionary["iceSheet"];
 
             CollidableObject collidableObject = new TriangleMeshObject("ice", ActorType.Ice, transform3D,
@@ -591,7 +591,7 @@ namespace GDApp
             Transform3D transform = new Transform3D(new Vector3(0, 0, 0), new Vector3(worldScale, 1, worldScale));
 
             //clone the dictionary effect and set unique properties for the hero player object
-            BasicEffectParameters effectParameters = this.effectDictionary[AppData.LitModelsEffectID].Clone() as BasicEffectParameters;
+            BasicEffectParameters effectParameters = this.effectDictionary[AppData.UnlitModelsEffectID].Clone() as BasicEffectParameters;
             effectParameters.Texture = this.textureDictionary["checkerboard"];
             //a fix to ensure that any image containing transparent pixels will be sent to the correct draw list in ObjectManager
             effectParameters.Alpha = 0.99f;
@@ -647,7 +647,7 @@ namespace GDApp
         private void InitializeStaticCollidableSnowDrift()
         {
             //Creating the effect for the collidableobject model
-            BasicEffectParameters effectParameters = this.effectDictionary[AppData.LitModelsEffectID].Clone() as BasicEffectParameters;
+            BasicEffectParameters effectParameters = this.effectDictionary[AppData.UnlitModelsEffectID].Clone() as BasicEffectParameters;
             //effectParameters.Texture = this.textureDictionary["ml"];
             effectParameters.DiffuseColor = Color.White;
 
@@ -742,7 +742,7 @@ namespace GDApp
 
         private void InitializeStaticCollidableFallenTree()
         {
-            BasicEffectParameters effectParameters = this.effectDictionary[AppData.LitModelsEffectID].Clone() as BasicEffectParameters;
+            BasicEffectParameters effectParameters = this.effectDictionary[AppData.UnlitModelsEffectID].Clone() as BasicEffectParameters;
             effectParameters.Texture = this.textureDictionary["ml"];
             effectParameters.DiffuseColor = Color.White;
 
@@ -792,7 +792,7 @@ namespace GDApp
 
         private void InitializeStaticCollidableElectricPole()
         {
-            BasicEffectParameters effectParameters = this.effectDictionary[AppData.LitModelsEffectID].Clone() as BasicEffectParameters;
+            BasicEffectParameters effectParameters = this.effectDictionary[AppData.UnlitModelsEffectID].Clone() as BasicEffectParameters;
             effectParameters.Texture = this.textureDictionary["ml"];
             effectParameters.DiffuseColor = Color.White;
             Vector3 poleRot = new Vector3(0, -90, 90);
@@ -833,7 +833,7 @@ namespace GDApp
 
         private void InitializeStaticCollidableFallenCar()
         {
-            BasicEffectParameters effectParameters = this.effectDictionary[AppData.LitModelsEffectID].Clone() as BasicEffectParameters;
+            BasicEffectParameters effectParameters = this.effectDictionary[AppData.UnlitModelsEffectID].Clone() as BasicEffectParameters;
             effectParameters.Texture = this.textureDictionary["ml"];
             effectParameters.DiffuseColor = Color.White;
 
@@ -1023,7 +1023,7 @@ namespace GDApp
             Transform3D transform3D = new Transform3D(new Vector3(-100, 10, -400),
                 new Vector3(0, 90, 0), 0.99f * Vector3.One, Vector3.UnitX, Vector3.UnitY);
 
-            BasicEffectParameters effectParameters = this.effectDictionary[AppData.LitModelsEffectID].Clone() as BasicEffectParameters;
+            BasicEffectParameters effectParameters = this.effectDictionary[AppData.UnlitModelsEffectID].Clone() as BasicEffectParameters;
             effectParameters.Texture = this.textureDictionary["house-low-texture"];
 
             CollidableObject collidableObject = new TriangleMeshObject("house1", ActorType.CollidableArchitecture, transform3D,
@@ -1192,7 +1192,7 @@ namespace GDApp
             Transform3D transform3D = new Transform3D(new Vector3(-830, -6, -318),
                  new Vector3(0, 90, 0), 2.4f * Vector3.One, 2.4f * Vector3.UnitX, 2.4f * Vector3.UnitY);
 
-            BasicEffectParameters effectParameters = this.effectDictionary[AppData.LitModelsEffectID].Clone() as BasicEffectParameters;
+            BasicEffectParameters effectParameters = this.effectDictionary[AppData.UnlitModelsEffectID].Clone() as BasicEffectParameters;
             effectParameters.Texture = this.textureDictionary["roadtxt"];
 
             ModelObject roadObject = new ModelObject("roadpiece", ActorType.Decorator, transform3D, effectParameters, this.modelDictionary["road"]);

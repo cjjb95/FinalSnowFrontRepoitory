@@ -3,7 +3,7 @@
   <Asset Type="Graphics:MeshContent">
     <Name>Box001</Name>
     <Identity>
-      <SourceFilename>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDAppContent\Assets\Models\Wall.FBX</SourceFilename>
+      <SourceFilename>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDAppContent\Assets\Models\Wall.FBX</SourceFilename>
       <SourceTool>FbxImporter</SourceTool>
     </Identity>
     <OpaqueData>
@@ -51,7 +51,7 @@
     <Resource ID="#Resource1" Type="Graphics:BasicMaterialContent">
       <Name>Material #68</Name>
       <Identity>
-        <SourceFilename>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDAppContent\Assets\Models\Wall.FBX</SourceFilename>
+        <SourceFilename>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDAppContent\Assets\Models\Wall.FBX</SourceFilename>
         <SourceTool>FbxImporter</SourceTool>
       </Identity>
       <OpaqueData>
@@ -65,7 +65,7 @@
     <Resource ID="#Resource2" Type="Graphics:BasicMaterialContent">
       <Name>Material #70</Name>
       <Identity>
-        <SourceFilename>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDAppContent\Assets\Models\Wall.FBX</SourceFilename>
+        <SourceFilename>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDAppContent\Assets\Models\Wall.FBX</SourceFilename>
         <SourceTool>FbxImporter</SourceTool>
       </Identity>
       <OpaqueData>
@@ -79,7 +79,7 @@
     <Resource ID="#Resource3" Type="Graphics:BasicMaterialContent">
       <Name>Material #69</Name>
       <Identity>
-        <SourceFilename>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDAppContent\Assets\Models\Wall.FBX</SourceFilename>
+        <SourceFilename>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDAppContent\Assets\Models\Wall.FBX</SourceFilename>
         <SourceTool>FbxImporter</SourceTool>
       </Identity>
       <OpaqueData>

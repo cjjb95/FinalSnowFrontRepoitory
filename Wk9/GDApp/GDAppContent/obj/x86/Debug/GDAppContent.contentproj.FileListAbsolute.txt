@@ -25,3 +25,5 @@ D:\School\Year 3\UDP\SnowDriftProject\Wk9\GDApp\GDAppContent\obj\x86\Debug\GDApp
 D:\School\Year 3\UDP\SnowDriftProject\Wk9\GDApp\GDAppContent\obj\x86\Debug\GDAppContent.contentproj.CoreCompileInputs.cache
 D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDAppContent\obj\x86\Debug\GDAppContent.contentprojAssemblyReference.cache
 D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDAppContent\obj\x86\Debug\GDAppContent.contentproj.CoreCompileInputs.cache
+C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDAppContent\obj\x86\Debug\GDAppContent.contentprojResolveAssemblyReference.cache
+C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDAppContent\obj\x86\Debug\GDAppContent.contentproj.CoreCompileInputs.cache
