@@ -69,5 +69,6 @@ namespace GDLibrary
         OnTreeZone,
         OnIcicleZone,
         OnGameWin,
+        OnFreezeOver,
     }
 }

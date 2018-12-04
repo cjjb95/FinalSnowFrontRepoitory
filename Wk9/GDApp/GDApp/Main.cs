@@ -1907,6 +1907,13 @@ namespace GDApp
             this.textureDictionary.Load("Assets/Textures/UI/HUD/ThermoBar");
             this.textureDictionary.Load("Assets/Textures/UI/HUD/Thermometer");
             this.textureDictionary.Load("Assets/Textures/Road/roadtxt");
+            this.textureDictionary.Load("Assets/Textures/UI/FreezeOver/freezeOver_001");
+            this.textureDictionary.Load("Assets/Textures/UI/FreezeOver/freezeOver_002");
+            this.textureDictionary.Load("Assets/Textures/UI/FreezeOver/freezeOver_003");
+            this.textureDictionary.Load("Assets/Textures/UI/FreezeOver/freezeOver_004");
+            this.textureDictionary.Load("Assets/Textures/UI/FreezeOver/cheese");
+
+
             #endregion
         }
 
@@ -2284,6 +2291,7 @@ namespace GDApp
 
             ZoneEvents();
 
+            DemoFreezeOver();
 
             DemoSetControllerPlayStatus();
 
@@ -2302,6 +2310,103 @@ namespace GDApp
 
             base.Update(gameTime);
         }
+
+        private void DemoFreezeOver()
+        {
+            this.eventDispatcher.LowTemp += EventDispacher_TempDrop;
+        }
+
+        private bool temp1 = true;
+        private bool temp2 = true;
+        private bool temp3 = true;
+        private bool temp4 = true;
+
+        private void EventDispacher_TempDrop(EventData eventData)
+        {  //string id = eventData
+            Transform2D transform = new Transform2D(Vector2.One);
+            Texture2D texture = textureDictionary["cheese"];
+
+            UITextureObject newTexture = new UITextureObject("freezeOverTexture1",
+                ActorType.UITexture,
+                StatusType.Drawn,
+                transform,
+                Color.White,
+                SpriteEffects.None,
+                1.0f,
+                texture);
+
+            if (eventData.ID == "tempBelow20" && temp1)
+            {
+                temp1 = false;
+                texture = textureDictionary["freezeOver_001"];
+                newTexture = new UITextureObject("freezeOverTexture1",
+                ActorType.UITexture,
+                StatusType.Drawn,
+                transform,
+                Color.White,
+                SpriteEffects.None,
+                1.0f,
+                texture);
+
+                EventDispatcher.Publish(new EventData(newTexture
+                        , EventActionType.OnAddActor2D, EventCategoryType.SystemAdd));
+            }
+            else if (eventData.ID == "tempBelow10" && temp2)
+            {
+                temp2 = false;
+                EventDispatcher.Publish(new EventData(newTexture
+                        , EventActionType.OnRemoveActor2D, EventCategoryType.SystemRemove));
+                texture = textureDictionary["freezeOver_002"];
+                newTexture = new UITextureObject("freezeOverTexture2",
+                ActorType.UITexture,
+                StatusType.Drawn,
+                transform,
+                Color.White,
+                SpriteEffects.None,
+                0.99f,
+                texture);
+
+                EventDispatcher.Publish(new EventData(newTexture
+                        , EventActionType.OnAddActor2D, EventCategoryType.SystemAdd));
+
+
+            }
+            else if (eventData.ID == "tempBelow5" && temp3)
+            {
+                temp3 = false;
+                texture = textureDictionary["freezeOver_003"];
+                newTexture = new UITextureObject("freezeOverTexture3",
+                ActorType.UITexture,
+                StatusType.Drawn,
+                transform,
+                Color.White,
+                SpriteEffects.None,
+                0.98f,
+                texture);
+
+                EventDispatcher.Publish(new EventData(newTexture
+                        , EventActionType.OnAddActor2D, EventCategoryType.SystemAdd));
+
+            }
+            else if (eventData.ID == "tempBelow1" && temp4)
+            {
+                temp4 = false;
+                texture = textureDictionary["freezeOver_004"];
+                newTexture = new UITextureObject("freezeOverTexture4",
+                ActorType.UITexture,
+                StatusType.Drawn,
+                transform,
+                Color.White,
+                SpriteEffects.None,
+                0.97f,
+                texture);
+
+                EventDispatcher.Publish(new EventData(newTexture
+                        , EventActionType.OnAddActor2D, EventCategoryType.SystemAdd));
+
+            }
+        }
+
 
         private void ZoneEvents()
         {

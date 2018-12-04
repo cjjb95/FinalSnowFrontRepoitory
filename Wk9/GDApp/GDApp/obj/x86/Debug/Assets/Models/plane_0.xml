@@ -3,7 +3,7 @@
   <Asset Type="Graphics:MeshContent">
     <Name>Plane001</Name>
     <Identity>
-      <SourceFilename>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDAppContent\Assets\Models\plane.FBX</SourceFilename>
+      <SourceFilename>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDAppContent\Assets\Models\plane.FBX</SourceFilename>
       <SourceTool>FbxImporter</SourceTool>
     </Identity>
     <OpaqueData>

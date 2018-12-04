@@ -7,8 +7,8 @@
       <Importer>FontDescriptionImporter</Importer>
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Debug\Fonts\debugFont.xnb</Output>
-      <Time>2018-12-04T11:47:35.8252339+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Debug\Fonts\debugFont.xnb</Output>
+      <Time>2018-11-25T14:48:47.0663701+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Fonts\hudFont.spritefont</Source>
@@ -16,8 +16,8 @@
       <Importer>FontDescriptionImporter</Importer>
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Fonts\hudFont.xnb</Output>
-      <Time>2018-12-04T11:47:35.9071119+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Fonts\hudFont.xnb</Output>
+      <Time>2018-11-25T14:48:47.080494+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Fonts\menu.spritefont</Source>
@@ -25,8 +25,8 @@
       <Importer>FontDescriptionImporter</Importer>
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Fonts\menu.xnb</Output>
-      <Time>2018-12-04T11:47:35.9171192+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Fonts\menu.xnb</Output>
+      <Time>2018-11-25T14:48:47.0824807+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Models\box.FBX</Source>
@@ -34,11 +34,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\box.xnb</Output>
-      <Time>2018-12-04T11:47:36.6410507+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\box.xnb</Output>
+      <Time>2018-11-25T14:48:47.4599354+00:00</Time>
       <Dependency>
-        <Key>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\box_0.xml</Key>
-        <Value>2018-12-04T11:53:24.858325+00:00</Value>
+        <Key>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\box_0.xml</Key>
+        <Value>2018-12-04T21:20:40.8928865+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -47,11 +47,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\box2.xnb</Output>
-      <Time>2018-12-04T11:47:36.6829414+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\box2.xnb</Output>
+      <Time>2018-11-25T14:48:47.4629269+00:00</Time>
       <Dependency>
-        <Key>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\box2_0.xml</Key>
-        <Value>2018-12-04T11:53:25.1216204+00:00</Value>
+        <Key>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\box2_0.xml</Key>
+        <Value>2018-12-04T21:20:40.9669377+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -60,11 +60,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\cylinder.xnb</Output>
-      <Time>2018-12-04T11:47:36.6988988+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\cylinder.xnb</Output>
+      <Time>2018-11-25T14:48:47.4649216+00:00</Time>
       <Dependency>
-        <Key>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\cylinder_0.xml</Key>
-        <Value>2018-12-04T11:53:25.2263405+00:00</Value>
+        <Key>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\cylinder_0.xml</Key>
+        <Value>2018-12-04T21:20:41.0018445+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -73,11 +73,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\dome.xnb</Output>
-      <Time>2018-12-04T11:47:36.7209171+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\dome.xnb</Output>
+      <Time>2018-11-25T14:48:47.4709058+00:00</Time>
       <Dependency>
-        <Key>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\dome_0.xml</Key>
-        <Value>2018-12-04T11:53:25.4108464+00:00</Value>
+        <Key>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\dome_0.xml</Key>
+        <Value>2018-12-04T21:20:41.0761707+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -86,11 +86,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\hedra.xnb</Output>
-      <Time>2018-12-04T11:47:36.8983617+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\hedra.xnb</Output>
+      <Time>2018-11-25T14:48:47.4739037+00:00</Time>
       <Dependency>
-        <Key>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\hedra_0.xml</Key>
-        <Value>2018-12-04T11:53:25.4846487+00:00</Value>
+        <Key>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\hedra_0.xml</Key>
+        <Value>2018-12-04T21:20:41.1100797+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -99,11 +99,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\octahedron.xnb</Output>
-      <Time>2018-12-04T11:47:37.1008208+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\octahedron.xnb</Output>
+      <Time>2018-11-25T14:48:47.4848687+00:00</Time>
       <Dependency>
-        <Key>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\octahedron_0.xml</Key>
-        <Value>2018-12-04T11:53:25.5624398+00:00</Value>
+        <Key>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\octahedron_0.xml</Key>
+        <Value>2018-12-04T21:20:41.1441642+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -112,11 +112,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\prism.xnb</Output>
-      <Time>2018-12-04T11:47:37.1457006+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\prism.xnb</Output>
+      <Time>2018-11-25T14:48:47.5008321+00:00</Time>
       <Dependency>
-        <Key>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\prism_0.xml</Key>
-        <Value>2018-12-04T11:53:25.6472148+00:00</Value>
+        <Key>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\prism_0.xml</Key>
+        <Value>2018-12-04T21:20:41.1790636+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -125,11 +125,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\sphere.xnb</Output>
-      <Time>2018-12-04T11:47:37.1955664+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\sphere.xnb</Output>
+      <Time>2018-11-25T14:48:47.5098989+00:00</Time>
       <Dependency>
-        <Key>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\sphere_0.xml</Key>
-        <Value>2018-12-04T11:53:25.7270078+00:00</Value>
+        <Key>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\sphere_0.xml</Key>
+        <Value>2018-12-04T21:20:41.2239796+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -138,11 +138,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\spindle.xnb</Output>
-      <Time>2018-12-04T11:47:37.2045466+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\spindle.xnb</Output>
+      <Time>2018-11-25T14:48:47.5107991+00:00</Time>
       <Dependency>
-        <Key>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\spindle_0.xml</Key>
-        <Value>2018-12-04T11:53:25.8177585+00:00</Value>
+        <Key>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\spindle_0.xml</Key>
+        <Value>2018-12-04T21:20:41.2619096+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -151,11 +151,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\torus.xnb</Output>
-      <Time>2018-12-04T11:47:37.2833759+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\torus.xnb</Output>
+      <Time>2018-11-25T14:48:47.5228551+00:00</Time>
       <Dependency>
-        <Key>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\torus_0.xml</Key>
-        <Value>2018-12-04T11:53:25.9055269+00:00</Value>
+        <Key>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\torus_0.xml</Key>
+        <Value>2018-12-04T21:20:41.3007741+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -164,11 +164,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\torusknot.xnb</Output>
-      <Time>2018-12-04T11:47:37.3132584+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\torusknot.xnb</Output>
+      <Time>2018-11-25T14:48:47.5278446+00:00</Time>
       <Dependency>
-        <Key>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\torusknot_0.xml</Key>
-        <Value>2018-12-04T11:53:26.0391948+00:00</Value>
+        <Key>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\torusknot_0.xml</Key>
+        <Value>2018-12-04T21:20:41.3616327+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -177,11 +177,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\plane.xnb</Output>
-      <Time>2018-12-04T11:47:37.1158612+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\plane.xnb</Output>
+      <Time>2018-11-25T14:48:47.4868866+00:00</Time>
       <Dependency>
-        <Key>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\plane_0.xml</Key>
-        <Value>2018-12-04T11:53:26.1062821+00:00</Value>
+        <Key>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\plane_0.xml</Key>
+        <Value>2018-12-04T21:20:41.3997924+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -190,11 +190,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\plane1.xnb</Output>
-      <Time>2018-12-04T11:47:37.1307408+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\plane1.xnb</Output>
+      <Time>2018-11-25T14:48:47.4888771+00:00</Time>
       <Dependency>
-        <Key>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\plane1_0.xml</Key>
-        <Value>2018-12-04T11:53:26.1688535+00:00</Value>
+        <Key>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\plane1_0.xml</Key>
+        <Value>2018-12-04T21:20:41.4307305+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -203,11 +203,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Architecture\Buildings\house.xnb</Output>
-      <Time>2018-12-04T11:47:36.448572+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Architecture\Buildings\house.xnb</Output>
+      <Time>2018-11-25T14:48:47.4280352+00:00</Time>
       <Dependency>
-        <Key>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\Architecture\Buildings\house_0.xml</Key>
-        <Value>2018-12-04T11:53:26.3024629+00:00</Value>
+        <Key>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\Architecture\Buildings\house_0.xml</Key>
+        <Value>2018-12-04T21:20:41.4764091+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -216,11 +216,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Architecture\Walls\wall.xnb</Output>
-      <Time>2018-12-04T11:47:36.4675923+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Architecture\Walls\wall.xnb</Output>
+      <Time>2018-11-25T14:48:47.4320096+00:00</Time>
       <Dependency>
-        <Key>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\Architecture\Walls\wall_0.xml</Key>
-        <Value>2018-12-04T11:53:26.4246574+00:00</Value>
+        <Key>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\Architecture\Walls\wall_0.xml</Key>
+        <Value>2018-12-04T21:20:41.5173308+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -229,11 +229,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\box1.xnb</Output>
-      <Time>2018-12-04T11:47:36.6629928+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\box1.xnb</Output>
+      <Time>2018-11-25T14:48:47.4609321+00:00</Time>
       <Dependency>
-        <Key>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\box1_0.xml</Key>
-        <Value>2018-12-04T11:53:26.4904166+00:00</Value>
+        <Key>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\box1_0.xml</Key>
+        <Value>2018-12-04T21:20:41.5512171+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -242,11 +242,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Landscape\canyon.xnb</Output>
-      <Time>2018-12-04T11:47:36.5733478+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Landscape\canyon.xnb</Output>
+      <Time>2018-11-25T14:48:47.4519567+00:00</Time>
       <Dependency>
-        <Key>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\Landscape\canyon_0.xml</Key>
-        <Value>2018-12-04T11:53:26.6610128+00:00</Value>
+        <Key>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\Landscape\canyon_0.xml</Key>
+        <Value>2018-12-04T21:20:41.6311788+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -255,11 +255,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Props\Crates\wc1.xnb</Output>
-      <Time>2018-12-04T11:47:36.5992406+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Props\Crates\wc1.xnb</Output>
+      <Time>2018-11-25T14:48:47.4559693+00:00</Time>
       <Dependency>
-        <Key>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\Props\Crates\wc1_0.xml</Key>
-        <Value>2018-12-04T11:53:26.7367682+00:00</Value>
+        <Key>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\Props\Crates\wc1_0.xml</Key>
+        <Value>2018-12-04T21:20:41.6740594+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -268,11 +268,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\teapot.xnb</Output>
-      <Time>2018-12-04T11:47:37.218538+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\teapot.xnb</Output>
+      <Time>2018-11-25T14:48:47.5147921+00:00</Time>
       <Dependency>
-        <Key>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\teapot_0.xml</Key>
-        <Value>2018-12-04T11:53:26.8434936+00:00</Value>
+        <Key>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\teapot_0.xml</Key>
+        <Value>2018-12-04T21:20:41.7160215+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -281,11 +281,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\teapot_lowpoly.xnb</Output>
-      <Time>2018-12-04T11:47:37.2325007+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\teapot_lowpoly.xnb</Output>
+      <Time>2018-11-25T14:48:47.5167849+00:00</Time>
       <Dependency>
-        <Key>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\teapot_lowpoly_0.xml</Key>
-        <Value>2018-12-04T11:53:26.9063182+00:00</Value>
+        <Key>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\teapot_lowpoly_0.xml</Key>
+        <Value>2018-12-04T21:20:41.7499142+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -294,11 +294,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\teapot_mediumpoly.xnb</Output>
-      <Time>2018-12-04T11:47:37.2593953+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\teapot_mediumpoly.xnb</Output>
+      <Time>2018-11-25T14:48:47.5187906+00:00</Time>
       <Dependency>
-        <Key>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\teapot_mediumpoly_0.xml</Key>
-        <Value>2018-12-04T11:53:27.0081185+00:00</Value>
+        <Key>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\teapot_mediumpoly_0.xml</Key>
+        <Value>2018-12-04T21:20:41.7861372+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -307,16 +307,16 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Animated\dude.xnb</Output>
-      <Time>2018-12-04T11:47:36.1623579+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Animated\dude.xnb</Output>
+      <Time>2018-11-25T14:48:47.260351+00:00</Time>
       <Dependency>
-        <Key>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\Animated\dude_0.xml</Key>
-        <Value>2018-12-04T11:53:32.4279479+00:00</Value>
+        <Key>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\Animated\dude_0.xml</Key>
+        <Value>2018-12-04T21:20:43.844686+00:00</Value>
       </Dependency>
-      <Request>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Animated\head_0.xnb</Request>
-      <Request>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Animated\jacket_0.xnb</Request>
-      <Request>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Animated\pants_0.xnb</Request>
-      <Request>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Animated\upBodyC_0.xnb</Request>
+      <Request>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Animated\head_0.xnb</Request>
+      <Request>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Animated\jacket_0.xnb</Request>
+      <Request>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Animated\pants_0.xnb</Request>
+      <Request>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Animated\upBodyC_0.xnb</Request>
     </Item>
     <Item>
       <Source>Assets\Models\Animated\Squirrel\RedRun4.FBX</Source>
@@ -324,11 +324,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Animated\Squirrel\RedRun4.xnb</Output>
-      <Time>2018-12-04T11:47:35.9389329+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Animated\Squirrel\RedRun4.xnb</Output>
+      <Time>2018-11-25T14:48:47.0954511+00:00</Time>
       <Dependency>
-        <Key>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\Animated\Squirrel\RedRun4_0.xml</Key>
-        <Value>2018-12-04T11:53:37.2217704+00:00</Value>
+        <Key>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\Animated\Squirrel\RedRun4_0.xml</Key>
+        <Value>2018-12-04T21:20:45.4563522+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -337,11 +337,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Animated\Squirrel\Red_Idle.xnb</Output>
-      <Time>2018-12-04T11:47:35.9868278+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Animated\Squirrel\Red_Idle.xnb</Output>
+      <Time>2018-11-25T14:48:47.1084644+00:00</Time>
       <Dependency>
-        <Key>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\Animated\Squirrel\Red_Idle_0.xml</Key>
-        <Value>2018-12-04T11:53:40.3308343+00:00</Value>
+        <Key>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\Animated\Squirrel\Red_Idle_0.xml</Key>
+        <Value>2018-12-04T21:20:47.0166167+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -350,11 +350,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Animated\Squirrel\Red_Jump.xnb</Output>
-      <Time>2018-12-04T11:47:36.0356681+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Animated\Squirrel\Red_Jump.xnb</Output>
+      <Time>2018-11-25T14:48:47.1163997+00:00</Time>
       <Dependency>
-        <Key>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\Animated\Squirrel\Red_Jump_0.xml</Key>
-        <Value>2018-12-04T11:53:41.0608505+00:00</Value>
+        <Key>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\Animated\Squirrel\Red_Jump_0.xml</Key>
+        <Value>2018-12-04T21:20:47.4016617+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -363,11 +363,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Animated\Squirrel\Red_Punch.xnb</Output>
-      <Time>2018-12-04T11:47:36.0486332+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Animated\Squirrel\Red_Punch.xnb</Output>
+      <Time>2018-11-25T14:48:47.1244592+00:00</Time>
       <Dependency>
-        <Key>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\Animated\Squirrel\Red_Punch_0.xml</Key>
-        <Value>2018-12-04T11:53:41.5600833+00:00</Value>
+        <Key>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\Animated\Squirrel\Red_Punch_0.xml</Key>
+        <Value>2018-12-04T21:20:47.6553076+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -376,11 +376,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Animated\Squirrel\Red_Standing.xnb</Output>
-      <Time>2018-12-04T11:47:36.0685802+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Animated\Squirrel\Red_Standing.xnb</Output>
+      <Time>2018-11-25T14:48:47.1373634+00:00</Time>
       <Dependency>
-        <Key>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\Animated\Squirrel\Red_Standing_0.xml</Key>
-        <Value>2018-12-04T11:53:44.0599549+00:00</Value>
+        <Key>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\Animated\Squirrel\Red_Standing_0.xml</Key>
+        <Value>2018-12-04T21:20:48.4040247+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -389,11 +389,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Animated\Squirrel\Red_Tailwhip.xnb</Output>
-      <Time>2018-12-04T11:47:36.0785875+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Animated\Squirrel\Red_Tailwhip.xnb</Output>
+      <Time>2018-11-25T14:48:47.1453597+00:00</Time>
       <Dependency>
-        <Key>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\Animated\Squirrel\Red_Tailwhip_0.xml</Key>
-        <Value>2018-12-04T11:53:45.4734811+00:00</Value>
+        <Key>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\Animated\Squirrel\Red_Tailwhip_0.xml</Key>
+        <Value>2018-12-04T21:20:48.776423+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -402,11 +402,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\mapBlockingOut.xnb</Output>
-      <Time>2018-12-04T11:47:37.0709016+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\mapBlockingOut.xnb</Output>
+      <Time>2018-11-25T14:48:47.4838713+00:00</Time>
       <Dependency>
-        <Key>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\mapBlockingOut_0.xml</Key>
-        <Value>2018-12-04T11:53:46.3237117+00:00</Value>
+        <Key>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\mapBlockingOut_0.xml</Key>
+        <Value>2018-12-04T21:20:49.045818+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -415,11 +415,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\fallenTree.xnb</Output>
-      <Time>2018-12-04T11:47:36.7427826+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\fallenTree.xnb</Output>
+      <Time>2018-11-25T14:48:47.4729003+00:00</Time>
       <Dependency>
-        <Key>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\fallenTree_0.xml</Key>
-        <Value>2018-12-04T11:53:46.6170634+00:00</Value>
+        <Key>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\fallenTree_0.xml</Key>
+        <Value>2018-12-04T21:20:49.1625692+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -428,16 +428,16 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Car_for_game.xnb</Output>
-      <Time>2018-12-04T11:47:36.4894554+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Car_for_game.xnb</Output>
+      <Time>2018-11-25T14:48:47.4370905+00:00</Time>
       <Dependency>
-        <Key>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\Car_for_game_0.xml</Key>
-        <Value>2018-12-04T11:53:47.3174634+00:00</Value>
+        <Key>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\Car_for_game_0.xml</Key>
+        <Value>2018-12-04T21:20:49.3148351+00:00</Value>
       </Dependency>
-      <Request>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\snowed-car-roof(1)_0.xnb</Request>
-      <Request>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Cladding_Siding_White_0.xnb</Request>
-      <Request>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Metal_Aluminum_Anodized_0.xnb</Request>
-      <Request>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\window-glass(1)_0.xnb</Request>
+      <Request>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\snowed-car-roof(1)_0.xnb</Request>
+      <Request>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Cladding_Siding_White_0.xnb</Request>
+      <Request>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Metal_Aluminum_Anodized_0.xnb</Request>
+      <Request>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\window-glass(1)_0.xnb</Request>
     </Item>
     <Item>
       <Source>Assets\Models\snow_drift.FBX</Source>
@@ -445,11 +445,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\snow_drift.xnb</Output>
-      <Time>2018-12-04T11:47:37.183598+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\snow_drift.xnb</Output>
+      <Time>2018-11-25T14:48:47.5058126+00:00</Time>
       <Dependency>
-        <Key>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\snow_drift_0.xml</Key>
-        <Value>2018-12-04T11:53:48.3198306+00:00</Value>
+        <Key>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\snow_drift_0.xml</Key>
+        <Value>2018-12-04T21:20:49.4783945+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -458,11 +458,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\ElectricPole.xnb</Output>
-      <Time>2018-12-04T11:47:36.5502928+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\ElectricPole.xnb</Output>
+      <Time>2018-11-25T14:48:47.445976+00:00</Time>
       <Dependency>
-        <Key>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\ElectricPole_0.xml</Key>
-        <Value>2018-12-04T11:53:48.4730307+00:00</Value>
+        <Key>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\ElectricPole_0.xml</Key>
+        <Value>2018-12-04T21:20:49.5202825+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -471,13 +471,13 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\road.xnb</Output>
-      <Time>2018-12-04T11:47:37.1666531+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\road.xnb</Output>
+      <Time>2018-11-25T14:48:47.5028208+00:00</Time>
       <Dependency>
-        <Key>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\road_0.xml</Key>
-        <Value>2018-12-04T11:53:48.684816+00:00</Value>
+        <Key>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\road_0.xml</Key>
+        <Value>2018-12-04T21:20:49.5912852+00:00</Value>
       </Dependency>
-      <Request>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\road_0.xnb</Request>
+      <Request>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\road_0.xnb</Request>
     </Item>
     <Item>
       <Source>Assets\Models\Character_model_1.FBX</Source>
@@ -485,16 +485,16 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Character_model_1.xnb</Output>
-      <Time>2018-12-04T11:47:36.5255067+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Character_model_1.xnb</Output>
+      <Time>2018-11-25T14:48:47.4449755+00:00</Time>
       <Dependency>
-        <Key>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\Character_model_1_0.xml</Key>
-        <Value>2018-12-04T11:53:49.4163813+00:00</Value>
+        <Key>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\Character_model_1_0.xml</Key>
+        <Value>2018-12-04T21:20:49.8905007+00:00</Value>
       </Dependency>
-      <Request>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Character_Flease_0.xnb</Request>
-      <Request>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Character_Scarf_0.xnb</Request>
-      <Request>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Character_Face_test01_0.xnb</Request>
-      <Request>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Character_Hair_0.xnb</Request>
+      <Request>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Character_Flease_0.xnb</Request>
+      <Request>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Character_Scarf_0.xnb</Request>
+      <Request>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Character_Face_test01_0.xnb</Request>
+      <Request>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Character_Hair_0.xnb</Request>
     </Item>
     <Item>
       <Source>Assets\Models\Wall.FBX</Source>
@@ -502,11 +502,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Wall.xnb</Output>
-      <Time>2018-12-04T11:47:36.6221822+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Wall.xnb</Output>
+      <Time>2018-11-25T14:48:47.4579663+00:00</Time>
       <Dependency>
-        <Key>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\Wall_0.xml</Key>
-        <Value>2018-12-04T11:53:51.324987+00:00</Value>
+        <Key>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\Wall_0.xml</Key>
+        <Value>2018-12-04T21:20:50.7478001+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -515,11 +515,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\icycle.xnb</Output>
-      <Time>2018-12-04T11:47:37.0420242+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\icycle.xnb</Output>
+      <Time>2018-12-03T22:37:32.0869619+00:00</Time>
       <Dependency>
-        <Key>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\icycle_0.xml</Key>
-        <Value>2018-12-04T11:53:51.3848103+00:00</Value>
+        <Key>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\icycle_0.xml</Key>
+        <Value>2018-12-04T21:20:50.7810948+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -528,11 +528,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\RoadRoof.xnb</Output>
-      <Time>2018-12-04T11:47:36.6141245+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\RoadRoof.xnb</Output>
+      <Time>2018-12-03T22:37:32.0849688+00:00</Time>
       <Dependency>
-        <Key>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\RoadRoof_0.xml</Key>
-        <Value>2018-12-04T11:53:51.5722587+00:00</Value>
+        <Key>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\RoadRoof_0.xml</Key>
+        <Value>2018-12-04T21:20:50.8249757+00:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -541,8 +541,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Debug\Textures\checkerboard.xnb</Output>
-      <Time>2018-12-04T11:47:35.8372078+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Debug\Textures\checkerboard.xnb</Output>
+      <Time>2018-11-25T14:48:47.0673671+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Textures\Foliage\Ground\foliage.png</Source>
@@ -550,8 +550,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Foliage\Ground\foliage.xnb</Output>
-      <Time>2018-12-04T11:47:37.5306784+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Foliage\Ground\foliage.xnb</Output>
+      <Time>2018-11-25T14:48:47.7488283+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Textures\Foliage\Ground\grass1.jpg</Source>
@@ -559,8 +559,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Foliage\Ground\grass1.xnb</Output>
-      <Time>2018-12-04T11:47:37.5506172+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Foliage\Ground\grass1.xnb</Output>
+      <Time>2018-11-25T14:48:47.7538152+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Textures\Foliage\Shrubs\shrub1.png</Source>
@@ -568,8 +568,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Foliage\Shrubs\shrub1.xnb</Output>
-      <Time>2018-12-04T11:47:37.6564364+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Foliage\Shrubs\shrub1.xnb</Output>
+      <Time>2018-11-25T14:48:47.7836612+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Textures\Foliage\Shrubs\shrub2.png</Source>
@@ -577,8 +577,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Foliage\Shrubs\shrub2.xnb</Output>
-      <Time>2018-12-04T11:47:37.6745436+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Foliage\Shrubs\shrub2.xnb</Output>
+      <Time>2018-11-25T14:48:47.7916223+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Textures\Foliage\Shrubs\shrub3.png</Source>
@@ -586,8 +586,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Foliage\Shrubs\shrub3.xnb</Output>
-      <Time>2018-12-04T11:47:37.6909019+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Foliage\Shrubs\shrub3.xnb</Output>
+      <Time>2018-11-25T14:48:47.7987351+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Textures\Foliage\Trees\tree1.png</Source>
@@ -595,8 +595,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Foliage\Trees\tree1.xnb</Output>
-      <Time>2018-12-04T11:47:37.7015453+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Foliage\Trees\tree1.xnb</Output>
+      <Time>2018-11-25T14:48:47.800733+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Textures\Foliage\Trees\tree2.png</Source>
@@ -604,8 +604,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Foliage\Trees\tree2.xnb</Output>
-      <Time>2018-12-04T11:47:37.7281428+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Foliage\Trees\tree2.xnb</Output>
+      <Time>2018-11-25T14:48:47.8057196+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Textures\Foliage\Trees\tree3.png</Source>
@@ -613,8 +613,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Foliage\Trees\tree3.xnb</Output>
-      <Time>2018-12-04T11:47:37.7411107+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Foliage\Trees\tree3.xnb</Output>
+      <Time>2018-11-25T14:48:47.8097649+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Textures\Foliage\Trees\tree4.png</Source>
@@ -622,8 +622,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Foliage\Trees\tree4.xnb</Output>
-      <Time>2018-12-04T11:47:37.7781516+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Foliage\Trees\tree4.xnb</Output>
+      <Time>2018-11-25T14:48:47.84083+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Textures\Foliage\Trees\tree5.png</Source>
@@ -631,8 +631,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Foliage\Trees\tree5.xnb</Output>
-      <Time>2018-12-04T11:47:37.7919997+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Foliage\Trees\tree5.xnb</Output>
+      <Time>2018-11-25T14:48:47.8649895+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Textures\Props\Crates\crate1.jpg</Source>
@@ -640,8 +640,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Props\Crates\crate1.xnb</Output>
-      <Time>2018-12-04T11:47:37.8857877+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Props\Crates\crate1.xnb</Output>
+      <Time>2018-11-25T14:48:48.1109701+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Textures\Props\Crates\crate2.jpg</Source>
@@ -649,8 +649,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Props\Crates\crate2.xnb</Output>
-      <Time>2018-12-04T11:47:37.8927657+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Props\Crates\crate2.xnb</Output>
+      <Time>2018-11-25T14:48:48.1129655+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Textures\Props\tv.png</Source>
@@ -658,8 +658,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Props\tv.xnb</Output>
-      <Time>2018-12-04T11:47:37.9576051+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Props\tv.xnb</Output>
+      <Time>2018-11-25T14:48:48.1658471+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Textures\Skybox\back.bmp</Source>
@@ -667,8 +667,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Skybox\back.xnb</Output>
-      <Time>2018-12-04T11:47:37.9884472+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Skybox\back.xnb</Output>
+      <Time>2018-11-25T14:48:48.2760218+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Textures\Skybox\front.bmp</Source>
@@ -676,8 +676,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Skybox\front.xnb</Output>
-      <Time>2018-12-04T11:47:37.9984193+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Skybox\front.xnb</Output>
+      <Time>2018-11-25T14:48:48.2849696+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Textures\Skybox\ground.bmp</Source>
@@ -685,8 +685,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Skybox\ground.xnb</Output>
-      <Time>2018-12-04T11:47:38.0073959+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Skybox\ground.xnb</Output>
+      <Time>2018-11-25T14:48:48.294944+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Textures\Skybox\left.bmp</Source>
@@ -694,8 +694,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Skybox\left.xnb</Output>
-      <Time>2018-12-04T11:47:38.0194954+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Skybox\left.xnb</Output>
+      <Time>2018-11-25T14:48:48.3030205+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Textures\Skybox\right.bmp</Source>
@@ -703,8 +703,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Skybox\right.xnb</Output>
-      <Time>2018-12-04T11:47:38.0293649+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Skybox\right.xnb</Output>
+      <Time>2018-11-25T14:48:48.3112282+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Textures\Skybox\sky.bmp</Source>
@@ -712,8 +712,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Skybox\sky.xnb</Output>
-      <Time>2018-12-04T11:47:38.0383446+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Skybox\sky.xnb</Output>
+      <Time>2018-11-25T14:48:48.318308+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Textures\UI\HUD\mouseicons.png</Source>
@@ -721,8 +721,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\HUD\mouseicons.xnb</Output>
-      <Time>2018-12-04T11:47:38.2138471+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\HUD\mouseicons.xnb</Output>
+      <Time>2018-11-25T14:48:48.4519327+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Textures\UI\HUD\progress_gradient.png</Source>
@@ -730,8 +730,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\HUD\progress_gradient.xnb</Output>
-      <Time>2018-12-04T11:47:38.227916+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\HUD\progress_gradient.xnb</Output>
+      <Time>2018-11-25T14:48:48.453905+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Textures\UI\HUD\progress_white.png</Source>
@@ -739,8 +739,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\HUD\progress_white.xnb</Output>
-      <Time>2018-12-04T11:47:38.2337933+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\HUD\progress_white.xnb</Output>
+      <Time>2018-11-25T14:48:48.5244845+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Textures\UI\HUD\reticuleClosed.png</Source>
@@ -748,8 +748,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\HUD\reticuleClosed.xnb</Output>
-      <Time>2018-12-04T11:47:38.2397758+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\HUD\reticuleClosed.xnb</Output>
+      <Time>2018-11-25T14:48:48.5255139+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Textures\UI\HUD\reticuleDefault.png</Source>
@@ -757,8 +757,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\HUD\reticuleDefault.xnb</Output>
-      <Time>2018-12-04T11:47:38.2447599+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\HUD\reticuleDefault.xnb</Output>
+      <Time>2018-11-25T14:48:48.5279062+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Textures\UI\HUD\reticuleOpen.png</Source>
@@ -766,8 +766,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\HUD\reticuleOpen.xnb</Output>
-      <Time>2018-12-04T11:47:38.2508742+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\HUD\reticuleOpen.xnb</Output>
+      <Time>2018-11-25T14:48:48.5294964+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Textures\UI\HUD\white.png</Source>
@@ -775,8 +775,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\HUD\white.xnb</Output>
-      <Time>2018-12-04T11:47:38.3036438+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\HUD\white.xnb</Output>
+      <Time>2018-11-25T14:48:48.5384875+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Textures\UI\Menu\Backgrounds\audiomenu.png</Source>
@@ -784,8 +784,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\Menu\Backgrounds\audiomenu.xnb</Output>
-      <Time>2018-12-04T11:47:38.3863886+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\Menu\Backgrounds\audiomenu.xnb</Output>
+      <Time>2018-11-25T14:48:48.5925804+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Textures\UI\Menu\Backgrounds\controlsmenu.png</Source>
@@ -793,8 +793,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\Menu\Backgrounds\controlsmenu.xnb</Output>
-      <Time>2018-12-04T11:47:38.4035694+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\Menu\Backgrounds\controlsmenu.xnb</Output>
+      <Time>2018-11-25T14:48:48.5945693+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Textures\UI\Menu\Backgrounds\exitmenu.png</Source>
@@ -802,8 +802,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\Menu\Backgrounds\exitmenu.xnb</Output>
-      <Time>2018-12-04T11:47:38.4123137+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\Menu\Backgrounds\exitmenu.xnb</Output>
+      <Time>2018-11-25T14:48:48.5971345+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Textures\UI\Menu\Backgrounds\exitmenuwithtrans.png</Source>
@@ -811,8 +811,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\Menu\Backgrounds\exitmenuwithtrans.xnb</Output>
-      <Time>2018-12-04T11:47:38.4223925+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\Menu\Backgrounds\exitmenuwithtrans.xnb</Output>
+      <Time>2018-11-25T14:48:48.5986021+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Textures\UI\Menu\Backgrounds\mainmenu.PNG</Source>
@@ -820,8 +820,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\Menu\Backgrounds\mainmenu.xnb</Output>
-      <Time>2018-12-04T11:47:38.4295242+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\Menu\Backgrounds\mainmenu.xnb</Output>
+      <Time>2018-11-25T14:48:48.6006033+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Textures\UI\Menu\Buttons\genericbtn.png</Source>
@@ -829,8 +829,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\Menu\Buttons\genericbtn.xnb</Output>
-      <Time>2018-12-04T11:47:38.5050737+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\Menu\Buttons\genericbtn.xnb</Output>
+      <Time>2018-11-25T14:48:48.6046787+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Debug\Textures\checkerboard_greywhite.png</Source>
@@ -838,8 +838,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Debug\Textures\checkerboard_greywhite.xnb</Output>
-      <Time>2018-12-04T11:47:35.8511657+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Debug\Textures\checkerboard_greywhite.xnb</Output>
+      <Time>2018-11-25T14:48:47.0693619+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Debug\Textures\ml.png</Source>
@@ -847,8 +847,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Debug\Textures\ml.xnb</Output>
-      <Time>2018-12-04T11:47:35.8732149+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Debug\Textures\ml.xnb</Output>
+      <Time>2018-11-25T14:48:47.0765879+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Debug\Textures\slj.jpg</Source>
@@ -856,8 +856,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Debug\Textures\slj.xnb</Output>
-      <Time>2018-12-04T11:47:35.8860706+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Debug\Textures\slj.xnb</Output>
+      <Time>2018-11-25T14:48:47.0785131+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Textures\Architecture\Buildings\house-low-texture.jpg</Source>
@@ -865,8 +865,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Architecture\Buildings\house-low-texture.xnb</Output>
-      <Time>2018-12-04T11:47:37.3562414+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Architecture\Buildings\house-low-texture.xnb</Output>
+      <Time>2018-11-25T14:48:47.539847+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Textures\Architecture\Fence\fence1.jpg</Source>
@@ -874,8 +874,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Architecture\Fence\fence1.xnb</Output>
-      <Time>2018-12-04T11:47:37.3682576+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Architecture\Fence\fence1.xnb</Output>
+      <Time>2018-11-25T14:48:47.5447434+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Textures\Architecture\Fence\fence2.jpg</Source>
@@ -883,8 +883,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Architecture\Fence\fence2.xnb</Output>
-      <Time>2018-12-04T11:47:37.3770809+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Architecture\Fence\fence2.xnb</Output>
+      <Time>2018-11-25T14:48:47.5477355+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Textures\Architecture\Fence\fence3.jpg</Source>
@@ -892,8 +892,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Architecture\Fence\fence3.xnb</Output>
-      <Time>2018-12-04T11:47:37.388053+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Architecture\Fence\fence3.xnb</Output>
+      <Time>2018-11-25T14:48:47.5507283+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Textures\Architecture\Fence\fence4.png</Source>
@@ -901,8 +901,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Architecture\Fence\fence4.xnb</Output>
-      <Time>2018-12-04T11:47:37.4141511+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Architecture\Fence\fence4.xnb</Output>
+      <Time>2018-11-25T14:48:47.5657729+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Textures\Architecture\Walls\backwall.jpg</Source>
@@ -910,8 +910,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Architecture\Walls\backwall.xnb</Output>
-      <Time>2018-12-04T11:47:37.422961+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Architecture\Walls\backwall.xnb</Output>
+      <Time>2018-11-25T14:48:47.5687028+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Textures\Architecture\Walls\sidewall.jpg</Source>
@@ -919,8 +919,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Architecture\Walls\sidewall.xnb</Output>
-      <Time>2018-12-04T11:47:37.4299425+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Architecture\Walls\sidewall.xnb</Output>
+      <Time>2018-11-25T14:48:47.5706738+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Textures\Architecture\Walls\wall.jpg</Source>
@@ -928,8 +928,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Architecture\Walls\wall.xnb</Output>
-      <Time>2018-12-04T11:47:37.4957688+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Architecture\Walls\wall.xnb</Output>
+      <Time>2018-11-25T14:48:47.6036836+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Textures\Common\white64x64.png</Source>
@@ -937,8 +937,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Common\white64x64.xnb</Output>
-      <Time>2018-12-04T11:47:37.5110218+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Common\white64x64.xnb</Output>
+      <Time>2018-11-25T14:48:47.605585+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Textures\Foliage\Ground\grass_highlevel.jpg</Source>
@@ -946,8 +946,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Foliage\Ground\grass_highlevel.xnb</Output>
-      <Time>2018-12-04T11:47:37.5908787+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Foliage\Ground\grass_highlevel.xnb</Output>
+      <Time>2018-11-25T14:48:47.7647593+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Textures\Foliage\Ground\grass_midlevel.jpg</Source>
@@ -955,8 +955,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Foliage\Ground\grass_midlevel.xnb</Output>
-      <Time>2018-12-04T11:47:37.642373+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Foliage\Ground\grass_midlevel.xnb</Output>
+      <Time>2018-11-25T14:48:47.7817403+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Textures\Landscape\canyon.jpg</Source>
@@ -964,8 +964,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Landscape\canyon.xnb</Output>
-      <Time>2018-12-04T11:47:37.8498177+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Landscape\canyon.xnb</Output>
+      <Time>2018-11-25T14:48:48.0859707+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Textures\Skydome\skydome.jpg</Source>
@@ -973,8 +973,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Skydome\skydome.xnb</Output>
-      <Time>2018-12-04T11:47:38.0492843+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Skydome\skydome.xnb</Output>
+      <Time>2018-11-25T14:48:48.3283728+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Textures\Props\Crates\wc1_diffuse.tga</Source>
@@ -982,8 +982,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Props\Crates\wc1_diffuse.xnb</Output>
-      <Time>2018-12-04T11:47:37.952542+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Props\Crates\wc1_diffuse.xnb</Output>
+      <Time>2018-11-25T14:48:48.1648269+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Models\Animated\head.tga</Source>
@@ -991,8 +991,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Animated\head.xnb</Output>
-      <Time>2018-12-04T11:47:36.208208+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Animated\head.xnb</Output>
+      <Time>2018-11-25T14:48:47.3097746+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Models\Animated\jacket.tga</Source>
@@ -1000,8 +1000,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Animated\jacket.xnb</Output>
-      <Time>2018-12-04T11:47:36.2620647+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Animated\jacket.xnb</Output>
+      <Time>2018-11-25T14:48:47.349059+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Models\Animated\pants.tga</Source>
@@ -1009,8 +1009,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Animated\pants.xnb</Output>
-      <Time>2018-12-04T11:47:36.3179134+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Animated\pants.xnb</Output>
+      <Time>2018-11-25T14:48:47.3860221+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Models\Animated\upBodyC.tga</Source>
@@ -1018,8 +1018,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Animated\upBodyC.xnb</Output>
-      <Time>2018-12-04T11:47:36.3947955+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Animated\upBodyC.xnb</Output>
+      <Time>2018-11-25T14:48:47.4249212+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Models\Animated\Squirrel\Tiny_skin.dds</Source>
@@ -1027,8 +1027,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Animated\Squirrel\Tiny_skin.xnb</Output>
-      <Time>2018-12-04T11:47:36.0858259+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Animated\Squirrel\Tiny_skin.xnb</Output>
+      <Time>2018-11-25T14:48:47.1504294+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Textures\GroundTexture\iceSheet.bmp</Source>
@@ -1036,8 +1036,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\GroundTexture\iceSheet.xnb</Output>
-      <Time>2018-12-04T11:47:37.8119175+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\GroundTexture\iceSheet.xnb</Output>
+      <Time>2018-11-25T14:48:47.8849383+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Textures\Menu\startButton.jpg</Source>
@@ -1045,8 +1045,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Menu\startButton.xnb</Output>
-      <Time>2018-12-04T11:47:37.8797843+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Menu\startButton.xnb</Output>
+      <Time>2018-11-25T14:48:48.1049542+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Textures\Menu\Menu.jpg</Source>
@@ -1054,8 +1054,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Menu\Menu.xnb</Output>
-      <Time>2018-12-04T11:47:37.8587935+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Menu\Menu.xnb</Output>
+      <Time>2018-11-25T14:48:48.0910455+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Textures\Menu\Button.jpg</Source>
@@ -1063,8 +1063,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Menu\Button.xnb</Output>
-      <Time>2018-12-04T11:47:37.854803+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Menu\Button.xnb</Output>
+      <Time>2018-11-25T14:48:48.0879048+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Textures\Menu\exitButton.jpg</Source>
@@ -1072,8 +1072,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Menu\exitButton.xnb</Output>
-      <Time>2018-12-04T11:47:37.8628303+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Menu\exitButton.xnb</Output>
+      <Time>2018-11-25T14:48:48.0939892+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Textures\Menu\menuButton.jpg</Source>
@@ -1081,8 +1081,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Menu\menuButton.xnb</Output>
-      <Time>2018-12-04T11:47:37.8667718+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Menu\menuButton.xnb</Output>
+      <Time>2018-11-25T14:48:48.0979745+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Textures\Menu\sliderBar.png</Source>
@@ -1090,8 +1090,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Menu\sliderBar.xnb</Output>
-      <Time>2018-12-04T11:47:37.8717907+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Menu\sliderBar.xnb</Output>
+      <Time>2018-11-25T14:48:48.0999689+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Textures\Menu\sliderTracker.png</Source>
@@ -1099,8 +1099,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Menu\sliderTracker.xnb</Output>
-      <Time>2018-12-04T11:47:37.8758045+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Menu\sliderTracker.xnb</Output>
+      <Time>2018-11-25T14:48:48.101964+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Textures\UI\HUD\ThermoBar.png</Source>
@@ -1108,8 +1108,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\HUD\ThermoBar.xnb</Output>
-      <Time>2018-12-04T11:47:38.0593425+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\HUD\ThermoBar.xnb</Output>
+      <Time>2018-11-25T14:48:48.3303695+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Textures\UI\HUD\Thermometer.png</Source>
@@ -1117,8 +1117,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\HUD\Thermometer.xnb</Output>
-      <Time>2018-12-04T11:47:38.0633358+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\HUD\Thermometer.xnb</Output>
+      <Time>2018-11-25T14:48:48.4248978+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Textures\Road\roadtxt.jpg</Source>
@@ -1126,8 +1126,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Road\roadtxt.xnb</Output>
-      <Time>2018-12-04T11:47:37.9615182+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\Road\roadtxt.xnb</Output>
+      <Time>2018-11-25T14:48:48.2650328+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Textures\UI\HUD\boots.png</Source>
@@ -1135,8 +1135,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\HUD\boots.xnb</Output>
-      <Time>2018-12-04T11:47:38.1032358+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\HUD\boots.xnb</Output>
+      <Time>2018-11-25T14:48:48.4318845+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Textures\UI\HUD\charHUD.png</Source>
@@ -1144,8 +1144,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\HUD\charHUD.xnb</Output>
-      <Time>2018-12-04T11:47:38.1181063+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\HUD\charHUD.xnb</Output>
+      <Time>2018-11-25T14:48:48.4328556+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Textures\UI\HUD\charProfileFinal.png</Source>
@@ -1153,8 +1153,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\HUD\charProfileFinal.xnb</Output>
-      <Time>2018-12-04T11:47:38.129072+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\HUD\charProfileFinal.xnb</Output>
+      <Time>2018-11-25T14:48:48.4369362+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Textures\UI\HUD\shovel.png</Source>
@@ -1162,8 +1162,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\HUD\shovel.xnb</Output>
-      <Time>2018-12-04T11:47:38.2946352+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\HUD\shovel.xnb</Output>
+      <Time>2018-11-25T14:48:48.5375729+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Textures\UI\HUD\coat.png</Source>
@@ -1171,8 +1171,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\HUD\coat.xnb</Output>
-      <Time>2018-12-04T11:47:38.2044608+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\HUD\coat.xnb</Output>
+      <Time>2018-11-25T14:48:48.45061+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Textures\UI\Menu\Buttons\button_back.png</Source>
@@ -1180,8 +1180,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\Menu\Buttons\button_back.xnb</Output>
-      <Time>2018-12-04T11:47:38.4367455+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\Menu\Buttons\button_back.xnb</Output>
+      <Time>2018-12-03T22:37:32.0889352+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Textures\UI\Menu\Buttons\button_controls.png</Source>
@@ -1189,8 +1189,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\Menu\Buttons\button_controls.xnb</Output>
-      <Time>2018-12-04T11:47:38.444286+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\Menu\Buttons\button_controls.xnb</Output>
+      <Time>2018-12-03T22:37:32.092924+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Textures\UI\Menu\Buttons\button_exit.png</Source>
@@ -1198,8 +1198,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\Menu\Buttons\button_exit.xnb</Output>
-      <Time>2018-12-04T11:47:38.4515836+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\Menu\Buttons\button_exit.xnb</Output>
+      <Time>2018-12-03T22:37:32.0949342+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Textures\UI\Menu\Buttons\button_sound.png</Source>
@@ -1207,8 +1207,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\Menu\Buttons\button_sound.xnb</Output>
-      <Time>2018-12-04T11:47:38.4586568+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\Menu\Buttons\button_sound.xnb</Output>
+      <Time>2018-12-03T22:37:32.0969523+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Textures\UI\Menu\Buttons\button_start.png</Source>
@@ -1216,8 +1216,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\Menu\Buttons\button_start.xnb</Output>
-      <Time>2018-12-04T11:47:38.4662514+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\Menu\Buttons\button_start.xnb</Output>
+      <Time>2018-12-03T22:37:32.099947+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Textures\UI\Menu\Buttons\button_unmute.png</Source>
@@ -1225,8 +1225,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\Menu\Buttons\button_unmute.xnb</Output>
-      <Time>2018-12-04T11:47:38.473184+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\Menu\Buttons\button_unmute.xnb</Output>
+      <Time>2018-12-03T22:37:32.1019443+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Textures\UI\Menu\Buttons\button_volume-down.png</Source>
@@ -1234,8 +1234,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\Menu\Buttons\button_volume-down.xnb</Output>
-      <Time>2018-12-04T11:47:38.4821582+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\Menu\Buttons\button_volume-down.xnb</Output>
+      <Time>2018-12-03T22:37:32.1049358+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Textures\UI\Menu\Buttons\button_volume-mute.png</Source>
@@ -1243,8 +1243,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\Menu\Buttons\button_volume-mute.xnb</Output>
-      <Time>2018-12-04T11:47:38.4892085+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\Menu\Buttons\button_volume-mute.xnb</Output>
+      <Time>2018-12-03T22:37:32.1069305+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Textures\UI\Menu\Buttons\button_volume-up.png</Source>
@@ -1252,8 +1252,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\Menu\Buttons\button_volume-up.xnb</Output>
-      <Time>2018-12-04T11:47:38.4962591+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\Menu\Buttons\button_volume-up.xnb</Output>
+      <Time>2018-12-03T22:37:32.1089288+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Audio\Backtrack.wav</Source>
@@ -1261,8 +1261,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Audio\Backtrack.xnb</Output>
-      <Time>2018-12-04T11:47:35.3796469+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Audio\Backtrack.xnb</Output>
+      <Time>2018-12-04T11:14:33.3888197+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Audio\boing.wav</Source>
@@ -1270,8 +1270,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Audio\boing.xnb</Output>
-      <Time>2018-12-04T11:47:35.8103811+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Audio\boing.xnb</Output>
+      <Time>2018-11-25T14:48:47.063378+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Audio\ElectricalPoleWarning.wav</Source>
@@ -1279,8 +1279,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Audio\ElectricalPoleWarning.xnb</Output>
-      <Time>2018-12-04T11:47:35.4602141+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Audio\ElectricalPoleWarning.xnb</Output>
+      <Time>2018-12-04T11:14:33.435718+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Audio\Gasp.wav</Source>
@@ -1288,8 +1288,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Audio\Gasp.xnb</Output>
-      <Time>2018-12-04T11:47:35.4921264+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Audio\Gasp.xnb</Output>
+      <Time>2018-12-03T22:37:32.0680731+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Audio\IceWarning.wav</Source>
@@ -1297,8 +1297,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Audio\IceWarning.xnb</Output>
-      <Time>2018-12-04T11:47:35.5252689+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Audio\IceWarning.xnb</Output>
+      <Time>2018-12-04T11:14:33.4669831+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Audio\Oof.wav</Source>
@@ -1306,8 +1306,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Audio\Oof.xnb</Output>
-      <Time>2018-12-04T11:47:35.5459839+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Audio\Oof.xnb</Output>
+      <Time>2018-12-03T22:37:32.0720706+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Audio\Ouch.wav</Source>
@@ -1315,8 +1315,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Audio\Ouch.xnb</Output>
-      <Time>2018-12-04T11:47:35.5619412+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Audio\Ouch.xnb</Output>
+      <Time>2018-11-25T14:48:47.0623806+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Audio\PhoneCall.wav</Source>
@@ -1324,8 +1324,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Audio\PhoneCall.xnb</Output>
-      <Time>2018-12-04T11:47:35.6159366+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Audio\PhoneCall.xnb</Output>
+      <Time>2018-12-03T22:37:32.0839605+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Audio\ShovelSound.wav</Source>
@@ -1333,8 +1333,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Audio\ShovelSound.xnb</Output>
-      <Time>2018-12-04T11:47:35.6357778+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Audio\ShovelSound.xnb</Output>
+      <Time>2018-12-04T11:14:33.4826162+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Audio\SlipWarning.wav</Source>
@@ -1342,8 +1342,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Audio\SlipWarning.xnb</Output>
-      <Time>2018-12-04T11:47:35.6686505+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Audio\SlipWarning.xnb</Output>
+      <Time>2018-12-04T11:14:33.513882+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Audio\SnowDriftWarning.wav</Source>
@@ -1351,8 +1351,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Audio\SnowDriftWarning.xnb</Output>
-      <Time>2018-12-04T11:47:35.7385238+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Audio\SnowDriftWarning.xnb</Output>
+      <Time>2018-12-04T11:14:33.5607802+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Audio\TooColdToSnowDrift.wav</Source>
@@ -1360,8 +1360,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Audio\TooColdToSnowDrift.xnb</Output>
-      <Time>2018-12-04T11:47:35.7673866+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Audio\TooColdToSnowDrift.xnb</Output>
+      <Time>2018-12-04T11:14:33.5920464+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Audio\TreeWarning.wav</Source>
@@ -1369,162 +1369,162 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Audio\TreeWarning.xnb</Output>
-      <Time>2018-12-04T11:47:35.8003821+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Audio\TreeWarning.xnb</Output>
+      <Time>2018-12-04T11:14:33.6233122+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Models\box.FBX</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\box_0.xml</Output>
-      <Time>2018-12-04T11:47:36.6410507+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\box_0.xml</Output>
+      <Time>2018-11-25T14:48:47.4599354+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Models\box2.FBX</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\box2_0.xml</Output>
-      <Time>2018-12-04T11:47:36.6829414+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\box2_0.xml</Output>
+      <Time>2018-11-25T14:48:47.4629269+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Models\cylinder.FBX</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\cylinder_0.xml</Output>
-      <Time>2018-12-04T11:47:36.6988988+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\cylinder_0.xml</Output>
+      <Time>2018-11-25T14:48:47.4649216+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Models\dome.FBX</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\dome_0.xml</Output>
-      <Time>2018-12-04T11:47:36.7209171+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\dome_0.xml</Output>
+      <Time>2018-11-25T14:48:47.4709058+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Models\hedra.FBX</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\hedra_0.xml</Output>
-      <Time>2018-12-04T11:47:36.8983617+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\hedra_0.xml</Output>
+      <Time>2018-11-25T14:48:47.4739037+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Models\octahedron.FBX</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\octahedron_0.xml</Output>
-      <Time>2018-12-04T11:47:37.1008208+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\octahedron_0.xml</Output>
+      <Time>2018-11-25T14:48:47.4848687+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Models\prism.FBX</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\prism_0.xml</Output>
-      <Time>2018-12-04T11:47:37.1457006+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\prism_0.xml</Output>
+      <Time>2018-11-25T14:48:47.5008321+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Models\sphere.FBX</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\sphere_0.xml</Output>
-      <Time>2018-12-04T11:47:37.1955664+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\sphere_0.xml</Output>
+      <Time>2018-11-25T14:48:47.5098989+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Models\spindle.FBX</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\spindle_0.xml</Output>
-      <Time>2018-12-04T11:47:37.2045466+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\spindle_0.xml</Output>
+      <Time>2018-11-25T14:48:47.5107991+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Models\torus.FBX</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\torus_0.xml</Output>
-      <Time>2018-12-04T11:47:37.2833759+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\torus_0.xml</Output>
+      <Time>2018-11-25T14:48:47.5228551+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Models\torusknot.FBX</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\torusknot_0.xml</Output>
-      <Time>2018-12-04T11:47:37.3132584+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\torusknot_0.xml</Output>
+      <Time>2018-11-25T14:48:47.5278446+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Models\plane.FBX</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\plane_0.xml</Output>
-      <Time>2018-12-04T11:47:37.1158612+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\plane_0.xml</Output>
+      <Time>2018-11-25T14:48:47.4868866+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Models\plane1.FBX</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\plane1_0.xml</Output>
-      <Time>2018-12-04T11:47:37.1307408+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\plane1_0.xml</Output>
+      <Time>2018-11-25T14:48:47.4888771+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Models\Architecture\Buildings\house.FBX</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\Architecture\Buildings\house_0.xml</Output>
-      <Time>2018-12-04T11:47:36.448572+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\Architecture\Buildings\house_0.xml</Output>
+      <Time>2018-11-25T14:48:47.4280352+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Models\Architecture\Walls\wall.FBX</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\Architecture\Walls\wall_0.xml</Output>
-      <Time>2018-12-04T11:47:36.4675923+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\Architecture\Walls\wall_0.xml</Output>
+      <Time>2018-11-25T14:48:47.4320096+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Models\box1.FBX</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\box1_0.xml</Output>
-      <Time>2018-12-04T11:47:36.6629928+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\box1_0.xml</Output>
+      <Time>2018-11-25T14:48:47.4609321+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Models\Landscape\canyon.FBX</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\Landscape\canyon_0.xml</Output>
-      <Time>2018-12-04T11:47:36.5733478+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\Landscape\canyon_0.xml</Output>
+      <Time>2018-11-25T14:48:47.4519567+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Models\Props\Crates\wc1.FBX</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\Props\Crates\wc1_0.xml</Output>
-      <Time>2018-12-04T11:47:36.5992406+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\Props\Crates\wc1_0.xml</Output>
+      <Time>2018-11-25T14:48:47.4559693+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Models\teapot.FBX</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\teapot_0.xml</Output>
-      <Time>2018-12-04T11:47:37.218538+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\teapot_0.xml</Output>
+      <Time>2018-11-25T14:48:47.5147921+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Models\teapot_lowpoly.FBX</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\teapot_lowpoly_0.xml</Output>
-      <Time>2018-12-04T11:47:37.2325007+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\teapot_lowpoly_0.xml</Output>
+      <Time>2018-11-25T14:48:47.5167849+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Models\teapot_mediumpoly.FBX</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\teapot_mediumpoly_0.xml</Output>
-      <Time>2018-12-04T11:47:37.2593953+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\teapot_mediumpoly_0.xml</Output>
+      <Time>2018-11-25T14:48:47.5187906+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Models\Animated\dude.fbx</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\Animated\dude_0.xml</Output>
-      <Time>2018-12-04T11:47:36.1623579+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\Animated\dude_0.xml</Output>
+      <Time>2018-11-25T14:48:47.260351+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Models\Animated\head.tga</Source>
@@ -1539,8 +1539,8 @@
         <Data Key="PremultiplyAlpha" Type="bool">true</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Animated\head_0.xnb</Output>
-      <Time>2018-12-04T11:47:36.208208+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Animated\head_0.xnb</Output>
+      <Time>2018-11-25T14:48:47.3097746+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Models\Animated\jacket.tga</Source>
@@ -1555,8 +1555,8 @@
         <Data Key="PremultiplyAlpha" Type="bool">true</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Animated\jacket_0.xnb</Output>
-      <Time>2018-12-04T11:47:36.2620647+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Animated\jacket_0.xnb</Output>
+      <Time>2018-11-25T14:48:47.349059+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Models\Animated\pants.tga</Source>
@@ -1571,8 +1571,8 @@
         <Data Key="PremultiplyAlpha" Type="bool">true</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Animated\pants_0.xnb</Output>
-      <Time>2018-12-04T11:47:36.3179134+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Animated\pants_0.xnb</Output>
+      <Time>2018-11-25T14:48:47.3860221+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Models\Animated\upBodyC.tga</Source>
@@ -1587,74 +1587,74 @@
         <Data Key="PremultiplyAlpha" Type="bool">true</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Animated\upBodyC_0.xnb</Output>
-      <Time>2018-12-04T11:47:36.3947955+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Animated\upBodyC_0.xnb</Output>
+      <Time>2018-11-25T14:48:47.4249212+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Models\Animated\Squirrel\RedRun4.FBX</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\Animated\Squirrel\RedRun4_0.xml</Output>
-      <Time>2018-12-04T11:47:35.9389329+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\Animated\Squirrel\RedRun4_0.xml</Output>
+      <Time>2018-11-25T14:48:47.0954511+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Models\Animated\Squirrel\Red_Idle.FBX</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\Animated\Squirrel\Red_Idle_0.xml</Output>
-      <Time>2018-12-04T11:47:35.9868278+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\Animated\Squirrel\Red_Idle_0.xml</Output>
+      <Time>2018-11-25T14:48:47.1084644+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Models\Animated\Squirrel\Red_Jump.FBX</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\Animated\Squirrel\Red_Jump_0.xml</Output>
-      <Time>2018-12-04T11:47:36.0356681+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\Animated\Squirrel\Red_Jump_0.xml</Output>
+      <Time>2018-11-25T14:48:47.1163997+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Models\Animated\Squirrel\Red_Punch.fbx</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\Animated\Squirrel\Red_Punch_0.xml</Output>
-      <Time>2018-12-04T11:47:36.0486332+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\Animated\Squirrel\Red_Punch_0.xml</Output>
+      <Time>2018-11-25T14:48:47.1244592+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Models\Animated\Squirrel\Red_Standing.FBX</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\Animated\Squirrel\Red_Standing_0.xml</Output>
-      <Time>2018-12-04T11:47:36.0685802+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\Animated\Squirrel\Red_Standing_0.xml</Output>
+      <Time>2018-11-25T14:48:47.1373634+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Models\Animated\Squirrel\Red_Tailwhip.FBX</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\Animated\Squirrel\Red_Tailwhip_0.xml</Output>
-      <Time>2018-12-04T11:47:36.0785875+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\Animated\Squirrel\Red_Tailwhip_0.xml</Output>
+      <Time>2018-11-25T14:48:47.1453597+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Models\mapBlockingOut.fbx</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\mapBlockingOut_0.xml</Output>
-      <Time>2018-12-04T11:47:37.0709016+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\mapBlockingOut_0.xml</Output>
+      <Time>2018-11-25T14:48:47.4838713+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Models\fallenTree.FBX</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\fallenTree_0.xml</Output>
-      <Time>2018-12-04T11:47:36.7427826+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\fallenTree_0.xml</Output>
+      <Time>2018-11-25T14:48:47.4729003+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Models\Car_for_game.FBX</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\Car_for_game_0.xml</Output>
-      <Time>2018-12-04T11:47:36.4894554+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\Car_for_game_0.xml</Output>
+      <Time>2018-11-25T14:48:47.4370905+00:00</Time>
     </Item>
     <Item>
-      <Source>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\obj\x86\Debug\FBX\96D22767\Car_for_game.fbm\snowed-car-roof(1).jpg</Source>
+      <Source>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\FBX\AA4921BA\Car_for_game.fbm\snowed-car-roof(1).jpg</Source>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Parameters>
@@ -1666,11 +1666,11 @@
         <Data Key="PremultiplyAlpha" Type="bool">true</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\snowed-car-roof(1)_0.xnb</Output>
-      <Time>2018-12-04T11:53:46.7696708+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\snowed-car-roof(1)_0.xnb</Output>
+      <Time>2018-12-04T21:20:49.2030733+00:00</Time>
     </Item>
     <Item>
-      <Source>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\obj\x86\Debug\FBX\96D22767\Car_for_game.fbm\Cladding_Siding_White.jpg</Source>
+      <Source>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\FBX\AA4921BA\Car_for_game.fbm\Cladding_Siding_White.jpg</Source>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Parameters>
@@ -1682,11 +1682,11 @@
         <Data Key="PremultiplyAlpha" Type="bool">true</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Cladding_Siding_White_0.xnb</Output>
-      <Time>2018-12-04T11:53:46.8047333+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Cladding_Siding_White_0.xnb</Output>
+      <Time>2018-12-04T21:20:49.210181+00:00</Time>
     </Item>
     <Item>
-      <Source>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\obj\x86\Debug\FBX\96D22767\Car_for_game.fbm\Metal_Aluminum_Anodized.jpg</Source>
+      <Source>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\FBX\AA4921BA\Car_for_game.fbm\Metal_Aluminum_Anodized.jpg</Source>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Parameters>
@@ -1698,11 +1698,11 @@
         <Data Key="PremultiplyAlpha" Type="bool">true</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Metal_Aluminum_Anodized_0.xnb</Output>
-      <Time>2018-12-04T11:53:46.7957524+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Metal_Aluminum_Anodized_0.xnb</Output>
+      <Time>2018-12-04T21:20:49.2080621+00:00</Time>
     </Item>
     <Item>
-      <Source>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\obj\x86\Debug\FBX\96D22767\Car_for_game.fbm\window-glass(1).jpg</Source>
+      <Source>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\FBX\AA4921BA\Car_for_game.fbm\window-glass(1).jpg</Source>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Parameters>
@@ -1714,32 +1714,32 @@
         <Data Key="PremultiplyAlpha" Type="bool">true</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\window-glass(1)_0.xnb</Output>
-      <Time>2018-12-04T11:53:46.7826593+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\window-glass(1)_0.xnb</Output>
+      <Time>2018-12-04T21:20:49.2060674+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Models\snow_drift.FBX</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\snow_drift_0.xml</Output>
-      <Time>2018-12-04T11:47:37.183598+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\snow_drift_0.xml</Output>
+      <Time>2018-11-25T14:48:47.5058126+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Models\ElectricPole.FBX</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\ElectricPole_0.xml</Output>
-      <Time>2018-12-04T11:47:36.5502928+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\ElectricPole_0.xml</Output>
+      <Time>2018-11-25T14:48:47.445976+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Models\road.FBX</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\road_0.xml</Output>
-      <Time>2018-12-04T11:47:37.1666531+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\road_0.xml</Output>
+      <Time>2018-11-25T14:48:47.5028208+00:00</Time>
     </Item>
     <Item>
-      <Source>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\obj\x86\Debug\FBX\65CA2438\road.fbm\road.jpg</Source>
+      <Source>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\FBX\A6A91E8B\road.fbm\road.jpg</Source>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Parameters>
@@ -1751,18 +1751,18 @@
         <Data Key="PremultiplyAlpha" Type="bool">true</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\road_0.xnb</Output>
-      <Time>2018-12-04T11:53:48.6682195+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\road_0.xnb</Output>
+      <Time>2018-12-04T21:20:49.5852545+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Models\Character_model_1.FBX</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\Character_model_1_0.xml</Output>
-      <Time>2018-12-04T11:47:36.5255067+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\Character_model_1_0.xml</Output>
+      <Time>2018-11-25T14:48:47.4449755+00:00</Time>
     </Item>
     <Item>
-      <Source>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\obj\x86\Debug\FBX\6264293F\Character_model_1.fbm\Character_Flease.JPG</Source>
+      <Source>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\FBX\597A2392\Character_model_1.fbm\Character_Flease.JPG</Source>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Parameters>
@@ -1774,11 +1774,11 @@
         <Data Key="PremultiplyAlpha" Type="bool">true</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Character_Flease_0.xnb</Output>
-      <Time>2018-12-04T11:53:49.3175136+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Character_Flease_0.xnb</Output>
+      <Time>2018-12-04T21:20:49.8587035+00:00</Time>
     </Item>
     <Item>
-      <Source>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\obj\x86\Debug\FBX\6264293F\Character_model_1.fbm\Character_Scarf.JPG</Source>
+      <Source>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\FBX\597A2392\Character_model_1.fbm\Character_Scarf.JPG</Source>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Parameters>
@@ -1790,11 +1790,11 @@
         <Data Key="PremultiplyAlpha" Type="bool">true</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Character_Scarf_0.xnb</Output>
-      <Time>2018-12-04T11:53:49.3249344+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Character_Scarf_0.xnb</Output>
+      <Time>2018-12-04T21:20:49.8615772+00:00</Time>
     </Item>
     <Item>
-      <Source>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\obj\x86\Debug\FBX\6264293F\Character_model_1.fbm\Character_Face_test01.JPG</Source>
+      <Source>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\FBX\597A2392\Character_model_1.fbm\Character_Face_test01.JPG</Source>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Parameters>
@@ -1806,11 +1806,11 @@
         <Data Key="PremultiplyAlpha" Type="bool">true</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Character_Face_test01_0.xnb</Output>
-      <Time>2018-12-04T11:53:49.301397+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Character_Face_test01_0.xnb</Output>
+      <Time>2018-12-04T21:20:49.8518489+00:00</Time>
     </Item>
     <Item>
-      <Source>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\obj\x86\Debug\FBX\6264293F\Character_model_1.fbm\Character_Hair.JPG</Source>
+      <Source>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\FBX\597A2392\Character_model_1.fbm\Character_Hair.JPG</Source>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Parameters>
@@ -1822,29 +1822,29 @@
         <Data Key="PremultiplyAlpha" Type="bool">true</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Character_Hair_0.xnb</Output>
-      <Time>2018-12-04T11:53:49.3088779+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Character_Hair_0.xnb</Output>
+      <Time>2018-12-04T21:20:49.8560171+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Models\Wall.FBX</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\Wall_0.xml</Output>
-      <Time>2018-12-04T11:47:36.6221822+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\Wall_0.xml</Output>
+      <Time>2018-11-25T14:48:47.4579663+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Models\icycle.FBX</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\icycle_0.xml</Output>
-      <Time>2018-12-04T11:47:37.0420242+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\icycle_0.xml</Output>
+      <Time>2018-12-03T22:37:32.0869619+00:00</Time>
     </Item>
     <Item>
       <Source>Assets\Models\RoadRoof.FBX</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\RoadRoof_0.xml</Output>
-      <Time>2018-12-04T11:47:36.6141245+00:00</Time>
+      <Output>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\RoadRoof_0.xml</Output>
+      <Time>2018-12-03T22:37:32.0849688+00:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
@@ -1853,10 +1853,10 @@
       <TargetProfile>HiDef</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDAppContent\</RootDirectory>
-      <LoggerRootDirectory>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\</LoggerRootDirectory>
-      <IntermediateDirectory>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDAppContent\</RootDirectory>
+      <LoggerRootDirectory>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\</LoggerRootDirectory>
+      <IntermediateDirectory>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>
@@ -1885,7 +1885,7 @@
       </Assembly>
       <Assembly>
         <Key>C:\WINDOWS\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
-        <Value>2018-09-24T10:41:52.9051655+01:00</Value>
+        <Value>2018-09-29T12:51:42.9191397+01:00</Value>
       </Assembly>
     </Assemblies>
   </Asset>

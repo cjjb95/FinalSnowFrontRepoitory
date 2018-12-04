@@ -3,7 +3,7 @@
   <Asset Type="Graphics:NodeContent">
     <Name>RootNode</Name>
     <Identity>
-      <SourceFilename>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDAppContent\Assets\Models\Animated\Squirrel\RedRun4.FBX</SourceFilename>
+      <SourceFilename>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDAppContent\Assets\Models\Animated\Squirrel\RedRun4.FBX</SourceFilename>
       <SourceTool>FbxImporter</SourceTool>
     </Identity>
     <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
@@ -6901,7 +6901,7 @@
     <Resource ID="#Resource1" Type="Graphics:BasicMaterialContent">
       <Name>Standardmaterial</Name>
       <Identity>
-        <SourceFilename>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDAppContent\Assets\Models\Animated\Squirrel\RedRun4.FBX</SourceFilename>
+        <SourceFilename>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDAppContent\Assets\Models\Animated\Squirrel\RedRun4.FBX</SourceFilename>
         <SourceTool>FbxImporter</SourceTool>
       </Identity>
       <OpaqueData>

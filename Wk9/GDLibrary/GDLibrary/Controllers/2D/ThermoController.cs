@@ -15,6 +15,10 @@ namespace GDLibrary
         private float dropRate;
         private bool bDirty;
 
+        private bool temp1 = true;
+        private bool temp2 = true;
+        private bool temp3 = true;
+        private bool temp4 = true;
         public ThermoController(string id, ControllerType controllerType, PlayStatusType playStatusType, EventDispatcher eventDispatcher) : base(id, controllerType, playStatusType)
         {
             this.isDead = false;
@@ -63,11 +67,36 @@ namespace GDLibrary
                         parentActor.SourceRectangle.Y + (int)(this.dropRate * 10),
                         parentActor.SourceRectangle.Width,
                         parentActor.SourceRectangle.Height - (int)(this.dropRate * 10));// TO DO CALCULATION - MATCH THE BAR WITH TEMP - must be double
-                    if (temperature <= 10)
+                    if (temperature <= 20 && temperature > 10 && temp1)
                     {
+                        temp1 = false;
+                        EventDispatcher.Publish(new EventData("tempBelow20", null, EventActionType.OnFreezeOver, EventCategoryType.LowTemp));
+                        System.Console.WriteLine("once");
+                    }
+                    else if (temperature <= 10 && temperature > 5 && temp2)
+                    {
+                        EventDispatcher.Publish(new EventData("tempBelow10", null, EventActionType.OnFreezeOver, EventCategoryType.LowTemp));
                         //publish low health event
+                        System.Console.WriteLine("twice");
+                        temp2 = false;
                         EventDispatcher.Publish(new EventData("critical sound", EventActionType.OnHealthSet, EventCategoryType.LowTemp));
                     }
+                    else if (temperature <= 5 && temperature > 1 && temp3)
+                    {
+                        EventDispatcher.Publish(new EventData("tempBelow5", null, EventActionType.OnFreezeOver, EventCategoryType.LowTemp));
+                        temp3 = false;
+                        System.Console.WriteLine("thrice");
+                    }
+                    else if (temperature <= 1 && temp4)
+                    {
+                        temp4 = false;
+                        System.Console.WriteLine("four");
+                        EventDispatcher.Publish(new EventData("tempBelow1", null, EventActionType.OnFreezeOver, EventCategoryType.LowTemp));
+                    }
+
+
+
+
                 }
                 else
                 {

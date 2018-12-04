@@ -1665,3 +1665,10 @@ C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\obj\x86\Debug\Micro
 C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\obj\x86\Debug\GDApp.csproj.CoreCompileInputs.cache
 C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\obj\x86\Debug\GDApp.exe
 C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDApp\obj\x86\Debug\GDApp.pdb
+E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Audio\ElectricalPoleWarning.xnb
+E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Audio\IceWarning.xnb
+E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Audio\ShovelSound.xnb
+E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Audio\SlipWarning.xnb
+E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Audio\SnowDriftWarning.xnb
+E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Audio\TooColdToSnowDrift.xnb
+E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Audio\TreeWarning.xnb

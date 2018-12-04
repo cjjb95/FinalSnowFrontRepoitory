@@ -3,7 +3,7 @@
   <Asset Type="Graphics:MeshContent">
     <Name>Cube</Name>
     <Identity>
-      <SourceFilename>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDAppContent\Assets\Models\Architecture\Walls\wall.FBX</SourceFilename>
+      <SourceFilename>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDAppContent\Assets\Models\Architecture\Walls\wall.FBX</SourceFilename>
       <SourceTool>FbxImporter</SourceTool>
     </Identity>
     <OpaqueData>
@@ -40,7 +40,7 @@ MapChannel:2 = UVSet0
     <Resource ID="#Resource1" Type="Graphics:BasicMaterialContent">
       <Name>02 - Default</Name>
       <Identity>
-        <SourceFilename>C:\Year3GameEngine\DisasterPlanFinalLocation\Wk9\GDApp\GDAppContent\Assets\Models\Architecture\Walls\wall.FBX</SourceFilename>
+        <SourceFilename>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDAppContent\Assets\Models\Architecture\Walls\wall.FBX</SourceFilename>
         <SourceTool>FbxImporter</SourceTool>
       </Identity>
       <OpaqueData>
