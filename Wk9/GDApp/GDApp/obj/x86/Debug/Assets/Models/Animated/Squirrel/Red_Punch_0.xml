@@ -3,7 +3,7 @@
   <Asset Type="Graphics:NodeContent">
     <Name>RootNode</Name>
     <Identity>
-      <SourceFilename>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDAppContent\Assets\Models\Animated\Squirrel\Red_Punch.fbx</SourceFilename>
+      <SourceFilename>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDAppContent\Assets\Models\Animated\Squirrel\Red_Punch.fbx</SourceFilename>
       <SourceTool>FbxImporter</SourceTool>
     </Identity>
     <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
@@ -2907,7 +2907,7 @@
     <Resource ID="#Resource1" Type="Graphics:BasicMaterialContent">
       <Name>Standardmaterial</Name>
       <Identity>
-        <SourceFilename>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDAppContent\Assets\Models\Animated\Squirrel\Red_Punch.fbx</SourceFilename>
+        <SourceFilename>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDAppContent\Assets\Models\Animated\Squirrel\Red_Punch.fbx</SourceFilename>
         <SourceTool>FbxImporter</SourceTool>
       </Identity>
       <OpaqueData>
