@@ -9,8 +9,8 @@
     Windows Bank Path Edited = 0;
     Seek Tables = 1;
     Compression Preset Name = &lt;none&gt;;
-    Bank Last Revised Low = 1342267792;
-    Bank Last Revised High = 30704890;
+    Bank Last Revised Low = 3942968479;
+    Bank Last Revised High = 30706305;
 
     Wave
     {
@@ -147,6 +147,167 @@
             File Type = 1;
             Last Modified Low = 1536552181;
             Last Modified High = 30704888;
+        }
+    }
+
+    Wave
+    {
+        Name = SnowDriftWarning;
+        File = SnowDriftWarning.wav;
+        Build Settings Last Modified Low = 2759816840;
+        Build Settings Last Modified High = 30706283;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 1076788;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 4016543635;
+            Last Modified High = 30706280;
+        }
+    }
+
+    Wave
+    {
+        Name = TreeWarning;
+        File = TreeWarning.wav;
+        Build Settings Last Modified Low = 1209910001;
+        Build Settings Last Modified High = 30706288;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 551908;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 912773006;
+            Last Modified High = 30706288;
+        }
+    }
+
+    Wave
+    {
+        Name = IceWarning;
+        File = IceWarning.wav;
+        Build Settings Last Modified Low = 1375413088;
+        Build Settings Last Modified High = 30706298;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 444344;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 1185152206;
+            Last Modified High = 30706298;
+        }
+    }
+
+    Wave
+    {
+        Name = ElectricalPoleWarning;
+        File = ElectricalPoleWarning.wav;
+        Build Settings Last Modified Low = 4113668070;
+        Build Settings Last Modified High = 30706299;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 841276;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 2389529455;
+            Last Modified High = 30706299;
+        }
+    }
+
+    Wave
+    {
+        Name = SlipWarning;
+        File = SlipWarning.wav;
+        Build Settings Last Modified Low = 4196457891;
+        Build Settings Last Modified High = 30706302;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 537048;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 4072350793;
+            Last Modified High = 30706302;
+        }
+    }
+
+    Wave
+    {
+        Name = TooColdToSnowDrift;
+        File = TooColdToSnowDrift.wav;
+        Build Settings Last Modified Low = 4124622144;
+        Build Settings Last Modified High = 30706303;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 493408;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 3828635215;
+            Last Modified High = 30706303;
+        }
+    }
+
+    Wave
+    {
+        Name = ShovelSound;
+        File = ShovelSound.wav;
+        Build Settings Last Modified Low = 3923257351;
+        Build Settings Last Modified High = 30706305;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 305380;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 3712885319;
+            Last Modified High = 30706305;
         }
     }
 }

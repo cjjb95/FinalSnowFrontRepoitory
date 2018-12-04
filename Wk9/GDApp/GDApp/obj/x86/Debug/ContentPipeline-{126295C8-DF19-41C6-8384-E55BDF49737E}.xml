@@ -1262,7 +1262,7 @@
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
       <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Audio\boing.xnb</Output>
-      <Time>2018-11-26T02:36:05.6499605+07:00</Time>
+      <Time>2018-12-04T17:15:37.9542089+07:00</Time>
     </Item>
     <Item>
       <Source>Assets\Audio\Ouch.wav</Source>
@@ -1271,7 +1271,7 @@
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
       <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Audio\Ouch.xnb</Output>
-      <Time>2018-11-26T03:48:09.1830036+07:00</Time>
+      <Time>2018-12-04T17:15:37.9385832+07:00</Time>
     </Item>
     <Item>
       <Source>Assets\Audio\Gasp.wav</Source>
@@ -1280,7 +1280,7 @@
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
       <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Audio\Gasp.xnb</Output>
-      <Time>2018-11-26T03:48:05.5839123+07:00</Time>
+      <Time>2018-12-04T17:15:37.9698333+07:00</Time>
     </Item>
     <Item>
       <Source>Assets\Audio\Oof.wav</Source>
@@ -1289,7 +1289,7 @@
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
       <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Audio\Oof.xnb</Output>
-      <Time>2018-11-26T03:48:05.58791+07:00</Time>
+      <Time>2018-12-04T17:15:37.9698333+07:00</Time>
     </Item>
     <Item>
       <Source>Assets\Audio\PhoneCall.wav</Source>
@@ -1298,7 +1298,7 @@
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
       <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Audio\PhoneCall.xnb</Output>
-      <Time>2018-11-26T03:48:09.2419703+07:00</Time>
+      <Time>2018-12-04T17:15:37.9385832+07:00</Time>
     </Item>
     <Item>
       <Source>Assets\Audio\Backtrack.wav</Source>
@@ -1307,7 +1307,7 @@
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
       <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Audio\Backtrack.xnb</Output>
-      <Time>2018-11-26T03:54:55.8206878+07:00</Time>
+      <Time>2018-12-04T17:15:37.9542089+07:00</Time>
     </Item>
     <Item>
       <Source>Assets\Models\box.FBX</Source>
@@ -1782,6 +1782,69 @@
       <Options>IntermediateFile, DontCacheImportedData</Options>
       <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\obj\x86\Debug\Assets\Models\RoadRoof_0.xml</Output>
       <Time>2018-12-03T04:43:03.6211965+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Audio\ElectricalPoleWarning.wav</Source>
+      <Name>Assets\Audio\ElectricalPoleWarning</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Audio\ElectricalPoleWarning.xnb</Output>
+      <Time>2018-12-04T17:15:37.9542089+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Audio\IceWarning.wav</Source>
+      <Name>Assets\Audio\IceWarning</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Audio\IceWarning.xnb</Output>
+      <Time>2018-12-04T17:15:37.9698333+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Audio\ShovelSound.wav</Source>
+      <Name>Assets\Audio\ShovelSound</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Audio\ShovelSound.xnb</Output>
+      <Time>2018-12-04T17:15:37.9385832+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Audio\SlipWarning.wav</Source>
+      <Name>Assets\Audio\SlipWarning</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Audio\SlipWarning.xnb</Output>
+      <Time>2018-12-04T17:15:37.9385832+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Audio\SnowDriftWarning.wav</Source>
+      <Name>Assets\Audio\SnowDriftWarning</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Audio\SnowDriftWarning.xnb</Output>
+      <Time>2018-12-04T17:15:37.9385832+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Audio\TooColdToSnowDrift.wav</Source>
+      <Name>Assets\Audio\TooColdToSnowDrift</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Audio\TooColdToSnowDrift.xnb</Output>
+      <Time>2018-12-04T17:15:37.9385832+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Assets\Audio\TreeWarning.wav</Source>
+      <Name>Assets\Audio\TreeWarning</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Audio\TreeWarning.xnb</Output>
+      <Time>2018-12-04T17:15:37.9385832+07:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>

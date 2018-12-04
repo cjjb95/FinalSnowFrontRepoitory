@@ -75,11 +75,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App\Data\AppData.cs" />
+    <Compile Include="App\ElectricPoleWarning.cs" />
     <Compile Include="App\HeroPlayerObject.cs" />
+    <Compile Include="App\IceWarning.cs" />
     <Compile Include="App\IcicleObject.cs" />
     <Compile Include="App\IcicleZone.cs" />
     <Compile Include="App\Menu\MyMenuManager.cs" />
+    <Compile Include="App\SlipWarning.cs" />
+    <Compile Include="App\SnowDriftWarning.cs" />
     <Compile Include="App\SnowDriftZone.cs" />
+    <Compile Include="App\TooColdWarning.cs" />
+    <Compile Include="App\TreeWarning.cs" />
     <Compile Include="App\TreeZone.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Program.cs" />

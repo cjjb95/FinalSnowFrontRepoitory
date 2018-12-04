@@ -200,6 +200,8 @@ namespace GDApp
                 InitializeFallingTree();
                 InitializeFallingTreeTrigger();
                 InitializeIcicleTrigger();
+                InitializeCollisionDialogue();
+                InitializeGoal();
                 //demo medium and low vertex count trianglemesh
                 //InitializeStaticCollidableMediumPolyTriangleMeshObjects();
                 //InitializeStaticCollidableLowPolyTriangleMeshObjects();
@@ -215,6 +217,122 @@ namespace GDApp
             {
                 //add different things for your next level
             }
+        }
+
+        private void InitializeGoal()
+        {
+            Transform3D transform3D = new Transform3D(new Vector3(820, 0, -320),
+              new Vector3(0, 0 , 0), 2 * new Vector3(1.5f, 1, 1), Vector3.UnitX, Vector3.UnitY);
+
+            BasicEffectParameters effectParameters = this.effectDictionary[AppData.LitModelsEffectID].Clone() as BasicEffectParameters;
+            effectParameters.DiffuseColor = Color.White;
+            Model model = this.modelDictionary["house"];
+
+            CollidableObject goal = new TriangleMeshObject("goal", ActorType.Goal, 
+                transform3D, effectParameters, model, new MaterialProperties(0.3f, 0.7f, 0.5f));
+            goal.Enable(true, 1);
+            this.object3DManager.Add(goal);
+            
+        }
+
+        private void InitializeCollisionDialogue()
+        {
+            //Creating the effect for the collidableobject model
+            BasicEffectParameters effectParameters = this.effectDictionary[AppData.LitModelsEffectID].Clone() as BasicEffectParameters;
+            //effectParameters.Texture = this.textureDictionary["ml"];
+            effectParameters.DiffuseColor = Color.White;
+
+            Vector3 rot = new Vector3(0, 0, 0);
+            Vector3 scale = new Vector3(0.4f, 0.16f, 0.4f);
+            Vector3 scale2 = new Vector3(0.4f, 0.16f, 0.4f);
+            //Creating the transforms  for each of the models
+            Transform3D transform1 = new Transform3D(new Vector3(-740, 5, -320), rot, scale, Vector3.UnitX, Vector3.UnitY);
+            Transform3D transform2 = new Transform3D(new Vector3(-170, 5, -325), rot, scale, Vector3.UnitX, Vector3.UnitY);
+            Transform3D transform3 = new Transform3D(new Vector3(-370, 5, -325), rot, scale, Vector3.UnitX, Vector3.UnitY);
+            Transform3D transform4 = new Transform3D(new Vector3(-80, 5, -125), rot, scale, Vector3.UnitX, Vector3.UnitY);
+            Transform3D transform5 = new Transform3D(new Vector3(10, 5, -475), rot, scale, Vector3.UnitX, Vector3.UnitY);
+            Transform3D transform6 = new Transform3D(new Vector3(290, 5, -475), rot, scale, Vector3.UnitX, Vector3.UnitY);
+            Transform3D transform7 = new Transform3D(new Vector3(380, 5, -180), rot, scale, Vector3.UnitX, Vector3.UnitY);
+
+            SnowDriftWarning sdw = new SnowDriftWarning("sdw",
+               ActorType.Snow,
+               transform1,
+               effectParameters, this.modelDictionary["box"]);
+            sdw.StatusType = StatusType.Update;
+            sdw.AddPrimitive(new Sphere(transform1.Translation, 40), new MaterialProperties(0.2f, 0.8f, 0.7f));
+            sdw.Enable(true, 1);
+
+            //remove as it breaks the shovel
+            this.object3DManager.Add(sdw);
+
+
+            TreeWarning tw = new TreeWarning("tw",
+               ActorType.Snow,
+               transform2,
+               effectParameters, this.modelDictionary["box"]);
+            tw.StatusType = StatusType.Update;
+            tw.AddPrimitive(new Sphere(transform2.Translation, 92), new MaterialProperties(0.2f, 0.8f, 0.7f));
+            tw.Enable(true, 1);
+            //remove as it breaks the shovel
+            this.object3DManager.Add(tw);
+
+
+
+            IceWarning iw = new IceWarning("iw",
+               ActorType.Snow,
+               transform3,
+               effectParameters, this.modelDictionary["box"]);
+            iw.StatusType = StatusType.Update;
+
+            iw.AddPrimitive(new Sphere(transform3.Translation, 72), new MaterialProperties(0.2f, 0.8f, 0.7f));
+            iw.Enable(true, 1);
+            //remove as it breaks the shovel
+            this.object3DManager.Add(iw);
+
+
+
+            ElectricPoleWarning epw = new ElectricPoleWarning("epw",
+               ActorType.Snow,
+               transform4,
+               effectParameters, this.modelDictionary["box"]);
+            epw.StatusType = StatusType.Update;
+            epw.AddPrimitive(new Sphere(transform4.Translation, 72), new MaterialProperties(0.2f, 0.8f, 0.7f));
+            epw.Enable(true, 1);
+            //remove as it breaks the shovel
+            this.object3DManager.Add(epw);
+
+            ElectricPoleWarning epw2 = new ElectricPoleWarning("epw2",
+              ActorType.Snow,
+              transform5,
+              effectParameters, this.modelDictionary["box"]);
+            epw2.StatusType = StatusType.Update;
+            epw2.AddPrimitive(new Sphere(transform5.Translation, 72), new MaterialProperties(0.2f, 0.8f, 0.7f));
+            epw2.Enable(true, 1);
+            //remove as it breaks the shovel
+            this.object3DManager.Add(epw2);
+
+
+            SlipWarning sw = new SlipWarning("sw",
+            ActorType.Snow,
+            transform6,
+            effectParameters, this.modelDictionary["box"]);
+            sw.StatusType = StatusType.Update;
+            sw.AddPrimitive(new Sphere(transform5.Translation, 72), new MaterialProperties(0.2f, 0.8f, 0.7f));
+            sw.Enable(true, 1);
+            //remove as it breaks the shovel
+            this.object3DManager.Add(sw);
+
+
+            TooColdWarning tcw = new TooColdWarning("tcw",
+           ActorType.Snow,
+           transform7,
+           effectParameters, this.modelDictionary["box"]);
+            tcw.StatusType = StatusType.Update;
+            tcw.AddPrimitive(new Sphere(transform5.Translation, 102), new MaterialProperties(0.2f, 0.8f, 0.7f));
+            tcw.Enable(true, 1);
+            //remove as it breaks the shovel
+            this.object3DManager.Add(tcw);
+
         }
 
         private void InitializeFallingTreeTrigger()
@@ -250,7 +368,7 @@ namespace GDApp
             this.modelDictionary["fallenTree"], new MaterialProperties(0.2f, 0.8f, 0.7f));
             FallingTree.Enable(true, 1);
 
-            FallingTree.AttachController(new EnablePhysicsController("epc", ControllerType.EnablePhysics, PlayStatusType.Stop));
+            //FallingTree.AttachController(new EnablePhysicsController("epc", ControllerType.EnablePhysics, PlayStatusType.Stop));
             this.object3DManager.Add(FallingTree);
 
         }
@@ -369,7 +487,7 @@ namespace GDApp
         private void InitializePlayer()
         {
             Transform3D transform = new Transform3D(
-                new Vector3(-790, 25, -340),
+                new Vector3(-750, 25, -340),
                 new Vector3(-90, 90, 0),
                 0.1f * Vector3.One,
                 Vector3.UnitX,
@@ -2263,6 +2381,35 @@ namespace GDApp
         private void DemoGameOver()
         {
             this.eventDispatcher.GameLost += EventDispatcher_GameLost;
+            this.eventDispatcher.GameWon += EventDispatcher_GameWon;
+        }
+
+        private void EventDispatcher_GameWon(EventData eventData)
+        {
+            if(eventData.EventType == EventActionType.OnGameWin)
+            {
+                if(!this.gameOver)
+                {
+                    this.gameOver = true;
+                    string text = eventData.ID;
+                    SpriteFont strFont = this.fontDictionary["menu"];
+                    Vector2 strDim = strFont.MeasureString(text);
+                    strDim /= 2.0f;
+
+                    Transform2D transform =
+                        new Transform2D((Vector2)this.screenCentre, 0,
+                        new Vector2(1, 1) * 2, strDim, new Integer2(100, 100));
+
+                    UITextObject newTextObject = new UITextObject("lose", ActorType.UIText,
+                        StatusType.Drawn | StatusType.Update, transform, Color.Red,
+                        SpriteEffects.None, 0, text, strFont);
+
+
+                    EventDispatcher.Publish(new EventData(newTextObject
+                            , EventActionType.OnAddActor2D, EventCategoryType.SystemAdd));
+                }
+                
+            }
         }
 
         private void EventDispatcher_GameLost(EventData eventData)

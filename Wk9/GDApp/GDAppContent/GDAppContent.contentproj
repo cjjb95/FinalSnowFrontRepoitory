@@ -198,20 +198,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Audio\boing.wav">
-      <Name>boing</Name>
-      <Importer>WavImporter</Importer>
-      <Processor>SoundEffectProcessor</Processor>
-    </Compile>
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="Assets\Audio\Demo2DSound.xap">
-      <Name>Demo2DSound</Name>
-      <Importer>XactImporter</Importer>
-      <Processor>XactProcessor</Processor>
-    </Compile>
-  </ItemGroup>
-  <ItemGroup>
     <Compile Include="Assets\Textures\UI\HUD\mouseicons.png">
       <Name>mouseicons</Name>
       <Importer>TextureImporter</Importer>
@@ -606,13 +592,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Audio\Ouch.wav">
-      <Name>Ouch</Name>
-      <Importer>WavImporter</Importer>
-      <Processor>SoundEffectProcessor</Processor>
-    </Compile>
-  </ItemGroup>
-  <ItemGroup>
     <Compile Include="Assets\Models\Character_model_1.FBX">
       <Name>Character_model_1</Name>
       <Importer>FbxImporter</Importer>
@@ -709,30 +688,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Audio\Gasp.wav">
-      <Name>Gasp</Name>
-      <Importer>WavImporter</Importer>
-      <Processor>SoundEffectProcessor</Processor>
-    </Compile>
-    <Compile Include="Assets\Audio\Oof.wav">
-      <Name>Oof</Name>
-      <Importer>WavImporter</Importer>
-      <Processor>SoundEffectProcessor</Processor>
-    </Compile>
-    <Compile Include="Assets\Audio\PhoneCall.wav">
-      <Name>PhoneCall</Name>
-      <Importer>WavImporter</Importer>
-      <Processor>SoundEffectProcessor</Processor>
-    </Compile>
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="Assets\Audio\Backtrack.wav">
-      <Name>Backtrack</Name>
-      <Importer>WavImporter</Importer>
-      <Processor>SoundEffectProcessor</Processor>
-    </Compile>
-  </ItemGroup>
-  <ItemGroup>
     <Compile Include="Assets\Models\icycle.FBX">
       <Name>icycle</Name>
       <Importer>FbxImporter</Importer>
@@ -742,6 +697,80 @@
       <Name>RoadRoof</Name>
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\Audio\Backtrack.wav">
+      <Name>Backtrack</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+    </Compile>
+    <Compile Include="Assets\Audio\boing.wav">
+      <Name>boing</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+    </Compile>
+    <Compile Include="Assets\Audio\ElectricalPoleWarning.wav">
+      <Name>ElectricalPoleWarning</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+    </Compile>
+    <Compile Include="Assets\Audio\Gasp.wav">
+      <Name>Gasp</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+    </Compile>
+    <Compile Include="Assets\Audio\IceWarning.wav">
+      <Name>IceWarning</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+    </Compile>
+    <Compile Include="Assets\Audio\Oof.wav">
+      <Name>Oof</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+    </Compile>
+    <Compile Include="Assets\Audio\Ouch.wav">
+      <Name>Ouch</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+    </Compile>
+    <Compile Include="Assets\Audio\PhoneCall.wav">
+      <Name>PhoneCall</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+    </Compile>
+    <Compile Include="Assets\Audio\ShovelSound.wav">
+      <Name>ShovelSound</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+    </Compile>
+    <Compile Include="Assets\Audio\SlipWarning.wav">
+      <Name>SlipWarning</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+    </Compile>
+    <Compile Include="Assets\Audio\SnowDriftWarning.wav">
+      <Name>SnowDriftWarning</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+    </Compile>
+    <Compile Include="Assets\Audio\TooColdToSnowDrift.wav">
+      <Name>TooColdToSnowDrift</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+    </Compile>
+    <Compile Include="Assets\Audio\TreeWarning.wav">
+      <Name>TreeWarning</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\Audio\Demo2DSound.xap">
+      <Name>Demo2DSound</Name>
+      <Importer>XactImporter</Importer>
+      <Processor>XactProcessor</Processor>
     </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\XNA Game Studio\$(XnaFrameworkVersion)\Microsoft.Xna.GameStudio.ContentPipeline.targets" />

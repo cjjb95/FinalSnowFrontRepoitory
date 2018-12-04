@@ -29,7 +29,8 @@ namespace GDLibrary
         Ice,
         Snow,
         FallingTree,
-        Icicle
+        Icicle,
+        Goal
     }
 }
 

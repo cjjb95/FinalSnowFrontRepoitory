@@ -114,6 +114,10 @@ namespace GDApp
                     this.bOnce = true;
                 }
 
+            }else if(thingHit.ActorType == ActorType.Goal)
+            {
+                
+                EventDispatcher.Publish(new EventData("You WIN!", this, EventActionType.OnGameWin, EventCategoryType.GameWon));
             }
             else if (thingHit.ActorType == ActorType.CollidableGround)
             {
