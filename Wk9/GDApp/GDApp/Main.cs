@@ -7,7 +7,6 @@ using Microsoft.Xna.Framework.Input;
 using System;
 using System.Collections.Generic;
 
-
 namespace GDApp
 {
     /// <summary>
@@ -361,14 +360,17 @@ namespace GDApp
             BasicEffectParameters effectParameters = this.effectDictionary[AppData.UnlitModelsEffectID].Clone() as BasicEffectParameters;
             effectParameters.Texture = this.textureDictionary["ml"];
             effectParameters.DiffuseColor = Color.White;
-            Transform3D transform3DFallingTree = new Transform3D(new Vector3(-85, 0, -600), new Vector3(0, 0, 0), new Vector3(0.5f, 0.8f, 0.5f), Vector3.UnitX, Vector3.UnitY);
+            Transform3D transform3DFallingTree = new Transform3D(new Vector3(-85, 0, -600), new Vector3(0, -20, 0), new Vector3(0.5f, 0.8f, 0.5f), Vector3.UnitX, Vector3.UnitY);
 
 
-            CollidableObject FallingTree = new TriangleMeshObject("falling tree", ActorType.FallingTree, transform3DFallingTree, effectParameters,
-            this.modelDictionary["fallenTree"], new MaterialProperties(0.2f, 0.8f, 0.7f));
+            CollidableObject FallingTree = new CollidableObject("Falling Tree",ActorType.FallingTree,transform3DFallingTree,
+              effectParameters, this.modelDictionary["fallenTree"]);
+            FallingTree.AddPrimitive(new Sphere(new Vector3(-85, 230, -600), 50), new MaterialProperties(0.2f, 0.2f, 1.7f));
+            FallingTree.AddPrimitive(new Sphere(new Vector3(-85, 130, -600), 50), new MaterialProperties(0.2f, 0.2f, 1.7f));
+            FallingTree.AddPrimitive(new Sphere(new Vector3(-85, -105, -600), 50), new MaterialProperties(0.2f, 0.2f, 1.7f));
             FallingTree.Enable(true, 1);
 
-            //FallingTree.AttachController(new EnablePhysicsController("epc", ControllerType.EnablePhysics, PlayStatusType.Stop));
+            FallingTree.AttachController(new EnablePhysicsController("epc", ControllerType.EnablePhysics, PlayStatusType.Stop));
             this.object3DManager.Add(FallingTree);
 
         }
