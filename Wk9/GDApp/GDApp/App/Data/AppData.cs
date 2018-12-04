@@ -50,10 +50,10 @@ namespace GDLibrary
         public static readonly Keys[] CameraMoveKeys_Alt1 = { Keys.T, Keys.G, Keys.F, Keys.H };
 
         //3rd person specific
-        public static readonly float CameraThirdPersonScrollSpeedDistanceMultiplier = 0.00125f;
+        public static readonly float CameraThirdPersonScrollSpeedDistanceMultiplier = 0.00100f;
         public static readonly float CameraThirdPersonScrollSpeedElevationMultiplier = 0.001f;
-        public static readonly float CameraThirdPersonDistance = 60;
-        public static readonly float CameraThirdPersonElevationAngleInDegrees = 30;
+        public static readonly float CameraThirdPersonDistance = 40;
+        public static readonly float CameraThirdPersonElevationAngleInDegrees = 45;
 
         //security camera
         public static readonly Vector3 SecurityCameraRotationAxisYaw = Vector3.UnitX;

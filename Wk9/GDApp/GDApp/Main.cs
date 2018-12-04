@@ -243,7 +243,6 @@ namespace GDApp
             BasicEffectParameters effectParameters = this.effectDictionary[AppData.LitModelsEffectID].Clone() as BasicEffectParameters;
             effectParameters.Texture = this.textureDictionary["ml"];
             effectParameters.DiffuseColor = Color.White;
-
             Transform3D transform3DFallingTree = new Transform3D(new Vector3(-85, 0, -600), new Vector3(0, 0, 0), new Vector3(0.5f, 0.8f, 0.5f), Vector3.UnitX, Vector3.UnitY);
 
 
@@ -370,7 +369,7 @@ namespace GDApp
         private void InitializePlayer()
         {
             Transform3D transform = new Transform3D(
-                new Vector3(-760, 15, -300),
+                new Vector3(-790, 25, -340),
                 new Vector3(-90, 90, 0),
                 0.1f * Vector3.One,
                 Vector3.UnitX,
@@ -542,9 +541,11 @@ namespace GDApp
             Transform3D transform3 = new Transform3D(new Vector3(-140, 5, -250), rot, scale, Vector3.UnitX, Vector3.UnitY);
             Transform3D transform4 = new Transform3D(new Vector3(60, 5, -220), rot, scale, Vector3.UnitX, Vector3.UnitY);
             Transform3D transform5 = new Transform3D(new Vector3(120, 5, -540), rot, scale, Vector3.UnitX, Vector3.UnitY);
-            Transform3D transform6 = new Transform3D(new Vector3(560, 5, -150), rot, scale, Vector3.UnitX, Vector3.UnitY);
-            Transform3D transform7 = new Transform3D(new Vector3(620, 5, -150), rot, scale, Vector3.UnitX, Vector3.UnitY);
+            Transform3D transform6 = new Transform3D(new Vector3(420, 5, -220), rot, scale, Vector3.UnitX, Vector3.UnitY);
+            Transform3D transform7 = new Transform3D(new Vector3(520, 5, -220), rot, scale, Vector3.UnitX, Vector3.UnitY);
 
+            Transform3D transform8 = new Transform3D(new Vector3(420, 5, -520), rot, scale, Vector3.UnitX, Vector3.UnitY);
+            Transform3D transform9 = new Transform3D(new Vector3(560, 5, -520), rot, scale, Vector3.UnitX, Vector3.UnitY);
 
             //creating the collidable models
 
@@ -576,10 +577,8 @@ namespace GDApp
                 transform3,
                 effectParameters,
                 this.modelDictionary["snow_drift"]);
-
             sdz3.AddPrimitive(new Sphere(transform3.Translation, 40), new MaterialProperties(0.2f, 0.8f, 0.7f));
             sdz3.Enable(true, 1);
-
             this.object3DManager.Add(sdz3);
 
             SnowDriftZone sdz4 = new SnowDriftZone("sdz4",
@@ -587,10 +586,8 @@ namespace GDApp
                 transform4,
                 effectParameters,
                 this.modelDictionary["snow_drift"]);
-
             sdz4.AddPrimitive(new Sphere(transform4.Translation, 40), new MaterialProperties(0.2f, 0.8f, 0.7f));
             sdz4.Enable(true, 1);
-
             this.object3DManager.Add(sdz4);
 
             SnowDriftZone sdz5 = new SnowDriftZone("sdz5",
@@ -601,34 +598,27 @@ namespace GDApp
 
             sdz5.AddPrimitive(new Sphere(transform5.Translation, 40), new MaterialProperties(0.2f, 0.8f, 0.7f));
             sdz5.Enable(true, 1);
-
-
             this.object3DManager.Add(sdz5);
 
-            SnowDriftZone sdz6 = new SnowDriftZone("sdz6",
-                ActorType.Snow,
-                transform6,
-                effectParameters,
-                this.modelDictionary["snow_drift"]);
-
+            SnowDriftZone sdz6 = new SnowDriftZone("sdz6",ActorType.Snow,transform6,effectParameters,this.modelDictionary["snow_drift"]);
             sdz6.AddPrimitive(new Sphere(transform6.Translation, 40), new MaterialProperties(0.2f, 0.8f, 0.7f));
             sdz6.Enable(true, 1);
-
-
             this.object3DManager.Add(sdz6);
 
-            SnowDriftZone sdz7 = new SnowDriftZone("sdz7",
-                            ActorType.Snow,
-                            transform7,
-                            effectParameters,
-                            this.modelDictionary["snow_drift"]);
-
+            SnowDriftZone sdz7 = new SnowDriftZone("sdz7",ActorType.Snow,transform7,effectParameters,this.modelDictionary["snow_drift"]);
             sdz7.AddPrimitive(new Sphere(transform7.Translation, 40), new MaterialProperties(0.2f, 0.8f, 0.7f));
             sdz7.Enable(true, 1);
-
-
             this.object3DManager.Add(sdz7);
 
+            SnowDriftZone sdz8 = new SnowDriftZone("sdz8",ActorType.Snow,transform8,effectParameters,this.modelDictionary["snow_drift"]);
+            sdz8.AddPrimitive(new Sphere(transform8.Translation, 40), new MaterialProperties(0.2f, 0.8f, 0.7f));
+            sdz8.Enable(true, 1);
+            this.object3DManager.Add(sdz8);
+
+            SnowDriftZone sdz9 = new SnowDriftZone("sdz9", ActorType.Snow,transform9,effectParameters,this.modelDictionary["snow_drift"]);
+            sdz9.AddPrimitive(new Sphere(transform9.Translation, 40), new MaterialProperties(0.2f, 0.8f, 0.7f));
+            sdz9.Enable(true, 1);
+            this.object3DManager.Add(sdz9);
 
         }
 
@@ -638,12 +628,13 @@ namespace GDApp
             effectParameters.Texture = this.textureDictionary["ml"];
             effectParameters.DiffuseColor = Color.White;
 
-            Transform3D transform3DFallenTree = new Transform3D(new Vector3(-85, 20, -250), new Vector3(90, 0, -90), new Vector3(0.5f, 0.5f, 0.5f), Vector3.UnitX, Vector3.UnitY);
-            Transform3D transform3DFallenTree2 = new Transform3D(new Vector3(-300, 20, -230), new Vector3(0, 0, -90), new Vector3(0.5f, 0.5f, 0.5f), Vector3.UnitX, Vector3.UnitY);
-            Transform3D transform3DFallenTree3 = new Transform3D(new Vector3(200, 20, -350), new Vector3(-40, 0, -90), new Vector3(0.35f, 0.6f, 0.35f), Vector3.UnitX, Vector3.UnitY);
-            Transform3D transform3DFallenTree4 = new Transform3D(new Vector3(400, 20, -290), new Vector3(-140, 0, -90), new Vector3(0.35f, 0.6f, 0.35f), Vector3.UnitX, Vector3.UnitY);
-            Transform3D transform3DFallenTree5 = new Transform3D(new Vector3(340, 20, -520), new Vector3(-0, 0, -90), new Vector3(0.5f, 1, 0.5f), Vector3.UnitX, Vector3.UnitY);
-            Transform3D transform3DFallenTree6 = new Transform3D(new Vector3(380, 20, -400), new Vector3(-0, 0, -90), new Vector3(0.5f, 1, 0.5f), Vector3.UnitX, Vector3.UnitY);
+            Vector3 treeScale =new Vector3(0.25f,0.5f,0.3f);
+            Transform3D transform3DFallenTree = new Transform3D(new Vector3(-75, 10, -260), new Vector3(90, 0, -90),treeScale, Vector3.UnitX, Vector3.UnitY);
+            Transform3D transform3DFallenTree2 = new Transform3D(new Vector3(-270, 10, -240), new Vector3(0, 0, -90), treeScale, Vector3.UnitX, Vector3.UnitY);
+            Transform3D transform3DFallenTree3 = new Transform3D(new Vector3(200, 10, -320), new Vector3(-40, 0, -90),treeScale, Vector3.UnitX, Vector3.UnitY);
+            Transform3D transform3DFallenTree4 = new Transform3D(new Vector3(400, 10, -320), new Vector3(-140, 0, -90),treeScale, Vector3.UnitX, Vector3.UnitY);
+            Transform3D transform3DFallenTree5 = new Transform3D(new Vector3(340, 10, -490), new Vector3(-0, 0, -90), treeScale, Vector3.UnitX, Vector3.UnitY);
+            Transform3D transform3DFallenTree6 = new Transform3D(new Vector3(590, 10, -490), new Vector3(-180, 0, -90), treeScale, Vector3.UnitX, Vector3.UnitY);
 
 
 
@@ -686,11 +677,16 @@ namespace GDApp
             BasicEffectParameters effectParameters = this.effectDictionary[AppData.LitModelsEffectID].Clone() as BasicEffectParameters;
             effectParameters.Texture = this.textureDictionary["ml"];
             effectParameters.DiffuseColor = Color.White;
+            Vector3 poleRot = new Vector3(0, -90, 90);
+            Vector3 poleScale = new Vector3(0.3f, 0.2f, 0.2f);
+            Transform3D electricPole1 = new Transform3D(new Vector3(100, 5, -430), poleRot, poleScale, Vector3.UnitX, Vector3.UnitY);
 
-            Transform3D electricPole1 = new Transform3D(new Vector3(100, 5, -430), new Vector3(0, -90, 0), new Vector3(0.4f, 0.4f, 0.4f), Vector3.UnitX, Vector3.UnitY);
-            Transform3D electricPole2 = new Transform3D(new Vector3(60, 5, -90), new Vector3(0, -90, 0), new Vector3(0.4f, 0.4f, 0.4f), Vector3.UnitX, Vector3.UnitY);
-            Transform3D electricPole3 = new Transform3D(new Vector3(500, 5, -280), new Vector3(0, 180, 0), new Vector3(0.4f, 0.4f, 0.4f), Vector3.UnitX, Vector3.UnitY);
-            Transform3D electricPole4 = new Transform3D(new Vector3(610, 5, -460), new Vector3(0, 0, 0), new Vector3(0.4f, 0.4f, 0.4f), Vector3.UnitX, Vector3.UnitY);
+            Transform3D electricPole2 = new Transform3D(new Vector3(60, 5, -90), poleRot, poleScale, Vector3.UnitX, Vector3.UnitY);
+
+            //poleRot = new Vector3(90, 0, 0);
+            Transform3D electricPole3 = new Transform3D(new Vector3(480, 5, -130), poleRot, poleScale, Vector3.UnitX, Vector3.UnitY);
+            //poleRot =new Vector3(90,0,0);
+            Transform3D electricPole4 = new Transform3D(new Vector3(480, 5, -430), poleRot, poleScale, Vector3.UnitX, Vector3.UnitY);
 
 
             CollidableObject ElectricPole1 = new TriangleMeshObject("fallen pole", ActorType.CollidableProp, electricPole1, effectParameters,
@@ -1048,6 +1044,27 @@ namespace GDApp
             collidableObject = new TriangleMeshObject("wall 2", ActorType.CollidableArchitecture, transform3D,
                             effectParameters, this.modelDictionary["Wall"], new MaterialProperties(0.2f, 0.8f, 0.7f));
 
+            collidableObject.Enable(true, 1);
+            this.object3DManager.Add(collidableObject);
+
+            //Middle of the final section
+            transform3D = new Transform3D(new Vector3(420, 0, -280),new Vector3(0, 0, 0),new Vector3(0.35f, 0.2f, 0.5f),Vector3.UnitX, Vector3.UnitY);
+            collidableObject = new TriangleMeshObject("wall 2", ActorType.CollidableArchitecture, transform3D,effectParameters, this.modelDictionary["Wall"], new MaterialProperties(0.2f, 0.8f, 0.7f));
+            collidableObject.Enable(true, 1);
+            this.object3DManager.Add(collidableObject);
+
+            transform3D = new Transform3D(new Vector3(550, 0, -280), new Vector3(0, 90, 0), new Vector3(0.35f, 0.2f, 0.5f), Vector3.UnitX, Vector3.UnitY);
+            collidableObject = new TriangleMeshObject("wall 2", ActorType.CollidableArchitecture, transform3D, effectParameters, this.modelDictionary["Wall"], new MaterialProperties(0.2f, 0.8f, 0.7f));
+            collidableObject.Enable(true, 1);
+            this.object3DManager.Add(collidableObject);
+
+            transform3D = new Transform3D(new Vector3(420, 0, -410), new Vector3(0, -90, 0), new Vector3(0.35f, 0.2f, 0.5f), Vector3.UnitX, Vector3.UnitY);
+            collidableObject = new TriangleMeshObject("wall 2", ActorType.CollidableArchitecture, transform3D, effectParameters, this.modelDictionary["Wall"], new MaterialProperties(0.2f, 0.8f, 0.7f));
+            collidableObject.Enable(true, 1);
+            this.object3DManager.Add(collidableObject);
+
+            transform3D = new Transform3D(new Vector3(540, 0, -400), new Vector3(0, 180, 0), new Vector3(0.35f, 0.2f, 0.5f), Vector3.UnitX, Vector3.UnitY);
+            collidableObject = new TriangleMeshObject("wall 2", ActorType.CollidableArchitecture, transform3D, effectParameters, this.modelDictionary["Wall"], new MaterialProperties(0.2f, 0.8f, 0.7f));
             collidableObject.Enable(true, 1);
             this.object3DManager.Add(collidableObject);
         }
@@ -2017,6 +2034,7 @@ namespace GDApp
         //        ActorType.Camera, transform,
         //        ProjectionParameters.StandardMediumFiveThree, viewport,
         //        0f, StatusType.Update);
+
 
         //    camera3D.AttachController(new RailController("rc1", ControllerType.Rail, 
         //        this.drivableModelObject, this.railDictionary["battlefield 1"]));

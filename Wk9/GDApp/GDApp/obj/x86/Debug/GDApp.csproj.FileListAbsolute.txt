@@ -1472,3 +1472,18 @@ D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Asse
 D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Audio\Backtrack.xnb
 D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\icycle.xnb
 D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\RoadRoof.xnb
+E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\icycle.xnb
+E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\RoadRoof.xnb
+E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\Menu\Buttons\button_back.xnb
+E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\Menu\Buttons\button_controls.xnb
+E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\Menu\Buttons\button_exit.xnb
+E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\Menu\Buttons\button_sound.xnb
+E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\Menu\Buttons\button_start.xnb
+E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\Menu\Buttons\button_unmute.xnb
+E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\Menu\Buttons\button_volume-down.xnb
+E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\Menu\Buttons\button_volume-mute.xnb
+E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\Menu\Buttons\button_volume-up.xnb
+E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Audio\Gasp.xnb
+E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Audio\Oof.xnb
+E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Audio\PhoneCall.xnb
+E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Audio\Backtrack.xnb
