@@ -9,10 +9,12 @@ namespace GDLibrary
     public class TreeFallingController : Controller
     {
         private int elapsed;
+        private bool once;
 
         public TreeFallingController(string id, ControllerType controllerType,
             PlayStatusType playStatusType, EventDispatcher eventDispatcher) : base(id, controllerType, playStatusType)
         {
+            this.once = true;
             eventDispatcher.ObstacleCollision += EventDispatcher_ObstacleCollision;
         }
 
@@ -27,9 +29,16 @@ namespace GDLibrary
         public override void Update(GameTime gameTime, IActor actor)
         {
             this.elapsed += gameTime.ElapsedGameTime.Milliseconds;
-            if (this.elapsed % 2000 == 0)
+           
+            EventDispatcher.Publish(new EventData(EventActionType.OnTreeZone, EventCategoryType.ObstacleEvent));
+            if(this.elapsed >= 10000)
             {
-                EventDispatcher.Publish(new EventData(EventActionType.OnTreeZone, EventCategoryType.ObstacleEvent));
+                if(this.once)
+                {
+                    EventDispatcher.Publish(new EventData(EventActionType.OnTreeTouchGround, EventCategoryType.ObstacleEvent));
+                    this.once = false;
+                }
+                
             }
 
         }

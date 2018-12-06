@@ -37,6 +37,7 @@ namespace GDApp
             else if (collidee.ActorType == ActorType.CollidableGround)
             {
                 this.deadly = false;
+                collider.Body.Immovable = true;
             }
 
         }

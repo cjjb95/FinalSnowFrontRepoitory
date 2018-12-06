@@ -1672,3 +1672,4 @@ E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Au
 E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Audio\SnowDriftWarning.xnb
 E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Audio\TooColdToSnowDrift.xnb
 E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Audio\TreeWarning.xnb
+D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\tree_centred.xnb

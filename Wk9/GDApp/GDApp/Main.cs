@@ -360,15 +360,19 @@ namespace GDApp
             BasicEffectParameters effectParameters = this.effectDictionary[AppData.UnlitModelsEffectID].Clone() as BasicEffectParameters;
             effectParameters.Texture = this.textureDictionary["ml"];
             effectParameters.DiffuseColor = Color.White;
-            Transform3D transform3DFallingTree = new Transform3D(new Vector3(-85, 0, -600), new Vector3(0, -20, 0), new Vector3(0.5f, 0.8f, 0.5f), Vector3.UnitX, Vector3.UnitY);
+            Transform3D transform3DFallingTree = new Transform3D(new Vector3(-85, 130, -580), new Vector3(0, 0, 0), new Vector3(0.5f, 0.8f, 0.5f), Vector3.UnitX, Vector3.UnitY);
 
 
-            CollidableObject FallingTree = new CollidableObject("Falling Tree",ActorType.FallingTree,transform3DFallingTree,
-              effectParameters, this.modelDictionary["fallenTree"]);
-            FallingTree.AddPrimitive(new Sphere(new Vector3(-85, 230, -600), 50), new MaterialProperties(0.2f, 0.2f, 1.7f));
-            FallingTree.AddPrimitive(new Sphere(new Vector3(-85, 130, -600), 50), new MaterialProperties(0.2f, 0.2f, 1.7f));
-            FallingTree.AddPrimitive(new Sphere(new Vector3(-85, -105, -600), 50), new MaterialProperties(0.2f, 0.2f, 1.7f));
-            FallingTree.Enable(true, 1);
+            TreeObject FallingTree = new TreeObject("Falling Tree",ActorType.FallingTree,transform3DFallingTree,
+              effectParameters, this.modelDictionary["tree_centred"],this.eventDispatcher);
+
+            //FallingTree.AddPrimitive(new Box(FallingTree.Transform.Translation + new Vector3(0, 100, 0), Matrix.Identity,5*2.54f*new Vector3(2,5,2))
+            //    , new MaterialProperties(0.2f, 0.2f, 1.7f));0
+            
+            FallingTree.AddPrimitive(new Box(FallingTree.Transform.Translation, Matrix.Identity,  2 * 2.54f * new Vector3(5, 40, 5))
+                , new MaterialProperties(0.2f, 0.2f, 1.7f));
+
+            FallingTree.Enable(true, 2);
 
             FallingTree.AttachController(new EnablePhysicsController("epc", ControllerType.EnablePhysics, PlayStatusType.Stop));
             this.object3DManager.Add(FallingTree);
@@ -1817,6 +1821,7 @@ namespace GDApp
             this.modelDictionary.Load("mapLayout", "Assets/Models/mapBlockingOut");
             this.modelDictionary.Load("Assets/Models/Character_model_1");
             this.modelDictionary.Load("Assets/Models/icycle");
+            this.modelDictionary.Load("Assets/Models/tree_centred");
 
             //triangle mesh high/low poly demo
             this.modelDictionary.Load("Assets/Models/teapot");

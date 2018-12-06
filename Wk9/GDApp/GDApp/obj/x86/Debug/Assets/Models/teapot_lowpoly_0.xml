@@ -3,7 +3,7 @@
   <Asset Type="Graphics:MeshContent">
     <Name>Box001</Name>
     <Identity>
-      <SourceFilename>E:\Modules\GamesDev\Wk9.2-Camera\Wk9\GDApp\GDAppContent\Assets\Models\teapot_lowpoly.FBX</SourceFilename>
+      <SourceFilename>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDAppContent\Assets\Models\teapot_lowpoly.FBX</SourceFilename>
       <SourceTool>FbxImporter</SourceTool>
     </Identity>
     <OpaqueData>

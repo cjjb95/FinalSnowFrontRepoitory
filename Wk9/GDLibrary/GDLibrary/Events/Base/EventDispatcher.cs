@@ -35,7 +35,6 @@ namespace GDLibrary
         public delegate void ObjectPickingEventHandler(EventData eventData);
         public delegate void DebugEventHandler(EventData eventData);
 
-
         #region SnowFront Delegates
         public delegate void SnowDriftCollisionHandler(EventData eventData);
         public delegate void EnterSnowDriftHandler(EventData eventData);
@@ -51,9 +50,6 @@ namespace GDLibrary
         public delegate void ObstacleCollisionHandler(EventData eventData);
         public delegate void ObstacleEventHandler(EventData eventData);
         #endregion
-
-
-
 
 
         //an event is either null (not yet happened) or non-null - when the event occurs the delegate reads through its list and calls all the listening functions

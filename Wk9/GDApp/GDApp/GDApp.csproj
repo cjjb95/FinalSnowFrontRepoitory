@@ -85,6 +85,7 @@
     <Compile Include="App\SnowDriftWarning.cs" />
     <Compile Include="App\SnowDriftZone.cs" />
     <Compile Include="App\TooColdWarning.cs" />
+    <Compile Include="App\TreeObject.cs" />
     <Compile Include="App\TreeWarning.cs" />
     <Compile Include="App\TreeZone.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
