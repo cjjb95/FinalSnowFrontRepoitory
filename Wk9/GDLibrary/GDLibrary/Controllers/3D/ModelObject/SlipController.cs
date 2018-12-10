@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Audio;
 
 namespace GDLibrary
 {
@@ -15,6 +16,7 @@ namespace GDLibrary
         private int totalTimeSlipping;
         private bool slipping;
         private bool once;
+        private bool firstTime;
 
         public SlipController(string id, ControllerType controllerType,
             PlayStatusType playStatusType, EventDispatcher eventDispatcher)
@@ -22,6 +24,7 @@ namespace GDLibrary
         {
             this.rnd = new Random();
             this.slipping = false;
+            this.firstTime = true;
             this.once = true;
             eventDispatcher.ObstacleCollision += EventDispatcher_ObstacleCollision;
         }
@@ -50,12 +53,12 @@ namespace GDLibrary
             this.totalTimeOnIce += gameTime.ElapsedGameTime.Milliseconds;
 
 
-            if (this.totalTimeOnIce % 500 == 0 && !this.slipping)
+            if (this.totalTimeOnIce % 300 == 0 && !this.slipping)
             {
-                //Console.WriteLine("Calculating...." + totalTimeOnIce);
+                Console.WriteLine("Calculating...." + totalTimeOnIce);
                 this.slipChance++;
                 this.randomNum = this.rnd.Next(1, 6);
-                //Console.WriteLine("slip "+slipChance);
+                Console.WriteLine("slip "+slipChance);
                 //Console.WriteLine(randomNum);
 
             }
@@ -64,8 +67,11 @@ namespace GDLibrary
             {
                 if (this.once)
                 {
-                    object[] additionalParameters = { "Ouch" };
-                    EventDispatcher.Publish(new EventData(EventActionType.OnPlay, EventCategoryType.Sound2D, additionalParameters));
+                    AudioEmitter audioEmitter = new AudioEmitter();
+                    audioEmitter.Position = parentActor.Transform.Translation;
+                    object[] additionalParameters = { "Ouch" , audioEmitter};
+                    EventDispatcher.Publish(new EventData(EventActionType.OnPlay, EventCategoryType.Sound3D, additionalParameters));
+             
                     this.once = false;
                 }
                 this.slipping = true;

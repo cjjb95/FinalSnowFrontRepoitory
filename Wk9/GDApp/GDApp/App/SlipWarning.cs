@@ -30,6 +30,8 @@ namespace GDApp
             {
                 if (once == true)
                 {
+                    object[] stopParameters = { "ElectricalPoleWarning", 0 };
+                    EventDispatcher.Publish(new EventData(EventActionType.OnStop, EventCategoryType.Sound2D, stopParameters));
                     object[] additionalParameters = { "SlipWarning" };
                     EventDispatcher.Publish(new EventData(EventActionType.OnPlay, EventCategoryType.Sound2D, additionalParameters));
                     once = false;

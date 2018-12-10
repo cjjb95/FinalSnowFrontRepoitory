@@ -131,7 +131,8 @@ namespace GDApp
 
             //Object3D
             this.object3DManager = new ObjectManager(this, this.cameraManager,
-                this.eventDispatcher, StatusType.Off);
+                this.eventDispatcher, StatusType.Off, this.cameraLayoutType);
+            this.object3DManager.DrawOrder = 1;
             Components.Add(this.object3DManager);
 
             //Sound
@@ -142,15 +143,17 @@ namespace GDApp
             this.menuManager = new MyMenuManager(this, this.inputManagerParameters,
                 this.cameraManager, this.spriteBatch, this.eventDispatcher,
                 StatusType.Drawn | StatusType.Update);
+            this.menuManager.DrawOrder = 2;
             Components.Add(this.menuManager);
 
             this.hudManager = new HUDManager(this, this.spriteBatch, this.eventDispatcher, 10, StatusType.Off);
+            this.hudManager.DrawOrder = 3;
             Components.Add(this.hudManager);
             #endregion
 
             #region Load Game
             //load game happens before cameras are loaded because we may add a third person camera that needs a reference to a loaded Actor
-            int worldScale = 1250;
+            int worldScale = 1000;
             int gameLevel = 1;
             LoadGame(worldScale, gameLevel);
             #endregion
@@ -190,10 +193,12 @@ namespace GDApp
 
             if (gameLevel == 1)
             {
-                InitializePlayer();
+                //InitializePlayer();
                 //demo high vertex count trianglemesh
+                InitializeTrees(worldScale);
                 InitializeStaticCollidableTriangleMeshObjects();
                 InitializeIce();
+                InitializeAnimatedPlayer();
                 InitializeRoadRoof();
                 InitializeIcicle();
                 InitializeFallingTree();
@@ -218,6 +223,54 @@ namespace GDApp
             }
         }
 
+        private void InitializeAnimatedPlayer()
+        {
+            Transform3D transform3D = null;
+
+            transform3D = new Transform3D(new Vector3(-750, 25, -340),
+               new Vector3(-90, 90, 0),
+                0.1f * Vector3.One,
+                 Vector3.UnitX, Vector3.UnitY);
+
+            BasicEffectParameters effectParameters = this.effectDictionary[AppData.LitModelsEffectID].Clone() as BasicEffectParameters;
+            effectParameters.DiffuseColor = Color.Beige;
+            //no specular, emissive, directional lights
+            //if we dont specify a texture then the object manager will draw using whatever textures were baked into the animation in 3DS Max
+            effectParameters.Texture = this.textureDictionary["charTexture"];
+
+            this.animatedHeroPlayerObject = new HeroAnimatedPlayerObject("hero",
+            ActorType.Player, transform3D,
+                effectParameters,
+                AppData.CameraMoveKeys,
+                4,
+                20,
+                1,  1,1f //accel, decel
+                ,
+                AppData.PlayerRotationSpeed,
+                AppData.PlayerJumpHeight,
+                new Vector3(0, -10, 0), //offset inside capsule
+                this.keyboardManager,
+                this.eventDispatcher);
+            this.animatedHeroPlayerObject.Enable(false, AppData.PlayerMass);
+
+            //add the animations
+            string takeName = "Take 001";
+            string fileNameNoSuffix = "char_idle";
+            this.animatedHeroPlayerObject.AddAnimation(takeName, fileNameNoSuffix, this.modelDictionary[fileNameNoSuffix]);
+            fileNameNoSuffix = "char_walk";
+            this.animatedHeroPlayerObject.AddAnimation(takeName, fileNameNoSuffix, this.modelDictionary[fileNameNoSuffix]);
+            
+
+            //set the start animtion
+            this.animatedHeroPlayerObject.SetAnimation("Take 001", "char_idle");
+            this.animatedHeroPlayerObject.AttachController(new SlipController("sc1",
+                ControllerType.Slip,
+                PlayStatusType.Stop,
+                this.eventDispatcher));
+            this.object3DManager.Add(animatedHeroPlayerObject);
+
+        }
+
         private void InitializeGoal()
         {
             Transform3D transform3D = new Transform3D(new Vector3(820, 0, -320),
@@ -225,6 +278,7 @@ namespace GDApp
 
             BasicEffectParameters effectParameters = this.effectDictionary[AppData.UnlitModelsEffectID].Clone() as BasicEffectParameters;
             effectParameters.DiffuseColor = Color.White;
+            effectParameters.Texture = this.textureDictionary["house-low-texture"];
             Model model = this.modelDictionary["house"];
 
             CollidableObject goal = new TriangleMeshObject("goal", ActorType.Goal, 
@@ -254,7 +308,7 @@ namespace GDApp
             Transform3D transform7 = new Transform3D(new Vector3(380, 5, -180), rot, scale, Vector3.UnitX, Vector3.UnitY);
 
             SnowDriftWarning sdw = new SnowDriftWarning("sdw",
-               ActorType.Snow,
+               ActorType.Zone,
                transform1,
                effectParameters, this.modelDictionary["box"]);
             sdw.StatusType = StatusType.Update;
@@ -266,7 +320,7 @@ namespace GDApp
 
 
             TreeWarning tw = new TreeWarning("tw",
-               ActorType.Snow,
+               ActorType.Zone,
                transform2,
                effectParameters, this.modelDictionary["box"]);
             tw.StatusType = StatusType.Update;
@@ -278,9 +332,9 @@ namespace GDApp
 
 
             IceWarning iw = new IceWarning("iw",
-               ActorType.Snow,
+               ActorType.Zone,
                transform3,
-               effectParameters, this.modelDictionary["box"]);
+               effectParameters, this.modelDictionary["box"], this.soundManager);
             iw.StatusType = StatusType.Update;
 
             iw.AddPrimitive(new Sphere(transform3.Translation, 72), new MaterialProperties(0.2f, 0.8f, 0.7f));
@@ -291,7 +345,7 @@ namespace GDApp
 
 
             ElectricPoleWarning epw = new ElectricPoleWarning("epw",
-               ActorType.Snow,
+               ActorType.Zone,
                transform4,
                effectParameters, this.modelDictionary["box"]);
             epw.StatusType = StatusType.Update;
@@ -301,7 +355,7 @@ namespace GDApp
             this.object3DManager.Add(epw);
 
             ElectricPoleWarning epw2 = new ElectricPoleWarning("epw2",
-              ActorType.Snow,
+              ActorType.Zone,
               transform5,
               effectParameters, this.modelDictionary["box"]);
             epw2.StatusType = StatusType.Update;
@@ -312,7 +366,7 @@ namespace GDApp
 
 
             SlipWarning sw = new SlipWarning("sw",
-            ActorType.Snow,
+            ActorType.Zone,
             transform6,
             effectParameters, this.modelDictionary["box"]);
             sw.StatusType = StatusType.Update;
@@ -323,7 +377,7 @@ namespace GDApp
 
 
             TooColdWarning tcw = new TooColdWarning("tcw",
-           ActorType.Snow,
+           ActorType.Zone,
            transform7,
            effectParameters, this.modelDictionary["box"]);
             tcw.StatusType = StatusType.Update;
@@ -337,8 +391,8 @@ namespace GDApp
         private void InitializeFallingTreeTrigger()
         {
 
-            Transform3D transform3D = new Transform3D(new Vector3(-150, 20, -480),
-                new Vector3(0, 0, 0), 2 * new Vector3(1.5f, 1, 1), Vector3.UnitX, Vector3.UnitY);
+            Transform3D transform3D = new Transform3D(new Vector3(-300, 20, -400),
+                new Vector3(0, 0, 0), 2 * new Vector3(1.5f, 1, 2f), Vector3.UnitX, Vector3.UnitY);
 
             BasicEffectParameters effectParameters = this.effectDictionary[AppData.UnlitModelsEffectID].Clone() as BasicEffectParameters;
             effectParameters.DiffuseColor = Color.White;
@@ -358,9 +412,9 @@ namespace GDApp
         private void InitializeFallingTree()
         {
             BasicEffectParameters effectParameters = this.effectDictionary[AppData.UnlitModelsEffectID].Clone() as BasicEffectParameters;
-            effectParameters.Texture = this.textureDictionary["ml"];
+            effectParameters.Texture = this.textureDictionary["tree"];
             effectParameters.DiffuseColor = Color.White;
-            Transform3D transform3DFallingTree = new Transform3D(new Vector3(-85, 130, -580), new Vector3(0, 0, 0), new Vector3(0.5f, 0.8f, 0.5f), Vector3.UnitX, Vector3.UnitY);
+            Transform3D transform3DFallingTree = new Transform3D(new Vector3(-85, 130, -565), new Vector3(0, 0, 0), new Vector3(0.5f, 0.8f, 0.5f), Vector3.UnitX, Vector3.UnitY);
 
 
             TreeObject FallingTree = new TreeObject("Falling Tree",ActorType.FallingTree,transform3DFallingTree,
@@ -372,7 +426,7 @@ namespace GDApp
             FallingTree.AddPrimitive(new Box(FallingTree.Transform.Translation, Matrix.Identity,  2 * 2.54f * new Vector3(5, 40, 5))
                 , new MaterialProperties(0.2f, 0.2f, 1.7f));
 
-            FallingTree.Enable(true, 2);
+            FallingTree.Enable(true, 10);
 
             FallingTree.AttachController(new EnablePhysicsController("epc", ControllerType.EnablePhysics, PlayStatusType.Stop));
             this.object3DManager.Add(FallingTree);
@@ -440,7 +494,7 @@ namespace GDApp
                  new Vector3(0, 0, 0), 0.5f * new Vector3(0.7f, 0.7f, 1.3f), Vector3.UnitX, Vector3.UnitY);
 
             BasicEffectParameters effectParameters = this.effectDictionary[AppData.UnlitModelsEffectID].Clone() as BasicEffectParameters;
-            effectParameters.Texture = this.textureDictionary["iceSheet"];
+            effectParameters.Texture = this.textureDictionary["crate1"];
 
             ModelObject roadRoof = new ModelObject("road roof", ActorType.Prop, transform3D, effectParameters, this.modelDictionary["RoadRoof"]);
             this.object3DManager.Add(roadRoof);
@@ -452,9 +506,9 @@ namespace GDApp
             Transform3D transform3D = new Transform3D(new Vector3(-155, -4, -300),
                  new Vector3(0, 0, 0), 2 * new Vector3(1.5f, 1, 1), Vector3.UnitX, Vector3.UnitY);
 
-            BasicEffectParameters effectParameters = this.effectDictionary[AppData.UnlitModelsEffectID].Clone() as BasicEffectParameters;
+            BasicEffectParameters effectParameters = this.effectDictionary[AppData.LitModelsEffectID].Clone() as BasicEffectParameters;
             effectParameters.Texture = this.textureDictionary["iceSheet"];
-
+            effectParameters.SpecularPower = 100;
             CollidableObject collidableObject = new TriangleMeshObject("ice", ActorType.Ice, transform3D,
                             effectParameters, this.modelDictionary["road"], new MaterialProperties(0.2f, 0.8f, 0.7f));
             collidableObject.Enable(true, 1);
@@ -640,7 +694,7 @@ namespace GDApp
             Model model = this.modelDictionary["box2"];
 
             BasicEffectParameters effectParameters = this.effectDictionary[AppData.UnlitModelsEffectID].Clone() as BasicEffectParameters;
-            effectParameters.Texture = this.textureDictionary["iceSheet"];
+            effectParameters.Texture = this.textureDictionary["snow"];
             effectParameters.DiffuseColor = Color.White;
 
             transform3D = new Transform3D(Vector3.Zero, Vector3.Zero, new Vector3(worldScale, 0.001f, worldScale), Vector3.UnitX, Vector3.UnitY);
@@ -654,7 +708,8 @@ namespace GDApp
         {
             //Creating the effect for the collidableobject model
             BasicEffectParameters effectParameters = this.effectDictionary[AppData.UnlitModelsEffectID].Clone() as BasicEffectParameters;
-            //effectParameters.Texture = this.textureDictionary["ml"];
+            effectParameters.Texture = this.textureDictionary["snow"];
+            effectParameters.SpecularPower = 10;
             effectParameters.DiffuseColor = Color.White;
 
             Vector3 rot = new Vector3(0, 0, 0);
@@ -749,7 +804,8 @@ namespace GDApp
         private void InitializeStaticCollidableFallenTree()
         {
             BasicEffectParameters effectParameters = this.effectDictionary[AppData.UnlitModelsEffectID].Clone() as BasicEffectParameters;
-            effectParameters.Texture = this.textureDictionary["ml"];
+            
+            effectParameters.Texture = this.textureDictionary["tree"];
             effectParameters.DiffuseColor = Color.White;
 
             Vector3 treeScale =new Vector3(0.25f,0.5f,0.3f);
@@ -799,7 +855,7 @@ namespace GDApp
         private void InitializeStaticCollidableElectricPole()
         {
             BasicEffectParameters effectParameters = this.effectDictionary[AppData.UnlitModelsEffectID].Clone() as BasicEffectParameters;
-            effectParameters.Texture = this.textureDictionary["ml"];
+            effectParameters.Texture = this.textureDictionary["electricPole"];
             effectParameters.DiffuseColor = Color.White;
             Vector3 poleRot = new Vector3(0, -90, 90);
             Vector3 poleScale = new Vector3(0.3f, 0.2f, 0.2f);
@@ -863,166 +919,50 @@ namespace GDApp
 
         }
 
-        //Demos use of a low-polygon model to generate the triangle mesh collision skin - saving CPU ccles on CDCR checking
-        //Demos use of a low-polygon model to generate the triangle mesh collision skin - saving CPU ccles on CDCR checking
-        #region InitializeStaticCollidableMediumPolyTriangleMeshObjects
+        private void InitializeTrees(int worldScale)
+        {
+            BasicEffectParameters effectParameters = this.effectDictionary[AppData.UnlitModelsEffectID].Clone() as BasicEffectParameters;
+            effectParameters.Texture = this.textureDictionary["tree"];
+            effectParameters.DiffuseColor = Color.White;
+            Transform3D transform3D = new Transform3D(new Vector3(-85, 130, -565), new Vector3(0, 0, 0), new Vector3(0.8f, 0.8f, 0.8f), Vector3.UnitX, Vector3.UnitY);
+            ModelObject tree = null;
+            Model model = this.modelDictionary["fallenTree"];
+
+            ModelObject archtype = new ModelObject("tree - ", ActorType.Decorator, transform3D, effectParameters, model);
+            int treesCount = worldScale / 250;
+            int count = 0;
+            for (int i = 0; i < treesCount; i++)
+            {
+               
+                    tree = (ModelObject)archtype.Clone();
+                    tree.ID += count;
+                    count++;
+                    Console.WriteLine(tree.ID);
+                    tree.Transform = new Transform3D(new Vector3(-200 + 200 * i, -10, -700 ),
+                        new Vector3(0, 0, 0), 0.5f * new Vector3(1, 1.2f, 1), Vector3.UnitX, Vector3.UnitY);
+                    tree.StatusType = StatusType.Drawn;
+                    this.object3DManager.Add(tree);
+                
+
+            }
+
+            for (int i = 0; i < treesCount; i++)
+            {
+                
+                    tree = (ModelObject)archtype.Clone();
+                    tree.ID += count;
+                    count++;
+                    Console.WriteLine(tree.ID);
+                    tree.StatusType = StatusType.Drawn;
+                    tree.Transform = new Transform3D(new Vector3(-200 + 200 * i, -10, 0 ),
+                        new Vector3(0, 0, 0), 0.5f * new Vector3(1, 1.2f, 1), Vector3.UnitX, Vector3.UnitY);
+                    this.object3DManager.Add(tree);
+                
+
+            }
 
 
-        //private void InitializeStaticCollidableMediumPolyTriangleMeshObjects()
-        //{
-        //    Transform3D transform3D = new Transform3D(new Vector3(-30, 3, 0),
-        //        new Vector3(0, 0, 0), 0.08f * Vector3.One, Vector3.UnitX, Vector3.UnitY);
-
-        //    BasicEffectParameters effectParameters = this.effectDictionary[AppData.LitModelsEffectID].Clone() as BasicEffectParameters;
-        //    effectParameters.Texture = this.textureDictionary["checkerboard"];
-
-        //    CollidableObject collidableObject = new TriangleMeshObject("teapot", ActorType.CollidableProp, transform3D, effectParameters,
-        //                this.modelDictionary["teapot"], this.modelDictionary["teapot_mediumpoly"], new MaterialProperties(0.2f, 0.8f, 0.7f));
-        //    collidableObject.Enable(true, 1);
-        //    this.object3DManager.Add(collidableObject);
-        //}
-        #endregion
-
-        //Demos use of a low-polygon model to generate the triangle mesh collision skin - saving CPU cycles on CDCR checking
-        #region InitializeStaticCollidableLowPolyTriangleMeshObjects
-
-
-        //private void InitializeStaticCollidableLowPolyTriangleMeshObjects()
-        //{
-        //    Transform3D transform3D = new Transform3D(new Vector3(-10, 3, 0),
-        //        new Vector3(0, 0, 0), 0.08f * Vector3.One, Vector3.UnitX, Vector3.UnitY);
-
-        //    BasicEffectParameters effectParameters = this.effectDictionary[AppData.LitModelsEffectID].Clone() as BasicEffectParameters;
-        //    effectParameters.Texture = this.textureDictionary["checkerboard"];
-        //    //lets set the diffuse color also, for fun.
-        //    effectParameters.DiffuseColor = Color.Blue;
-
-        //    CollidableObject collidableObject = new TriangleMeshObject("teapot", ActorType.CollidableProp, transform3D, effectParameters,
-        //        this.modelDictionary["teapot"], this.modelDictionary["teapot_lowpoly"], new MaterialProperties(0.2f, 0.8f, 0.7f));
-        //    collidableObject.Enable(true, 1);
-        //    this.object3DManager.Add(collidableObject);
-        //}
-        #endregion
-
-        //if you want objects to be collidable AND moveable then you must attach either a box, sphere, or capsule primitives to the object
-        #region InitializeDynamicCollidableObjects()
-        //private void InitializeDynamicCollidableObjects()
-        //{
-        //    CollidableObject collidableObject, archetypeCollidableObject = null;
-        //    Model model = null;
-
-        #region Spheres
-        //    model = this.modelDictionary["sphere"];
-        //    BasicEffectParameters effectParameters = this.effectDictionary[AppData.LitModelsEffectID].Clone() as BasicEffectParameters;
-        //    effectParameters.Texture = this.textureDictionary["checkerboard"];
-
-        //    //make once then clone
-        //    archetypeCollidableObject = new CollidableObject("sphere ", ActorType.CollidablePickup, Transform3D.Zero, effectParameters, model);
-
-        //    for (int i = 0; i < 10; i++)
-        //    {
-        //        collidableObject = (CollidableObject)archetypeCollidableObject.Clone();
-
-        //        collidableObject.ID += i;
-        //        collidableObject.Transform = new Transform3D(new Vector3(-50, 100 + 10 * i, i), new Vector3(0, 0, 0),
-        //            0.082f * Vector3.One, //notice theres a certain amount of tweaking the radii with reference to the collision sphere radius of 2.54f below
-        //            Vector3.UnitX, Vector3.UnitY);
-
-        //        collidableObject.AddPrimitive(new Sphere(collidableObject.Transform.Translation, 2.54f), new MaterialProperties(0.2f, 0.8f, 0.7f));
-        //        collidableObject.Enable(false, 1);
-        //        this.object3DManager.Add(collidableObject);
-        //    }
-        #endregion
-
-        #region Box
-        //    model = this.modelDictionary["box2"];
-        //    effectParameters = (this.effectDictionary[AppData.LitModelsEffectID] as BasicEffectParameters).Clone() as BasicEffectParameters;
-        //    effectParameters.Texture = this.textureDictionary["crate2"];
-        //    //make once then clone
-        //    archetypeCollidableObject = new CollidableObject("box - ", ActorType.CollidablePickup, Transform3D.Zero, effectParameters, model);
-
-        //    int count = 0;
-        //    for (int i = 0; i < 5; i++)
-        //    {
-        //        for (int j = 0; j < 5; j++)
-        //        {
-        //            collidableObject = (CollidableObject)archetypeCollidableObject.Clone();
-        //            collidableObject.ID += count;
-        //            count++;
-
-        //            collidableObject.Transform = new Transform3D(new Vector3(25 + 5 * j, 15 + 10 * i, 0), new Vector3(0, 0, 0), new Vector3(2, 4, 1), Vector3.UnitX, Vector3.UnitY);
-        //            collidableObject.AddPrimitive(new Box(collidableObject.Transform.Translation, Matrix.Identity, /*important do not change - cm to inch*/2.54f * collidableObject.Transform.Scale), new MaterialProperties(0.2f, 0.8f, 0.7f));
-
-        //            //increase the mass of the boxes in the demo to see how collidable first person camera interacts vs. spheres (at mass = 1)
-        //            collidableObject.Enable(false, 1);
-        //            this.object3DManager.Add(collidableObject);
-        //        }
-        //    }
-
-        #endregion
-        //}
-
-        #endregion
-
-
-        //demo of a non-collidable ModelObject with attached third person controller
-        #region InitializeNonCollidableDriveableObject()
-        //private void InitializeNonCollidableDriveableObject()
-        //{
-        //    //place the drivable model to the left of the existing models and specify that forward movement is along the -ve z-axis
-        //    Transform3D transform = new Transform3D(new Vector3(-10, 5, 25), -Vector3.UnitZ, Vector3.UnitY);
-
-        //    BasicEffectParameters effectParameters = this.effectDictionary[AppData.LitModelsEffectID].Clone() as BasicEffectParameters;
-        //    effectParameters.Texture = this.textureDictionary["crate1"];
-        //    effectParameters.DiffuseColor = Color.Gold;
-
-        //    //initialise the drivable model object - we've made this variable a field to allow it to be visible to the rail camera controller - see InitializeCameras()
-        //    this.drivableBoxObject = new ModelObject("drivable box1", ActorType.Player, transform, effectParameters, this.modelDictionary["box2"]);
-
-        //    //attach a DriveController
-        //    drivableBoxObject.AttachController(new DriveController("driveController1", ControllerType.Drive,
-        //        AppData.PlayerTwoMoveKeys, AppData.PlayerMoveSpeed, AppData.PlayerStrafeSpeed, AppData.PlayerRotationSpeed,
-        //        this.inputManagerParameters));
-
-        //    //add to the objectManager so that it will be drawn and updated
-        //    this.object3DManager.Add(drivableBoxObject);
-        //}
-
-        #endregion
-
-        //demo of some semi-transparent non-collidable ModelObjects
-
-        #region InitializeNonCollidableDecoratorObjects()
-        //private void InitializeNonCollidableDecoratorObjects()
-        //{
-        //    //position the object
-        //    Transform3D transform = new Transform3D(new Vector3(0, 5, 0), Vector3.Zero, Vector3.One, Vector3.UnitX, Vector3.UnitY);
-
-        //    BasicEffectParameters effectParameters = this.effectDictionary[AppData.LitModelsEffectID].Clone() as BasicEffectParameters;
-        //    effectParameters.Texture = this.textureDictionary["crate1"];
-        //    effectParameters.DiffuseColor = Color.Gold;
-        //    effectParameters.Alpha = 0.5f;
-
-        //    //initialise the boxObject
-        //    ModelObject boxObject = new ModelObject("some box 1", ActorType.Decorator, transform, effectParameters, this.modelDictionary["box2"]);
-        //    //add to the objectManager so that it will be drawn and updated
-        //    this.object3DManager.Add(boxObject);
-
-        //    //a clone variable that we can reuse
-        //    ModelObject clone = null;
-
-        //    //add a clone of the box model object to test the clone
-        //    clone = (ModelObject)boxObject.Clone();
-        //    clone.Transform.Translation = new Vector3(5, 5, 0);
-        //    //scale it to make it look different
-        //    clone.Transform.Scale = new Vector3(1, 4, 1);
-        //    //change its color
-        //    clone.EffectParameters.DiffuseColor = Color.Red;
-        //    this.object3DManager.Add(clone);
-
-        //    //add more clones here...
-        //}
-        #endregion
+        }
 
         private void InitializeBuildings()
         {
@@ -1642,8 +1582,8 @@ namespace GDApp
             #region Controls Menu
             sceneID = "controls menu";
 
-            //retrieve the controls menu background texture
-            texture = this.textureDictionary["controlsmenu"];
+           
+            texture = this.textureDictionary["controlBackground"];
             //scale the texture to fit the entire screen
             scale = new Vector2((float)graphics.PreferredBackBufferWidth / texture.Width,
                 (float)graphics.PreferredBackBufferHeight / texture.Height);
@@ -1772,10 +1712,13 @@ namespace GDApp
 #if DEBUG
         private void InitializeDebug(bool v)
         {
-            Components.Add(new DebugDrawer(this, this.cameraManager,
+           DebugDrawer debugDrawer = new DebugDrawer(this, this.cameraManager,
                 this.eventDispatcher,
                 StatusType.Off,
-                this.spriteBatch, this.fontDictionary["debugFont"], new Vector2(20, 20), Color.White));
+                this.spriteBatch, this.fontDictionary["debugFont"], new Vector2(20, 20), Color.White);
+
+            debugDrawer.DrawOrder = 4;
+            Components.Add(debugDrawer);
         }
 
         private void InitializeDebugCollisionSkinInfo()
@@ -1841,6 +1784,21 @@ namespace GDApp
             this.modelDictionary.Load("Assets/Models/box1");
             #endregion
 
+            #region Animations
+            //contains a single animation "Take001"
+            this.modelDictionary.Load("Assets/Models/Animated/dude");
+
+            //squirrel - one file per animation
+            this.modelDictionary.Load("Assets/Models/Animated/Squirrel/Red_Idle");
+            this.modelDictionary.Load("Assets/Models/Animated/Squirrel/Red_Jump");
+            this.modelDictionary.Load("Assets/Models/Animated/Squirrel/Red_Punch");
+            this.modelDictionary.Load("Assets/Models/Animated/Squirrel/Red_Standing");
+            this.modelDictionary.Load("Assets/Models/Animated/Squirrel/Red_Tailwhip");
+            this.modelDictionary.Load("Assets/Models/Animated/Squirrel/RedRun4");
+            this.modelDictionary.Load("Assets/Models/Animated/Player/char_walk");
+            this.modelDictionary.Load("Assets/Models/Animated/Player/char_idle");
+            #endregion
+
         }
 
         private void LoadTextures()
@@ -1856,7 +1814,10 @@ namespace GDApp
             this.textureDictionary.Load("Assets/Textures/Skybox/sky");
             this.textureDictionary.Load("Assets/Textures/Skybox/front");
             this.textureDictionary.Load("Assets/Textures/GroundTexture/iceSheet");
-            this.textureDictionary.Load("Assets/Textures/Foliage/Trees/tree2");
+            this.textureDictionary.Load("Assets/Textures/GroundTexture/snow");
+            this.textureDictionary.Load("Assets/Textures/Foliage/Trees/tree");
+            this.textureDictionary.Load("Assets/Textures/Foliage/Pole/electricPole");
+            this.textureDictionary.Load("Assets/Textures/Foliage/Car/carTexture");
 
             //dual texture demo
             this.textureDictionary.Load("Assets/Textures/Foliage/Ground/grass_midlevel");
@@ -1870,7 +1831,9 @@ namespace GDApp
             //menu - backgrounds
             this.textureDictionary.Load("Assets/Textures/UI/Menu/Backgrounds/mainmenu");
             this.textureDictionary.Load("Assets/Textures/UI/Menu/Backgrounds/audiomenu");
-            this.textureDictionary.Load("Assets/Textures/UI/Menu/Backgrounds/controlsmenu");
+            this.textureDictionary.Load("Assets/Textures/UI/Menu/Backgrounds/controlBackground");
+            this.textureDictionary.Load("Assets/Textures/UI/Menu/Backgrounds/grey");
+            this.textureDictionary.Load("Assets/Textures/UI/Menu/Backgrounds/keyboardControl");
             this.textureDictionary.Load("Assets/Textures/UI/Menu/Backgrounds/exitmenuwithtrans");
             this.textureDictionary.Load("Assets/Textures/UI/Menu/Buttons/button_back");
             this.textureDictionary.Load("Assets/Textures/UI/Menu/Buttons/button_controls");
@@ -1890,6 +1853,8 @@ namespace GDApp
             this.textureDictionary.Load("Assets/Textures/UI/HUD/charProfileFinal");
             this.textureDictionary.Load("Assets/Textures/UI/HUD/coat");
             this.textureDictionary.Load("Assets/Textures/UI/HUD/shovel");
+
+            this.textureDictionary.Load("Assets/Textures/Char/charTexture");
 
             //architecture
             this.textureDictionary.Load("Assets/Textures/Architecture/Buildings/house-low-texture");
@@ -2191,7 +2156,7 @@ namespace GDApp
                 0f, StatusType.Update);
 
             camera3D.AttachController(new ThirdPersonController("tpcc1", ControllerType.ThirdPerson,
-                this.player, AppData.CameraThirdPersonDistance,
+                this.animatedHeroPlayerObject, AppData.CameraThirdPersonDistance,
                 AppData.CameraThirdPersonScrollSpeedDistanceMultiplier,
                 AppData.CameraThirdPersonElevationAngleInDegrees,
                 AppData.CameraThirdPersonScrollSpeedElevationMultiplier,
@@ -2325,6 +2290,7 @@ namespace GDApp
         private bool temp2 = true;
         private bool temp3 = true;
         private bool temp4 = true;
+        private HeroAnimatedPlayerObject animatedHeroPlayerObject;
 
         private void EventDispacher_TempDrop(EventData eventData)
         {  //string id = eventData
@@ -2352,7 +2318,7 @@ namespace GDApp
                 SpriteEffects.None,
                 1.0f,
                 texture);
-
+                
                 EventDispatcher.Publish(new EventData(newTexture
                         , EventActionType.OnAddActor2D, EventCategoryType.SystemAdd));
             }
@@ -2423,12 +2389,12 @@ namespace GDApp
             if (eventData.EventType == EventActionType.OnIcicleZone)
             {
                 string id = "clone - icicle - " + eventData.AdditionalParameters[0];
-                DrawnActor3D icicle = this.object3DManager.Find(i => i.ActorType.Equals(ActorType.Icicle) && i.ID.Equals(id));
+                Actor3D icicle = this.object3DManager.Find(i => i.ActorType.Equals(ActorType.Icicle) && i.ID.Equals(id));
                 icicle.SetAllControllersPlayStatus(PlayStatusType.Play);
             }
             else if (eventData.EventType == EventActionType.OnTreeZone)
             {
-                DrawnActor3D fallingTree = this.object3DManager.Find(i => i.ActorType.Equals(ActorType.FallingTree));
+                Actor3D fallingTree = this.object3DManager.Find(i => i.ActorType.Equals(ActorType.FallingTree));
                 fallingTree.SetAllControllersPlayStatus(PlayStatusType.Play);
             }
         }
@@ -2675,7 +2641,7 @@ namespace GDApp
 
         private void DemoSetControllerPlayStatus()
         {
-            DrawnActor3D torusActor = this.object3DManager.Find(actor => actor.ID.Equals("torus 1"));
+            Actor3D torusActor = this.object3DManager.Find(actor => actor.ID.Equals("torus 1"));
             if (torusActor != null && this.keyboardManager.IsFirstKeyPress(Keys.O))
             {
                 torusActor.SetControllerPlayStatus(PlayStatusType.Pause, controller => controller.GetControllerType() == ControllerType.Rotation);

@@ -39,6 +39,7 @@ Content\Assets\Models\Character_model_1.xnb
 Content\Assets\Models\Wall.xnb
 Content\Assets\Models\icycle.xnb
 Content\Assets\Models\RoadRoof.xnb
+Content\Assets\Models\tree_centred.xnb
 Content\Assets\Debug\Textures\checkerboard.xnb
 Content\Assets\Textures\Foliage\Ground\foliage.xnb
 Content\Assets\Textures\Foliage\Ground\grass1.xnb
@@ -55,7 +56,6 @@ Content\Assets\Textures\Props\Crates\crate2.xnb
 Content\Assets\Textures\Props\tv.xnb
 Content\Assets\Textures\Skybox\back.xnb
 Content\Assets\Textures\Skybox\front.xnb
-Content\Assets\Textures\Skybox\ground.xnb
 Content\Assets\Textures\Skybox\left.xnb
 Content\Assets\Textures\Skybox\right.xnb
 Content\Assets\Textures\Skybox\sky.xnb
@@ -145,7 +145,16 @@ Content\Character_Flease_0.xnb
 Content\Character_Scarf_0.xnb
 Content\Character_Face_test01_0.xnb
 Content\Character_Hair_0.xnb
-Content\Assets\Models\tree_centred.xnb
+Content\Assets\Models\Animated\Player\char_walk.xnb
+Content\Assets\Textures\GroundTexture\snow.xnb
+Content\Assets\Models\Animated\Player\char_idle.xnb
+Content\Assets\Textures\Char\charTexture.xnb
+Content\Assets\Textures\Foliage\Trees\tree.xnb
+Content\Assets\Textures\Foliage\Pole\electricPole.xnb
+Content\Assets\Textures\Foliage\Car\carTexture.xnb
+Content\Assets\Textures\UI\Menu\Backgrounds\keyboardControl.xnb
+Content\Assets\Textures\UI\Menu\Backgrounds\grey.xnb
+Content\Assets\Textures\UI\Menu\Backgrounds\controlBackground.xnb
 Content\Assets\Audio\Demo2DSound.xgs
 Content\Assets\Audio\WaveBank1.xwb
 Content\Assets\Audio\SoundBank1.xsb

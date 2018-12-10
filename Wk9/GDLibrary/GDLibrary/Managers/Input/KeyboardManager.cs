@@ -1,4 +1,5 @@
-﻿using Microsoft.Xna.Framework;
+﻿using System;
+using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Input;
 
 namespace GDLibrary
@@ -37,5 +38,9 @@ namespace GDLibrary
         }
 
 
+        public bool IsAnyKeyPressed()
+        {
+            return this.newState.GetPressedKeys().Length == 0 ? false : true;
+        }
     }
 }

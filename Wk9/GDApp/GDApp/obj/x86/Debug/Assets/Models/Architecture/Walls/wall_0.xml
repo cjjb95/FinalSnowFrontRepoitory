@@ -3,7 +3,7 @@
   <Asset Type="Graphics:MeshContent">
     <Name>Cube</Name>
     <Identity>
-      <SourceFilename>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDAppContent\Assets\Models\Architecture\Walls\wall.FBX</SourceFilename>
+      <SourceFilename>D:\School\Year 3\UDP\Project\Wk9\GDApp\GDAppContent\Assets\Models\Architecture\Walls\wall.FBX</SourceFilename>
       <SourceTool>FbxImporter</SourceTool>
     </Identity>
     <OpaqueData>
@@ -40,7 +40,7 @@ MapChannel:2 = UVSet0
     <Resource ID="#Resource1" Type="Graphics:BasicMaterialContent">
       <Name>02 - Default</Name>
       <Identity>
-        <SourceFilename>D:\School\Year 3\UDP\SnowFrontProject\Wk9\GDApp\GDAppContent\Assets\Models\Architecture\Walls\wall.FBX</SourceFilename>
+        <SourceFilename>D:\School\Year 3\UDP\Project\Wk9\GDApp\GDAppContent\Assets\Models\Architecture\Walls\wall.FBX</SourceFilename>
         <SourceTool>FbxImporter</SourceTool>
       </Identity>
       <OpaqueData>

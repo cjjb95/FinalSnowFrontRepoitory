@@ -66,6 +66,7 @@
     <Reference Include="Microsoft.Xna.Framework.Game, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86" />
     <Reference Include="Microsoft.Xna.Framework.Graphics, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86" />
     <Reference Include="Microsoft.Xna.Framework.GamerServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86" />
+    <Reference Include="Microsoft.Xna.Framework.Xact, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86" />
     <Reference Include="mscorlib" />
     <Reference Include="System" />
     <Reference Include="System.Xml" />
@@ -84,6 +85,7 @@
     <Compile Include="App\SlipWarning.cs" />
     <Compile Include="App\SnowDriftWarning.cs" />
     <Compile Include="App\SnowDriftZone.cs" />
+    <Compile Include="App\HeroAnimatedPlayerObject.cs" />
     <Compile Include="App\TooColdWarning.cs" />
     <Compile Include="App\TreeObject.cs" />
     <Compile Include="App\TreeWarning.cs" />

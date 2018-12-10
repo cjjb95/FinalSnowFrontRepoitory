@@ -30,7 +30,7 @@ namespace GDApp
             {
                 if (this.deadly)
                 {
-                    EventDispatcher.Publish(new EventData("Dead By Icicle!", null, EventActionType.OnLose, EventCategoryType.GameLost));
+                    EventDispatcher.Publish(new EventData("You Got Spiked!", null, EventActionType.OnLose, EventCategoryType.GameLost));
                 }
             }
 

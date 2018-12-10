@@ -44,7 +44,7 @@ namespace GDApp
             {
                 if (this.deadly)
                 {
-                    EventDispatcher.Publish(new EventData("Dead By Tree!", null, EventActionType.OnLose, EventCategoryType.GameLost));
+                    EventDispatcher.Publish(new EventData("TIMBER!!!", null, EventActionType.OnLose, EventCategoryType.GameLost));
                 }
             }
 

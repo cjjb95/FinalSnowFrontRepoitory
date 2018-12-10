@@ -70,6 +70,16 @@ namespace GDLibrary
                     this.StatusType = StatusType.Off;
             }
         }
+
+        protected override void EventDispatcher_MenuChanged(EventData eventData)
+        {
+
+            if (eventData.EventType == EventActionType.OnStart)
+                this.StatusType = StatusType.Off;
+            else if (eventData.EventType == EventActionType.OnPause)
+                this.StatusType = StatusType.Off;
+
+        }
         #endregion
 
         protected override void ApplyDraw(GameTime gameTime)

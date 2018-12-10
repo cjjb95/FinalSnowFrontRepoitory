@@ -55,6 +55,10 @@
       <HintPath>..\Dependencies\Sound\Microsoft.Xna.Framework.Xact.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib" />
+    <Reference Include="SkinnedModel, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Dependencies\Animation\SkinnedModel.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Core">
@@ -73,6 +77,7 @@
     <Compile Include="GDLibrary\Actors\2D\UI\UITextObject.cs" />
     <Compile Include="GDLibrary\Actors\2D\UI\UITextureObject.cs" />
     <Compile Include="GDLibrary\Actors\3D\Collidable\CollidableObject.cs" />
+    <Compile Include="GDLibrary\Actors\3D\Collidable\Player\AnimatedPlayerObject.cs" />
     <Compile Include="GDLibrary\Actors\3D\Collidable\Player\CharacterObject.cs" />
     <Compile Include="GDLibrary\Actors\3D\Collidable\Player\PlayerObject.cs" />
     <Compile Include="GDLibrary\Actors\3D\Collidable\TriangleMeshObject.cs" />
@@ -112,6 +117,7 @@
     <Compile Include="GDLibrary\Debug\DebugDrawer.cs" />
     <Compile Include="GDLibrary\Debug\Physics\BoundingBoxDrawer.cs" />
     <Compile Include="GDLibrary\Debug\Physics\PhysicsDebugDrawer.cs" />
+    <Compile Include="GDLibrary\Enums\AnimationStateType.cs" />
     <Compile Include="GDLibrary\Enums\CameraLayoutType.cs" />
     <Compile Include="GDLibrary\Enums\ControllerType.cs" />
     <Compile Include="GDLibrary\Enums\EventActionType.cs" />

@@ -31,7 +31,7 @@ namespace GDLibrary
             this.elapsed += gameTime.ElapsedGameTime.Milliseconds;
            
             EventDispatcher.Publish(new EventData(EventActionType.OnTreeZone, EventCategoryType.ObstacleEvent));
-            if(this.elapsed >= 10000)
+            if(this.elapsed >= 7000)
             {
                 if(this.once)
                 {

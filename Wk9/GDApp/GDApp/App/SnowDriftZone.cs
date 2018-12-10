@@ -27,8 +27,8 @@ namespace GDApp
             if (collidee.ActorType == ActorType.Player)
             {
                 EventDispatcher.Publish(new EventData(EventActionType.OnSnowDrift, EventCategoryType.Obstacle));
-                HeroPlayerObject hero = collidee as HeroPlayerObject;
-                hero.MovementSpeed = 0.3f;
+                HeroAnimatedPlayerObject hero = collidee as HeroAnimatedPlayerObject;
+                hero.MoveSpeed = 0.18f;
             }
 
         }

@@ -1,5 +1,6 @@
 ﻿using GDLibrary;
 using JigLibX.Collision;
+using Microsoft.Xna.Framework.Audio;
 using Microsoft.Xna.Framework.Graphics;
 using System;
 using System.Collections.Generic;
@@ -10,10 +11,13 @@ namespace GDApp
 {
     public class IceWarning : ZoneObject
     {
-        bool once = true;
-        public IceWarning(string id, ActorType actorType, Transform3D transform, EffectParameters effectParameters, Model model) : base(id, actorType, transform, effectParameters, model)
+        private bool once = true;
+        private SoundManager soundManager;
+        public IceWarning(string id, ActorType actorType,
+            Transform3D transform, EffectParameters effectParameters, 
+            Model model, SoundManager soundManager) : base(id, actorType, transform, effectParameters, model)
         {
-
+            this.soundManager = soundManager;
         }
 
         protected override bool CollisionSkin_callbackFn(CollisionSkin collider, CollisionSkin collidee)
@@ -30,8 +34,10 @@ namespace GDApp
             {
                 if (once == true)
                 {
-                    object[] additionalParameters = { "IceWarning" };
-                    EventDispatcher.Publish(new EventData(EventActionType.OnPlay, EventCategoryType.Sound2D, additionalParameters));
+                    object[] stopParameters = { "SnowDriftWarning", 0 };
+                    EventDispatcher.Publish(new EventData(EventActionType.OnStop, EventCategoryType.Sound2D, stopParameters));
+                    object[] playParameters = { "IceWarning" };
+                    EventDispatcher.Publish(new EventData(EventActionType.OnPlay, EventCategoryType.Sound2D, playParameters));
                     once = false;
                 }
             }

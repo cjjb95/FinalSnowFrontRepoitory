@@ -18,15 +18,15 @@ namespace GDLibrary
 
         protected List<Cue3D> cueList3D;
         protected HashSet<string> playSet3D;
-
+        protected Dictionary<string, Cue> playingCueMap;
         protected AudioListener audioListener;
         protected List<string> categories;
         private float volume;
- 
+
         #endregion
 
         #region Properties
-        public float Volume 
+        public float Volume
         {
             get
             {
@@ -44,8 +44,8 @@ namespace GDLibrary
         //See http://msdn.microsoft.com/en-us/library/ff827590.aspx
         //See http://msdn.microsoft.com/en-us/library/dd940200.aspx
 
-        public SoundManager(Game game, EventDispatcher eventDispatcher, StatusType statusType, 
-            string folderPath,  string audioEngineStr, string waveBankStr, string soundBankStr)
+        public SoundManager(Game game, EventDispatcher eventDispatcher, StatusType statusType,
+            string folderPath, string audioEngineStr, string waveBankStr, string soundBankStr)
             : base(game, eventDispatcher, statusType)
         {
             this.audioEngine = new AudioEngine(@"" + folderPath + "/" + audioEngineStr);
@@ -53,6 +53,7 @@ namespace GDLibrary
             this.soundBank = new SoundBank(audioEngine, @"" + folderPath + "/" + soundBankStr);
             this.cueList3D = new List<Cue3D>();
             this.playSet3D = new HashSet<string>();
+            this.playingCueMap = new Dictionary<string, Cue>();
             this.audioListener = new AudioListener();
         }
 
@@ -157,46 +158,47 @@ namespace GDLibrary
         // Plays a 2D cue e.g menu, game music etc
         public void PlayCue(string cueName)
         {
-            if (!playSet3D.Contains(cueName)) //if we have not already been asked to play this in the current update loop then play it
+            if (!playingCueMap.ContainsKey(cueName)) //if we have not already been asked to play this in the current update loop then play it
             {
                 Cue cue = this.soundBank.GetCue(cueName);
+                playingCueMap.Add(cueName, cue);
                 cue.Play();
+                
             }
         }
         //pauses a 2D cue
         public void PauseCue(string cueName)
         {
-            Cue cue = this.soundBank.GetCue(cueName);
-            if((cue != null) && (cue.IsPlaying))
-                cue.Pause();
+            if (playingCueMap.ContainsKey(cueName)) //if we have not already been asked to play this in the current update loop then play it
+                playingCueMap[cueName].Pause();
         }
 
         //resumes a paused 2D cue
         public void ResumeCue(string cueName)
         {
-            Cue cue = this.soundBank.GetCue(cueName);
-            if ((cue != null) && (cue.IsPaused))
-                cue.Resume();
+            if (playingCueMap.ContainsKey(cueName)) //if we have not already been asked to play this in the current update loop then play it
+                playingCueMap[cueName].Resume();
         }
 
         //stop a 2D cue - AudioStopOptions: AsAuthored and Immediate
         public void StopCue(string cueName, AudioStopOptions audioStopOptions)
         {
-            Cue cue = this.soundBank.GetCue(cueName);
-            if ((cue != null) && (cue.IsPlaying))
+            if (playingCueMap.ContainsKey(cueName))
             {
+                Cue cue = playingCueMap[cueName];
                 cue.Stop(audioStopOptions);
+                playingCueMap.Remove(cueName);
             }
         }
 
+      
+
         /*************** Play, Pause, Resume, and Stop 3D sound cues ***************/
 
-            // Plays a cue to be heard from the perspective of a player or camera in the game i.e. in 3D
+        // Plays a cue to be heard from the perspective of a player or camera in the game i.e. in 3D
         public void Play3DCue(string cueName, AudioEmitter audioEmitter)
         {
-
             Cue3D sound = new Cue3D();
-
             sound.Cue = soundBank.GetCue(cueName);
             if (!this.playSet3D.Contains(cueName)) //if we have not already been asked to play this in the current update loop then play it
             {
@@ -267,10 +269,10 @@ namespace GDLibrary
                     soundCategory.SetVolume(this.volume);
                 }
             }
-            catch(InvalidOperationException e)
+            catch (InvalidOperationException e)
             {
                 System.Diagnostics.Debug.WriteLine(e.Message + ": Check that category (" + soundCategoryStr + ") exists in your Xact file?");
-            }   
+            }
         }
 
         public void ChangeVolume(float deltaVolume, string soundCategoryStr)
@@ -282,7 +284,7 @@ namespace GDLibrary
                 {
                     //requested volume will be in appropriate range (0-1)
                     this.volume = MathHelper.Clamp(this.volume + deltaVolume, 0, 1);
-                    soundCategory.SetVolume(this.volume);          
+                    soundCategory.SetVolume(this.volume);
                 }
             }
             catch (InvalidOperationException e)
@@ -291,7 +293,7 @@ namespace GDLibrary
             }
         }
 
-     
+
         //Called by the listener to update relative positions (i.e. everytime the 1st Person camera moves it should call this method so that the 3D sounds heard reflect the new camera position)
         public void UpdateListenerPosition(Vector3 position)
         {

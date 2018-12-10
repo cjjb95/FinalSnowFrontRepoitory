@@ -30,7 +30,8 @@ namespace GDLibrary
         Snow,
         FallingTree,
         Icicle,
-        Goal
+        Goal,
+        PlayerSquirell
     }
 }
 

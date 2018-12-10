@@ -19,20 +19,32 @@ namespace GDLibrary
     {
         #region Fields
         private CameraManager cameraManager;
-        private List<DrawnActor3D> removeList, opaqueDrawList, transparentDrawList;
+        private CameraLayoutType cameraLayoutType;
+        private List<Actor3D> removeList, opaqueDrawList, transparentDrawList;
         private RasterizerState rasterizerStateOpaque;
         private RasterizerState rasterizerStateTransparent;
         #endregion
 
-        #region Properties   
-        public List<DrawnActor3D> OpaqueDrawList
+        #region Properties  
+        public CameraLayoutType CameraLayoutType
+        {
+            get
+            {
+                return this.cameraLayoutType;
+            }
+            set
+            {
+                this.cameraLayoutType = value;
+            }
+        }
+        public List<Actor3D> OpaqueDrawList
         {
             get
             {
                 return this.opaqueDrawList;
             }
         }
-        public List<DrawnActor3D> TransparentDrawList
+        public List<Actor3D> TransparentDrawList
         {
             get
             {
@@ -42,31 +54,30 @@ namespace GDLibrary
         #endregion
 
         //creates an ObjectManager with lists at initialSize == 20
-        public ObjectManager(Game game, CameraManager cameraManager, 
-            EventDispatcher eventDispatcher, StatusType statusType)
-            : this(game, cameraManager, 10, 10, eventDispatcher, statusType)
+        public ObjectManager(Game game, CameraManager cameraManager,
+            EventDispatcher eventDispatcher, StatusType statusType,
+            CameraLayoutType cameraLayoutType)
+            : this(game, cameraManager, 10, 10, eventDispatcher, statusType, cameraLayoutType)
         {
 
         }
 
         public ObjectManager(Game game, CameraManager cameraManager,
-                        int transparentInitialSize, int opaqueInitialSize, 
-                        EventDispatcher eventDispatcher, StatusType statusType)
+                        int transparentInitialSize, int opaqueInitialSize,
+                        EventDispatcher eventDispatcher, StatusType statusType,
+                        CameraLayoutType cameraLayoutType)
             : base(game, eventDispatcher, statusType)
         {
             this.cameraManager = cameraManager;
-
+            this.cameraLayoutType = cameraLayoutType;
             //create two lists - opaque and transparent
-            this.opaqueDrawList = new List<DrawnActor3D>(opaqueInitialSize);
-            this.transparentDrawList = new List<DrawnActor3D>(transparentInitialSize);
+            this.opaqueDrawList = new List<Actor3D>(opaqueInitialSize);
+            this.transparentDrawList = new List<Actor3D>(transparentInitialSize);
             //create list to store objects to be removed at start of each update
-            this.removeList = new List<DrawnActor3D>(0);
+            this.removeList = new List<Actor3D>(0);
 
             //set up graphic settings
             InitializeGraphics();
-
-            //register with the event dispatcher for the events of interest
-            RegisterForEventHandling(eventDispatcher);
         }
 
         #region Event Handling
@@ -106,7 +117,7 @@ namespace GDLibrary
             DrawnActor3D actor = eventData.Sender as DrawnActor3D;
 
             if (actor != null)
-            { 
+            {
                 if (eventData.EventType == EventActionType.OnOpaqueToTransparent)
                 {
                     //remove from opaque and add to transparent
@@ -169,7 +180,7 @@ namespace GDLibrary
             }
         }
 
-        public void Add(DrawnActor3D actor)
+        public void Add(Actor3D actor)
         {
             if (actor.GetAlpha() == 1)
                 this.opaqueDrawList.Add(actor);
@@ -178,32 +189,32 @@ namespace GDLibrary
         }
 
         //call when we want to remove a drawn object from the scene
-        public void Remove(DrawnActor3D actor)
+        public void Remove(Actor3D actor)
         {
             this.removeList.Add(actor);
         }
 
-        public DrawnActor3D Find(Predicate<DrawnActor3D> predicate)
+        public Actor3D Find(Predicate<Actor3D> predicate)
         {
-            DrawnActor3D drawnActor = null;
+            Actor3D actor = null;
 
             //look in opaque
-            drawnActor = this.opaqueDrawList.Find(predicate);
-            if (drawnActor != null)
-                return drawnActor;
+            actor = this.opaqueDrawList.Find(predicate);
+            if (actor != null)
+                return actor;
 
             //look in transparent
-            drawnActor = this.transparentDrawList.Find(predicate);
-            if (drawnActor != null)
-                return drawnActor;
+            actor = this.transparentDrawList.Find(predicate);
+            if (actor != null)
+                return actor;
 
             return null;
 
         }
 
-        public List<DrawnActor3D> FindAll(Predicate<DrawnActor3D> predicate)
+        public List<Actor3D> FindAll(Predicate<Actor3D> predicate)
         {
-            List<DrawnActor3D> resultList = new List<DrawnActor3D>();
+            List<Actor3D> resultList = new List<Actor3D>();
 
             //look in opaque
             resultList.AddRange(this.opaqueDrawList.FindAll(predicate));
@@ -214,14 +225,14 @@ namespace GDLibrary
 
         }
 
-        public int Remove(Predicate<DrawnActor3D> predicate)
+        public int Remove(Predicate<Actor3D> predicate)
         {
-            List<DrawnActor3D> resultList = null;
+            List<Actor3D> resultList = null;
 
             resultList = this.opaqueDrawList.FindAll(predicate);
             if ((resultList != null) && (resultList.Count != 0)) //the actor(s) were found in the opaque list
             {
-                foreach (DrawnActor3D actor in resultList)
+                foreach (Actor3D actor in resultList)
                     this.removeList.Add(actor);
             }
             else //the actor(s) were found in the transparent list
@@ -229,7 +240,7 @@ namespace GDLibrary
                 resultList = this.transparentDrawList.FindAll(predicate);
 
                 if ((resultList != null) && (resultList.Count != 0))
-                    foreach (DrawnActor3D actor in resultList)
+                    foreach (Actor3D actor in resultList)
                         this.removeList.Add(actor);
             }
 
@@ -249,7 +260,7 @@ namespace GDLibrary
         //batch remove on all objects that were requested to be removed
         protected virtual void ApplyRemove()
         {
-            foreach (DrawnActor3D actor in this.removeList)
+            foreach (Actor3D actor in this.removeList)
             {
                 if (actor.GetAlpha() == 1)
                     this.opaqueDrawList.Remove(actor);
@@ -266,14 +277,14 @@ namespace GDLibrary
             ApplyRemove();
 
             //update all your opaque objects
-            foreach (DrawnActor3D actor in this.opaqueDrawList)
+            foreach (Actor3D actor in this.opaqueDrawList)
             {
                 if ((actor.GetStatusType() & StatusType.Update) == StatusType.Update) //if update flag is set
                     actor.Update(gameTime);
             }
 
             //update all your transparent objects
-            foreach (DrawnActor3D actor in this.transparentDrawList)
+            foreach (Actor3D actor in this.transparentDrawList)
             {
                 if ((actor.GetStatusType() & StatusType.Update) == StatusType.Update) //if update flag is set
                 {
@@ -288,7 +299,7 @@ namespace GDLibrary
 
             base.ApplyUpdate(gameTime);
         }
-       
+
 
         private void SortTransparentByDistance()
         {
@@ -298,39 +309,62 @@ namespace GDLibrary
 
         protected override void ApplyDraw(GameTime gameTime)
         {
-            //draw the scene for all of the cameras in the cameramanager
-            foreach (Camera3D activeCamera in this.cameraManager)
-            {
-                //set the viewport dimensions to the size defined by the active camera
-                Game.GraphicsDevice.Viewport = activeCamera.Viewport;
+            if (this.cameraLayoutType == CameraLayoutType.Single)
+                ApplySingleCameraDraw(gameTime, this.cameraManager.ActiveCamera);
+            else
+                ApplyMultiCameraDraw(gameTime);
 
-                //set the gfx to render opaque objects
-                SetGraphicsStateObjects(true);
-                foreach (DrawnActor3D actor in this.opaqueDrawList)
-                {
-                    DrawActor(gameTime, actor, activeCamera);
-                }
-
-                //set the gfx to render semi-transparent objects
-                SetGraphicsStateObjects(false);
-                foreach (DrawnActor3D actor in this.transparentDrawList)
-                {
-                    DrawActor(gameTime, actor, activeCamera);
-                }
-            }
             base.ApplyDraw(gameTime);
         }
 
+        private void ApplySingleCameraDraw(GameTime gameTime, Camera3D activeCamera)
+        {
+            //set the viewport dimensions to the size defined by the active camera
+            Game.GraphicsDevice.Viewport = activeCamera.Viewport;
+
+            //set the gfx to render opaque objects
+            SetGraphicsStateObjects(true);
+            foreach (Actor3D actor in this.opaqueDrawList)
+            {
+                DrawActor(gameTime, actor, activeCamera);
+            }
+
+            //set the gfx to render semi-transparent objects
+            SetGraphicsStateObjects(false);
+            foreach (Actor3D actor in this.transparentDrawList)
+            {
+                DrawActor(gameTime, actor, activeCamera);
+            }
+        }
+
+        private void ApplyMultiCameraDraw(GameTime gameTime)
+        {
+            //draw the scene for all of the cameras in the cameramanager
+            foreach (Camera3D activeCamera in this.cameraManager)
+            {
+                ApplySingleCameraDraw(gameTime, activeCamera);
+            }
+        }
+
+
         //calls the DrawObject() based on underlying object type
-        private void DrawActor(GameTime gameTime, DrawnActor3D actor, Camera3D activeCamera)
+        private void DrawActor(GameTime gameTime, Actor3D actor, Camera3D activeCamera)
         {
             //was the drawn enum value set?
             if ((actor.StatusType & StatusType.Drawn) == StatusType.Drawn)
             {
-                if (actor is ModelObject)
+                if (actor is AnimatedPlayerObject)
+                {
+                    DrawObject(gameTime, actor as AnimatedPlayerObject, activeCamera);
+                }
+                else if (actor is ModelObject)
                 {
                     DrawObject(gameTime, actor as ModelObject, activeCamera);
-                }          
+                }
+                //else if (actor is BillboardPrimitiveObject)
+                //{
+                //    DrawObject(gameTime, actor as BillboardPrimitiveObject, activeCamera);
+                //}
                 //we will add additional else...if statements here to render other object types (e.g model, animated, billboard etc)
             }
         }
@@ -338,19 +372,65 @@ namespace GDLibrary
         //draw a model object 
         private void DrawObject(GameTime gameTime, ModelObject modelObject, Camera3D activeCamera)
         {
-            if (modelObject.Model != null)
-            {
-                modelObject.EffectParameters.SetParameters(activeCamera);
-                foreach (ModelMesh mesh in modelObject.Model.Meshes)
+           // if (activeCamera.BoundingFrustum.Intersects(modelObject.BoundingSphere))
+            //{
+                if (modelObject.Model != null)
                 {
-                    foreach (ModelMeshPart part in mesh.MeshParts)
+                    modelObject.EffectParameters.SetParameters(activeCamera);
+                    foreach (ModelMesh mesh in modelObject.Model.Meshes)
                     {
-                        part.Effect = modelObject.EffectParameters.Effect;
+                        foreach (ModelMeshPart part in mesh.MeshParts)
+                        {
+                            part.Effect = modelObject.EffectParameters.Effect;
+                        }
+                        modelObject.EffectParameters.SetWorld(modelObject.BoneTransforms[mesh.ParentBone.Index] * modelObject.GetWorldMatrix());
+                        mesh.Draw();
                     }
-                    modelObject.EffectParameters.SetWorld(modelObject.BoneTransforms[mesh.ParentBone.Index] * modelObject.GetWorldMatrix());
-                    mesh.Draw();
                 }
+            //}
+        }
+
+        private void DrawObject(GameTime gameTime, AnimatedPlayerObject animatedPlayerObject, Camera3D activeCamera)
+        {
+            //an array of the current positions of the model meshes
+            Matrix[] bones = animatedPlayerObject.AnimationPlayer.GetSkinTransforms();
+            Matrix world = animatedPlayerObject.GetWorldMatrix();
+
+            for (int i = 0; i < bones.Length; i++)
+            {
+                bones[i] *= world;
+            }
+
+            foreach (ModelMesh mesh in animatedPlayerObject.Model.Meshes)
+            {
+                foreach (SkinnedEffect skinnedEffect in mesh.Effects)
+                {
+                    skinnedEffect.SetBoneTransforms(bones);
+                    skinnedEffect.View = activeCamera.View;
+                    skinnedEffect.Projection = activeCamera.Projection;
+
+                    //if you want to overwrite the texture you baked into the animation in 3DS Max then set your own texture
+                    if (animatedPlayerObject.EffectParameters.Texture != null)
+                        skinnedEffect.Texture = animatedPlayerObject.EffectParameters.Texture;
+
+                    skinnedEffect.DiffuseColor = animatedPlayerObject.EffectParameters.DiffuseColor.ToVector3();
+                    skinnedEffect.Alpha = animatedPlayerObject.Alpha;
+                    skinnedEffect.EnableDefaultLighting();
+                    skinnedEffect.PreferPerPixelLighting = true;
+                }
+                mesh.Draw();
             }
         }
+
+        //private void DrawObject(GameTime gameTime, BillboardPrimitiveObject billboardPrimitiveObject, Camera3D activeCamera)
+        //{
+        //    if (activeCamera.BoundingFrustum.Intersects(billboardPrimitiveObject.BoundingSphere))
+        //    {
+        //        billboardPrimitiveObject.EffectParameters.SetParameters(activeCamera, billboardPrimitiveObject.BillboardOrientationParameters);
+        //        billboardPrimitiveObject.EffectParameters.SetWorld(billboardPrimitiveObject.GetWorldMatrix());
+        //        billboardPrimitiveObject.VertexData.Draw(gameTime, billboardPrimitiveObject.EffectParameters.Effect);
+        //    }
+        //}
+
     }
 }
