@@ -259,7 +259,9 @@ namespace GDApp
             this.animatedHeroPlayerObject.AddAnimation(takeName, fileNameNoSuffix, this.modelDictionary[fileNameNoSuffix]);
             fileNameNoSuffix = "char_walk";
             this.animatedHeroPlayerObject.AddAnimation(takeName, fileNameNoSuffix, this.modelDictionary[fileNameNoSuffix]);
-            
+            fileNameNoSuffix = "char_fall";
+            this.animatedHeroPlayerObject.AddAnimation(takeName, fileNameNoSuffix, this.modelDictionary[fileNameNoSuffix]);
+
 
             //set the start animtion
             this.animatedHeroPlayerObject.SetAnimation("Take 001", "char_idle");
@@ -1797,6 +1799,7 @@ namespace GDApp
             this.modelDictionary.Load("Assets/Models/Animated/Squirrel/RedRun4");
             this.modelDictionary.Load("Assets/Models/Animated/Player/char_walk");
             this.modelDictionary.Load("Assets/Models/Animated/Player/char_idle");
+            this.modelDictionary.Load("Assets/Models/Animated/Player/char_fall");
             #endregion
 
         }

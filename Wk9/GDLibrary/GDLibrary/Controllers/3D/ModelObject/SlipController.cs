@@ -52,8 +52,7 @@ namespace GDLibrary
             PlayerObject parentActor = actor as PlayerObject;
             this.totalTimeOnIce += gameTime.ElapsedGameTime.Milliseconds;
 
-
-            if (this.totalTimeOnIce % 300 == 0 && !this.slipping)
+            if (this.totalTimeOnIce % 400 == 0 && !this.slipping)
             {
                 Console.WriteLine("Calculating...." + totalTimeOnIce);
                 this.slipChance++;

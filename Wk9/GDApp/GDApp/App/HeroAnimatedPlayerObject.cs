@@ -50,6 +50,7 @@ namespace GDApp
             eventDispatcher.ObstacleCollision += EventDispatcher_ObstacleCollision;
             eventDispatcher.ObstacleEvent += EventDispatcher_ObstacleEvent;
             eventDispatcher.ItemEquipped += EventDispatcher_ItemEquipped;
+
         }
 
         private void EventDispatcher_ObstacleCollision(EventData eventData)
@@ -189,6 +190,10 @@ namespace GDApp
 
 
             }
+            else
+            {
+                this.AnimationState = AnimationStateType.Falling;
+            }
             SetAnimationByInput();
 
         }
@@ -203,6 +208,9 @@ namespace GDApp
 
                 case AnimationStateType.Idle:
                     SetAnimation("Take 001", "char_idle");
+                    break;
+                case AnimationStateType.Falling:
+                    SetAnimation("Take 001", "char_fall");
                     break;
             }
 

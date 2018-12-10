@@ -155,6 +155,7 @@ Content\Assets\Textures\Foliage\Car\carTexture.xnb
 Content\Assets\Textures\UI\Menu\Backgrounds\keyboardControl.xnb
 Content\Assets\Textures\UI\Menu\Backgrounds\grey.xnb
 Content\Assets\Textures\UI\Menu\Backgrounds\controlBackground.xnb
+Content\Assets\Models\Animated\Player\char_fall.xnb
 Content\Assets\Audio\Demo2DSound.xgs
 Content\Assets\Audio\WaveBank1.xwb
 Content\Assets\Audio\SoundBank1.xsb

@@ -1858,3 +1858,4 @@ D:\School\Year 3\UDP\Project\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textur
 D:\School\Year 3\UDP\Project\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\Menu\Backgrounds\keyboardControl.xnb
 D:\School\Year 3\UDP\Project\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\Menu\Backgrounds\grey.xnb
 D:\School\Year 3\UDP\Project\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Textures\UI\Menu\Backgrounds\controlBackground.xnb
+D:\School\Year 3\UDP\Project\Wk9\GDApp\GDApp\bin\x86\Debug\Content\Assets\Models\Animated\Player\char_fall.xnb
